@@ -1,0 +1,17 @@
+# Secrets & env
+.env
+apply_schema.py
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Coordination files (contain internal notes)
+neon_handoff/
+
+# Logs & temp
+*.log
+verify_out*.txt
+section_stderr.log

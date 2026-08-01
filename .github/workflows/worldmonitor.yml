@@ -1,0 +1,49 @@
+name: WorldMonitor Data Collection
+
+on:
+  schedule:
+    # 每小时整点触发 (UTC 时间)
+    # 北京时间 = UTC+8，所以 UTC 0:00 = 北京 8:00
+    - cron: '0 * * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install asyncpg
+
+      - name: Run intel engine (collect + store)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          GDELT_DISABLED: '1'
+        run: python intel_engine.py --store
+
+      - name: Check for critical alerts
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python check_alerts.py
+
+      - name: Push alerts if any
+        if: success()
+        env:
+          ALERT_WEBHOOK: ${{ secrets.ALERT_WEBHOOK }}
+        run: |
+          if [ -f /tmp/alerts_to_send.txt ] && [ -s /tmp/alerts_to_send.txt ]; then
+            ALERT_MSG=$(cat /tmp/alerts_to_send.txt)
+            echo "Sending alert: $ALERT_MSG"
+            curl -s -X POST "$ALERT_WEBHOOK" \
+              -H "Content-Type: application/json" \
+              -d "{\"text\": \"$ALERT_MSG\"}"
+          else
+            echo "No critical alerts, skipping push"
+          fi

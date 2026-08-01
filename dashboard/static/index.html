@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WorldMonitor v2 — Global Intelligence Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0f1117;
+  --card: #1a1d28;
+  --card-hover: #1f2335;
+  --border: #2a2d3a;
+  --text: #d1d5db;
+  --text-dim: #6b7280;
+  --accent: #3b82f6;
+  --green: #22c55e;
+  --red: #ef4444;
+  --yellow: #eab308;
+  --orange: #f97316;
+  --critical: #ef4444;
+  --high: #f97316;
+  --elevated: #eab308;
+  --normal: #22c55e;
+  --low: #3b82f6;
+  --radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #1a1d28 0%, #0f1117 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.status .dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: all .2s;
+}
+.stat-card:hover { border-color: var(--accent); background: var(--card-hover); }
+.stat-card .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+.stat-card .value {
+  font-size: 32px;
+  font-weight: 700;
+}
+.stat-card .sub {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.section { margin-bottom: 24px; }
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent);
+}
+.section-subtitle { font-size: 12px; color: var(--text-dim); font-weight: normal; margin-left: 8px; }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.card canvas { max-height: 300px; }
+
+.cii-table { width: 100%; border-collapse: collapse; }
+.cii-table th, .cii-table td {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border);
+}
+.cii-table th { color: var(--text-dim); font-weight: 500; font-size: 11px; text-transform: uppercase; }
+.cii-table tr:hover { background: rgba(59,130,246,.05); }
+.cii-table .score { font-weight: 700; }
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-critical { background: rgba(239,68,68,.15); color: var(--critical); }
+.badge-high { background: rgba(249,115,22,.15); color: var(--high); }
+.badge-elevated { background: rgba(234,179,8,.15); color: var(--elevated); }
+.badge-normal { background: rgba(34,197,94,.15); color: var(--normal); }
+
+.anomaly-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(234,179,8,.1);
+  border: 1px solid rgba(234,179,8,.2);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 4px;
+}
+
+.change-up { color: var(--red); }
+.change-down { color: var(--green); }
+.change-none { color: var(--text-dim); }
+
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-dim);
+}
+
+footer {
+  text-align: center;
+  padding: 32px;
+  color: var(--text-dim);
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+  margin-top: 32px;
+}
+
+.briefing-card {
+  background: linear-gradient(135deg, #1a1d28 0%, #1f2335 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.briefing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.briefing-header h2 { font-size: 16px; font-weight: 600; }
+.briefing-date { font-size: 12px; color: var(--text-dim); }
+.briefing-overall {
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.briefing-overall.critical { background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.2); color: #fca5a5; }
+.briefing-overall.warning { background: rgba(234,179,8,.1); border: 1px solid rgba(234,179,8,.2); color: #fde047; }
+.briefing-overall.normal { background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.2); color: #86efac; }
+.briefing-sections { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 900px) { .briefing-sections { grid-template-columns: 1fr; } }
+.briefing-item {
+  background: rgba(15,17,23,.5);
+  border-radius: 8px;
+  padding: 14px;
+  border-left: 3px solid var(--border);
+}
+.briefing-item.critical { border-left-color: var(--critical); }
+.briefing-item.warning { border-left-color: var(--yellow); }
+.briefing-item.normal { border-left-color: var(--green); }
+.briefing-item .bi-title { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.briefing-item .bi-text { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
+
+.alert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.alert-item.critical { background: rgba(239,68,68,.08); border: 1px solid rgba(239,68,68,.15); }
+.alert-item.warning { background: rgba(234,179,8,.08); border: 1px solid rgba(234,179,8,.15); }
+.alert-item.info { background: rgba(59,130,246,.08); border: 1px solid rgba(59,130,246,.15); }
+.alert-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.alert-content { flex: 1; }
+.alert-content .alert-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+.alert-content .alert-msg { font-size: 11px; color: var(--text-dim); }
+.alert-summary { font-size: 13px; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; }
+.alert-summary.ok { background: rgba(34,197,94,.08); color: #86efac; }
+.alert-summary.warn { background: rgba(234,179,8,.08); color: #fde047; }
+.alert-summary.bad { background: rgba(239,68,68,.08); color: #fca5a5; }
+
+.data-freshness {
+  font-size: 11px;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 8px;
+  background: rgba(59,130,246,.05);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div>
+    <h1>🌍 WorldMonitor v2</h1>
+  </div>
+  <div class="status">
+    <div class="dot" id="status-dot"></div>
+    <span id="last-update">加载中...</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="data-freshness" id="freshness"></div>
+  <div class="stat-grid" id="stats"></div>
+
+  <div class="briefing-card" id="briefing">
+    <div class="briefing-header">
+      <h2>🧠 AI 简报</h2>
+      <span class="briefing-date" id="briefing-date"></span>
+    </div>
+    <div id="briefing-content">加载中...</div>
+  </div>
+
+  <div class="card section" id="alerts-card">
+    <div class="section-title">🔔 实时告警</div>
+    <div id="alerts-content">加载中...</div>
+  </div>
+
+  <div class="two-col section">
+    <div class="card">
+      <div class="section-title">🏴 国家不稳定指数 (CII)<span class="section-subtitle">Top 20</span></div>
+      <div id="cii-table-container"></div>
+    </div>
+    <div class="card">
+      <div class="section-title">📊 信号趋势<span class="section-subtitle">近7天</span></div>
+      <div id="chart-container">
+        <canvas id="signalChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col section">
+    <div class="card">
+      <div class="section-title">🪙 加密市场<span class="section-subtitle">近7天</span></div>
+      <canvas id="cryptoChart"></canvas>
+    </div>
+    <div class="card">
+      <div class="section-title">🚨 异常信号</div>
+      <div id="anomalies"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="card">
+      <div class="section-title">📈 国家风险趋势<span class="section-subtitle">30日</span></div>
+      <div id="trends-table-container"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  WorldMonitor v2 — Data from USGS, GDACS, NASA, CoinGecko, Polymarket, UNHCR, OpenSky & more.
+  Running on <a href="https://neon.tech" target="_blank">Neon</a> PostgreSQL.
+  <br>Last snapshot: <span id="footer-date">—</span>
+</footer>
+
+<script>
+let signalChart = null;
+let cryptoChart = null;
+
+const LEVEL_COLORS = {critical:'#ef4444', high:'#f97316', elevated:'#eab308', normal:'#22c55e', low:'#3b82f6'};
+const LEVEL_BADGE = {critical:'badge-critical', high:'badge-high', elevated:'badge-elevated', normal:'badge-normal', low:''};
+
+function fmtUSD(n) { return '$' + (n||0).toLocaleString('en-US'); }
+function fmtChange(n) {
+  if (n == null) return '<span class="change-none">—</span>';
+  const cls = n >= 0 ? 'change-up' : 'change-down';
+  const sign = n >= 0 ? '+' : '';
+  return '<span class="' + cls + '">' + sign + n.toFixed(2) + '%</span>';
+}
+
+function renderStats(snap) {
+  if (!snap) return;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-card">
+      <div class="label">🌋 地震</div>
+      <div class="value">${snap.earthquake_count || 0}</div>
+      <div class="sub">最大 ${snap.max_earthquake_mag || '—'} 级</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">🛰️ 灾难 / NASA</div>
+      <div class="value">${snap.disaster_count || 0} / ${snap.nasa_event_count || 0}</div>
+      <div class="sub">红色警报 ${snap.red_alert_count || 0}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">🪙 BTC</div>
+      <div class="value">${fmtUSD(snap.btc_price)}</div>
+      <div class="sub">${fmtChange(snap.btc_change_24h)}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">😱 恐惧贪婪</div>
+      <div class="value">${snap.fear_greed_index || '—'}</div>
+      <div class="sub">${snap.fear_greed_label || '—'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">📡 总信号</div>
+      <div class="value">${snap.total_signals || 0}</div>
+      <div class="sub">CII: ${snap.cii_top_country || '—'} ${snap.cii_top_score || '—'}</div>
+    </div>
+  `;
+}
+
+function renderCII(data) {
+  if (!data || !data.length) {
+    document.getElementById('cii-table-container').innerHTML = '<div class="empty-state">暂无 CII 数据</div>';
+    return;
+  }
+  const rows = data.slice(0, 20).map(c => `
+    <tr>
+      <td>${c.country_code || c.country_name || '—'}</td>
+      <td class="score" style="color:${LEVEL_COLORS[c.level] || '#fff'}">${c.score}</td>
+      <td><span class="badge ${LEVEL_BADGE[c.level] || ''}">${c.level || '—'}</span></td>
+      <td>${c.change_24h > 0 ? '<span class="change-up">↑' + c.change_24h + '</span>' : c.change_24h < 0 ? '<span class="change-down">↓' + Math.abs(c.change_24h) + '</span>' : '—'}</td>
+    </tr>`).join('');
+  document.getElementById('cii-table-container').innerHTML = `
+    <table class="cii-table">
+      <thead><tr><th>国家</th><th>分数</th><th>级别</th><th>24h变化</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+function renderAnomalies(data) {
+  const el = document.getElementById('anomalies');
+  if (!data || !data.length) { el.innerHTML = '<div class="empty-state">✅ 无异常信号</div>'; return; }
+  let html = '';
+  data.forEach(d => {
+    let flags = d.anomaly_flags;
+    if (typeof flags === 'string') { try { flags = JSON.parse(flags); } catch(e) { flags = [flags]; } }
+    if (flags && flags.length) {
+      flags.forEach(a => {
+        html += '<div class="anomaly-tag"><span>⚠️</span>' + a + '</div>';
+      });
+    }
+  });
+  if (!html) html = '<div class="empty-state">✅ 无异常信号</div>';
+  el.innerHTML = html;
+}
+
+function renderTrends(data) {
+  const el = document.getElementById('trends-table-container');
+  if (!data || !data.length) { el.innerHTML = '<div class="empty-state">暂无趋势数据（需多天数据累积）</div>'; return; }
+  const rows = data.map(c => `
+    <tr>
+      <td>${c.country_code || '—'}</td>
+      <td>${c.country_name || '—'}</td>
+      <td>${c.avg_score ? c.avg_score.toFixed(1) : '—'}</td>
+      <td>${c.max_score || '—'}</td>
+      <td>${c.high_risk_days || 0}</td>
+      <td>${c.data_points || 0}</td>
+    </tr>`).join('');
+  el.innerHTML = `
+    <table class="cii-table">
+      <thead><tr><th>代码</th><th>国家</th><th>平均分</th><th>最高分</th><th>高风险天数</th><th>数据点</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+function renderBriefing(data) {
+  if (!data || !data.sections) {
+    document.getElementById('briefing-content').innerHTML = '<div class="empty-state">暂无简报数据</div>';
+    return;
+  }
+  document.getElementById('briefing-date').textContent = data.date || '';
+  const overall = data.overall;
+  let html = '<div class="briefing-overall ' + overall.level + '">' + overall.text + '</div>';
+  html += '<div class="briefing-sections">';
+  data.sections.forEach(sec => {
+    html += '<div class="briefing-item ' + sec.level + '"><div class="bi-title">' + sec.icon + ' ' + sec.title + '</div><div class="bi-text">' + sec.text + '</div></div>';
+  });
+  html += '</div>';
+  document.getElementById('briefing-content').innerHTML = html;
+}
+
+function renderAlerts(data) {
+  const el = document.getElementById('alerts-content');
+  if (!data || !data.alerts) { el.innerHTML = '<div class="empty-state">⚠️ 告警数据加载失败</div>'; return; }
+  let html = '';
+  const cls = data.summary.includes('🔴') ? 'bad' : data.summary.includes('🟡') ? 'warn' : 'ok';
+  html += '<div class="alert-summary ' + cls + '">' + data.summary + '</div>';
+  if (data.alerts.length === 0) {
+    html += '<div class="empty-state">✅ 各项指标正常，无告警触发</div>';
+  } else {
+    data.alerts.forEach(a => {
+      html += '<div class="alert-item ' + a.level + '"><div class="alert-icon">' + a.icon + '</div><div class="alert-content"><div class="alert-title">' + a.title + '</div><div class="alert-msg">' + a.message + '</div></div></div>';
+    });
+  }
+  el.innerHTML = html;
+}
+
+function renderSignalChart(data) {
+  if (!data || data.length < 1) return;
+  const ctx = document.getElementById('signalChart');
+  if (signalChart) signalChart.destroy();
+  signalChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: data.map(d => d.snapshot_date),
+      datasets: [
+        { label: '地震次数', data: data.map(d=>d.earthquake_count), borderColor: '#f97316', backgroundColor: 'transparent', tension: .3, pointRadius: 4 },
+        { label: '总信号', data: data.map(d=>d.total_signals), borderColor: '#3b82f6', backgroundColor: 'transparent', tension: .3, pointRadius: 4, borderWidth: 2 },
+        { label: '恐惧指数', data: data.map(d=>d.fear_greed_index), borderColor: '#eab308', backgroundColor: 'transparent', tension: .3, pointRadius: 4, borderDash: [5,3] },
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: '#d1d5db', usePointStyle: true, padding: 20 } } },
+      scales: {
+        x: { ticks: { color: '#6b7280' }, grid: { color: '#1f2335' } },
+        y: { ticks: { color: '#6b7280' }, grid: { color: '#1f2335' } }
+      }
+    }
+  });
+  ctx.parentElement.style.height = '280px';
+}
+
+function renderCryptoChart(data) {
+  if (!data || data.length < 1) return;
+  const ctx = document.getElementById('cryptoChart');
+  if (cryptoChart) cryptoChart.destroy();
+  cryptoChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: data.map(d => d.snapshot_date),
+      datasets: [
+        { label: 'BTC ($)', data: data.map(d=>d.btc_price), borderColor: '#f7931a', backgroundColor: 'rgba(247,147,26,.1)', fill: true, tension: .3, pointRadius: 4 },
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: '#d1d5db', usePointStyle: true } } },
+      scales: {
+        x: { ticks: { color: '#6b7280' }, grid: { color: '#1f2335' } },
+        y: { ticks: { color: '#6b7280', callback: v => '$' + v.toLocaleString() }, grid: { color: '#1f2335' } }
+      }
+    }
+  });
+  ctx.parentElement.style.height = '280px';
+}
+
+async function loadData() {
+  document.getElementById('status-dot').style.background = '#eab308';
+  try {
+    const resp = await fetch('data.json');
+    const data = await resp.json();
+
+    renderStats(data.overview);
+    renderBriefing(data.briefing);
+    renderAlerts(data.alerts);
+    renderCII(data.cii);
+    renderSignalChart(data.history);
+    renderCryptoChart(data.history);
+    renderAnomalies(data.anomalies);
+    renderTrends(data.trends);
+
+    if (data.overview && data.overview.snapshot_date) {
+      document.getElementById('footer-date').textContent = data.overview.snapshot_date;
+    }
+    if (data.generated_at) {
+      const dt = new Date(data.generated_at);
+      document.getElementById('last-update').textContent = '数据更新于 ' + dt.toLocaleString('zh-CN');
+      document.getElementById('freshness').textContent = '⚠️ 静态快照模式 — 数据生成时间: ' + dt.toLocaleString('zh-CN') + '，配置 GitHub Actions 后将自动更新';
+    }
+
+    document.getElementById('status-dot').style.background = '#22c55e';
+  } catch (e) {
+    document.getElementById('last-update').textContent = '加载失败: ' + e.message;
+    document.getElementById('status-dot').style.background = '#ef4444';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
