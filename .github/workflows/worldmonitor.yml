@@ -34,7 +34,7 @@ jobs:
         run: python check_alerts.py
 
       - name: Push alerts if any
-        if: success()
+        if: ${{ success() && vars.ENABLE_ALERTS == 'true' }}
         env:
           ALERT_WEBHOOK: ${{ secrets.ALERT_WEBHOOK }}
         run: |
@@ -43,7 +43,7 @@ jobs:
             echo "Sending alert: $ALERT_MSG"
             curl -s -X POST "$ALERT_WEBHOOK" \
               -H "Content-Type: application/json" \
-              -d "{\"text\": \"$ALERT_MSG\"}"
+              -d "{\"text\": \"$ALERT_MSG\"}" || true
           else
             echo "No critical alerts, skipping push"
           fi
