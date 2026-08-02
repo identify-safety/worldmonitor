@@ -1,7 +1,7 @@
 """
 Check latest WorldMonitor snapshot for critical alerts.
 If critical alerts are found, write them to /tmp/alerts_to_send.txt
-for the GitHub Actions workflow to push via webhook.
+as raw multiline text for the GitHub Actions workflow to email.
 """
 import asyncio
 import asyncpg
@@ -59,7 +59,7 @@ async def main():
             alert_text += f"\n总信号: {s.get('total_signals', 0)}"
 
             with open("/tmp/alerts_to_send.txt", "w", encoding="utf-8") as f:
-                f.write(alert_text.replace('"', '\\"').replace("\n", "\\n"))
+                f.write(alert_text)
 
             print(f"\n{len(triggered)} critical alerts found, written to /tmp/alerts_to_send.txt")
         else:

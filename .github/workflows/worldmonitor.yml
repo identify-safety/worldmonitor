@@ -35,19 +35,39 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: python check_alerts.py
 
-      - name: Push alerts if any
+      - name: Send alert email
         if: ${{ success() && vars.ENABLE_ALERTS == 'true' }}
         env:
-          ALERT_WEBHOOK: ${{ secrets.ALERT_WEBHOOK }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_TO: ${{ vars.ALERT_TO }}
         run: |
           if [ -f /tmp/alerts_to_send.txt ] && [ -s /tmp/alerts_to_send.txt ]; then
-            ALERT_MSG=$(cat /tmp/alerts_to_send.txt)
-            echo "Sending alert: $ALERT_MSG"
-            curl -s -X POST "$ALERT_WEBHOOK" \
-              -H "Content-Type: application/json" \
-              -d "{\"text\": \"$ALERT_MSG\"}" || true
+            python - <<'PYEOF' || echo "⚠️ email send failed, will retry next run"
+          import os, smtplib, ssl
+          from email.mime.text import MIMEText
+          from email.header import Header
+
+          smtp_user = os.environ["SMTP_USER"]
+          smtp_pass = os.environ["SMTP_PASS"]
+          to_addr = os.environ.get("ALERT_TO") or smtp_user
+
+          with open("/tmp/alerts_to_send.txt", encoding="utf-8") as f:
+              body = f.read()
+
+          msg = MIMEText(body, "plain", "utf-8")
+          msg["Subject"] = Header("🔴 WorldMonitor 异常告警", "utf-8")
+          msg["From"] = smtp_user
+          msg["To"] = to_addr
+
+          ctx = ssl.create_default_context()
+          with smtplib.SMTP_SSL("smtp.qq.com", 465, context=ctx, timeout=30) as server:
+              server.login(smtp_user, smtp_pass)
+              server.sendmail(smtp_user, [to_addr], msg.as_string())
+          print(f"✅ Alert email sent to {to_addr}")
+          PYEOF
           else
-            echo "No critical alerts, skipping push"
+            echo "No critical alerts, skipping email"
           fi
 
       - name: Regenerate static dashboard data
