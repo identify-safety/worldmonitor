@@ -250,6 +250,22 @@ footer {
   border-radius: 6px;
   margin-bottom: 16px;
 }
+
+.event-list { max-height: 560px; overflow-y: auto; }
+.event-item { border-bottom: 1px solid var(--border); padding: 10px 4px; }
+.event-item details summary {
+  cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; padding: 2px 0;
+}
+.event-item details summary::-webkit-details-marker { display: none; }
+.event-item details[open] summary { margin-bottom: 6px; }
+.eq-mag { font-weight: 700; min-width: 56px; font-size: 14px; }
+.eq-place { font-size: 13px; color: var(--text); }
+.eq-detail {
+  padding: 10px 12px; background: rgba(15,17,23,.5); border-radius: 6px;
+  font-size: 12px; color: var(--text-dim); line-height: 1.9; word-break: break-all;
+}
+.eq-detail a { color: var(--accent); text-decoration: none; }
+.eq-detail a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -306,6 +322,17 @@ footer {
     </div>
   </div>
 
+  <div class="two-col section">
+    <div class="card">
+      <div class="section-title">🌋 地震明细<span class="section-subtitle">USGS M4.5+ · 近24h · 点击展开</span></div>
+      <div id="quake-list" class="event-list">加载中...</div>
+    </div>
+    <div class="card">
+      <div class="section-title">🛰️ 灾害明细<span class="section-subtitle">GDACS 橙/红 · 近7天</span></div>
+      <div id="disaster-list">加载中...</div>
+    </div>
+  </div>
+
   <div class="section">
     <div class="card">
       <div class="section-title">📈 国家风险趋势<span class="section-subtitle">30日</span></div>
@@ -328,6 +355,10 @@ let cryptoChart = null;
 const LEVEL_COLORS = {critical:'#ef4444', high:'#f97316', elevated:'#eab308', normal:'#22c55e', low:'#3b82f6'};
 const LEVEL_BADGE = {critical:'badge-critical', high:'badge-high', elevated:'badge-elevated', normal:'badge-normal', low:''};
 
+function esc(s) {
+  return (s == null ? '' : String(s)).replace(/[&<>"']/g, m =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
 function fmtUSD(n) { return '$' + (n||0).toLocaleString('en-US'); }
 function fmtChange(n) {
   if (n == null) return '<span class="change-none">—</span>';
@@ -438,6 +469,57 @@ function renderBriefing(data) {
   document.getElementById('briefing-content').innerHTML = html;
 }
 
+function magColor(m) {
+  if (m == null) return 'var(--text)';
+  if (m >= 7) return 'var(--critical)';
+  if (m >= 6) return 'var(--high)';
+  if (m >= 5) return 'var(--elevated)';
+  return 'var(--text)';
+}
+function fmtTime(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString('zh-CN', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' }) + ' UTC';
+}
+
+function renderEvents(quakes, disasters) {
+  // 地震明细（可展开）
+  const qel = document.getElementById('quake-list');
+  if (!quakes || !quakes.length) {
+    qel.innerHTML = '<div class="empty-state">近 24h 无 M4.5+ 地震记录</div>';
+  } else {
+    qel.innerHTML = quakes.map(q => {
+      const m = q.mag != null ? q.mag.toFixed(1) : '—';
+      const c = magColor(q.mag);
+      const tsunami = q.tsunami ? ' · ⚠️ 海啸预警' : '';
+      const coords = (q.lat != null && q.lon != null) ? `${q.lat.toFixed(2)}, ${q.lon.toFixed(2)}` : '—';
+      const detail = `震级 <b style="color:${c}">M${m}</b> · 深度 ${q.depth_km != null ? q.depth_km + ' km' : '—'}`
+        + ` · 坐标 ${coords}${tsunami}`
+        + (q.url ? ` · <a href="${esc(q.url)}" target="_blank" rel="noopener">USGS 详情 ↗</a>` : '')
+        + `<br>时间 ${fmtTime(q.time)}`
+        + (q.alert ? ` · 预警等级 ${esc(q.alert)}` : '');
+      return `<div class="event-item"><details><summary>`
+        + `<span class="eq-mag" style="color:${c}">M${m}</span>`
+        + `<span class="eq-place">${esc(q.place)}</span></summary>`
+        + `<div class="eq-detail">${detail}</div></details></div>`;
+    }).join('');
+  }
+  // 灾害明细（GDACS）
+  const del = document.getElementById('disaster-list');
+  if (!disasters || !disasters.length) {
+    del.innerHTML = '<div class="empty-state">近 7 天无橙色/红色灾害警报</div>';
+  } else {
+    del.innerHTML = disasters.map(d => {
+      const lvl = (d.alert_level || '').toLowerCase();
+      const badge = lvl === 'red' ? 'badge-critical' : lvl === 'orange' ? 'badge-elevated' : 'badge-normal';
+      const label = (d.alert_level || '—').toUpperCase();
+      return `<div class="event-item"><div style="display:flex;gap:10px;align-items:center">`
+        + `<span class="badge ${badge}">${label}</span>`
+        + `<span class="eq-place">${esc(d.type)} · ${esc(d.name)} · ${esc(d.country)}</span></div></div>`;
+    }).join('');
+  }
+}
+
 function renderAlerts(data) {
   const el = document.getElementById('alerts-content');
   if (!data || !data.alerts) { el.innerHTML = '<div class="empty-state">⚠️ 告警数据加载失败</div>'; return; }
@@ -517,6 +599,7 @@ function renderAll(data) {
   renderCryptoChart(data.history);
   renderAnomalies(data.anomalies);
   renderTrends(data.trends);
+  renderEvents(data.earthquakes, data.disasters);
   if (data.overview && data.overview.snapshot_date) {
     document.getElementById('footer-date').textContent = data.overview.snapshot_date;
   }

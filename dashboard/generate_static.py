@@ -6,6 +6,7 @@ import asyncio
 import asyncpg
 import json
 import os
+import urllib.request
 from datetime import date, timedelta, datetime, timezone
 
 DSN = os.environ.get("DATABASE_URL", "")
@@ -24,6 +25,64 @@ async def query(conn, sql, *args):
                 d[k] = float(v)
         result.append(d)
     return result
+
+def _http_get_json(url, timeout=25):
+    """Synchronous GET returning parsed JSON. Used for live event detail feeds."""
+    req = urllib.request.Request(url, headers={"User-Agent": "WorldMonitor/2.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_usgs_quakes():
+    """USGS M4.5+ earthquakes in last 24h, full detail for drill-down."""
+    try:
+        data = _http_get_json(
+            "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+        )
+        out = []
+        for f in data.get("features", []):
+            p = f.get("properties", {})
+            c = f.get("geometry", {}).get("coordinates", [None, None, None])
+            t = p.get("time")
+            out.append({
+                "mag": p.get("mag"),
+                "place": p.get("place") or "未知地点",
+                "time": datetime.fromtimestamp(t / 1000, tz=timezone.utc).isoformat() if t else None,
+                "depth_km": round(c[2], 1) if len(c) > 2 and c[2] is not None else None,
+                "lat": c[1] if len(c) > 1 else None,
+                "lon": c[0] if len(c) > 0 else None,
+                "alert": p.get("alert"),
+                "tsunami": bool(p.get("tsunami")),
+                "url": p.get("url"),
+            })
+        out.sort(key=lambda q: (q.get("mag") or 0), reverse=True)
+        return out
+    except Exception as e:
+        print(f"  [warn] fetch USGS failed: {e}")
+        return []
+
+
+def fetch_gdacs_disasters():
+    """GDACS orange/red disasters (last 7 days), full detail for drill-down."""
+    try:
+        url = ("https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH"
+               "?alertlevel=orange;red&eventlist=EQ;TC;FL;VO;DR&limit=50")
+        data = _http_get_json(url)
+        out = []
+        for feat in data.get("features", []):
+            p = feat.get("properties", {})
+            out.append({
+                "type": p.get("eventtype"),
+                "name": p.get("name") or p.get("eventname"),
+                "country": p.get("country"),
+                "alert_level": p.get("alertlevel"),
+                "date": p.get("fromdate"),
+            })
+        return out[:30]
+    except Exception as e:
+        print(f"  [warn] fetch GDACS failed: {e}")
+        return []
+
 
 async def main():
     conn = await asyncpg.connect(DSN)
@@ -71,6 +130,10 @@ async def main():
     # Build alerts
     alerts = build_alerts(snap)
 
+    # Live event detail (drill-down): USGS earthquakes + GDACS disasters
+    earthquakes = await asyncio.to_thread(fetch_usgs_quakes)
+    disasters = await asyncio.to_thread(fetch_gdacs_disasters)
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "overview": overview,
@@ -80,6 +143,8 @@ async def main():
         "trends": trends,
         "briefing": briefing,
         "alerts": alerts,
+        "earthquakes": earthquakes,
+        "disasters": disasters,
     }
 
     await conn.close()
@@ -95,6 +160,8 @@ async def main():
     print(f"  History points: {len(history)}")
     print(f"  Briefing sections: {len(briefing.get('sections', []))}")
     print(f"  Alerts: {len(alerts.get('alerts', []))}")
+    print(f"  Earthquakes (detail): {len(earthquakes)}")
+    print(f"  Disasters (detail): {len(disasters)}")
 
 
 def build_briefing(s, cii_rows):
