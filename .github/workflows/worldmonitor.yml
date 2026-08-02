@@ -6,6 +6,11 @@ on:
     # 北京时间 = UTC+8，所以 UTC 0:00 = 北京 8:00
     - cron: '0 * * * *'
   workflow_dispatch: # 允许手动触发
+    inputs:
+      test_alert:
+        description: 'Force a test alert email (for verifying the email chain)'
+        required: false
+        default: 'false'
 
 jobs:
   collect:
@@ -33,6 +38,7 @@ jobs:
       - name: Check for critical alerts
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          FORCE_TEST_ALERT: ${{ inputs.test_alert }}
         run: python check_alerts.py
 
       - name: Send alert email

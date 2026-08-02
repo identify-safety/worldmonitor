@@ -53,6 +53,10 @@ async def main():
             except Exception as e:
                 print(f"  Error checking {name}: {e}")
 
+        # 手动测试模式：workflow_dispatch 传入 test_alert=true 时强制发一封测试告警
+        if os.environ.get("FORCE_TEST_ALERT", "").lower() in ("1", "true", "yes"):
+            triggered.append("🧪 [TEST] 这是一封测试告警邮件，WorldMonitor 邮件链路工作正常 ✅")
+
         if triggered:
             alert_text = "🔴 WorldMonitor 异常告警\n\n" + "\n".join(triggered)
             alert_text += f"\n\n快照时间: {s.get('snapshot_date')}"
