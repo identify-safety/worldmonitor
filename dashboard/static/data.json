@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T15:59:45.283646+00:00",
+  "generated_at": "2026-08-02T17:09:59.418284+00:00",
   "overview": {
     "snapshot_date": "2026-08-02",
-    "earthquake_count": 22,
+    "earthquake_count": 23,
     "max_earthquake_mag": 5.6,
     "disaster_count": 0,
     "red_alert_count": 0,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63054.0,
-    "btc_change_24h": 0.13,
+    "btc_price": 63114.0,
+    "btc_change_24h": 0.29,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 42
+    "total_signals": 43
   },
   "cii": [
     {
@@ -215,12 +215,12 @@
     },
     {
       "snapshot_date": "2026-08-02",
-      "earthquake_count": 22,
+      "earthquake_count": 23,
       "max_earthquake_mag": 5.6,
       "disaster_count": 0,
-      "btc_price": 63054.0,
+      "btc_price": 63114.0,
       "fear_greed_index": 27,
-      "total_signals": 42
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -444,7 +444,7 @@
   ],
   "briefing": {
     "date": "2026-08-02",
-    "total_signals": 42,
+    "total_signals": 43,
     "overall": {
       "level": "normal",
       "text": "全球态势总体平稳，无重大异常信号。"
@@ -454,7 +454,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 23 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -466,7 +466,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,054，日涨跌 +0.13%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,114，日涨跌 +0.29%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
@@ -673,6 +673,28 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thjm"
     },
     {
+      "mag": 4.7,
+      "place": "170 km SE of Sarangani, Philippines",
+      "time": "2026-08-02T16:27:02.032000+00:00",
+      "depth_km": 29.6,
+      "lat": 4.1753,
+      "lon": 126.3895,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thmn"
+    },
+    {
+      "mag": 4.6,
+      "place": "8 km N of Belén, Nicaragua",
+      "time": "2026-08-02T16:09:30.420000+00:00",
+      "depth_km": 136.5,
+      "lat": 11.5792,
+      "lon": -85.8978,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thmh"
+    },
+    {
       "mag": 4.6,
       "place": "65 km NW of Ende, Indonesia",
       "time": "2026-08-02T14:17:41.663000+00:00",
@@ -704,17 +726,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl6"
-    },
-    {
-      "mag": 4.6,
-      "place": "14 km WSW of Honmachi, Japan",
-      "time": "2026-08-01T16:07:21.753000+00:00",
-      "depth_km": 10,
-      "lat": 32.4488,
-      "lon": 130.4599,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgz"
     },
     {
       "mag": 4.5,
