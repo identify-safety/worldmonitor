@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T17:09:59.418284+00:00",
+  "generated_at": "2026-08-02T19:07:13.337868+00:00",
   "overview": {
     "snapshot_date": "2026-08-02",
-    "earthquake_count": 23,
+    "earthquake_count": 24,
     "max_earthquake_mag": 5.6,
     "disaster_count": 0,
     "red_alert_count": 0,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63114.0,
-    "btc_change_24h": 0.29,
+    "btc_price": 63298.0,
+    "btc_change_24h": 1.18,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 43
+    "total_signals": 44
   },
   "cii": [
     {
@@ -107,10 +107,10 @@
     },
     {
       "country_code": "CN",
-      "score": 25,
+      "score": 26,
       "level": "normal",
       "prev_score": 25,
-      "change_24h": 0,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
@@ -215,12 +215,12 @@
     },
     {
       "snapshot_date": "2026-08-02",
-      "earthquake_count": 23,
+      "earthquake_count": 24,
       "max_earthquake_mag": 5.6,
       "disaster_count": 0,
-      "btc_price": 63114.0,
+      "btc_price": 63298.0,
       "fear_greed_index": 27,
-      "total_signals": 43
+      "total_signals": 44
     }
   ],
   "anomalies": [
@@ -336,7 +336,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 31.0,
+      "avg_score": 31.333333333333332,
       "max_score": 43,
       "min_score": 25,
       "data_points": 3,
@@ -444,7 +444,7 @@
   ],
   "briefing": {
     "date": "2026-08-02",
-    "total_signals": 43,
+    "total_signals": 44,
     "overall": {
       "level": "normal",
       "text": "全球态势总体平稳，无重大异常信号。"
@@ -454,7 +454,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 23 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 24 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -466,7 +466,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,114，日涨跌 +0.29%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,298，日涨跌 +1.18%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,6 +572,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm1"
+    },
+    {
+      "mag": 5,
+      "place": "16 km NW of Changning, China",
+      "time": "2026-08-02T18:21:46.259000+00:00",
+      "depth_km": 10,
+      "lat": 28.6701,
+      "lon": 104.7825,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thn0"
     },
     {
       "mag": 5,
