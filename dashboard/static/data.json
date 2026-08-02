@@ -1,22 +1,199 @@
 {
-  "generated_at": "2026-08-01T15:47:32.238368+00:00",
+  "generated_at": "2026-08-02T12:45:02.653627+00:00",
   "overview": {
-    "snapshot_date": "2026-07-31",
-    "earthquake_count": 17,
-    "max_earthquake_mag": 5.9,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "snapshot_date": "2026-08-02",
+    "earthquake_count": 18,
+    "max_earthquake_mag": 5.6,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62499.0,
-    "btc_change_24h": -3.25,
-    "fear_greed_index": 25,
-    "fear_greed_label": "Extreme Fear",
-    "total_signals": 47
+    "btc_price": 62957.0,
+    "btc_change_24h": -0.12,
+    "fear_greed_index": 27,
+    "fear_greed_label": "Fear",
+    "total_signals": 38
   },
-  "cii": [],
+  "cii": [
+    {
+      "country_code": "UA",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "SY",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "YE",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "IL",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "KP",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "IR",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "VE",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "RU",
+      "score": 38,
+      "level": "normal",
+      "prev_score": 36,
+      "change_24h": 2,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PK",
+      "score": 35,
+      "level": "normal",
+      "prev_score": 35,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "TW",
+      "score": 30,
+      "level": "normal",
+      "prev_score": 30,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "CN",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 25,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "TR",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 25,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "SA",
+      "score": 20,
+      "level": "normal",
+      "prev_score": 20,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "IN",
+      "score": 20,
+      "level": "normal",
+      "prev_score": 20,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "BR",
+      "score": 15,
+      "level": "low",
+      "prev_score": 15,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "FR",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "US",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "DE",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "GB",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
+    }
+  ],
   "history": [
     {
       "snapshot_date": "2026-07-31",
@@ -26,9 +203,37 @@
       "btc_price": 62499.0,
       "fear_greed_index": 25,
       "total_signals": 47
+    },
+    {
+      "snapshot_date": "2026-08-01",
+      "earthquake_count": 17,
+      "max_earthquake_mag": 5.6,
+      "disaster_count": 0,
+      "btc_price": 62767.0,
+      "fear_greed_index": 27,
+      "total_signals": 37
+    },
+    {
+      "snapshot_date": "2026-08-02",
+      "earthquake_count": 18,
+      "max_earthquake_mag": 5.6,
+      "disaster_count": 0,
+      "btc_price": 62957.0,
+      "fear_greed_index": 27,
+      "total_signals": 38
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-02",
+      "anomaly_flags": [],
+      "convergence_zones": []
+    },
+    {
+      "snapshot_date": "2026-08-01",
+      "anomaly_flags": [],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-07-31",
       "anomaly_flags": [
@@ -39,12 +244,12 @@
   ],
   "trends": [
     {
-      "country_code": "UA",
-      "country_name": "Ukraine",
+      "country_code": "SY",
+      "country_name": "Syria",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -53,34 +258,16 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
-      "country_code": "SY",
-      "country_name": "Syria",
+      "country_code": "UA",
+      "country_name": "Ukraine",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 1,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "IL",
-      "country_name": "Israel",
-      "avg_score": 45.0,
-      "max_score": 45,
-      "min_score": 45,
-      "data_points": 1,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "MM",
-      "country_name": "Myanmar",
-      "avg_score": 45.0,
-      "max_score": 45,
-      "min_score": 45,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -89,25 +276,25 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 43.0,
-      "max_score": 43,
-      "min_score": 43,
-      "data_points": 1,
+      "country_code": "IL",
+      "country_name": "Israel",
+      "avg_score": 45.0,
+      "max_score": 45,
+      "min_score": 45,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
-      "country_code": "IR",
-      "country_name": "Iran",
-      "avg_score": 40.0,
-      "max_score": 40,
-      "min_score": 40,
-      "data_points": 1,
+      "country_code": "MM",
+      "country_name": "Myanmar",
+      "avg_score": 45.0,
+      "max_score": 45,
+      "min_score": 45,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -116,16 +303,25 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 1,
+      "data_points": 3,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "IR",
+      "country_name": "Iran",
+      "avg_score": 40.0,
+      "max_score": 40,
+      "min_score": 40,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 36.0,
-      "max_score": 36,
+      "avg_score": 36.666666666666664,
+      "max_score": 38,
       "min_score": 36,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -134,7 +330,16 @@
       "avg_score": 35.0,
       "max_score": 35,
       "min_score": 35,
-      "data_points": 1,
+      "data_points": 3,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 31.0,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -143,7 +348,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -152,16 +357,7 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 1,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "SA",
-      "country_name": "Saudi Arabia",
-      "avg_score": 20.0,
-      "max_score": 20,
-      "min_score": 20,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -170,7 +366,16 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 1,
+      "data_points": 3,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "SA",
+      "country_name": "Saudi Arabia",
+      "avg_score": 20.0,
+      "max_score": 20,
+      "min_score": 20,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -179,16 +384,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 1,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "FR",
-      "country_name": "France",
-      "avg_score": 10.0,
-      "max_score": 10,
-      "min_score": 10,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -197,7 +393,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -206,16 +402,16 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
-      "country_code": "DE",
-      "country_name": "Germany",
-      "avg_score": 5.0,
-      "max_score": 5,
-      "min_score": 5,
-      "data_points": 1,
+      "country_code": "FR",
+      "country_name": "France",
+      "avg_score": 10.0,
+      "max_score": 10,
+      "min_score": 10,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -224,7 +420,16 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 1,
+      "data_points": 3,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "avg_score": 5.0,
+      "max_score": 5,
+      "min_score": 5,
+      "data_points": 3,
       "high_risk_days": 0
     },
     {
@@ -233,74 +438,61 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 1,
+      "data_points": 3,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-07-31",
-    "total_signals": 47,
+    "date": "2026-08-02",
+    "total_signals": 38,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 17 次地震，最大 M5.9，地震活动处于正常水平。"
+        "text": "全球记录 18 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $62,499，日涨跌 -3.25%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $62,957，日涨跌 -0.12%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
     "alerts": [
       {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
-      },
-      {
         "id": "fear_elevated",
         "icon": "😰",
         "title": "恐惧偏高",
         "level": "info",
-        "message": "恐惧指数 25，市场情绪偏谨慎（阈值 ≤ 30）"
+        "message": "恐惧指数 27，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 2
+    "summary": "ℹ️ 1 条信息提示。",
+    "count": 1
   }
 }

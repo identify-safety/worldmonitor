@@ -506,35 +506,46 @@ function renderCryptoChart(data) {
   ctx.parentElement.style.height = '280px';
 }
 
+const CDN_URL = 'https://raw.githubusercontent.com/identify-safety/worldmonitor/main/dashboard/static/data.json';
+
+function renderAll(data) {
+  renderStats(data.overview);
+  renderBriefing(data.briefing);
+  renderAlerts(data.alerts);
+  renderCII(data.cii);
+  renderSignalChart(data.history);
+  renderCryptoChart(data.history);
+  renderAnomalies(data.anomalies);
+  renderTrends(data.trends);
+  if (data.overview && data.overview.snapshot_date) {
+    document.getElementById('footer-date').textContent = data.overview.snapshot_date;
+  }
+  if (data.generated_at) {
+    const dt = new Date(data.generated_at);
+    document.getElementById('last-update').textContent = '数据更新于 ' + dt.toLocaleString('zh-CN');
+    document.getElementById('freshness').textContent = '📡 数据每小时自动更新 — 生成时间: ' + dt.toLocaleString('zh-CN');
+  }
+}
+
 async function loadData() {
   document.getElementById('status-dot').style.background = '#eab308';
-  try {
-    const resp = await fetch('data.json');
-    const data = await resp.json();
-
-    renderStats(data.overview);
-    renderBriefing(data.briefing);
-    renderAlerts(data.alerts);
-    renderCII(data.cii);
-    renderSignalChart(data.history);
-    renderCryptoChart(data.history);
-    renderAnomalies(data.anomalies);
-    renderTrends(data.trends);
-
-    if (data.overview && data.overview.snapshot_date) {
-      document.getElementById('footer-date').textContent = data.overview.snapshot_date;
-    }
-    if (data.generated_at) {
-      const dt = new Date(data.generated_at);
-      document.getElementById('last-update').textContent = '数据更新于 ' + dt.toLocaleString('zh-CN');
-      document.getElementById('freshness').textContent = '⚠️ 静态快照模式 — 数据生成时间: ' + dt.toLocaleString('zh-CN') + '，配置 GitHub Actions 后将自动更新';
-    }
-
-    document.getElementById('status-dot').style.background = '#22c55e';
-  } catch (e) {
-    document.getElementById('last-update').textContent = '加载失败: ' + e.message;
-    document.getElementById('status-dot').style.background = '#ef4444';
+  // 优先从 GitHub raw 拉最新数据，失败则回退本地 data.json
+  const sources = [
+    CDN_URL + '?v=' + Date.now(),
+    'data.json'
+  ];
+  for (const url of sources) {
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      renderAll(data);
+      document.getElementById('status-dot').style.background = '#22c55e';
+      return;
+    } catch (e) { /* try next source */ }
   }
+  document.getElementById('last-update').textContent = '加载失败';
+  document.getElementById('status-dot').style.background = '#ef4444';
 }
 
 loadData();
