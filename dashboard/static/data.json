@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-02T21:54:34.789645+00:00",
+  "generated_at": "2026-08-02T22:55:07.689463+00:00",
   "overview": {
     "snapshot_date": "2026-08-02",
     "earthquake_count": 22,
     "max_earthquake_mag": 5.6,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63592.0,
-    "btc_change_24h": 1.32,
+    "btc_price": 63392.0,
+    "btc_change_24h": 0.96,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 42
+    "total_signals": 52
   },
   "cii": [
     {
@@ -66,7 +66,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "CN",
+      "score": 43,
+      "level": "elevated",
+      "prev_score": 25,
+      "change_24h": 18,
+      "trend": "rising"
+    },
+    {
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -74,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -106,14 +114,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 26,
-      "level": "normal",
-      "prev_score": 25,
-      "change_24h": 1,
-      "trend": "stable"
-    },
-    {
       "country_code": "TR",
       "score": 25,
       "level": "normal",
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -217,16 +217,18 @@
       "snapshot_date": "2026-08-02",
       "earthquake_count": 22,
       "max_earthquake_mag": 5.6,
-      "disaster_count": 0,
-      "btc_price": 63592.0,
+      "disaster_count": 10,
+      "btc_price": 63392.0,
       "fear_greed_index": 27,
-      "total_signals": 42
+      "total_signals": 52
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-02",
-      "anomaly_flags": [],
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
       "convergence_zones": []
     },
     {
@@ -316,6 +318,15 @@
       "high_risk_days": 0
     },
     {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 37.0,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 3,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "RU",
       "country_name": "Russia",
       "avg_score": 36.0,
@@ -330,15 +341,6 @@
       "avg_score": 35.0,
       "max_score": 35,
       "min_score": 35,
-      "data_points": 3,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 31.333333333333332,
-      "max_score": 43,
-      "min_score": 25,
       "data_points": 3,
       "high_risk_days": 0
     },
@@ -444,10 +446,10 @@
   ],
   "briefing": {
     "date": "2026-08-02",
-    "total_signals": 42,
+    "total_signals": 52,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
@@ -459,31 +461,44 @@
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,592，日涨跌 +1.32%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,392，日涨跌 +0.96%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
     "alerts": [
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
       {
         "id": "fear_elevated",
         "icon": "😰",
@@ -492,8 +507,8 @@
         "message": "恐惧指数 27，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "ℹ️ 1 条信息提示。",
-    "count": 1
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
