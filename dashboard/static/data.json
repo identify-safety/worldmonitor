@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-03T06:29:02.181205+00:00",
+  "generated_at": "2026-08-03T10:41:12.485243+00:00",
   "overview": {
     "snapshot_date": "2026-08-03",
-    "earthquake_count": 20,
-    "max_earthquake_mag": 5.6,
+    "earthquake_count": 16,
+    "max_earthquake_mag": 5.3,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62718.0,
-    "btc_change_24h": -1.12,
+    "btc_price": 62615.0,
+    "btc_change_24h": -0.84,
     "fear_greed_index": 28,
     "fear_greed_label": "Fear",
-    "total_signals": 50
+    "total_signals": 46
   },
   "cii": [
     {
@@ -224,12 +224,12 @@
     },
     {
       "snapshot_date": "2026-08-03",
-      "earthquake_count": 20,
-      "max_earthquake_mag": 5.6,
+      "earthquake_count": 16,
+      "max_earthquake_mag": 5.3,
       "disaster_count": 10,
-      "btc_price": 62718.0,
+      "btc_price": 62615.0,
       "fear_greed_index": 28,
-      "total_signals": 50
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -462,7 +462,7 @@
   ],
   "briefing": {
     "date": "2026-08-03",
-    "total_signals": 50,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -472,7 +472,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 20 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 16 次地震，最大 M5.3，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -484,7 +484,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $62,718，日涨跌 -1.12%。恐惧与贪婪指数 28（Fear）。"
+        "text": "BTC 报 $62,615，日涨跌 -0.84%。恐惧与贪婪指数 28（Fear）。"
       },
       {
         "icon": "🏴",
@@ -528,17 +528,6 @@
   },
   "earthquakes": [
     {
-      "mag": 5.6,
-      "place": "14 km S of Hicks Bay, New Zealand",
-      "time": "2026-08-02T08:35:27.066000+00:00",
-      "depth_km": 52.8,
-      "lat": -37.73,
-      "lon": 178.3287,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl3"
-    },
-    {
       "mag": 5.3,
       "place": "north of Ascension Island",
       "time": "2026-08-02T11:52:33.048000+00:00",
@@ -548,17 +537,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thly"
-    },
-    {
-      "mag": 5.3,
-      "place": "265 km S of ‘Ohonua, Tonga",
-      "time": "2026-08-02T10:34:14.181000+00:00",
-      "depth_km": 10,
-      "lat": -23.7388,
-      "lon": -174.9439,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlj"
     },
     {
       "mag": 5.2,
@@ -616,15 +594,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thmd"
     },
     {
-      "mag": 5,
-      "place": "north of Ascension Island",
-      "time": "2026-08-02T09:17:11.235000+00:00",
+      "mag": 4.9,
+      "place": "14 km ESE of Yibin, China",
+      "time": "2026-08-03T05:00:48.666000+00:00",
       "depth_km": 10,
-      "lat": -3.2948,
-      "lon": -12.2442,
+      "lat": 28.6876,
+      "lon": 104.7633,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlb"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqf"
     },
     {
       "mag": 4.9,
@@ -638,15 +616,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm7"
     },
     {
-      "mag": 4.9,
-      "place": "149 km S of Severo-Kuril’sk, Russia",
-      "time": "2026-08-02T08:22:06.027000+00:00",
-      "depth_km": 33.8,
-      "lat": 49.3293,
-      "lon": 156.2005,
+      "mag": 4.8,
+      "place": "152 km S of Hydaburg, Alaska",
+      "time": "2026-08-03T09:17:46+00:00",
+      "depth_km": 15,
+      "lat": 53.837,
+      "lon": -132.974,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl2"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/attj6shm"
     },
     {
       "mag": 4.8,
@@ -691,28 +669,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm6"
-    },
-    {
-      "mag": 4.6,
-      "place": "14 km SE of Honmachi, Japan",
-      "time": "2026-08-02T10:00:08.813000+00:00",
-      "depth_km": 10,
-      "lat": 32.3966,
-      "lon": 130.6919,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thlf"
-    },
-    {
-      "mag": 4.6,
-      "place": "73 km W of San Antonio de los Cobres, Argentina",
-      "time": "2026-08-02T08:49:51.893000+00:00",
-      "depth_km": 172.5,
-      "lat": -24.2307,
-      "lon": -67.0412,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl6"
     },
     {
       "mag": 4.5,
