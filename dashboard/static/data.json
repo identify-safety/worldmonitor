@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T02:58:04.751510+00:00",
+  "generated_at": "2026-08-03T06:29:02.181205+00:00",
   "overview": {
     "snapshot_date": "2026-08-03",
-    "earthquake_count": 22,
+    "earthquake_count": 20,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63083.0,
-    "btc_change_24h": -0.47,
+    "btc_price": 62718.0,
+    "btc_change_24h": -1.12,
     "fear_greed_index": 28,
     "fear_greed_label": "Fear",
-    "total_signals": 52
+    "total_signals": 50
   },
   "cii": [
     {
@@ -224,12 +224,12 @@
     },
     {
       "snapshot_date": "2026-08-03",
-      "earthquake_count": 22,
+      "earthquake_count": 20,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 63083.0,
+      "btc_price": 62718.0,
       "fear_greed_index": 28,
-      "total_signals": 52
+      "total_signals": 50
     }
   ],
   "anomalies": [
@@ -462,7 +462,7 @@
   ],
   "briefing": {
     "date": "2026-08-03",
-    "total_signals": 52,
+    "total_signals": 50,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -472,7 +472,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 20 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -484,7 +484,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,083，日涨跌 -0.47%。恐惧与贪婪指数 28（Fear）。"
+        "text": "BTC 报 $62,718，日涨跌 -1.12%。恐惧与贪婪指数 28（Fear）。"
       },
       {
         "icon": "🏴",
@@ -649,17 +649,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thl2"
     },
     {
-      "mag": 4.9,
-      "place": "36 km SSW of Mendi, Papua New Guinea",
-      "time": "2026-08-02T05:38:58.496000+00:00",
-      "depth_km": 10,
-      "lat": -6.4713,
-      "lon": 143.5878,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thki"
-    },
-    {
       "mag": 4.8,
       "place": "18 km N of Honchō, Japan",
       "time": "2026-08-02T14:49:47.350000+00:00",
@@ -669,17 +658,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thm9"
-    },
-    {
-      "mag": 4.8,
-      "place": "77 km SE of Atka, Alaska",
-      "time": "2026-08-02T05:18:40.389000+00:00",
-      "depth_km": 44.3,
-      "lat": 51.6579,
-      "lon": -173.4798,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thkg"
     },
     {
       "mag": 4.7,
@@ -738,6 +716,17 @@
     },
     {
       "mag": 4.5,
+      "place": "5 km NNW of Sánchez, Dominican Republic",
+      "time": "2026-08-03T05:01:20.034000+00:00",
+      "depth_km": 10,
+      "lat": 19.2743,
+      "lon": -69.627,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqe"
+    },
+    {
+      "mag": 4.5,
       "place": "6 km W of Sarangani, Philippines",
       "time": "2026-08-02T22:48:30.461000+00:00",
       "depth_km": 9.0,
@@ -757,34 +746,9 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thna"
-    },
-    {
-      "mag": 4.5,
-      "place": "7 km SSW of Yumare, Venezuela",
-      "time": "2026-08-02T03:16:45.100000+00:00",
-      "depth_km": 10,
-      "lat": 10.5328,
-      "lon": -68.6899,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thk4"
     }
   ],
   "disasters": [
-    {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Red",
-      "date": "2026-07-25T01:00:00"
-    },
-    {
-      "type": "DR",
-      "name": "Drought in Ethiopia, Kenya, Somalia",
-      "country": "Ethiopia, Kenya, Somalia",
-      "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
     {
       "type": "DR",
       "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Russia, Sweden, Slovakia, San Marino, Ukraine, , ",
@@ -798,6 +762,20 @@
       "country": "Madagascar",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Ethiopia, Kenya, Somalia",
+      "country": "Ethiopia, Kenya, Somalia",
+      "alert_level": "Orange",
+      "date": "2026-04-21T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Red",
+      "date": "2026-07-25T01:00:00"
     },
     {
       "type": "EQ",
