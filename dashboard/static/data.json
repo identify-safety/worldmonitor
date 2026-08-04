@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T04:11:45.160044+00:00",
+  "generated_at": "2026-08-04T07:37:28.230081+00:00",
   "overview": {
     "snapshot_date": "2026-08-04",
-    "earthquake_count": 11,
+    "earthquake_count": 10,
     "max_earthquake_mag": 4.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63703.0,
-    "btc_change_24h": 1.47,
+    "btc_price": 63634.0,
+    "btc_change_24h": 1.65,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
-    "total_signals": 41
+    "total_signals": 40
   },
   "cii": [
     {
@@ -233,12 +233,12 @@
     },
     {
       "snapshot_date": "2026-08-04",
-      "earthquake_count": 11,
+      "earthquake_count": 10,
       "max_earthquake_mag": 4.9,
       "disaster_count": 10,
-      "btc_price": 63703.0,
+      "btc_price": 63634.0,
       "fear_greed_index": 25,
-      "total_signals": 41
+      "total_signals": 40
     }
   ],
   "anomalies": [
@@ -478,7 +478,7 @@
   ],
   "briefing": {
     "date": "2026-08-04",
-    "total_signals": 41,
+    "total_signals": 40,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -488,7 +488,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 11 次地震，最大 M4.9，地震活动处于正常水平。"
+        "text": "全球记录 10 次地震，最大 M4.9，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -500,7 +500,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,703，日涨跌 +1.47%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $63,634，日涨跌 +1.65%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
@@ -577,17 +577,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thra"
     },
     {
-      "mag": 4.9,
-      "place": "14 km ESE of Yibin, China",
-      "time": "2026-08-03T05:00:48.666000+00:00",
-      "depth_km": 10,
-      "lat": 28.6876,
-      "lon": 104.7633,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqf"
-    },
-    {
       "mag": 4.8,
       "place": "106 km NW of Gizo, Solomon Islands",
       "time": "2026-08-03T13:14:01.939000+00:00",
@@ -622,6 +611,17 @@
     },
     {
       "mag": 4.6,
+      "place": "112 km WSW of Puerto Madero, Mexico",
+      "time": "2026-08-04T07:07:08.745000+00:00",
+      "depth_km": 10,
+      "lat": 14.3215,
+      "lon": -93.3796,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thym"
+    },
+    {
+      "mag": 4.6,
       "place": "88 km WSW of San Antonio de los Cobres, Argentina",
       "time": "2026-08-03T10:55:35.633000+00:00",
       "depth_km": 182.5,
@@ -652,17 +652,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thr2"
-    },
-    {
-      "mag": 4.5,
-      "place": "5 km NNW of Sánchez, Dominican Republic",
-      "time": "2026-08-03T05:01:20.034000+00:00",
-      "depth_km": 10,
-      "lat": 19.2743,
-      "lon": -69.627,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thqe"
     }
   ],
   "disasters": [
