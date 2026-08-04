@@ -6,10 +6,17 @@ as raw multiline text for the GitHub Actions workflow to email.
 import asyncio
 import asyncpg
 import os
+import sys
 import json
 from datetime import date, datetime, timezone
 
 DSN = os.environ.get("DATABASE_URL", "")
+
+# 复用 generate_static.py 的 AI 简报生成逻辑（纯函数，import 时不触发网络）
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _REPO_ROOT not in sys.path:
+    sys.path.insert(0, _REPO_ROOT)
+from dashboard.generate_static import build_briefing
 
 CRITICAL_RULES = [
     ("M{s} 强震", lambda s: s.get("max_earthquake_mag") and float(s["max_earthquake_mag"]) >= 7.0,
@@ -42,6 +49,17 @@ async def main():
             if k in s and hasattr(s[k], "isoformat"):
                 s[k] = s[k].isoformat()
 
+        # 拉取 CII 明细，供 AI 简报（来龙去脉）使用
+        snap_date_str = s.get("snapshot_date", "")
+        try:
+            snap_date = date.fromisoformat(snap_date_str) if snap_date_str else date.today()
+        except Exception:
+            snap_date = date.today()
+        cii_rows = [dict(r) for r in await conn.fetch(
+            "SELECT country_code, country_name, score, level "
+            "FROM worldmonitor_cii_history WHERE snapshot_date = $1 ORDER BY score DESC",
+            snap_date)]
+
         print(f"Checking snapshot {s.get('snapshot_date')} for critical alerts...")
 
         triggered = []
@@ -59,8 +77,20 @@ async def main():
 
         if triggered:
             alert_text = "🔴 WorldMonitor 异常告警\n\n" + "\n".join(triggered)
+
+            # AI 简报（来龙去脉）：针对当前全局态势给出中文解释
+            briefing = build_briefing(s, cii_rows)
+            if briefing.get("sections"):
+                alert_text += "\n\n📋 来龙去脉 · AI 简报\n" + "─" * 26
+                for sec in briefing["sections"]:
+                    alert_text += f"\n\n{sec.get('icon', '')} {sec.get('title', '')}\n{sec.get('text', '')}"
+                overall = briefing.get("overall") or {}
+                if overall.get("text"):
+                    alert_text += f"\n\n💡 总体研判：{overall['text']}"
+
             alert_text += f"\n\n快照时间: {s.get('snapshot_date')}"
             alert_text += f"\n总信号: {s.get('total_signals', 0)}"
+            alert_text += "\n📊 查看事件明细: https://5c8c1a2bec9140018fb9ebd59f826ee6.bj9.agentos-app.net"
 
             with open("/tmp/alerts_to_send.txt", "w", encoding="utf-8") as f:
                 f.write(alert_text)
