@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T07:37:28.230081+00:00",
+  "generated_at": "2026-08-04T10:36:29.247557+00:00",
   "overview": {
     "snapshot_date": "2026-08-04",
-    "earthquake_count": 10,
+    "earthquake_count": 9,
     "max_earthquake_mag": 4.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63634.0,
-    "btc_change_24h": 1.65,
+    "btc_price": 63434.0,
+    "btc_change_24h": 1.29,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
-    "total_signals": 40
+    "total_signals": 39
   },
   "cii": [
     {
@@ -233,12 +233,12 @@
     },
     {
       "snapshot_date": "2026-08-04",
-      "earthquake_count": 10,
+      "earthquake_count": 9,
       "max_earthquake_mag": 4.9,
       "disaster_count": 10,
-      "btc_price": 63634.0,
+      "btc_price": 63434.0,
       "fear_greed_index": 25,
-      "total_signals": 40
+      "total_signals": 39
     }
   ],
   "anomalies": [
@@ -478,7 +478,7 @@
   ],
   "briefing": {
     "date": "2026-08-04",
-    "total_signals": 40,
+    "total_signals": 39,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -488,7 +488,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 10 次地震，最大 M4.9，地震活动处于正常水平。"
+        "text": "全球记录 9 次地震，最大 M4.9，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -500,13 +500,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,634，日涨跌 +1.65%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $63,434，日涨跌 +1.29%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -641,20 +641,16 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ths9"
-    },
-    {
-      "mag": 4.5,
-      "place": "149 km WSW of Puerto Madero, Mexico",
-      "time": "2026-08-03T09:19:09.814000+00:00",
-      "depth_km": 10,
-      "lat": 14.0138,
-      "lon": -93.6006,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thr2"
     }
   ],
   "disasters": [
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone DOLPHIN-26",
+      "country": "Marshall Islands, Japan",
+      "alert_level": "Orange",
+      "date": "2026-07-27T00:00:00"
+    },
     {
       "type": "FL",
       "name": "Flood in China",
@@ -857,13 +853,6 @@
       "country": "Ethiopia",
       "alert_level": "Orange",
       "date": "2026-03-09T01:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in Democratic Republic of Congo",
-      "country": "Democratic Republic of Congo",
-      "alert_level": "Orange",
-      "date": "2026-02-11T01:00:00"
     }
   ]
 }
