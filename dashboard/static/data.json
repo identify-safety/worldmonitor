@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T22:11:45.502923+00:00",
+  "generated_at": "2026-08-05T23:58:43.469095+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
     "earthquake_count": 21,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64642.0,
-    "btc_change_24h": 0.73,
+    "btc_price": 64583.0,
+    "btc_change_24h": 0.81,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
     "total_signals": 51
@@ -245,7 +245,7 @@
       "earthquake_count": 21,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64642.0,
+      "btc_price": 64583.0,
       "fear_greed_index": 27,
       "total_signals": 51
     }
@@ -516,7 +516,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,642，日涨跌 +0.73%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,583，日涨跌 +0.81%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
@@ -678,6 +678,17 @@
     },
     {
       "mag": 4.9,
+      "place": "10 km W of Honmachi, Japan",
+      "time": "2026-08-05T22:59:25.088000+00:00",
+      "depth_km": 10,
+      "lat": 32.491,
+      "lon": 130.485,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tig8"
+    },
+    {
+      "mag": 4.9,
       "place": "54 km ESE of Sarangani, Philippines",
       "time": "2026-08-05T05:57:02.837000+00:00",
       "depth_km": 43.7,
@@ -785,17 +796,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6d"
-    },
-    {
-      "mag": 4.6,
-      "place": "South Sandwich Islands region",
-      "time": "2026-08-04T23:08:00.747000+00:00",
-      "depth_km": 10,
-      "lat": -55.7454,
-      "lon": -26.7928,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5m"
     }
   ],
   "disasters": [
