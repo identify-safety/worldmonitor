@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T20:25:17.767964+00:00",
+  "generated_at": "2026-08-05T22:11:45.502923+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 20,
+    "earthquake_count": 21,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64915.0,
-    "btc_change_24h": 1.34,
+    "btc_price": 64642.0,
+    "btc_change_24h": 0.73,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 50
+    "total_signals": 51
   },
   "cii": [
     {
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 20,
+      "earthquake_count": 21,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64915.0,
+      "btc_price": 64642.0,
       "fear_greed_index": 27,
-      "total_signals": 50
+      "total_signals": 51
     }
   ],
   "anomalies": [
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 50,
+    "total_signals": 51,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +504,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 21 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,915，日涨跌 +1.34%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,642，日涨跌 +0.73%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -587,6 +587,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
+    },
+    {
+      "mag": 5.9,
+      "place": "32 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T21:41:28.262000+00:00",
+      "depth_km": 10,
+      "lat": 5.1757,
+      "lon": 125.2809,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tif5"
     },
     {
       "mag": 5.3,
@@ -743,15 +754,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
     },
     {
-      "mag": 4.7,
-      "place": "Fiji region",
-      "time": "2026-08-04T20:30:04.431000+00:00",
-      "depth_km": 603.0,
-      "lat": -21.7953,
-      "lon": -179.3558,
+      "mag": 4.6,
+      "place": "99 km WSW of Houma, Tonga",
+      "time": "2026-08-05T20:59:38.899000+00:00",
+      "depth_km": 137.2,
+      "lat": -21.5171,
+      "lon": -176.1885,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti4e"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiex"
     },
     {
       "mag": 4.6,
