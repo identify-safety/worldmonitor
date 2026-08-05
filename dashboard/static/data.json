@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T22:09:57.137413+00:00",
+  "generated_at": "2026-08-05T00:00:14.106141+00:00",
   "overview": {
-    "snapshot_date": "2026-08-04",
+    "snapshot_date": "2026-08-05",
     "earthquake_count": 6,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64165.0,
-    "btc_change_24h": 1.2,
+    "btc_price": 64069.0,
+    "btc_change_24h": 0.95,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
     "total_signals": 36
@@ -42,6 +42,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -51,14 +59,6 @@
     },
     {
       "country_code": "KP",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -239,9 +239,25 @@
       "btc_price": 64165.0,
       "fear_greed_index": 25,
       "total_signals": 36
+    },
+    {
+      "snapshot_date": "2026-08-05",
+      "earthquake_count": 6,
+      "max_earthquake_mag": 5.7,
+      "disaster_count": 10,
+      "btc_price": 64069.0,
+      "fear_greed_index": 25,
+      "total_signals": 36
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-05",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-04",
       "anomaly_flags": [
@@ -283,7 +299,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -292,7 +308,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -301,16 +317,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 5,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "KP",
-      "country_name": "North Korea",
-      "avg_score": 45.0,
-      "max_score": 45,
-      "min_score": 45,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -319,7 +326,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 5,
+      "data_points": 6,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "KP",
+      "country_name": "North Korea",
+      "avg_score": 45.0,
+      "max_score": 45,
+      "min_score": 45,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -328,7 +344,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -337,7 +353,16 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 5,
+      "data_points": 6,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 40.0,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -346,25 +371,16 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 5,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 39.4,
-      "max_score": 43,
-      "min_score": 25,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.6,
+      "avg_score": 35.5,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -373,7 +389,7 @@
       "avg_score": 35.0,
       "max_score": 35,
       "min_score": 35,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -382,7 +398,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -391,7 +407,7 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -400,7 +416,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -409,7 +425,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -418,7 +434,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -427,7 +443,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -436,7 +452,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -445,7 +461,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -454,7 +470,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -463,7 +479,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     },
     {
@@ -472,12 +488,12 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 5,
+      "data_points": 6,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "total_signals": 36,
     "overall": {
       "level": "critical",
@@ -500,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,165，日涨跌 +1.20%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,069，日涨跌 +0.95%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
