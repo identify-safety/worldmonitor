@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T16:40:39.461428+00:00",
+  "generated_at": "2026-08-05T18:19:51.548180+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 19,
+    "earthquake_count": 21,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64631.0,
-    "btc_change_24h": 1.11,
+    "btc_price": 64735.0,
+    "btc_change_24h": 0.85,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 49
+    "total_signals": 51
   },
   "cii": [
     {
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 19,
+      "earthquake_count": 21,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64631.0,
+      "btc_price": 64735.0,
       "fear_greed_index": 27,
-      "total_signals": 49
+      "total_signals": 51
     }
   ],
   "anomalies": [
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 49,
+    "total_signals": 51,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +504,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 19 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 21 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,631，日涨跌 +1.11%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,735，日涨跌 +0.85%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -598,6 +598,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
+    },
+    {
+      "mag": 5.3,
+      "place": "62 km W of Tobelo, Indonesia",
+      "time": "2026-08-05T16:50:18.349000+00:00",
+      "depth_km": 115.7,
+      "lat": 1.7901,
+      "lon": 127.454,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tics"
     },
     {
       "mag": 5.2,
@@ -730,6 +741,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti40"
+    },
+    {
+      "mag": 4.7,
+      "place": "127 km E of Bitung, Indonesia",
+      "time": "2026-08-05T14:16:50.054000+00:00",
+      "depth_km": 10,
+      "lat": 1.2938,
+      "lon": 126.2646,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
     },
     {
       "mag": 4.7,
