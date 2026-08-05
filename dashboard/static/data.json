@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T09:36:00.618249+00:00",
+  "generated_at": "2026-08-05T11:58:44.219234+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 20,
+    "earthquake_count": 21,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64123.0,
-    "btc_change_24h": 0.98,
+    "btc_price": 64024.0,
+    "btc_change_24h": 0.23,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 50
+    "total_signals": 51
   },
   "cii": [
     {
@@ -122,15 +122,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
-      "score": 20,
+      "country_code": "IN",
+      "score": 21,
       "level": "normal",
       "prev_score": 20,
-      "change_24h": 0,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "FR",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -154,7 +154,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "FR",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 20,
+      "earthquake_count": 21,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64123.0,
+      "btc_price": 64024.0,
       "fear_greed_index": 27,
-      "total_signals": 50
+      "total_signals": 51
     }
   ],
   "anomalies": [
@@ -413,8 +413,8 @@
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.0,
-      "max_score": 20,
+      "avg_score": 20.166666666666668,
+      "max_score": 21,
       "min_score": 20,
       "data_points": 6,
       "high_risk_days": 0
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 50,
+    "total_signals": 51,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +504,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 21 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,123，日涨跌 +0.98%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,024，日涨跌 +0.23%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -653,6 +653,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0r"
+    },
+    {
+      "mag": 5,
+      "place": "60 km NNE of Shi Yomi, India",
+      "time": "2026-08-05T10:06:09.955000+00:00",
+      "depth_km": 10,
+      "lat": 29.0027,
+      "lon": 94.681,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9w"
     },
     {
       "mag": 4.9,
