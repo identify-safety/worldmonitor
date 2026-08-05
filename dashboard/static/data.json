@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T00:00:14.106141+00:00",
+  "generated_at": "2026-08-05T03:24:14.900927+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 6,
+    "earthquake_count": 9,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64069.0,
-    "btc_change_24h": 0.95,
-    "fear_greed_index": 25,
-    "fear_greed_label": "Extreme Fear",
-    "total_signals": 36
+    "btc_price": 64070.0,
+    "btc_change_24h": 0.7,
+    "fear_greed_index": 27,
+    "fear_greed_label": "Fear",
+    "total_signals": 39
   },
   "cii": [
     {
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 6,
+      "earthquake_count": 9,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 64069.0,
-      "fear_greed_index": 25,
-      "total_signals": 36
+      "btc_price": 64070.0,
+      "fear_greed_index": 27,
+      "total_signals": 39
     }
   ],
   "anomalies": [
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 36,
+    "total_signals": 39,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +504,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 6 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 9 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -516,7 +516,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,069，日涨跌 +0.95%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,070，日涨跌 +0.70%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
@@ -552,7 +552,7 @@
         "icon": "😰",
         "title": "恐惧偏高",
         "level": "info",
-        "message": "恐惧指数 25，市场情绪偏谨慎（阈值 ≤ 30）"
+        "message": "恐惧指数 27，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
     "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
@@ -583,6 +583,17 @@
     },
     {
       "mag": 4.8,
+      "place": "55 km WSW of Monywa, Burma (Myanmar)",
+      "time": "2026-08-05T00:11:57.782000+00:00",
+      "depth_km": 103.4,
+      "lat": 21.9032,
+      "lon": 94.6478,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
+    },
+    {
+      "mag": 4.8,
       "place": "43 km ESE of Koseda, Japan",
       "time": "2026-08-04T19:56:58.739000+00:00",
       "depth_km": 45.0,
@@ -602,6 +613,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti4e"
+    },
+    {
+      "mag": 4.6,
+      "place": "36 km ESE of Severo-Kuril’sk, Russia",
+      "time": "2026-08-05T02:46:55.420000+00:00",
+      "depth_km": 73.3,
+      "lat": 50.4973,
+      "lon": 156.568,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6d"
+    },
+    {
+      "mag": 4.6,
+      "place": "South Sandwich Islands region",
+      "time": "2026-08-04T23:08:00.747000+00:00",
+      "depth_km": 10,
+      "lat": -55.7454,
+      "lon": -26.7928,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5m"
     },
     {
       "mag": 4.6,
@@ -675,13 +708,6 @@
       "country": "Japan",
       "alert_level": "Orange",
       "date": "2026-07-28T07:27:15"
-    },
-    {
-      "type": "EQ",
-      "name": "Earthquake in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-07-28T03:34:05"
     },
     {
       "type": "EQ",
@@ -836,6 +862,13 @@
       "country": "Philippines",
       "alert_level": "Orange",
       "date": "2026-03-15T10:54:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in Ethiopia",
+      "country": "Ethiopia",
+      "alert_level": "Orange",
+      "date": "2026-03-09T01:00:00"
     }
   ]
 }
