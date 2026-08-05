@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-05T03:24:14.900927+00:00",
+  "generated_at": "2026-08-05T06:26:08.407727+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 9,
-    "max_earthquake_mag": 5.7,
+    "earthquake_count": 16,
+    "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64070.0,
-    "btc_change_24h": 0.7,
+    "btc_price": 64250.0,
+    "btc_change_24h": 0.75,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 39
+    "total_signals": 46
   },
   "cii": [
     {
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 9,
-      "max_earthquake_mag": 5.7,
+      "earthquake_count": 16,
+      "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64070.0,
+      "btc_price": 64250.0,
       "fear_greed_index": 27,
-      "total_signals": 39
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 39,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -503,8 +503,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "normal",
-        "text": "全球记录 9 次地震，最大 M5.7，地震活动处于正常水平。"
+        "level": "warning",
+        "text": "全球记录 16 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,070，日涨跌 +0.70%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,250，日涨跌 +0.75%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -541,6 +541,13 @@
   "alerts": {
     "alerts": [
       {
+        "id": "eq_warning",
+        "icon": "🌋",
+        "title": "中型地震",
+        "level": "warning",
+        "message": "检测到 M6.3 地震（阈值 ≥ M6.0）"
+      },
+      {
         "id": "disaster_surge",
         "icon": "🛰️",
         "title": "灾害密集",
@@ -555,10 +562,21 @@
         "message": "恐惧指数 27，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
+    {
+      "mag": 6.3,
+      "place": "32 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T04:14:06.625000+00:00",
+      "depth_km": 10,
+      "lat": 5.1812,
+      "lon": 125.276,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
+    },
     {
       "mag": 5.7,
       "place": "127 km NW of Ternate, Indonesia",
@@ -571,6 +589,39 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
     },
     {
+      "mag": 5.2,
+      "place": "31 km S of Sarangani, Philippines",
+      "time": "2026-08-05T04:25:04.586000+00:00",
+      "depth_km": 35,
+      "lat": 5.1275,
+      "lon": 125.412,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti71"
+    },
+    {
+      "mag": 5.1,
+      "place": "46 km SSW of Sarangani, Philippines",
+      "time": "2026-08-05T05:59:21.637000+00:00",
+      "depth_km": 29.8,
+      "lat": 4.9959,
+      "lon": 125.3774,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti80"
+    },
+    {
+      "mag": 5.1,
+      "place": "238 km SSW of Río Grande, Panama",
+      "time": "2026-08-05T04:19:21.769000+00:00",
+      "depth_km": 10,
+      "lat": 5.8882,
+      "lon": -82.4726,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6z"
+    },
+    {
       "mag": 5.1,
       "place": "south of Tonga",
       "time": "2026-08-04T14:56:14.381000+00:00",
@@ -580,6 +631,39 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0r"
+    },
+    {
+      "mag": 4.9,
+      "place": "45 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T05:13:04.282000+00:00",
+      "depth_km": 29.7,
+      "lat": 5.0859,
+      "lon": 125.1979,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7t"
+    },
+    {
+      "mag": 4.9,
+      "place": "Banda Sea",
+      "time": "2026-08-05T03:16:07.150000+00:00",
+      "depth_km": 235.0,
+      "lat": -6.4991,
+      "lon": 128.9345,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f"
+    },
+    {
+      "mag": 4.8,
+      "place": "64 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T04:34:11.505000+00:00",
+      "depth_km": 35,
+      "lat": 5.0397,
+      "lon": 125.0047,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7f"
     },
     {
       "mag": 4.8,
@@ -669,13 +753,6 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Ethiopia, Kenya, Somalia",
-      "country": "Ethiopia, Kenya, Somalia",
-      "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "alert_level": "Orange",
@@ -683,10 +760,10 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Madagascar",
-      "country": "Madagascar",
+      "name": "Drought in Ethiopia, Kenya, Somalia",
+      "country": "Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
+      "date": "2026-04-21T00:00:00"
     },
     {
       "type": "DR",
@@ -694,6 +771,13 @@
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
     },
     {
       "type": "FL",
