@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T06:26:08.407727+00:00",
+  "generated_at": "2026-08-05T09:36:00.618249+00:00",
   "overview": {
     "snapshot_date": "2026-08-05",
-    "earthquake_count": 16,
+    "earthquake_count": 20,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64250.0,
-    "btc_change_24h": 0.75,
+    "btc_price": 64123.0,
+    "btc_change_24h": 0.98,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 46
+    "total_signals": 50
   },
   "cii": [
     {
@@ -242,12 +242,12 @@
     },
     {
       "snapshot_date": "2026-08-05",
-      "earthquake_count": 16,
+      "earthquake_count": 20,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64250.0,
+      "btc_price": 64123.0,
       "fear_greed_index": 27,
-      "total_signals": 46
+      "total_signals": 50
     }
   ],
   "anomalies": [
@@ -494,7 +494,7 @@
   ],
   "briefing": {
     "date": "2026-08-05",
-    "total_signals": 46,
+    "total_signals": 50,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +504,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 16 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,13 +516,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,250，日涨跌 +0.75%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,123，日涨跌 +0.98%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -568,6 +568,17 @@
   "earthquakes": [
     {
       "mag": 6.3,
+      "place": "south of the Kermadec Islands",
+      "time": "2026-08-05T07:43:27.317000+00:00",
+      "depth_km": 226.1,
+      "lat": -33.8063,
+      "lon": 179.4727,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i"
+    },
+    {
+      "mag": 6.3,
       "place": "32 km SW of Sarangani, Philippines",
       "time": "2026-08-05T04:14:06.625000+00:00",
       "depth_km": 10,
@@ -587,6 +598,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti49"
+    },
+    {
+      "mag": 5.2,
+      "place": "Auckland Islands, New Zealand region",
+      "time": "2026-08-05T06:44:24.701000+00:00",
+      "depth_km": 21.9,
+      "lat": -49.5336,
+      "lon": 164.0845,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti85"
     },
     {
       "mag": 5.2,
@@ -634,6 +656,17 @@
     },
     {
       "mag": 4.9,
+      "place": "54 km ESE of Sarangani, Philippines",
+      "time": "2026-08-05T05:57:02.837000+00:00",
+      "depth_km": 43.7,
+      "lat": 5.1481,
+      "lon": 125.8812,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7z"
+    },
+    {
+      "mag": 4.9,
       "place": "45 km SW of Sarangani, Philippines",
       "time": "2026-08-05T05:13:04.282000+00:00",
       "depth_km": 29.7,
@@ -653,6 +686,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f"
+    },
+    {
+      "mag": 4.8,
+      "place": "45 km SSW of Sarangani, Philippines",
+      "time": "2026-08-05T09:17:07.881000+00:00",
+      "depth_km": 35,
+      "lat": 5.0507,
+      "lon": 125.2544,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9k"
     },
     {
       "mag": 4.8,
@@ -700,6 +744,17 @@
     },
     {
       "mag": 4.6,
+      "place": "84 km ESE of Sarangani, Philippines",
+      "time": "2026-08-05T05:53:54.201000+00:00",
+      "depth_km": 35,
+      "lat": 5.0554,
+      "lon": 126.1378,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7y"
+    },
+    {
+      "mag": 4.6,
       "place": "36 km ESE of Severo-Kuril’sk, Russia",
       "time": "2026-08-05T02:46:55.420000+00:00",
       "depth_km": 73.3,
@@ -730,17 +785,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti0a"
-    },
-    {
-      "mag": 4.6,
-      "place": "112 km WSW of Puerto Madero, Mexico",
-      "time": "2026-08-04T07:07:08.745000+00:00",
-      "depth_km": 10,
-      "lat": 14.3215,
-      "lon": -93.3796,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thym"
     }
   ],
   "disasters": [
