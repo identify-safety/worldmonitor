@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T23:58:43.469095+00:00",
+  "generated_at": "2026-08-06T03:19:19.926803+00:00",
   "overview": {
-    "snapshot_date": "2026-08-05",
-    "earthquake_count": 21,
+    "snapshot_date": "2026-08-06",
+    "earthquake_count": 20,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,21 +10,13 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64583.0,
-    "btc_change_24h": 0.81,
-    "fear_greed_index": 27,
-    "fear_greed_label": "Fear",
-    "total_signals": 51
+    "btc_price": 64489.0,
+    "btc_change_24h": 0.32,
+    "fear_greed_index": 25,
+    "fear_greed_label": "Extreme Fear",
+    "total_signals": 50
   },
   "cii": [
-    {
-      "country_code": "YE",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
     {
       "country_code": "UA",
       "score": 50,
@@ -42,10 +34,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
+      "country_code": "YE",
+      "score": 50,
       "level": "elevated",
-      "prev_score": 45,
+      "prev_score": 50,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -66,6 +58,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "CN",
       "score": 43,
       "level": "elevated",
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -125,8 +125,8 @@
       "country_code": "IN",
       "score": 21,
       "level": "normal",
-      "prev_score": 20,
-      "change_24h": 1,
+      "prev_score": 21,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "FR",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -154,7 +154,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "FR",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -248,9 +248,25 @@
       "btc_price": 64583.0,
       "fear_greed_index": 27,
       "total_signals": 51
+    },
+    {
+      "snapshot_date": "2026-08-06",
+      "earthquake_count": 20,
+      "max_earthquake_mag": 6.3,
+      "disaster_count": 10,
+      "btc_price": 64489.0,
+      "fear_greed_index": 25,
+      "total_signals": 50
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-06",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-05",
       "anomaly_flags": [
@@ -299,7 +315,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -308,7 +324,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -317,16 +333,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 6,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "IL",
-      "country_name": "Israel",
-      "avg_score": 45.0,
-      "max_score": 45,
-      "min_score": 45,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -335,7 +342,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 6,
+      "data_points": 7,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "IL",
+      "country_name": "Israel",
+      "avg_score": 45.0,
+      "max_score": 45,
+      "min_score": 45,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -344,7 +360,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 6,
+      "data_points": 7,
+      "high_risk_days": 0
+    },
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 40.42857142857143,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -353,16 +378,7 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 6,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 40.0,
-      "max_score": 43,
-      "min_score": 25,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -371,16 +387,16 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.5,
+      "avg_score": 35.42857142857143,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -389,7 +405,7 @@
       "avg_score": 35.0,
       "max_score": 35,
       "min_score": 35,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -398,7 +414,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -407,16 +423,16 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.166666666666668,
+      "avg_score": 20.285714285714285,
       "max_score": 21,
       "min_score": 20,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -425,7 +441,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -434,7 +450,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -443,7 +459,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -452,7 +468,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -461,7 +477,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -470,7 +486,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -479,7 +495,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     },
     {
@@ -488,13 +504,13 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 6,
+      "data_points": 7,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-05",
-    "total_signals": 51,
+    "date": "2026-08-06",
+    "total_signals": 50,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -504,7 +520,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 21 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -516,7 +532,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,583，日涨跌 +0.81%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $64,489，日涨跌 +0.32%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
@@ -559,7 +575,7 @@
         "icon": "😰",
         "title": "恐惧偏高",
         "level": "info",
-        "message": "恐惧指数 27，市场情绪偏谨慎（阈值 ≤ 30）"
+        "message": "恐惧指数 25，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
     "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
@@ -589,12 +605,12 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
     },
     {
-      "mag": 5.9,
-      "place": "32 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T21:41:28.262000+00:00",
+      "mag": 5.6,
+      "place": "40 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T21:41:27.717000+00:00",
       "depth_km": 10,
-      "lat": 5.1757,
-      "lon": 125.2809,
+      "lat": 5.1283,
+      "lon": 125.227,
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tif5"
@@ -678,14 +694,25 @@
     },
     {
       "mag": 4.9,
-      "place": "10 km W of Honmachi, Japan",
-      "time": "2026-08-05T22:59:25.088000+00:00",
+      "place": "15 km WSW of Honmachi, Japan",
+      "time": "2026-08-05T22:59:24.692000+00:00",
       "depth_km": 10,
-      "lat": 32.491,
-      "lon": 130.485,
+      "lat": 32.4463,
+      "lon": 130.455,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tig8"
+    },
+    {
+      "mag": 4.9,
+      "place": "42 km SW of Sarangani, Philippines",
+      "time": "2026-08-05T22:11:44.587000+00:00",
+      "depth_km": 10,
+      "lat": 5.0849,
+      "lon": 125.2468,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tifh"
     },
     {
       "mag": 4.9,
@@ -710,15 +737,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7t"
     },
     {
-      "mag": 4.9,
-      "place": "Banda Sea",
-      "time": "2026-08-05T03:16:07.150000+00:00",
-      "depth_km": 235.0,
-      "lat": -6.4991,
-      "lon": 128.9345,
+      "mag": 4.8,
+      "place": "62 km NNE of Shi Yomi, India",
+      "time": "2026-08-06T00:15:17.634000+00:00",
+      "depth_km": 10,
+      "lat": 29.0283,
+      "lon": 94.6765,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6f"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tigl"
     },
     {
       "mag": 4.8,
@@ -741,17 +768,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7f"
-    },
-    {
-      "mag": 4.8,
-      "place": "55 km WSW of Monywa, Burma (Myanmar)",
-      "time": "2026-08-05T00:11:57.782000+00:00",
-      "depth_km": 103.4,
-      "lat": 21.9032,
-      "lon": 94.6478,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti5u"
     },
     {
       "mag": 4.7,
@@ -785,17 +801,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7y"
-    },
-    {
-      "mag": 4.6,
-      "place": "36 km ESE of Severo-Kuril’sk, Russia",
-      "time": "2026-08-05T02:46:55.420000+00:00",
-      "depth_km": 73.3,
-      "lat": 50.4973,
-      "lon": 156.568,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6d"
     }
   ],
   "disasters": [
