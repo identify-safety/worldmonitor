@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-06T06:28:01.224547+00:00",
+  "generated_at": "2026-08-06T09:38:23.365561+00:00",
   "overview": {
     "snapshot_date": "2026-08-06",
-    "earthquake_count": 13,
-    "max_earthquake_mag": 6.3,
+    "earthquake_count": 11,
+    "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64745.0,
-    "btc_change_24h": 0.73,
+    "btc_price": 64633.0,
+    "btc_change_24h": 0.77,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
-    "total_signals": 43
+    "total_signals": 41
   },
   "cii": [
     {
@@ -251,12 +251,12 @@
     },
     {
       "snapshot_date": "2026-08-06",
-      "earthquake_count": 13,
-      "max_earthquake_mag": 6.3,
+      "earthquake_count": 11,
+      "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64745.0,
+      "btc_price": 64633.0,
       "fear_greed_index": 25,
-      "total_signals": 43
+      "total_signals": 41
     }
   ],
   "anomalies": [
@@ -510,7 +510,7 @@
   ],
   "briefing": {
     "date": "2026-08-06",
-    "total_signals": 43,
+    "total_signals": 41,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -519,8 +519,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "warning",
-        "text": "全球记录 13 次地震，最大 M6.3，中度活跃。"
+        "level": "normal",
+        "text": "全球记录 11 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -532,13 +532,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,745，日涨跌 +0.73%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,633，日涨跌 +0.77%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -557,13 +557,6 @@
   "alerts": {
     "alerts": [
       {
-        "id": "eq_warning",
-        "icon": "🌋",
-        "title": "中型地震",
-        "level": "warning",
-        "message": "检测到 M6.3 地震（阈值 ≥ M6.0）"
-      },
-      {
         "id": "disaster_surge",
         "icon": "🛰️",
         "title": "灾害密集",
@@ -578,21 +571,10 @@
         "message": "恐惧指数 25，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 3
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
-    {
-      "mag": 6.3,
-      "place": "south of the Kermadec Islands",
-      "time": "2026-08-05T07:43:27.317000+00:00",
-      "depth_km": 226.1,
-      "lat": -33.8063,
-      "lon": 179.4727,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i"
-    },
     {
       "mag": 5.6,
       "place": "40 km SW of Sarangani, Philippines",
@@ -625,17 +607,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tie5"
-    },
-    {
-      "mag": 5.2,
-      "place": "Auckland Islands, New Zealand region",
-      "time": "2026-08-05T06:44:24.701000+00:00",
-      "depth_km": 21.9,
-      "lat": -49.5336,
-      "lon": 164.0845,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti85"
     },
     {
       "mag": 5,
@@ -682,17 +653,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tigl"
     },
     {
-      "mag": 4.8,
-      "place": "45 km SSW of Sarangani, Philippines",
-      "time": "2026-08-05T09:17:07.881000+00:00",
-      "depth_km": 35,
-      "lat": 5.0507,
-      "lon": 125.2544,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9k"
-    },
-    {
       "mag": 4.7,
       "place": "127 km E of Bitung, Indonesia",
       "time": "2026-08-05T14:16:50.054000+00:00",
@@ -702,6 +662,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
+    },
+    {
+      "mag": 4.6,
+      "place": "40 km WNW of Houma, Tonga",
+      "time": "2026-08-06T06:44:05.143000+00:00",
+      "depth_km": 126.5,
+      "lat": -21.0594,
+      "lon": -175.6733,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiie"
     },
     {
       "mag": 4.6,
