@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-06T15:14:04.552081+00:00",
+  "generated_at": "2026-08-06T23:56:24.883247+00:00",
   "overview": {
     "snapshot_date": "2026-08-06",
     "earthquake_count": 12,
-    "max_earthquake_mag": 5.6,
+    "max_earthquake_mag": 5.4,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64877.0,
-    "btc_change_24h": 0.36,
+    "btc_price": 64239.0,
+    "btc_change_24h": -0.57,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
     "total_signals": 42
@@ -252,9 +252,9 @@
     {
       "snapshot_date": "2026-08-06",
       "earthquake_count": 12,
-      "max_earthquake_mag": 5.6,
+      "max_earthquake_mag": 5.4,
       "disaster_count": 10,
-      "btc_price": 64877.0,
+      "btc_price": 64239.0,
       "fear_greed_index": 25,
       "total_signals": 42
     }
@@ -520,7 +520,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 12 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 12 次地震，最大 M5.4，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -532,13 +532,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,877，日涨跌 +0.36%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,239，日涨跌 -0.57%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -576,37 +576,26 @@
   },
   "earthquakes": [
     {
-      "mag": 5.6,
-      "place": "40 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T21:41:27.717000+00:00",
+      "mag": 5.4,
+      "place": "145 km E of Yamada, Japan",
+      "time": "2026-08-06T17:43:36.862000+00:00",
       "depth_km": 10,
-      "lat": 5.1283,
-      "lon": 125.227,
+      "lat": 39.5829,
+      "lon": 143.6408,
       "alert": "green",
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tif5"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000timf"
     },
     {
       "mag": 5.3,
-      "place": "62 km W of Tobelo, Indonesia",
-      "time": "2026-08-05T16:50:18.349000+00:00",
-      "depth_km": 115.7,
-      "lat": 1.7901,
-      "lon": 127.454,
+      "place": "7 km SSW of Huayucachi, Peru",
+      "time": "2026-08-06T18:57:21.831000+00:00",
+      "depth_km": 10,
+      "lat": -12.1948,
+      "lon": -75.2574,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tics"
-    },
-    {
-      "mag": 5.2,
-      "place": "31 km SSW of Ialibu, Papua New Guinea",
-      "time": "2026-08-05T19:46:26.861000+00:00",
-      "depth_km": 10.0,
-      "lat": -6.5225,
-      "lon": 143.8444,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tie5"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tip9"
     },
     {
       "mag": 5.1,
@@ -621,6 +610,28 @@
     },
     {
       "mag": 4.9,
+      "place": "64 km NE of Mangapapa, New Zealand",
+      "time": "2026-08-06T21:17:28.824000+00:00",
+      "depth_km": 22.8,
+      "lat": -38.2308,
+      "lon": 178.5415,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiqe"
+    },
+    {
+      "mag": 4.9,
+      "place": "195 km SE of Lorengau, Papua New Guinea",
+      "time": "2026-08-06T16:01:59.722000+00:00",
+      "depth_km": 10,
+      "lat": -3.3233,
+      "lon": 148.4767,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tikr"
+    },
+    {
+      "mag": 4.9,
       "place": "128 km WSW of Port Orford, Oregon",
       "time": "2026-08-06T09:55:40.381000+00:00",
       "depth_km": 10,
@@ -629,28 +640,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5"
-    },
-    {
-      "mag": 4.9,
-      "place": "15 km WSW of Honmachi, Japan",
-      "time": "2026-08-05T22:59:24.692000+00:00",
-      "depth_km": 10,
-      "lat": 32.4463,
-      "lon": 130.455,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tig8"
-    },
-    {
-      "mag": 4.9,
-      "place": "42 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T22:11:44.587000+00:00",
-      "depth_km": 10,
-      "lat": 5.0849,
-      "lon": 125.2468,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tifh"
     },
     {
       "mag": 4.8,
@@ -662,6 +651,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tigl"
+    },
+    {
+      "mag": 4.6,
+      "place": "149 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "time": "2026-08-06T20:07:24.549000+00:00",
+      "depth_km": 40.7,
+      "lat": 52.0723,
+      "lon": 160.1111,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tipv"
+    },
+    {
+      "mag": 4.6,
+      "place": "148 km E of Miyako, Japan",
+      "time": "2026-08-06T17:50:40.068000+00:00",
+      "depth_km": 10,
+      "lat": 39.6385,
+      "lon": 143.67,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000timi"
     },
     {
       "mag": 4.6,
@@ -695,17 +706,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tihf"
-    },
-    {
-      "mag": 4.6,
-      "place": "99 km WSW of Houma, Tonga",
-      "time": "2026-08-05T20:59:38.899000+00:00",
-      "depth_km": 137.2,
-      "lat": -21.5171,
-      "lon": -176.1885,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiex"
     }
   ],
   "disasters": [
