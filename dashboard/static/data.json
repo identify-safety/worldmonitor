@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-06T03:19:19.926803+00:00",
+  "generated_at": "2026-08-06T06:28:01.224547+00:00",
   "overview": {
     "snapshot_date": "2026-08-06",
-    "earthquake_count": 20,
+    "earthquake_count": 13,
     "max_earthquake_mag": 6.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64489.0,
-    "btc_change_24h": 0.32,
+    "btc_price": 64745.0,
+    "btc_change_24h": 0.73,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
-    "total_signals": 50
+    "total_signals": 43
   },
   "cii": [
     {
@@ -251,12 +251,12 @@
     },
     {
       "snapshot_date": "2026-08-06",
-      "earthquake_count": 20,
+      "earthquake_count": 13,
       "max_earthquake_mag": 6.3,
       "disaster_count": 10,
-      "btc_price": 64489.0,
+      "btc_price": 64745.0,
       "fear_greed_index": 25,
-      "total_signals": 50
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -510,7 +510,7 @@
   ],
   "briefing": {
     "date": "2026-08-06",
-    "total_signals": 50,
+    "total_signals": 43,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -520,7 +520,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 13 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -532,7 +532,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,489，日涨跌 +0.32%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,745，日涨跌 +0.73%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
@@ -594,17 +594,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i"
     },
     {
-      "mag": 6.3,
-      "place": "32 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T04:14:06.625000+00:00",
-      "depth_km": 10,
-      "lat": 5.1812,
-      "lon": 125.276,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
-    },
-    {
       "mag": 5.6,
       "place": "40 km SW of Sarangani, Philippines",
       "time": "2026-08-05T21:41:27.717000+00:00",
@@ -649,39 +638,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti85"
     },
     {
-      "mag": 5.2,
-      "place": "31 km S of Sarangani, Philippines",
-      "time": "2026-08-05T04:25:04.586000+00:00",
-      "depth_km": 35,
-      "lat": 5.1275,
-      "lon": 125.412,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti71"
-    },
-    {
-      "mag": 5.1,
-      "place": "46 km SSW of Sarangani, Philippines",
-      "time": "2026-08-05T05:59:21.637000+00:00",
-      "depth_km": 29.8,
-      "lat": 4.9959,
-      "lon": 125.3774,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti80"
-    },
-    {
-      "mag": 5.1,
-      "place": "238 km SSW of Río Grande, Panama",
-      "time": "2026-08-05T04:19:21.769000+00:00",
-      "depth_km": 10,
-      "lat": 5.8882,
-      "lon": -82.4726,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6z"
-    },
-    {
       "mag": 5,
       "place": "60 km NNE of Shi Yomi, India",
       "time": "2026-08-05T10:06:09.955000+00:00",
@@ -715,28 +671,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tifh"
     },
     {
-      "mag": 4.9,
-      "place": "54 km ESE of Sarangani, Philippines",
-      "time": "2026-08-05T05:57:02.837000+00:00",
-      "depth_km": 43.7,
-      "lat": 5.1481,
-      "lon": 125.8812,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7z"
-    },
-    {
-      "mag": 4.9,
-      "place": "45 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T05:13:04.282000+00:00",
-      "depth_km": 29.7,
-      "lat": 5.0859,
-      "lon": 125.1979,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7t"
-    },
-    {
       "mag": 4.8,
       "place": "62 km NNE of Shi Yomi, India",
       "time": "2026-08-06T00:15:17.634000+00:00",
@@ -759,17 +693,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti9k"
     },
     {
-      "mag": 4.8,
-      "place": "64 km SW of Sarangani, Philippines",
-      "time": "2026-08-05T04:34:11.505000+00:00",
-      "depth_km": 35,
-      "lat": 5.0397,
-      "lon": 125.0047,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7f"
-    },
-    {
       "mag": 4.7,
       "place": "127 km E of Bitung, Indonesia",
       "time": "2026-08-05T14:16:50.054000+00:00",
@@ -782,6 +705,17 @@
     },
     {
       "mag": 4.6,
+      "place": "48 km WSW of Sarangani, Philippines",
+      "time": "2026-08-06T03:12:11.368000+00:00",
+      "depth_km": 35,
+      "lat": 5.2096,
+      "lon": 125.0756,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tihf"
+    },
+    {
+      "mag": 4.6,
       "place": "99 km WSW of Houma, Tonga",
       "time": "2026-08-05T20:59:38.899000+00:00",
       "depth_km": 137.2,
@@ -790,17 +724,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiex"
-    },
-    {
-      "mag": 4.6,
-      "place": "84 km ESE of Sarangani, Philippines",
-      "time": "2026-08-05T05:53:54.201000+00:00",
-      "depth_km": 35,
-      "lat": 5.0554,
-      "lon": 126.1378,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti7y"
     }
   ],
   "disasters": [
