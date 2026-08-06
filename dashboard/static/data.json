@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-06T12:01:49.336194+00:00",
+  "generated_at": "2026-08-06T15:14:04.552081+00:00",
   "overview": {
     "snapshot_date": "2026-08-06",
     "earthquake_count": 12,
     "max_earthquake_mag": 5.6,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64554.0,
-    "btc_change_24h": 0.82,
+    "btc_price": 64877.0,
+    "btc_change_24h": 0.36,
     "fear_greed_index": 25,
     "fear_greed_label": "Extreme Fear",
-    "total_signals": 32
+    "total_signals": 42
   },
   "cii": [
     {
@@ -66,6 +66,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "CN",
+      "score": 43,
+      "level": "elevated",
+      "prev_score": 43,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -104,14 +112,6 @@
       "prev_score": 30,
       "change_24h": 0,
       "trend": "stable"
-    },
-    {
-      "country_code": "CN",
-      "score": 25,
-      "level": "normal",
-      "prev_score": 43,
-      "change_24h": -18,
-      "trend": "falling"
     },
     {
       "country_code": "TR",
@@ -253,16 +253,18 @@
       "snapshot_date": "2026-08-06",
       "earthquake_count": 12,
       "max_earthquake_mag": 5.6,
-      "disaster_count": 0,
-      "btc_price": 64554.0,
+      "disaster_count": 10,
+      "btc_price": 64877.0,
       "fear_greed_index": 25,
-      "total_signals": 32
+      "total_signals": 42
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-06",
-      "anomaly_flags": [],
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
       "convergence_zones": []
     },
     {
@@ -362,6 +364,15 @@
       "high_risk_days": 0
     },
     {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 40.42857142857143,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 7,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "VE",
       "country_name": "Venezuela",
       "avg_score": 40.0,
@@ -376,15 +387,6 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 7,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 37.857142857142854,
-      "max_score": 43,
-      "min_score": 25,
       "data_points": 7,
       "high_risk_days": 0
     },
@@ -508,10 +510,10 @@
   ],
   "briefing": {
     "date": "2026-08-06",
-    "total_signals": 32,
+    "total_signals": 42,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
@@ -523,31 +525,44 @@
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,554，日涨跌 +0.82%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
+        "text": "BTC 报 $64,877，日涨跌 +0.36%。恐惧与贪婪指数 25（Extreme Fear）。 市场处于极度恐惧状态，历史上此类极端情绪往往出现在阶段性底部附近，但也可能预示进一步下跌。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
     "alerts": [
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
       {
         "id": "fear_elevated",
         "icon": "😰",
@@ -556,8 +571,8 @@
         "message": "恐惧指数 25，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "ℹ️ 1 条信息提示。",
-    "count": 1
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
@@ -592,6 +607,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tie5"
+    },
+    {
+      "mag": 5.1,
+      "place": "110 km W of Buala, Solomon Islands",
+      "time": "2026-08-06T13:42:11.429000+00:00",
+      "depth_km": 54.3,
+      "lat": -8.0025,
+      "lon": 158.5995,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tik6"
     },
     {
       "mag": 4.9,
@@ -636,17 +662,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tigl"
-    },
-    {
-      "mag": 4.7,
-      "place": "127 km E of Bitung, Indonesia",
-      "time": "2026-08-05T14:16:50.054000+00:00",
-      "depth_km": 10,
-      "lat": 1.2938,
-      "lon": 126.2646,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tial"
     },
     {
       "mag": 4.6,
@@ -700,6 +715,13 @@
       "country": "Marshall Islands, Japan, China",
       "alert_level": "Orange",
       "date": "2026-07-27T00:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Philippines",
+      "country": "Philippines",
+      "alert_level": "Orange",
+      "date": "2026-08-05T04:14:06"
     },
     {
       "type": "DR",
@@ -896,13 +918,6 @@
       "country": "Philippines",
       "alert_level": "Orange",
       "date": "2026-03-15T10:54:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in Ethiopia",
-      "country": "Ethiopia",
-      "alert_level": "Orange",
-      "date": "2026-03-09T01:00:00"
     }
   ]
 }
