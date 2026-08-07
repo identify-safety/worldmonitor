@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T04:52:49.210043+00:00",
+  "generated_at": "2026-08-07T06:08:05.032879+00:00",
   "overview": {
     "snapshot_date": "2026-08-07",
     "earthquake_count": 12,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64174.0,
-    "btc_change_24h": -0.64,
+    "btc_price": 64282.0,
+    "btc_change_24h": -0.79,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 42
@@ -263,7 +263,7 @@
       "earthquake_count": 12,
       "max_earthquake_mag": 5.4,
       "disaster_count": 10,
-      "btc_price": 64174.0,
+      "btc_price": 64282.0,
       "fear_greed_index": 29,
       "total_signals": 42
     }
@@ -326,8 +326,8 @@
   ],
   "trends": [
     {
-      "country_code": "YE",
-      "country_name": "Yemen",
+      "country_code": "SY",
+      "country_name": "Syria",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -335,8 +335,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "SY",
-      "country_name": "Syria",
+      "country_code": "YE",
+      "country_name": "Yemen",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -353,8 +353,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "MM",
-      "country_name": "Myanmar",
+      "country_code": "KP",
+      "country_name": "North Korea",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -371,8 +371,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "KP",
-      "country_name": "North Korea",
+      "country_code": "MM",
+      "country_name": "Myanmar",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -470,8 +470,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "AE",
-      "country_name": "UAE",
+      "country_code": "PL",
+      "country_name": "Poland",
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
@@ -479,8 +479,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "PL",
-      "country_name": "Poland",
+      "country_code": "AE",
+      "country_name": "UAE",
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
@@ -497,8 +497,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "DE",
-      "country_name": "Germany",
+      "country_code": "US",
+      "country_name": "United States",
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
@@ -506,8 +506,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "US",
-      "country_name": "United States",
+      "country_code": "DE",
+      "country_name": "Germany",
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
@@ -548,13 +548,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,174，日涨跌 -0.64%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $64,282，日涨跌 -0.79%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
