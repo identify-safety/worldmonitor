@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T15:54:19.256262+00:00",
+  "generated_at": "2026-08-07T16:52:26.363011+00:00",
   "overview": {
     "snapshot_date": "2026-08-07",
-    "earthquake_count": 13,
+    "earthquake_count": 12,
     "max_earthquake_mag": 5.4,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64966.0,
-    "btc_change_24h": 0.37,
+    "btc_price": 64878.0,
+    "btc_change_24h": 0.34,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 43
+    "total_signals": 42
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-07",
-      "earthquake_count": 13,
+      "earthquake_count": 12,
       "max_earthquake_mag": 5.4,
       "disaster_count": 10,
-      "btc_price": 64966.0,
+      "btc_price": 64878.0,
       "fear_greed_index": 29,
-      "total_signals": 43
+      "total_signals": 42
     }
   ],
   "anomalies": [
@@ -526,7 +526,7 @@
   ],
   "briefing": {
     "date": "2026-08-07",
-    "total_signals": 43,
+    "total_signals": 42,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -536,7 +536,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 13 次地震，最大 M5.4，地震活动处于正常水平。"
+        "text": "全球记录 12 次地震，最大 M5.4，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -548,13 +548,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,966，日涨跌 +0.37%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $64,878，日涨跌 +0.34%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -656,17 +656,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiqe"
-    },
-    {
-      "mag": 4.9,
-      "place": "195 km SE of Lorengau, Papua New Guinea",
-      "time": "2026-08-06T16:01:59.722000+00:00",
-      "depth_km": 10,
-      "lat": -3.3233,
-      "lon": 148.4767,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tikr"
     },
     {
       "mag": 4.8,
