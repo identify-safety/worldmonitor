@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:12:07.694437+00:00",
+  "generated_at": "2026-08-07T09:59:38.677996+00:00",
   "overview": {
     "snapshot_date": "2026-08-07",
     "earthquake_count": 11,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64273.0,
-    "btc_change_24h": -0.7,
+    "btc_price": 64795.0,
+    "btc_change_24h": 0.28,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 41
@@ -263,7 +263,7 @@
       "earthquake_count": 11,
       "max_earthquake_mag": 5.4,
       "disaster_count": 10,
-      "btc_price": 64273.0,
+      "btc_price": 64795.0,
       "fear_greed_index": 29,
       "total_signals": 41
     }
@@ -548,7 +548,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,273，日涨跌 -0.70%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $64,795，日涨跌 +0.28%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
@@ -658,15 +658,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tikr"
     },
     {
-      "mag": 4.9,
-      "place": "128 km WSW of Port Orford, Oregon",
-      "time": "2026-08-06T09:55:40.381000+00:00",
-      "depth_km": 10,
-      "lat": 42.4079,
-      "lon": -125.9976,
+      "mag": 4.6,
+      "place": "51 km WSW of Sarangani, Philippines",
+      "time": "2026-08-07T08:43:42.850000+00:00",
+      "depth_km": 43.5,
+      "lat": 5.1687,
+      "lon": 125.0613,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj"
     },
     {
       "mag": 4.6,
@@ -715,18 +715,18 @@
   ],
   "disasters": [
     {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Red",
-      "date": "2026-07-25T01:00:00"
-    },
-    {
       "type": "TC",
       "name": "Tropical Cyclone DOLPHIN-26",
       "country": "Marshall Islands, Japan, China",
       "alert_level": "Orange",
       "date": "2026-07-27T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Red",
+      "date": "2026-07-25T01:00:00"
     },
     {
       "type": "EQ",
