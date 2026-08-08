@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T05:41:11.272946+00:00",
+  "generated_at": "2026-08-08T06:48:53.621752+00:00",
   "overview": {
     "snapshot_date": "2026-08-08",
     "earthquake_count": 15,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64982.0,
-    "btc_change_24h": 1.27,
+    "btc_price": 64957.0,
+    "btc_change_24h": 1.05,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
     "total_signals": 45
@@ -263,7 +263,7 @@
       "earthquake_count": 15,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64982.0,
+      "btc_price": 64957.0,
       "fear_greed_index": 30,
       "total_signals": 45
     }
@@ -548,13 +548,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,982，日涨跌 +1.27%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,957，日涨跌 +1.05%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -623,6 +623,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixr"
+    },
+    {
+      "mag": 4.8,
+      "place": "95 km SSW of Severo-Kuril’sk, Russia",
+      "time": "2026-08-08T05:39:39.927000+00:00",
+      "depth_km": 82.5,
+      "lat": 49.8507,
+      "lon": 155.753,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj70"
     },
     {
       "mag": 4.8,
@@ -744,17 +755,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiyy"
-    },
-    {
-      "mag": 4.5,
-      "place": "114 km SSE of Sarangani, Philippines",
-      "time": "2026-08-07T06:23:02.987000+00:00",
-      "depth_km": 102.1,
-      "lat": 4.4892,
-      "lon": 125.941,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiw5"
     }
   ],
   "disasters": [
