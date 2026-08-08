@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T01:22:51.096816+00:00",
+  "generated_at": "2026-08-08T03:23:41.577331+00:00",
   "overview": {
     "snapshot_date": "2026-08-08",
-    "earthquake_count": 10,
+    "earthquake_count": 12,
     "max_earthquake_mag": 5.1,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64901.0,
-    "btc_change_24h": 0.96,
+    "btc_price": 64955.0,
+    "btc_change_24h": 1.07,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 40
+    "total_signals": 42
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-08",
-      "earthquake_count": 10,
+      "earthquake_count": 12,
       "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 64901.0,
+      "btc_price": 64955.0,
       "fear_greed_index": 30,
-      "total_signals": 40
+      "total_signals": 42
     }
   ],
   "anomalies": [
@@ -526,7 +526,7 @@
   ],
   "briefing": {
     "date": "2026-08-08",
-    "total_signals": 40,
+    "total_signals": 42,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -536,7 +536,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 10 次地震，最大 M5.1，地震活动处于正常水平。"
+        "text": "全球记录 12 次地震，最大 M5.1，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -548,7 +548,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,901，日涨跌 +0.96%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,955，日涨跌 +1.07%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
@@ -614,17 +614,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixr"
     },
     {
-      "mag": 5,
-      "place": "7 km NW of Cabacao, Philippines",
-      "time": "2026-08-07T02:38:10.013000+00:00",
-      "depth_km": 90.2,
-      "lat": 13.3855,
-      "lon": 120.6108,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tivb"
-    },
-    {
       "mag": 4.8,
       "place": "southern East Pacific Rise",
       "time": "2026-08-07T22:19:39.579000+00:00",
@@ -659,6 +648,28 @@
     },
     {
       "mag": 4.6,
+      "place": "33 km SSW of Sarangani, Philippines",
+      "time": "2026-08-08T02:44:59.172000+00:00",
+      "depth_km": 10,
+      "lat": 5.1189,
+      "lon": 125.3651,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj65"
+    },
+    {
+      "mag": 4.6,
+      "place": "7 km SSW of Caburan, Philippines",
+      "time": "2026-08-07T22:53:49.394000+00:00",
+      "depth_km": 139.8,
+      "lat": 5.8489,
+      "lon": 125.622,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4i"
+    },
+    {
+      "mag": 4.6,
       "place": "51 km WSW of Sarangani, Philippines",
       "time": "2026-08-07T08:43:42.850000+00:00",
       "depth_km": 43.5,
@@ -667,6 +678,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj"
+    },
+    {
+      "mag": 4.5,
+      "place": "122 km WSW of Gorontalo, Indonesia",
+      "time": "2026-08-07T23:30:48.420000+00:00",
+      "depth_km": 199.0,
+      "lat": 0.2552,
+      "lon": 122.0018,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4x"
     },
     {
       "mag": 4.5,
