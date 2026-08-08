@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T08:38:15.048343+00:00",
+  "generated_at": "2026-08-08T09:35:04.767646+00:00",
   "overview": {
     "snapshot_date": "2026-08-08",
-    "earthquake_count": 15,
+    "earthquake_count": 14,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64968.0,
-    "btc_change_24h": 0.84,
+    "btc_price": 64987.0,
+    "btc_change_24h": 0.17,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 45
+    "total_signals": 44
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-08",
-      "earthquake_count": 15,
+      "earthquake_count": 14,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64968.0,
+      "btc_price": 64987.0,
       "fear_greed_index": 30,
-      "total_signals": 45
+      "total_signals": 44
     }
   ],
   "anomalies": [
@@ -526,7 +526,7 @@
   ],
   "briefing": {
     "date": "2026-08-08",
-    "total_signals": 45,
+    "total_signals": 44,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -536,7 +536,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 15 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -548,7 +548,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,968，日涨跌 +0.84%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,987，日涨跌 +0.17%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
@@ -700,17 +700,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4i"
-    },
-    {
-      "mag": 4.6,
-      "place": "51 km WSW of Sarangani, Philippines",
-      "time": "2026-08-07T08:43:42.850000+00:00",
-      "depth_km": 43.5,
-      "lat": 5.1687,
-      "lon": 125.0613,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiwj"
     },
     {
       "mag": 4.5,
