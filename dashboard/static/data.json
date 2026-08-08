@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T13:43:25.376840+00:00",
+  "generated_at": "2026-08-08T14:29:34.560181+00:00",
   "overview": {
     "snapshot_date": "2026-08-08",
-    "earthquake_count": 18,
+    "earthquake_count": 16,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64966.0,
-    "btc_change_24h": -0.35,
+    "btc_price": 65061.0,
+    "btc_change_24h": -0.12,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 48
+    "total_signals": 46
   },
   "cii": [
     {
@@ -90,19 +90,19 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
-      "score": 36,
-      "level": "normal",
-      "prev_score": 36,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
       "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "RU",
+      "score": 35,
+      "level": "normal",
+      "prev_score": 36,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-08",
-      "earthquake_count": 18,
+      "earthquake_count": 16,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64966.0,
+      "btc_price": 65061.0,
       "fear_greed_index": 30,
-      "total_signals": 48
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -409,7 +409,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.55555555555556,
+      "avg_score": 35.44444444444444,
       "max_score": 36,
       "min_score": 35,
       "data_points": 9,
@@ -526,7 +526,7 @@
   ],
   "briefing": {
     "date": "2026-08-08",
-    "total_signals": 48,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -536,7 +536,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 18 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 16 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -548,13 +548,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,966，日涨跌 -0.35%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $65,061，日涨跌 -0.12%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -625,17 +625,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj69"
     },
     {
-      "mag": 5,
-      "place": "49 km SE of Severo-Kuril’sk, Russia",
-      "time": "2026-08-07T14:21:30.314000+00:00",
-      "depth_km": 83.9,
-      "lat": 50.4235,
-      "lon": 156.7027,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixr"
-    },
-    {
       "mag": 4.8,
       "place": "54 km SW of Sarangani, Philippines",
       "time": "2026-08-08T10:20:46.908000+00:00",
@@ -678,17 +667,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4f"
-    },
-    {
-      "mag": 4.8,
-      "place": "108 km NNW of Batang, Indonesia",
-      "time": "2026-08-07T14:07:39.382000+00:00",
-      "depth_km": 535.0,
-      "lat": -5.6385,
-      "lon": 110.2192,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tixn"
     },
     {
       "mag": 4.7,
