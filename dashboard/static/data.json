@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:27:34.597066+00:00",
+  "generated_at": "2026-08-08T20:27:11.727995+00:00",
   "overview": {
     "snapshot_date": "2026-08-08",
     "earthquake_count": 17,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64974.0,
-    "btc_change_24h": 0.12,
+    "btc_price": 65013.0,
+    "btc_change_24h": 0.08,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
     "total_signals": 47
@@ -263,7 +263,7 @@
       "earthquake_count": 17,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64974.0,
+      "btc_price": 65013.0,
       "fear_greed_index": 30,
       "total_signals": 47
     }
@@ -548,7 +548,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,974，日涨跌 +0.12%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $65,013，日涨跌 +0.08%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
@@ -681,6 +681,17 @@
     },
     {
       "mag": 4.7,
+      "place": "Kermadec Islands region",
+      "time": "2026-08-08T19:07:57.041000+00:00",
+      "depth_km": 10,
+      "lat": -28.5661,
+      "lon": -176.5182,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjas"
+    },
+    {
+      "mag": 4.7,
       "place": "17 km WNW of Yanacancha, Peru",
       "time": "2026-08-07T23:11:23.416000+00:00",
       "depth_km": 10,
@@ -766,17 +777,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4x"
-    },
-    {
-      "mag": 4.5,
-      "place": "244 km ESE of Sarangani, Philippines",
-      "time": "2026-08-07T19:48:15.479000+00:00",
-      "depth_km": 10,
-      "lat": 4.3305,
-      "lon": 127.3898,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj2p"
     }
   ],
   "disasters": [
