@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:28:24.293806+00:00",
+  "generated_at": "2026-08-09T23:29:10.564867+00:00",
   "overview": {
     "snapshot_date": "2026-08-09",
     "earthquake_count": 15,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 65188.0,
-    "btc_change_24h": 0.35,
+    "btc_price": 64907.0,
+    "btc_change_24h": -0.02,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 45
@@ -263,7 +263,7 @@
       "earthquake_count": 15,
       "max_earthquake_mag": 5.3,
       "disaster_count": 10,
-      "btc_price": 65188.0,
+      "btc_price": 64907.0,
       "fear_greed_index": 31,
       "total_signals": 45
     }
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $65,188，日涨跌 +0.35%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $64,907，日涨跌 -0.02%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -607,6 +607,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjen"
+    },
+    {
+      "mag": 5,
+      "place": "198 km SE of Sarangani, Philippines",
+      "time": "2026-08-09T22:17:27.944000+00:00",
+      "depth_km": 35,
+      "lat": 4.1457,
+      "lon": 126.7399,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tji3"
     },
     {
       "mag": 5,
@@ -739,17 +750,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgl"
-    },
-    {
-      "mag": 4.5,
-      "place": "92 km SSW of Sarangani, Philippines",
-      "time": "2026-08-08T23:12:22.267000+00:00",
-      "depth_km": 9.7,
-      "lat": 4.5819,
-      "lon": 125.2976,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjbq"
     }
   ],
   "disasters": [
