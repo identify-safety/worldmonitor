@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09T05:02:28.012872+00:00",
+  "generated_at": "2026-08-09T06:52:49.006209+00:00",
   "overview": {
     "snapshot_date": "2026-08-09",
-    "earthquake_count": 14,
+    "earthquake_count": 13,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64742.0,
-    "btc_change_24h": -0.36,
+    "btc_price": 64816.0,
+    "btc_change_24h": -0.25,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 44
+    "total_signals": 43
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-09",
-      "earthquake_count": 14,
+      "earthquake_count": 13,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 64742.0,
+      "btc_price": 64816.0,
       "fear_greed_index": 31,
-      "total_signals": 44
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -528,7 +528,7 @@
   ],
   "briefing": {
     "date": "2026-08-09",
-    "total_signals": 44,
+    "total_signals": 43,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 13 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,742，日涨跌 -0.36%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $64,816，日涨跌 -0.25%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -662,17 +662,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8e"
-    },
-    {
-      "mag": 4.8,
-      "place": "95 km SSW of Severo-Kuril’sk, Russia",
-      "time": "2026-08-08T05:39:39.927000+00:00",
-      "depth_km": 82.5,
-      "lat": 49.8507,
-      "lon": 155.753,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj70"
     },
     {
       "mag": 4.7,
