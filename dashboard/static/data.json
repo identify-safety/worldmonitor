@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-09T17:28:59.544293+00:00",
+  "generated_at": "2026-08-09T18:36:47.574744+00:00",
   "overview": {
     "snapshot_date": "2026-08-09",
     "earthquake_count": 14,
-    "max_earthquake_mag": 5.6,
+    "max_earthquake_mag": 5.3,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 65194.0,
-    "btc_change_24h": 0.2,
+    "btc_price": 65178.0,
+    "btc_change_24h": 0.27,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 44
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-09",
       "earthquake_count": 14,
-      "max_earthquake_mag": 5.6,
+      "max_earthquake_mag": 5.3,
       "disaster_count": 10,
-      "btc_price": 65194.0,
+      "btc_price": 65178.0,
       "fear_greed_index": 31,
       "total_signals": 44
     }
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.3，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,13 +550,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $65,194，日涨跌 +0.20%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $65,178，日涨跌 +0.27%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -586,17 +586,6 @@
     "count": 1
   },
   "earthquakes": [
-    {
-      "mag": 5.6,
-      "place": "42 km E of Noda, Japan",
-      "time": "2026-08-08T17:57:58.745000+00:00",
-      "depth_km": 34,
-      "lat": 40.1723,
-      "lon": 142.3107,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjaj"
-    },
     {
       "mag": 5.3,
       "place": "197 km SSW of Pagar Alam, Indonesia",
@@ -654,6 +643,17 @@
     },
     {
       "mag": 4.8,
+      "place": "7 km ESE of Mabini, Philippines",
+      "time": "2026-08-09T17:05:42.371000+00:00",
+      "depth_km": 110.6,
+      "lat": 11.3941,
+      "lon": 125.2313,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgd"
+    },
+    {
+      "mag": 4.8,
       "place": "northern Mid-Atlantic Ridge",
       "time": "2026-08-08T22:09:05.164000+00:00",
       "depth_km": 10,
@@ -673,6 +673,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjas"
+    },
+    {
+      "mag": 4.6,
+      "place": "19 km ESE of Metahāra, Ethiopia",
+      "time": "2026-08-09T17:11:42.151000+00:00",
+      "depth_km": 10,
+      "lat": 8.8103,
+      "lon": 40.0706,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgf"
     },
     {
       "mag": 4.6,
@@ -717,17 +728,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjcr"
-    },
-    {
-      "mag": 4.6,
-      "place": "47 km WNW of Lata, Solomon Islands",
-      "time": "2026-08-08T18:28:26.011000+00:00",
-      "depth_km": 75.4,
-      "lat": -10.5042,
-      "lon": 165.4256,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjan"
     },
     {
       "mag": 4.5,
