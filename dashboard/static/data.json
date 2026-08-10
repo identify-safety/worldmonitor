@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-10T05:24:20.239074+00:00",
+  "generated_at": "2026-08-10T07:28:31.986847+00:00",
   "overview": {
     "snapshot_date": "2026-08-10",
-    "earthquake_count": 12,
-    "max_earthquake_mag": 5.3,
+    "earthquake_count": 14,
+    "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64971.0,
-    "btc_change_24h": 0.35,
+    "btc_price": 65256.0,
+    "btc_change_24h": 0.71,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 42
+    "total_signals": 44
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-10",
-      "earthquake_count": 12,
-      "max_earthquake_mag": 5.3,
+      "earthquake_count": 14,
+      "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 64971.0,
+      "btc_price": 65256.0,
       "fear_greed_index": 30,
-      "total_signals": 42
+      "total_signals": 44
     }
   ],
   "anomalies": [
@@ -528,7 +528,7 @@
   ],
   "briefing": {
     "date": "2026-08-10",
-    "total_signals": 42,
+    "total_signals": 44,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 12 次地震，最大 M5.3，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,13 +550,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,971，日涨跌 +0.35%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $65,256，日涨跌 +0.71%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -593,6 +593,17 @@
     "count": 2
   },
   "earthquakes": [
+    {
+      "mag": 5.5,
+      "place": "east central Pacific Ocean",
+      "time": "2026-08-10T05:41:44.224000+00:00",
+      "depth_km": 10,
+      "lat": 0.3112,
+      "lon": -114.648,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjj"
+    },
     {
       "mag": 5.3,
       "place": "197 km SSW of Pagar Alam, Indonesia",
@@ -658,6 +669,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgd"
+    },
+    {
+      "mag": 4.6,
+      "place": "13 km ESE of San Miguel, Philippines",
+      "time": "2026-08-10T05:35:51.062000+00:00",
+      "depth_km": 103.1,
+      "lat": 8.9207,
+      "lon": 126.0577,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjh"
     },
     {
       "mag": 4.6,
