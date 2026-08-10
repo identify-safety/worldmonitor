@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T01:38:09.508365+00:00",
+  "generated_at": "2026-08-10T03:52:05.472592+00:00",
   "overview": {
     "snapshot_date": "2026-08-10",
-    "earthquake_count": 14,
+    "earthquake_count": 13,
     "max_earthquake_mag": 5.3,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64909.0,
-    "btc_change_24h": 0.1,
+    "btc_price": 64999.0,
+    "btc_change_24h": 0.38,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 44
+    "total_signals": 43
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-10",
-      "earthquake_count": 14,
+      "earthquake_count": 13,
       "max_earthquake_mag": 5.3,
       "disaster_count": 10,
-      "btc_price": 64909.0,
+      "btc_price": 64999.0,
       "fear_greed_index": 30,
-      "total_signals": 44
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -528,7 +528,7 @@
   ],
   "briefing": {
     "date": "2026-08-10",
-    "total_signals": 44,
+    "total_signals": 43,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.3，地震活动处于正常水平。"
+        "text": "全球记录 13 次地震，最大 M5.3，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,909，日涨跌 +0.10%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,999，日涨跌 +0.38%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
@@ -627,34 +627,23 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tji3"
     },
     {
-      "mag": 5,
-      "place": "180 km NW of Sabang, Indonesia",
-      "time": "2026-08-09T03:02:07.086000+00:00",
+      "mag": 4.9,
+      "place": "88 km ENE of Hihifo, Tonga",
+      "time": "2026-08-10T01:20:10.110000+00:00",
       "depth_km": 10,
-      "lat": 7.017,
-      "lon": 94.1402,
+      "lat": -15.6002,
+      "lon": -173.0524,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjcl"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjiq"
     },
     {
       "mag": 4.9,
-      "place": "68 km ESE of Atka, Alaska",
-      "time": "2026-08-09T03:36:17.166000+00:00",
-      "depth_km": 60.3,
-      "lat": 51.987,
-      "lon": -173.261,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjcn"
-    },
-    {
-      "mag": 4.8,
-      "place": "216 km SE of Sarangani, Philippines",
-      "time": "2026-08-09T21:42:38.962000+00:00",
+      "place": "211 km SE of Sarangani, Philippines",
+      "time": "2026-08-09T21:42:38.761000+00:00",
       "depth_km": 35,
-      "lat": 4.1349,
-      "lon": 126.95,
+      "lat": 4.1847,
+      "lon": 126.9362,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjhn"
