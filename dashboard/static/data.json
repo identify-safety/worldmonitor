@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-10T13:03:17.099440+00:00",
+  "generated_at": "2026-08-10T14:56:06.372863+00:00",
   "overview": {
     "snapshot_date": "2026-08-10",
     "earthquake_count": 19,
     "max_earthquake_mag": 7.4,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64824.0,
-    "btc_change_24h": -0.16,
+    "btc_price": 64670.0,
+    "btc_change_24h": -0.73,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 39
+    "total_signals": 49
   },
   "cii": [
     {
@@ -66,7 +66,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "CN",
+      "score": 43,
+      "level": "elevated",
+      "prev_score": 43,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -74,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -112,14 +120,6 @@
       "prev_score": 25,
       "change_24h": 0,
       "trend": "stable"
-    },
-    {
-      "country_code": "CN",
-      "score": 25,
-      "level": "normal",
-      "prev_score": 43,
-      "change_24h": -18,
-      "trend": "falling"
     },
     {
       "country_code": "SA",
@@ -262,17 +262,18 @@
       "snapshot_date": "2026-08-10",
       "earthquake_count": 19,
       "max_earthquake_mag": 7.4,
-      "disaster_count": 0,
-      "btc_price": 64824.0,
+      "disaster_count": 10,
+      "btc_price": 64670.0,
       "fear_greed_index": 30,
-      "total_signals": 39
+      "total_signals": 49
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-10",
       "anomaly_flags": [
-        "Major earthquake M7.4 — 5 km E of San José del Palmar, Colombia"
+        "Major earthquake M7.4 — 5 km S of San José del Palmar, Colombia",
+        "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
     },
@@ -382,6 +383,15 @@
       "high_risk_days": 0
     },
     {
+      "country_code": "CN",
+      "country_name": "China",
+      "avg_score": 41.36363636363637,
+      "max_score": 43,
+      "min_score": 25,
+      "data_points": 11,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "VE",
       "country_name": "Venezuela",
       "avg_score": 40.0,
@@ -396,15 +406,6 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 11,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "CN",
-      "country_name": "China",
-      "avg_score": 39.72727272727273,
-      "max_score": 43,
-      "min_score": 25,
       "data_points": 11,
       "high_risk_days": 0
     },
@@ -528,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-10",
-    "total_signals": 39,
+    "total_signals": 49,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,20 +544,20 @@
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,824，日涨跌 -0.16%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,670，日涨跌 -0.73%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -568,7 +569,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M7.4 — 5 km E of San José del Palmar, Colombia"
+        "text": "Major earthquake M7.4 — 5 km S of San José del Palmar, Colombia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -582,6 +583,13 @@
         "message": "检测到 M7.4 强震（阈值 ≥ M7.0）"
       },
       {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
         "id": "fear_elevated",
         "icon": "😰",
         "title": "恐惧偏高",
@@ -589,18 +597,18 @@
         "message": "恐惧指数 30，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
     {
       "mag": 7.4,
-      "place": "5 km E of San José del Palmar, Colombia",
-      "time": "2026-08-10T12:34:27.787000+00:00",
-      "depth_km": 107.0,
-      "lat": 4.9031,
-      "lon": -76.1885,
-      "alert": "pending",
+      "place": "5 km S of San José del Palmar, Colombia",
+      "time": "2026-08-10T12:34:28.125000+00:00",
+      "depth_km": 110.3,
+      "lat": 4.8436,
+      "lon": -76.2422,
+      "alert": "orange",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
     },
@@ -625,6 +633,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfj"
+    },
+    {
+      "mag": 5,
+      "place": "16 km W of San José del Palmar, Colombia",
+      "time": "2026-08-10T13:18:10.451000+00:00",
+      "depth_km": 98.5,
+      "lat": 4.8971,
+      "lon": -76.3859,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm4"
     },
     {
       "mag": 5,
@@ -770,17 +789,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfr"
     },
     {
-      "mag": 4.6,
-      "place": "68 km SSE of Sarangani, Philippines",
-      "time": "2026-08-09T13:47:06.146000+00:00",
-      "depth_km": 162.8,
-      "lat": 4.814,
-      "lon": 125.6593,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfb"
-    },
-    {
       "mag": 4.5,
       "place": "south of the Fiji Islands",
       "time": "2026-08-09T18:23:02.637000+00:00",
@@ -809,7 +817,7 @@
       "name": "Earthquake in Colombia",
       "country": "Colombia",
       "alert_level": "Orange",
-      "date": "2026-08-10T12:34:27"
+      "date": "2026-08-10T12:34:28"
     },
     {
       "type": "TC",
