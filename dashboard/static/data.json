@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T14:56:06.372863+00:00",
+  "generated_at": "2026-08-10T15:59:10.487687+00:00",
   "overview": {
     "snapshot_date": "2026-08-10",
-    "earthquake_count": 19,
+    "earthquake_count": 18,
     "max_earthquake_mag": 7.4,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64670.0,
-    "btc_change_24h": -0.73,
+    "btc_price": 64191.0,
+    "btc_change_24h": -1.52,
     "fear_greed_index": 30,
     "fear_greed_label": "Fear",
-    "total_signals": 49
+    "total_signals": 48
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-10",
-      "earthquake_count": 19,
+      "earthquake_count": 18,
       "max_earthquake_mag": 7.4,
       "disaster_count": 10,
-      "btc_price": 64670.0,
+      "btc_price": 64191.0,
       "fear_greed_index": 30,
-      "total_signals": 49
+      "total_signals": 48
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-10",
-    "total_signals": 49,
+    "total_signals": 48,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "critical",
-        "text": "全球发生 19 次地震，其中最大震级 M7.4，属于强震，需关注可能的海啸和余震风险。"
+        "text": "全球发生 18 次地震，其中最大震级 M7.4，属于强震，需关注可能的海啸和余震风险。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,670，日涨跌 -0.73%。恐惧与贪婪指数 30（Fear）。"
+        "text": "BTC 报 $64,191，日涨跌 -1.52%。恐惧与贪婪指数 30（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -622,17 +622,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjjj"
-    },
-    {
-      "mag": 5.3,
-      "place": "197 km SSW of Pagar Alam, Indonesia",
-      "time": "2026-08-09T15:15:03.956000+00:00",
-      "depth_km": 35,
-      "lat": -5.7782,
-      "lon": 102.8866,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfj"
     },
     {
       "mag": 5,
@@ -735,6 +724,17 @@
     },
     {
       "mag": 4.7,
+      "place": "55 km NW of Shahrak-e Kūlūrī, Iran",
+      "time": "2026-08-10T15:01:10.127000+00:00",
+      "depth_km": 10,
+      "lat": 32.6863,
+      "lon": 48.0359,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjmt"
+    },
+    {
+      "mag": 4.7,
       "place": "180 km NE of Sola, Vanuatu",
       "time": "2026-08-10T11:50:25.901000+00:00",
       "depth_km": 640.5,
@@ -776,17 +776,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgf"
-    },
-    {
-      "mag": 4.6,
-      "place": "30 km NNE of Satipo, Peru",
-      "time": "2026-08-09T15:40:05.269000+00:00",
-      "depth_km": 95.5,
-      "lat": -10.994,
-      "lon": -74.5481,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfr"
     },
     {
       "mag": 4.5,
