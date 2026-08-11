@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-11T17:06:12.764846+00:00",
+  "generated_at": "2026-08-11T18:58:52.570185+00:00",
   "overview": {
     "snapshot_date": "2026-08-11",
-    "earthquake_count": 9,
-    "max_earthquake_mag": 5.1,
+    "earthquake_count": 10,
+    "max_earthquake_mag": 5.0,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63465.0,
-    "btc_change_24h": -0.52,
+    "btc_price": 63289.0,
+    "btc_change_24h": -0.89,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 39
+    "total_signals": 40
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-11",
-      "earthquake_count": 9,
-      "max_earthquake_mag": 5.1,
+      "earthquake_count": 10,
+      "max_earthquake_mag": 5.0,
       "disaster_count": 10,
-      "btc_price": 63465.0,
+      "btc_price": 63289.0,
       "fear_greed_index": 29,
-      "total_signals": 39
+      "total_signals": 40
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-11",
-    "total_signals": 39,
+    "total_signals": 40,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 9 次地震，最大 M5.1，地震活动处于正常水平。"
+        "text": "全球记录 10 次地震，最大 M5.0，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,465，日涨跌 -0.52%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,289，日涨跌 -0.89%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -595,15 +595,15 @@
   },
   "earthquakes": [
     {
-      "mag": 5.1,
-      "place": "232 km SSW of Pagar Alam, Indonesia",
-      "time": "2026-08-10T17:08:06.809000+00:00",
-      "depth_km": 21.7,
-      "lat": -5.9347,
-      "lon": 102.3607,
+      "mag": 5,
+      "place": "107 km WNW of Kerema, Papua New Guinea",
+      "time": "2026-08-11T17:06:18.902000+00:00",
+      "depth_km": 10,
+      "lat": -7.6341,
+      "lon": 144.8583,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjqj"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0a"
     },
     {
       "mag": 4.8,
@@ -626,6 +626,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjug"
+    },
+    {
+      "mag": 4.6,
+      "place": "7 km W of Lunca Jariștei, Romania",
+      "time": "2026-08-11T17:21:15.884000+00:00",
+      "depth_km": 140.0,
+      "lat": 45.487,
+      "lon": 26.1598,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0c"
     },
     {
       "mag": 4.6,
