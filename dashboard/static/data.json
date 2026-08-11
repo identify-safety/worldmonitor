@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-11T11:44:16.985558+00:00",
+  "generated_at": "2026-08-11T12:58:42.395201+00:00",
   "overview": {
     "snapshot_date": "2026-08-11",
-    "earthquake_count": 12,
-    "max_earthquake_mag": 7.4,
+    "earthquake_count": 9,
+    "max_earthquake_mag": 5.1,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64295.0,
-    "btc_change_24h": -1.11,
+    "btc_price": 64300.0,
+    "btc_change_24h": -0.85,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 42
+    "total_signals": 39
   },
   "cii": [
     {
@@ -260,19 +260,18 @@
     },
     {
       "snapshot_date": "2026-08-11",
-      "earthquake_count": 12,
-      "max_earthquake_mag": 7.4,
+      "earthquake_count": 9,
+      "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 64295.0,
+      "btc_price": 64300.0,
       "fear_greed_index": 29,
-      "total_signals": 42
+      "total_signals": 39
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-11",
       "anomaly_flags": [
-        "Major earthquake M7.4 — 5 km S of San José del Palmar, Colombia",
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
@@ -530,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-11",
-    "total_signals": 42,
+    "total_signals": 39,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,8 +538,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "critical",
-        "text": "全球发生 12 次地震，其中最大震级 M7.4，属于强震，需关注可能的海啸和余震风险。"
+        "level": "normal",
+        "text": "全球记录 9 次地震，最大 M5.1，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -552,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,295，日涨跌 -1.11%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $64,300，日涨跌 -0.85%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -570,19 +569,12 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M7.4 — 5 km S of San José del Palmar, Colombia；10 simultaneous GDACS Red Alerts active"
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
     "alerts": [
-      {
-        "id": "eq_critical",
-        "icon": "🌋",
-        "title": "强震警报",
-        "level": "critical",
-        "message": "检测到 M7.4 强震（阈值 ≥ M7.0）"
-      },
       {
         "id": "disaster_surge",
         "icon": "🛰️",
@@ -598,21 +590,10 @@
         "message": "恐惧指数 29，市场情绪偏谨慎（阈值 ≤ 30）"
       }
     ],
-    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
-    "count": 3
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
-    {
-      "mag": 7.4,
-      "place": "5 km S of San José del Palmar, Colombia",
-      "time": "2026-08-10T12:34:28.125000+00:00",
-      "depth_km": 110.3,
-      "lat": 4.8436,
-      "lon": -76.2422,
-      "alert": "orange",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
-    },
     {
       "mag": 5.1,
       "place": "232 km SSW of Pagar Alam, Indonesia",
@@ -634,28 +615,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjm4"
-    },
-    {
-      "mag": 5,
-      "place": "northern Mid-Atlantic Ridge",
-      "time": "2026-08-10T12:12:22.220000+00:00",
-      "depth_km": 10,
-      "lat": 17.5068,
-      "lon": -45.8376,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl0"
-    },
-    {
-      "mag": 4.8,
-      "place": "173 km ENE of Sola, Vanuatu",
-      "time": "2026-08-10T12:46:10.915000+00:00",
-      "depth_km": 655.7,
-      "lat": -13.0188,
-      "lon": 168.8919,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjls"
     },
     {
       "mag": 4.7,
@@ -680,15 +639,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjmt"
     },
     {
-      "mag": 4.7,
-      "place": "180 km NE of Sola, Vanuatu",
-      "time": "2026-08-10T11:50:25.901000+00:00",
-      "depth_km": 640.5,
-      "lat": -12.8915,
-      "lon": 168.882,
+      "mag": 4.6,
+      "place": "Banda Sea",
+      "time": "2026-08-11T10:49:52.149000+00:00",
+      "depth_km": 170.7,
+      "lat": -6.7252,
+      "lon": 129.7317,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjku"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx1"
     },
     {
       "mag": 4.6,
@@ -747,7 +706,7 @@
       "type": "EQ",
       "name": "Earthquake in Colombia",
       "country": "Colombia",
-      "alert_level": "Orange",
+      "alert_level": "Red",
       "date": "2026-08-10T12:34:28"
     },
     {
