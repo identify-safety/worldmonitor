@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T14:22:43.033146+00:00",
+  "generated_at": "2026-08-11T15:59:13.014329+00:00",
   "overview": {
     "snapshot_date": "2026-08-11",
     "earthquake_count": 9,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64179.0,
-    "btc_change_24h": -0.8,
+    "btc_price": 63498.0,
+    "btc_change_24h": -1.13,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 39
@@ -263,7 +263,7 @@
       "earthquake_count": 9,
       "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 64179.0,
+      "btc_price": 63498.0,
       "fear_greed_index": 29,
       "total_signals": 39
     }
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $64,179，日涨跌 -0.80%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,498，日涨跌 -1.13%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -628,17 +628,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjug"
     },
     {
-      "mag": 4.7,
-      "place": "55 km NW of Shahrak-e Kūlūrī, Iran",
-      "time": "2026-08-10T15:01:10.127000+00:00",
-      "depth_km": 10,
-      "lat": 32.6863,
-      "lon": 48.0359,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjmt"
-    },
-    {
       "mag": 4.6,
       "place": "Banda Sea",
       "time": "2026-08-11T10:49:52.149000+00:00",
@@ -670,6 +659,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjwd"
+    },
+    {
+      "mag": 4.5,
+      "place": "264 km SW of Severo-Kuril’sk, Russia",
+      "time": "2026-08-11T12:13:41.963000+00:00",
+      "depth_km": 174.3,
+      "lat": 49.2842,
+      "lon": 153.1425,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjx7"
     },
     {
       "mag": 4.5,
