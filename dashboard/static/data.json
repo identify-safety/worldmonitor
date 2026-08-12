@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:45:44.422531+00:00",
+  "generated_at": "2026-08-12T22:38:08.646978+00:00",
   "overview": {
     "snapshot_date": "2026-08-12",
     "earthquake_count": 10,
@@ -10,15 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63467.0,
-    "btc_change_24h": -0.24,
+    "btc_price": 63352.0,
+    "btc_change_24h": -0.49,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
     "total_signals": 40
   },
   "cii": [
     {
-      "country_code": "UA",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -26,7 +26,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "UA",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -38,14 +38,6 @@
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "IL",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -66,18 +58,18 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 43,
+      "country_code": "IL",
+      "score": 45,
       "level": "elevated",
-      "prev_score": 43,
+      "prev_score": 45,
       "change_24h": 0,
       "trend": "stable"
     },
     {
-      "country_code": "IR",
-      "score": 40,
+      "country_code": "CN",
+      "score": 43,
       "level": "elevated",
-      "prev_score": 40,
+      "prev_score": 43,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -90,7 +82,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "IR",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -98,7 +98,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -142,6 +142,14 @@
       "score": 15,
       "level": "low",
       "prev_score": 15,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -162,11 +170,11 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
-      "score": 10,
+      "country_code": "GB",
+      "score": 6,
       "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
+      "prev_score": 5,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
@@ -179,14 +187,6 @@
     },
     {
       "country_code": "DE",
-      "score": 5,
-      "level": "low",
-      "prev_score": 5,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "GB",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -263,7 +263,7 @@
       "earthquake_count": 10,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 63467.0,
+      "btc_price": 63352.0,
       "fear_greed_index": 27,
       "total_signals": 40
     }
@@ -500,6 +500,15 @@
       "high_risk_days": 0
     },
     {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "avg_score": 5.076923076923077,
+      "max_score": 6,
+      "min_score": 5,
+      "data_points": 13,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "US",
       "country_name": "United States",
       "avg_score": 5.0,
@@ -511,15 +520,6 @@
     {
       "country_code": "DE",
       "country_name": "Germany",
-      "avg_score": 5.0,
-      "max_score": 5,
-      "min_score": 5,
-      "data_points": 13,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "GB",
-      "country_name": "United Kingdom",
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,467，日涨跌 -0.24%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,352，日涨跌 -0.49%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -613,6 +613,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74"
     },
     {
+      "mag": 5.3,
+      "place": "227 km E of Levuka, Fiji",
+      "time": "2026-08-12T22:13:33.924000+00:00",
+      "depth_km": 572.0,
+      "lat": -17.865,
+      "lon": -178.545,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkba"
+    },
+    {
       "mag": 5.2,
       "place": "42 km ESE of Naalehu, Hawaii",
       "time": "2026-08-12T03:48:33.980000+00:00",
@@ -655,17 +666,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5c"
-    },
-    {
-      "mag": 4.8,
-      "place": "81 km ENE of Mutsu, Japan",
-      "time": "2026-08-11T21:45:53.951000+00:00",
-      "depth_km": 59.6,
-      "lat": 41.5705,
-      "lon": 142.1187,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk3b"
     },
     {
       "mag": 4.7,
@@ -743,17 +743,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "alert_level": "Orange",
-      "date": "2025-12-11T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Madagascar",
       "country": "Madagascar",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alert_level": "Orange",
+      "date": "2025-12-11T00:00:00"
     },
     {
       "type": "TC",
