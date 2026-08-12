@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T19:59:47.445087+00:00",
+  "generated_at": "2026-08-12T20:56:28.095642+00:00",
   "overview": {
     "snapshot_date": "2026-08-12",
-    "earthquake_count": 12,
+    "earthquake_count": 10,
     "max_earthquake_mag": 6.0,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,23 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63332.0,
-    "btc_change_24h": -0.21,
+    "btc_price": 63487.0,
+    "btc_change_24h": -0.28,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 42
+    "total_signals": 40
   },
   "cii": [
     {
       "country_code": "UA",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -42,7 +34,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
+      "country_code": "YE",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "IL",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -58,7 +58,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IL",
+      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "FR",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -154,7 +154,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "FR",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-12",
-      "earthquake_count": 12,
+      "earthquake_count": 10,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 63332.0,
+      "btc_price": 63487.0,
       "fear_greed_index": 27,
-      "total_signals": 42
+      "total_signals": 40
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-12",
-    "total_signals": 42,
+    "total_signals": 40,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 12 次地震，最大 M6.0，中度活跃。"
+        "text": "全球记录 10 次地震，最大 M6.0，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,332，日涨跌 -0.21%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,487，日涨跌 -0.28%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -635,17 +635,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5j"
     },
     {
-      "mag": 5.1,
-      "place": "51 km E of Tobelo, Indonesia",
-      "time": "2026-08-11T20:14:18.452000+00:00",
-      "depth_km": 10,
-      "lat": 1.7064,
-      "lon": 128.4742,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk1y"
-    },
-    {
       "mag": 5,
       "place": "66 km E of Chayek, Kyrgyzstan",
       "time": "2026-08-12T07:14:52.581000+00:00",
@@ -655,17 +644,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5x"
-    },
-    {
-      "mag": 5,
-      "place": "89 km ESE of Kokopo, Papua New Guinea",
-      "time": "2026-08-11T20:31:28.580000+00:00",
-      "depth_km": 68.9,
-      "lat": -4.7193,
-      "lon": 152.9875,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk29"
     },
     {
       "mag": 4.9,
