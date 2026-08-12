@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-12T04:06:01.435548+00:00",
+  "generated_at": "2026-08-12T06:12:02.923750+00:00",
   "overview": {
     "snapshot_date": "2026-08-12",
-    "earthquake_count": 16,
-    "max_earthquake_mag": 5.1,
+    "earthquake_count": 18,
+    "max_earthquake_mag": 5.2,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63777.0,
-    "btc_change_24h": -0.48,
+    "btc_price": 63693.0,
+    "btc_change_24h": -0.45,
     "fear_greed_index": 27,
     "fear_greed_label": "Fear",
-    "total_signals": 46
+    "total_signals": 48
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-12",
-      "earthquake_count": 16,
-      "max_earthquake_mag": 5.1,
+      "earthquake_count": 18,
+      "max_earthquake_mag": 5.2,
       "disaster_count": 10,
-      "btc_price": 63777.0,
+      "btc_price": 63693.0,
       "fear_greed_index": 27,
-      "total_signals": 46
+      "total_signals": 48
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-12",
-    "total_signals": 46,
+    "total_signals": 48,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 16 次地震，最大 M5.1，地震活动处于正常水平。"
+        "text": "全球记录 18 次地震，最大 M5.2，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -551,7 +551,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,777，日涨跌 -0.48%。恐惧与贪婪指数 27（Fear）。"
+        "text": "BTC 报 $63,693，日涨跌 -0.45%。恐惧与贪婪指数 27（Fear）。"
       },
       {
         "icon": "🏴",
@@ -595,6 +595,28 @@
   },
   "earthquakes": [
     {
+      "mag": 5.2,
+      "place": "42 km ESE of Naalehu, Hawaii",
+      "time": "2026-08-12T03:48:33.980000+00:00",
+      "depth_km": 10.7,
+      "lat": 18.879,
+      "lon": -155.233333333333,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018296"
+    },
+    {
+      "mag": 5.1,
+      "place": "Pacific-Antarctic Ridge",
+      "time": "2026-08-12T05:11:27.487000+00:00",
+      "depth_km": 10,
+      "lat": -55.9202,
+      "lon": -143.4933,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5j"
+    },
+    {
       "mag": 5.1,
       "place": "51 km E of Tobelo, Indonesia",
       "time": "2026-08-11T20:14:18.452000+00:00",
@@ -604,17 +626,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk1y"
-    },
-    {
-      "mag": 5.06,
-      "place": "45 km ESE of Naalehu, Hawaii",
-      "time": "2026-08-12T03:48:33.320000+00:00",
-      "depth_km": 7.2,
-      "lat": 18.8521671295166,
-      "lon": -155.21533203125,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018296"
     },
     {
       "mag": 5,
@@ -637,6 +648,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk0a"
+    },
+    {
+      "mag": 4.9,
+      "place": "14 km WSW of Honmachi, Japan",
+      "time": "2026-08-12T04:05:51.903000+00:00",
+      "depth_km": 10,
+      "lat": 32.4564,
+      "lon": 130.4504,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk5c"
     },
     {
       "mag": 4.9,
@@ -787,13 +809,6 @@
       "date": "2026-08-10T12:34:28"
     },
     {
-      "type": "TC",
-      "name": "Tropical Cyclone DOLPHIN-26",
-      "country": "Marshall Islands, Japan, China",
-      "alert_level": "Orange",
-      "date": "2026-07-27T00:00:00"
-    },
-    {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -820,6 +835,13 @@
       "country": "Madagascar",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone DOLPHIN-26",
+      "country": "Marshall Islands, Japan, China",
+      "alert_level": "Orange",
+      "date": "2026-07-27T00:00:00"
     },
     {
       "type": "EQ",
