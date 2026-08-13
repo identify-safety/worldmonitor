@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T08:19:09.241241+00:00",
+  "generated_at": "2026-08-13T10:02:52.396658+00:00",
   "overview": {
     "snapshot_date": "2026-08-13",
-    "earthquake_count": 9,
+    "earthquake_count": 11,
     "max_earthquake_mag": 6.0,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,15 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63780.0,
-    "btc_change_24h": 0.04,
+    "btc_price": 63730.0,
+    "btc_change_24h": -0.53,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 39
+    "total_signals": 41
   },
   "cii": [
     {
-      "country_code": "YE",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,10 +34,18 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -51,14 +59,6 @@
     },
     {
       "country_code": "IL",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -146,14 +146,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "AE",
       "score": 10,
       "level": "low",
@@ -170,6 +162,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "GB",
       "score": 6,
       "level": "low",
@@ -178,7 +178,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +186,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "US",
+      "country_code": "DE",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-13",
-      "earthquake_count": 9,
+      "earthquake_count": 11,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 63780.0,
+      "btc_price": 63730.0,
       "fear_greed_index": 29,
-      "total_signals": 39
+      "total_signals": 41
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-13",
-    "total_signals": 39,
+    "total_signals": 41,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 9 次地震，最大 M6.0，中度活跃。"
+        "text": "全球记录 11 次地震，最大 M6.0，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,780，日涨跌 +0.04%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,730，日涨跌 -0.53%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -625,6 +625,17 @@
     },
     {
       "mag": 5.1,
+      "place": "22 km ENE of Lapuan, Philippines",
+      "time": "2026-08-13T09:22:58.999000+00:00",
+      "depth_km": 91.2,
+      "lat": 6.2479,
+      "lon": 125.8789,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh"
+    },
+    {
+      "mag": 5.1,
       "place": "59 km NNW of Barishal, Pakistan",
       "time": "2026-08-13T00:35:18.815000+00:00",
       "depth_km": 58.9,
@@ -688,6 +699,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk75"
+    },
+    {
+      "mag": 4.5,
+      "place": "222 km SSW of Severo-Kuril’sk, Russia",
+      "time": "2026-08-13T07:09:24.608000+00:00",
+      "depth_km": 35,
+      "lat": 48.738,
+      "lon": 155.3646,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkeb"
     },
     {
       "mag": 4.5,
