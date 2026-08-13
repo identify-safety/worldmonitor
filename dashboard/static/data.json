@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:02:52.396658+00:00",
+  "generated_at": "2026-08-13T11:43:41.591423+00:00",
   "overview": {
     "snapshot_date": "2026-08-13",
     "earthquake_count": 11,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63730.0,
-    "btc_change_24h": -0.53,
+    "btc_price": 63394.0,
+    "btc_change_24h": -1.17,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 41
@@ -42,7 +42,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
+      "country_code": "IL",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -58,7 +58,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IL",
+      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -263,7 +263,7 @@
       "earthquake_count": 11,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 63730.0,
+      "btc_price": 63394.0,
       "fear_greed_index": 29,
       "total_signals": 41
     }
@@ -551,7 +551,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,730，日涨跌 -0.53%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,394，日涨跌 -1.17%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
@@ -680,6 +680,17 @@
     },
     {
       "mag": 4.6,
+      "place": "3 km ESE of Gambiran Satu, Indonesia",
+      "time": "2026-08-13T10:23:19.536000+00:00",
+      "depth_km": 145.7,
+      "lat": -8.4115,
+      "lon": 114.1762,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkg4"
+    },
+    {
+      "mag": 4.6,
       "place": "15 km WSW of Honmachi, Japan",
       "time": "2026-08-12T21:21:29.025000+00:00",
       "depth_km": 10,
@@ -710,17 +721,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkeb"
-    },
-    {
-      "mag": 4.5,
-      "place": "125 km NNW of Ambon, Indonesia",
-      "time": "2026-08-12T10:15:28.554000+00:00",
-      "depth_km": 10,
-      "lat": -2.6342,
-      "lon": 127.7768,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk6n"
     }
   ],
   "disasters": [
