@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T21:42:19.053856+00:00",
+  "generated_at": "2026-08-13T22:38:54.644779+00:00",
   "overview": {
     "snapshot_date": "2026-08-13",
-    "earthquake_count": 11,
+    "earthquake_count": 10,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,15 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63437.0,
-    "btc_change_24h": -0.01,
+    "btc_price": 63528.0,
+    "btc_change_24h": 0.3,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 41
+    "total_signals": 40
   },
   "cii": [
     {
-      "country_code": "YE",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -170,15 +170,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "GB",
-      "score": 6,
-      "level": "low",
-      "prev_score": 6,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "US",
+      "country_code": "DE",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +178,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
+      "country_code": "GB",
+      "score": 5,
+      "level": "low",
+      "prev_score": 6,
+      "change_24h": -1,
+      "trend": "stable"
+    },
+    {
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-13",
-      "earthquake_count": 11,
+      "earthquake_count": 10,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 63437.0,
+      "btc_price": 63528.0,
       "fear_greed_index": 29,
-      "total_signals": 41
+      "total_signals": 40
     }
   ],
   "anomalies": [
@@ -502,7 +502,7 @@
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.142857142857143,
+      "avg_score": 5.071428571428571,
       "max_score": 6,
       "min_score": 5,
       "data_points": 14,
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-13",
-    "total_signals": 41,
+    "total_signals": 40,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 11 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 10 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,437，日涨跌 -0.01%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,528，日涨跌 +0.30%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -659,17 +659,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkci"
-    },
-    {
-      "mag": 5.1,
-      "place": "226 km E of Levuka, Fiji",
-      "time": "2026-08-12T22:13:33.611000+00:00",
-      "depth_km": 570.8,
-      "lat": -17.8749,
-      "lon": -178.554,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkba"
     },
     {
       "mag": 5,
