@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T22:38:54.644779+00:00",
+  "generated_at": "2026-08-13T23:38:31.255985+00:00",
   "overview": {
     "snapshot_date": "2026-08-13",
     "earthquake_count": 10,
@@ -10,13 +10,21 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63528.0,
-    "btc_change_24h": 0.3,
+    "btc_price": 63424.0,
+    "btc_change_24h": 0.04,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 40
   },
   "cii": [
+    {
+      "country_code": "YE",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
     {
       "country_code": "SY",
       "score": 50,
@@ -30,22 +38,6 @@
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "YE",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "KP",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -66,6 +58,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "KP",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "CN",
       "score": 43,
       "level": "elevated",
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -263,7 +263,7 @@
       "earthquake_count": 10,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 63528.0,
+      "btc_price": 63424.0,
       "fear_greed_index": 29,
       "total_signals": 40
     }
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,528，日涨跌 +0.30%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,424，日涨跌 +0.04%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
