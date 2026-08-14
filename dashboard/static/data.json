@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T08:14:07.585810+00:00",
+  "generated_at": "2026-08-14T09:58:46.406123+00:00",
   "overview": {
     "snapshot_date": "2026-08-14",
-    "earthquake_count": 8,
+    "earthquake_count": 7,
     "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62874.0,
-    "btc_change_24h": -1.45,
+    "btc_price": 62744.0,
+    "btc_change_24h": -1.53,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
-    "total_signals": 38
+    "total_signals": 37
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-14",
-      "earthquake_count": 8,
+      "earthquake_count": 7,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 62874.0,
+      "btc_price": 62744.0,
       "fear_greed_index": 29,
-      "total_signals": 38
+      "total_signals": 37
     }
   ],
   "anomalies": [
@@ -529,7 +529,7 @@
   ],
   "briefing": {
     "date": "2026-08-14",
-    "total_signals": 38,
+    "total_signals": 37,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -539,7 +539,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 8 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 7 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -551,13 +551,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $62,874，日涨跌 -1.45%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $62,744，日涨跌 -1.53%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -626,17 +626,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tki8"
-    },
-    {
-      "mag": 5.1,
-      "place": "22 km ENE of Lapuan, Philippines",
-      "time": "2026-08-13T09:22:58.999000+00:00",
-      "depth_km": 91.2,
-      "lat": 6.2479,
-      "lon": 125.8789,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh"
     },
     {
       "mag": 5,
