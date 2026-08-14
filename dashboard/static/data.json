@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:49:28.341449+00:00",
+  "generated_at": "2026-08-14T17:50:54.611699+00:00",
   "overview": {
     "snapshot_date": "2026-08-14",
     "earthquake_count": 5,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63091.0,
-    "btc_change_24h": 0.11,
+    "btc_price": 63050.0,
+    "btc_change_24h": -0.2,
     "fear_greed_index": 29,
     "fear_greed_label": "Fear",
     "total_signals": 35
@@ -263,7 +263,7 @@
       "earthquake_count": 5,
       "max_earthquake_mag": 5.3,
       "disaster_count": 10,
-      "btc_price": 63091.0,
+      "btc_price": 63050.0,
       "fear_greed_index": 29,
       "total_signals": 35
     }
@@ -551,7 +551,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "warning",
-        "text": "BTC 报 $63,091，日涨跌 +0.11%。恐惧与贪婪指数 29（Fear）。"
+        "text": "BTC 报 $63,050，日涨跌 -0.20%。恐惧与贪婪指数 29（Fear）。"
       },
       {
         "icon": "🏴",
@@ -606,15 +606,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkig"
     },
     {
-      "mag": 5.1,
-      "place": "west of Macquarie Island",
-      "time": "2026-08-13T17:39:29.650000+00:00",
+      "mag": 4.9,
+      "place": "19 km WSW of Divichibazar, Azerbaijan",
+      "time": "2026-08-14T16:56:14.767000+00:00",
       "depth_km": 10,
-      "lat": -56.8562,
-      "lon": 147.2281,
+      "lat": 41.1279,
+      "lon": 48.7787,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tki8"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkrg"
     },
     {
       "mag": 4.9,
