@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-15T21:18:51.121662+00:00",
+  "generated_at": "2026-08-15T22:18:55.197508+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
-    "earthquake_count": 49,
-    "max_earthquake_mag": 7.7,
+    "earthquake_count": 47,
+    "max_earthquake_mag": 6.9,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63044.0,
-    "btc_change_24h": 0.3,
+    "btc_price": 63088.0,
+    "btc_change_24h": 0.54,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 79
+    "total_signals": 77
   },
   "cii": [
     {
@@ -260,20 +260,20 @@
     },
     {
       "snapshot_date": "2026-08-15",
-      "earthquake_count": 49,
-      "max_earthquake_mag": 7.7,
+      "earthquake_count": 47,
+      "max_earthquake_mag": 6.9,
       "disaster_count": 10,
-      "btc_price": 63044.0,
+      "btc_price": 63088.0,
       "fear_greed_index": 34,
-      "total_signals": 79
+      "total_signals": 77
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.8x above weekly average (49 vs avg 17)",
-        "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
+        "Earthquake count 2.7x above weekly average (47 vs avg 17)",
+        "Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-15",
-    "total_signals": 79,
+    "total_signals": 77,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -541,8 +541,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "critical",
-        "text": "全球发生 49 次地震，其中最大震级 M7.7，属于强震，需关注可能的海啸和余震风险。"
+        "level": "warning",
+        "text": "全球记录 47 次地震，最大 M6.9，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,044，日涨跌 +0.30%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,088，日涨跌 +0.54%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -572,18 +572,18 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.8x above weekly average (49 vs avg 17)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.7x above weekly average (47 vs avg 17)；Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
     "alerts": [
       {
-        "id": "eq_critical",
+        "id": "eq_warning",
         "icon": "🌋",
-        "title": "强震警报",
-        "level": "critical",
-        "message": "检测到 M7.7 强震（阈值 ≥ M7.0）"
+        "title": "中型地震",
+        "level": "warning",
+        "message": "检测到 M6.9 地震（阈值 ≥ M6.0）"
       },
       {
         "id": "disaster_surge",
@@ -593,21 +593,10 @@
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
+    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
     "count": 2
   },
   "earthquakes": [
-    {
-      "mag": 7.7,
-      "place": "68 km NNW of Ende, Indonesia",
-      "time": "2026-08-14T21:58:21.564000+00:00",
-      "depth_km": 10,
-      "lat": -8.3101,
-      "lon": 121.3517,
-      "alert": "orange",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
-    },
     {
       "mag": 6.9,
       "place": "15 km NNW of Pematangsiantar, Indonesia",
@@ -631,17 +620,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkuc"
     },
     {
-      "mag": 5.9,
-      "place": "36 km NE of Labuan Bajo, Indonesia",
-      "time": "2026-08-14T22:13:50.869000+00:00",
-      "depth_km": 10,
-      "lat": -8.2849,
-      "lon": 120.1465,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkta"
-    },
-    {
       "mag": 5.7,
       "place": "125 km NNE of Palu, Indonesia",
       "time": "2026-08-15T16:25:18.342000+00:00",
@@ -651,17 +629,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s"
-    },
-    {
-      "mag": 5.6,
-      "place": "61 km NNW of Ende, Indonesia",
-      "time": "2026-08-14T22:18:06.706000+00:00",
-      "depth_km": 10,
-      "lat": -8.3406,
-      "lon": 121.4284,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tku7"
     },
     {
       "mag": 5.5,
@@ -1091,6 +1058,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2p"
+    },
+    {
+      "mag": 4.5,
+      "place": "93 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-15T16:58:05.970000+00:00",
+      "depth_km": 9.9,
+      "lat": -7.795,
+      "lon": 120.6878,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2c"
     },
     {
       "mag": 4.5,
