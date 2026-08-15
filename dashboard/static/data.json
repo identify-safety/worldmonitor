@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:19:52.299575+00:00",
+  "generated_at": "2026-08-15T21:18:51.121662+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
     "earthquake_count": 49,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63018.0,
-    "btc_change_24h": 0.21,
+    "btc_price": 63044.0,
+    "btc_change_24h": 0.3,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 79
@@ -263,7 +263,7 @@
       "earthquake_count": 49,
       "max_earthquake_mag": 7.7,
       "disaster_count": 10,
-      "btc_price": 63018.0,
+      "btc_price": 63044.0,
       "fear_greed_index": 34,
       "total_signals": 79
     }
@@ -272,7 +272,7 @@
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.9x above weekly average (49 vs avg 17)",
+        "Earthquake count 2.8x above weekly average (49 vs avg 17)",
         "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,018，日涨跌 +0.21%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,044，日涨跌 +0.30%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.9x above weekly average (49 vs avg 17)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.8x above weekly average (49 vs avg 17)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -928,17 +928,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1g"
     },
     {
-      "mag": 4.8,
-      "place": "15 km WNW of Kirakira, Solomon Islands",
-      "time": "2026-08-14T20:23:53.872000+00:00",
-      "depth_km": 69.8,
-      "lat": -10.4124,
-      "lon": 161.7858,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tksg"
-    },
-    {
       "mag": 4.7,
       "place": "96 km NNE of Ruteng, Indonesia",
       "time": "2026-08-15T17:51:27.384000+00:00",
@@ -1069,6 +1058,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvg"
+    },
+    {
+      "mag": 4.5,
+      "place": "63 km N of Ruteng, Indonesia",
+      "time": "2026-08-15T20:29:44.571000+00:00",
+      "depth_km": 10,
+      "lat": -8.0349,
+      "lon": 120.4927,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl3k"
     },
     {
       "mag": 4.5,
