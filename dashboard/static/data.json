@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:28:15.427764+00:00",
+  "generated_at": "2026-08-15T14:20:29.535161+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
     "earthquake_count": 42,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62980.0,
-    "btc_change_24h": 0.48,
+    "btc_price": 62978.0,
+    "btc_change_24h": 0.7,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 72
@@ -263,7 +263,7 @@
       "earthquake_count": 42,
       "max_earthquake_mag": 7.7,
       "disaster_count": 10,
-      "btc_price": 62980.0,
+      "btc_price": 62978.0,
       "fear_greed_index": 34,
       "total_signals": 72
     }
@@ -272,7 +272,7 @@
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.6x above weekly average (42 vs avg 16)",
+        "Earthquake count 2.5x above weekly average (42 vs avg 16)",
         "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $62,980，日涨跌 +0.48%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $62,978，日涨跌 +0.70%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.6x above weekly average (42 vs avg 16)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.5x above weekly average (42 vs avg 16)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
