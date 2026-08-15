@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:20:46.963578+00:00",
+  "generated_at": "2026-08-15T17:18:53.195345+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
     "earthquake_count": 44,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63011.0,
-    "btc_change_24h": 0.02,
+    "btc_price": 63036.0,
+    "btc_change_24h": -0.14,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 74
@@ -263,7 +263,7 @@
       "earthquake_count": 44,
       "max_earthquake_mag": 7.7,
       "disaster_count": 10,
-      "btc_price": 63011.0,
+      "btc_price": 63036.0,
       "fear_greed_index": 34,
       "total_signals": 74
     }
@@ -272,7 +272,7 @@
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.7x above weekly average (44 vs avg 16)",
+        "Earthquake count 2.6x above weekly average (44 vs avg 17)",
         "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,011，日涨跌 +0.02%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,036，日涨跌 -0.14%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.7x above weekly average (44 vs avg 16)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.6x above weekly average (44 vs avg 17)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -640,6 +640,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkta"
+    },
+    {
+      "mag": 5.7,
+      "place": "125 km NNE of Palu, Indonesia",
+      "time": "2026-08-15T16:25:18.342000+00:00",
+      "depth_km": 72.5,
+      "lat": 0.1542,
+      "lon": 120.2573,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s"
     },
     {
       "mag": 5.6,
@@ -871,17 +882,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvt"
-    },
-    {
-      "mag": 4.9,
-      "place": "19 km WSW of Divichibazar, Azerbaijan",
-      "time": "2026-08-14T16:56:14.767000+00:00",
-      "depth_km": 10,
-      "lat": 41.1279,
-      "lon": 48.7787,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkrg"
     },
     {
       "mag": 4.8,
