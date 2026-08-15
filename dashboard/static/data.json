@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T04:27:51.137696+00:00",
+  "generated_at": "2026-08-15T05:22:15.835969+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
     "earthquake_count": 30,
@@ -10,15 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63067.0,
-    "btc_change_24h": -0.41,
+    "btc_price": 63094.0,
+    "btc_change_24h": -0.29,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 60
   },
   "cii": [
     {
-      "country_code": "UA",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "YE",
+      "country_code": "UA",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "AE",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -162,18 +162,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "US",
-      "score": 5,
-      "level": "low",
-      "prev_score": 5,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -187,6 +179,14 @@
     },
     {
       "country_code": "GB",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -263,7 +263,7 @@
       "earthquake_count": 30,
       "max_earthquake_mag": 7.7,
       "disaster_count": 10,
-      "btc_price": 63067.0,
+      "btc_price": 63094.0,
       "fear_greed_index": 34,
       "total_signals": 60
     }
@@ -272,7 +272,6 @@
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.0x above weekly average (30 vs avg 15)",
         "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -554,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,067，日涨跌 -0.41%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,094，日涨跌 -0.29%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +571,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.0x above weekly average (30 vs avg 15)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -818,17 +817,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkmy"
     },
     {
-      "mag": 4.8,
-      "place": "Bonin Islands, Japan region",
-      "time": "2026-08-14T04:53:15.378000+00:00",
-      "depth_km": 516.4,
-      "lat": 27.6391,
-      "lon": 139.5875,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tklc"
-    },
-    {
       "mag": 4.7,
       "place": "16 km SSE of Tomioka, Japan",
       "time": "2026-08-15T01:10:51.635000+00:00",
@@ -860,6 +848,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkrs"
+    },
+    {
+      "mag": 4.6,
+      "place": "64 km NW of Ende, Indonesia",
+      "time": "2026-08-15T04:23:07.762000+00:00",
+      "depth_km": 10,
+      "lat": -8.3988,
+      "lon": 121.2851,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwd"
     },
     {
       "mag": 4.6,
