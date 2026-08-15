@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T06:34:08.773065+00:00",
+  "generated_at": "2026-08-15T07:28:08.170592+00:00",
   "overview": {
     "snapshot_date": "2026-08-15",
-    "earthquake_count": 31,
+    "earthquake_count": 33,
     "max_earthquake_mag": 7.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62999.0,
-    "btc_change_24h": -0.27,
+    "btc_price": 63040.0,
+    "btc_change_24h": -0.01,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 61
+    "total_signals": 63
   },
   "cii": [
     {
@@ -260,19 +260,19 @@
     },
     {
       "snapshot_date": "2026-08-15",
-      "earthquake_count": 31,
+      "earthquake_count": 33,
       "max_earthquake_mag": 7.7,
       "disaster_count": 10,
-      "btc_price": 62999.0,
+      "btc_price": 63040.0,
       "fear_greed_index": 34,
-      "total_signals": 61
+      "total_signals": 63
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
-        "Earthquake count 2.1x above weekly average (31 vs avg 15)",
+        "Earthquake count 2.2x above weekly average (33 vs avg 15)",
         "Major earthquake M7.7 — 68 km NNW of Ende, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-15",
-    "total_signals": 61,
+    "total_signals": 63,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "critical",
-        "text": "全球发生 31 次地震，其中最大震级 M7.7，属于强震，需关注可能的海啸和余震风险。"
+        "text": "全球发生 33 次地震，其中最大震级 M7.7，属于强震，需关注可能的海啸和余震风险。"
       },
       {
         "icon": "🛰️",
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $62,999，日涨跌 -0.27%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,040，日涨跌 -0.01%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.1x above weekly average (31 vs avg 15)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.2x above weekly average (33 vs avg 15)；Major earthquake M7.7 — 68 km NNW of Ende, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -695,6 +695,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2"
+    },
+    {
+      "mag": 5.1,
+      "place": "71 km NNW of Ende, Indonesia",
+      "time": "2026-08-15T06:28:51.109000+00:00",
+      "depth_km": 10,
+      "lat": -8.2671,
+      "lon": 121.3664,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwq"
     },
     {
       "mag": 5.1,
@@ -827,6 +838,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkmy"
+    },
+    {
+      "mag": 4.7,
+      "place": "46 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-15T06:43:07.500000+00:00",
+      "depth_km": 10,
+      "lat": -8.2384,
+      "lon": 120.6523,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwt"
     },
     {
       "mag": 4.7,
