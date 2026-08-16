@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:33:39.101950+00:00",
+  "generated_at": "2026-08-16T05:26:06.379681+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 29,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63097.0,
-    "btc_change_24h": 0.05,
+    "btc_price": 63017.0,
+    "btc_change_24h": -0.09,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 59
@@ -263,7 +263,7 @@
       "earthquake_count": 29,
       "max_earthquake_mag": 6.9,
       "disaster_count": 10,
-      "btc_price": 63097.0,
+      "btc_price": 63017.0,
       "fear_greed_index": 34,
       "total_signals": 59
     }
@@ -555,13 +555,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,097，日涨跌 +0.05%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,017，日涨跌 -0.09%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -927,13 +927,6 @@
       "date": "2026-08-14T21:58:21"
     },
     {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-07-31T01:00:00"
-    },
-    {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -960,6 +953,13 @@
       "country": "Madagascar",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
     },
     {
       "type": "EQ",
