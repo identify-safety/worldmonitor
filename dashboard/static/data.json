@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T08:26:27.234714+00:00",
+  "generated_at": "2026-08-16T09:24:45.704240+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 25,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63008.0,
-    "btc_change_24h": 0.01,
+    "btc_price": 63017.0,
+    "btc_change_24h": 0.17,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 55
@@ -263,7 +263,7 @@
       "earthquake_count": 25,
       "max_earthquake_mag": 6.9,
       "disaster_count": 10,
-      "btc_price": 63008.0,
+      "btc_price": 63017.0,
       "fear_greed_index": 34,
       "total_signals": 55
     }
@@ -555,13 +555,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,008，日涨跌 +0.01%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,017，日涨跌 +0.17%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -787,6 +787,17 @@
     },
     {
       "mag": 4.6,
+      "place": "68 km ESE of Madang, Papua New Guinea",
+      "time": "2026-08-16T08:06:50.468000+00:00",
+      "depth_km": 130.1,
+      "lat": -5.5296,
+      "lon": 146.3275,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e6s"
+    },
+    {
+      "mag": 4.6,
       "place": "192 km SSE of Vilyuchinsk, Russia",
       "time": "2026-08-15T17:41:42.009000+00:00",
       "depth_km": 10,
@@ -806,17 +817,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkya"
-    },
-    {
-      "mag": 4.6,
-      "place": "53 km N of Ruteng, Indonesia",
-      "time": "2026-08-15T09:08:22.294000+00:00",
-      "depth_km": 10,
-      "lat": -8.1297,
-      "lon": 120.4925,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tky5"
     },
     {
       "mag": 4.5,
