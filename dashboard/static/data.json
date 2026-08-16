@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:20:01.658365+00:00",
+  "generated_at": "2026-08-16T15:19:20.743527+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 24,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63006.0,
-    "btc_change_24h": 0.05,
+    "btc_price": 63054.0,
+    "btc_change_24h": 0.08,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 54
@@ -263,7 +263,7 @@
       "earthquake_count": 24,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 63006.0,
+      "btc_price": 63054.0,
       "fear_greed_index": 34,
       "total_signals": 54
     }
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,006，日涨跌 +0.05%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,054，日涨跌 +0.08%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
