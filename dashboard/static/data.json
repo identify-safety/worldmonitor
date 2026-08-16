@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-16T10:20:43.544379+00:00",
+  "generated_at": "2026-08-16T11:18:22.913254+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 23,
-    "max_earthquake_mag": 6.9,
+    "max_earthquake_mag": 6.1,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62936.0,
-    "btc_change_24h": -0.04,
+    "btc_price": 62950.0,
+    "btc_change_24h": -0.03,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 53
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-16",
       "earthquake_count": 23,
-      "max_earthquake_mag": 6.9,
+      "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 62936.0,
+      "btc_price": 62950.0,
       "fear_greed_index": 34,
       "total_signals": 53
     }
@@ -272,7 +272,6 @@
     {
       "snapshot_date": "2026-08-16",
       "anomaly_flags": [
-        "Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia",
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
@@ -543,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 23 次地震，最大 M6.9，中度活跃。"
+        "text": "全球记录 23 次地震，最大 M6.1，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $62,936，日涨跌 -0.04%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $62,950，日涨跌 -0.03%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
@@ -573,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -584,7 +583,7 @@
         "icon": "🌋",
         "title": "中型地震",
         "level": "warning",
-        "message": "检测到 M6.9 地震（阈值 ≥ M6.0）"
+        "message": "检测到 M6.1 地震（阈值 ≥ M6.0）"
       },
       {
         "id": "disaster_surge",
@@ -598,17 +597,6 @@
     "count": 2
   },
   "earthquakes": [
-    {
-      "mag": 6.9,
-      "place": "15 km NNW of Pematangsiantar, Indonesia",
-      "time": "2026-08-15T10:54:51.796000+00:00",
-      "depth_km": 172.5,
-      "lat": 3.0856,
-      "lon": 99.015,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyk"
-    },
     {
       "mag": 6.1,
       "place": "56 km NNE of Port-Olry, Vanuatu",
@@ -665,15 +653,26 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl43"
     },
     {
-      "mag": 5.4,
-      "place": "41 km SSW of Angoram, Papua New Guinea",
-      "time": "2026-08-15T11:10:24.937000+00:00",
-      "depth_km": 120.2,
-      "lat": -4.411,
-      "lon": 143.9212,
-      "alert": "green",
+      "mag": 5.3,
+      "place": "105 km ESE of Madang, Papua New Guinea",
+      "time": "2026-08-16T10:59:12.836000+00:00",
+      "depth_km": 162.6,
+      "lat": -5.557,
+      "lon": 146.6791,
+      "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyz"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7p"
+    },
+    {
+      "mag": 5.3,
+      "place": "75 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-16T10:14:36.343000+00:00",
+      "depth_km": 10,
+      "lat": -7.9399,
+      "lon": 120.5995,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7j"
     },
     {
       "mag": 5.2,
@@ -688,14 +687,14 @@
     },
     {
       "mag": 5.1,
-      "place": "39 km NNW of Ruteng, Indonesia",
-      "time": "2026-08-15T10:31:30.185000+00:00",
+      "place": "81 km N of Ruteng, Indonesia",
+      "time": "2026-08-16T10:31:34.822000+00:00",
       "depth_km": 10,
-      "lat": -8.264,
-      "lon": 120.3675,
+      "lat": -7.8791,
+      "lon": 120.5504,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyg"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7k"
     },
     {
       "mag": 5,
