@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T22:18:23.498684+00:00",
+  "generated_at": "2026-08-16T23:17:24.723945+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
-    "earthquake_count": 17,
+    "earthquake_count": 16,
     "max_earthquake_mag": 6.1,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 62885.0,
-    "btc_change_24h": -0.32,
+    "btc_price": 62856.0,
+    "btc_change_24h": -0.34,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 47
+    "total_signals": 46
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-16",
-      "earthquake_count": 17,
+      "earthquake_count": 16,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 62885.0,
+      "btc_price": 62856.0,
       "fear_greed_index": 34,
-      "total_signals": 47
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-16",
-    "total_signals": 47,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 17 次地震，最大 M6.1，中度活跃。"
+        "text": "全球记录 16 次地震，最大 M6.1，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $62,885，日涨跌 -0.32%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $62,856，日涨跌 -0.34%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -618,17 +618,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl6a"
-    },
-    {
-      "mag": 5.4,
-      "place": "19 km NE of Colonia, Micronesia",
-      "time": "2026-08-15T22:52:55.761000+00:00",
-      "depth_km": 10,
-      "lat": 9.6571,
-      "lon": 138.224,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl43"
     },
     {
       "mag": 5.3,
@@ -697,17 +686,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl55"
     },
     {
-      "mag": 5,
-      "place": "80 km N of Ruteng, Indonesia",
-      "time": "2026-08-15T23:12:54.664000+00:00",
-      "depth_km": 10,
-      "lat": -7.8894,
-      "lon": 120.5156,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl44"
-    },
-    {
       "mag": 4.9,
       "place": "77 km N of Ruteng, Indonesia",
       "time": "2026-08-16T17:26:15.105000+00:00",
@@ -764,11 +742,22 @@
     },
     {
       "mag": 4.5,
-      "place": "105 km W of San Antonio de los Cobres, Argentina",
-      "time": "2026-08-16T21:06:07.119000+00:00",
-      "depth_km": 164.6,
-      "lat": -24.3051,
-      "lon": -67.3517,
+      "place": "Kepulauan Babar, Indonesia",
+      "time": "2026-08-16T21:28:18.985000+00:00",
+      "depth_km": 163.1,
+      "lat": -7.1047,
+      "lon": 129.5762,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ea9"
+    },
+    {
+      "mag": 4.5,
+      "place": "100 km W of San Antonio de los Cobres, Argentina",
+      "time": "2026-08-16T21:06:07.491000+00:00",
+      "depth_km": 173.8,
+      "lat": -24.3041,
+      "lon": -67.3083,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ea6"
