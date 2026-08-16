@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T23:17:58.535159+00:00",
+  "generated_at": "2026-08-16T01:09:36.324335+00:00",
   "overview": {
-    "snapshot_date": "2026-08-15",
-    "earthquake_count": 40,
+    "snapshot_date": "2026-08-16",
+    "earthquake_count": 35,
     "max_earthquake_mag": 6.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,15 +10,15 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63071.0,
-    "btc_change_24h": 0.32,
+    "btc_price": 63018.0,
+    "btc_change_24h": 0.12,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 70
+    "total_signals": 65
   },
   "cii": [
     {
-      "country_code": "YE",
+      "country_code": "UA",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "UA",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -91,10 +91,10 @@
     },
     {
       "country_code": "RU",
-      "score": 36,
+      "score": 35,
       "level": "normal",
-      "prev_score": 35,
-      "change_24h": 1,
+      "prev_score": 36,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -162,10 +162,18 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "AE",
       "score": 10,
       "level": "low",
       "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "US",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -184,26 +192,9 @@
       "prev_score": 5,
       "change_24h": 0,
       "trend": "stable"
-    },
-    {
-      "country_code": "US",
-      "score": 5,
-      "level": "low",
-      "prev_score": 5,
-      "change_24h": 0,
-      "trend": "stable"
     }
   ],
   "history": [
-    {
-      "snapshot_date": "2026-08-08",
-      "earthquake_count": 15,
-      "max_earthquake_mag": 5.6,
-      "disaster_count": 10,
-      "btc_price": 64920.0,
-      "fear_greed_index": 30,
-      "total_signals": 45
-    },
     {
       "snapshot_date": "2026-08-09",
       "earthquake_count": 15,
@@ -266,9 +257,27 @@
       "btc_price": 63071.0,
       "fear_greed_index": 34,
       "total_signals": 70
+    },
+    {
+      "snapshot_date": "2026-08-16",
+      "earthquake_count": 35,
+      "max_earthquake_mag": 6.9,
+      "disaster_count": 10,
+      "btc_price": 63018.0,
+      "fear_greed_index": 34,
+      "total_signals": 65
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-16",
+      "anomaly_flags": [
+        "Earthquake count 2.1x above weekly average (35 vs avg 16)",
+        "Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia",
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-15",
       "anomaly_flags": [
@@ -321,13 +330,6 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-08",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
@@ -337,7 +339,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -346,7 +348,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -355,7 +357,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -364,7 +366,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -373,7 +375,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -382,16 +384,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.875,
+      "avg_score": 41.94117647058823,
       "max_score": 43,
       "min_score": 25,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -400,7 +402,7 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -409,25 +411,25 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.3125,
+      "avg_score": 35.294117647058826,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
       "country_code": "PK",
       "country_name": "Pakistan",
-      "avg_score": 35.0625,
+      "avg_score": 35.05882352941177,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -436,7 +438,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -445,16 +447,16 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.0625,
+      "avg_score": 20.058823529411764,
       "max_score": 21,
       "min_score": 20,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -463,7 +465,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -472,7 +474,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -481,7 +483,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -490,7 +492,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -499,16 +501,16 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.0625,
+      "avg_score": 5.0588235294117645,
       "max_score": 6,
       "min_score": 5,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -517,7 +519,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     },
     {
@@ -526,13 +528,13 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 16,
+      "data_points": 17,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-15",
-    "total_signals": 70,
+    "date": "2026-08-16",
+    "total_signals": 65,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +544,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 40 次地震，最大 M6.9，中度活跃。"
+        "text": "全球记录 35 次地震，最大 M6.9，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +556,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,071，日涨跌 +0.32%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,018，日涨跌 +0.12%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Earthquake count 2.3x above weekly average (40 vs avg 17)；Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia；10 simultaneous GDACS Red Alerts active"
+        "text": "Earthquake count 2.1x above weekly average (35 vs avg 16)；Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia；10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -637,7 +639,7 @@
       "depth_km": 10,
       "lat": 9.6571,
       "lon": 138.224,
-      "alert": null,
+      "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl43"
     },
@@ -651,28 +653,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyz"
-    },
-    {
-      "mag": 5.4,
-      "place": "38 km SSE of Severo-Kuril’sk, Russia",
-      "time": "2026-08-15T00:43:29.640000+00:00",
-      "depth_km": 79.0,
-      "lat": 50.3745,
-      "lon": 156.3863,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvj"
-    },
-    {
-      "mag": 5.3,
-      "place": "Balleny Islands region",
-      "time": "2026-08-15T00:40:13.397000+00:00",
-      "depth_km": 10,
-      "lat": -62.9125,
-      "lon": 165.89,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvi"
     },
     {
       "mag": 5.2,
@@ -730,15 +710,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvp"
     },
     {
-      "mag": 5.1,
-      "place": "71 km NNW of Ende, Indonesia",
-      "time": "2026-08-15T00:40:18.406000+00:00",
+      "mag": 5,
+      "place": "80 km N of Ruteng, Indonesia",
+      "time": "2026-08-15T23:12:54.664000+00:00",
       "depth_km": 10,
-      "lat": -8.248,
-      "lon": 121.4162,
+      "lat": -7.8894,
+      "lon": 120.5156,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvh"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl44"
     },
     {
       "mag": 5,
@@ -818,15 +798,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvt"
     },
     {
-      "mag": 4.8,
-      "place": "73 km NNW of Ende, Indonesia",
-      "time": "2026-08-14T23:52:55.591000+00:00",
+      "mag": 4.7,
+      "place": "86 km N of Ruteng, Indonesia",
+      "time": "2026-08-15T21:08:32.582000+00:00",
       "depth_km": 10,
-      "lat": -8.1975,
-      "lon": 121.5158,
+      "lat": -7.8284,
+      "lon": 120.5111,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvc"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl3n"
     },
     {
       "mag": 4.7,
@@ -871,17 +851,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvn"
-    },
-    {
-      "mag": 4.7,
-      "place": "78 km NNW of Ende, Indonesia",
-      "time": "2026-08-15T00:03:22.963000+00:00",
-      "depth_km": 10,
-      "lat": -8.2265,
-      "lon": 121.3126,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvd"
     },
     {
       "mag": 4.6,
@@ -937,17 +906,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvy"
-    },
-    {
-      "mag": 4.6,
-      "place": "49 km WNW of Ende, Indonesia",
-      "time": "2026-08-15T00:20:27.120000+00:00",
-      "depth_km": 10,
-      "lat": -8.6065,
-      "lon": 121.2789,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvg"
     },
     {
       "mag": 4.5,
@@ -1025,17 +983,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkw0"
-    },
-    {
-      "mag": 4.5,
-      "place": "76 km NNW of Ende, Indonesia",
-      "time": "2026-08-14T23:49:58.157000+00:00",
-      "depth_km": 10,
-      "lat": -8.2074,
-      "lon": 121.3939,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvb"
     }
   ],
   "disasters": [
