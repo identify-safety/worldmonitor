@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T03:52:05.217064+00:00",
+  "generated_at": "2026-08-16T04:33:39.101950+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
-    "earthquake_count": 30,
+    "earthquake_count": 29,
     "max_earthquake_mag": 6.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63072.0,
-    "btc_change_24h": 0.11,
+    "btc_price": 63097.0,
+    "btc_change_24h": 0.05,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 60
+    "total_signals": 59
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-16",
-      "earthquake_count": 30,
+      "earthquake_count": 29,
       "max_earthquake_mag": 6.9,
       "disaster_count": 10,
-      "btc_price": 63072.0,
+      "btc_price": 63097.0,
       "fear_greed_index": 34,
-      "total_signals": 60
+      "total_signals": 59
     }
   ],
   "anomalies": [
@@ -533,7 +533,7 @@
   ],
   "briefing": {
     "date": "2026-08-16",
-    "total_signals": 60,
+    "total_signals": 59,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,7 +543,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 30 次地震，最大 M6.9，中度活跃。"
+        "text": "全球记录 29 次地震，最大 M6.9，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -555,13 +555,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,072，日涨跌 +0.11%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,097，日涨跌 +0.05%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -710,6 +710,17 @@
     },
     {
       "mag": 5,
+      "place": "45 km NNW of Ende, Indonesia",
+      "time": "2026-08-16T03:42:59.885000+00:00",
+      "depth_km": 10,
+      "lat": -8.4615,
+      "lon": 121.5082,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl55"
+    },
+    {
+      "mag": 5,
       "place": "80 km N of Ruteng, Indonesia",
       "time": "2026-08-15T23:12:54.664000+00:00",
       "depth_km": 10,
@@ -729,17 +740,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwj"
-    },
-    {
-      "mag": 5,
-      "place": "67 km NNW of Ende, Indonesia",
-      "time": "2026-08-15T03:54:13.099000+00:00",
-      "depth_km": 10,
-      "lat": -8.32,
-      "lon": 121.3458,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkw9"
     },
     {
       "mag": 4.9,
@@ -850,17 +850,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tky5"
-    },
-    {
-      "mag": 4.6,
-      "place": "64 km NW of Ende, Indonesia",
-      "time": "2026-08-15T04:23:07.762000+00:00",
-      "depth_km": 10,
-      "lat": -8.3988,
-      "lon": 121.2851,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwd"
     },
     {
       "mag": 4.5,
