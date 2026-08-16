@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:29:22.537865+00:00",
+  "generated_at": "2026-08-16T14:20:01.658365+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 24,
@@ -10,7 +10,7 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63010.0,
+    "btc_price": 63006.0,
     "btc_change_24h": 0.05,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
@@ -263,7 +263,7 @@
       "earthquake_count": 24,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 63010.0,
+      "btc_price": 63006.0,
       "fear_greed_index": 34,
       "total_signals": 54
     }
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,010，日涨跌 +0.05%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,006，日涨跌 +0.05%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -684,6 +684,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7k"
+    },
+    {
+      "mag": 5,
+      "place": "81 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-16T13:38:39.493000+00:00",
+      "depth_km": 10,
+      "lat": -7.9176,
+      "lon": 120.7165,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e86"
     },
     {
       "mag": 5,
@@ -849,17 +860,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2c"
-    },
-    {
-      "mag": 4.5,
-      "place": "Banda Sea",
-      "time": "2026-08-15T13:56:26.203000+00:00",
-      "depth_km": 171.4,
-      "lat": -6.5656,
-      "lon": 129.8692,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl19"
     }
   ],
   "disasters": [
