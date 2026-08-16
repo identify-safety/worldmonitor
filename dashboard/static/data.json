@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:19:20.743527+00:00",
+  "generated_at": "2026-08-16T16:21:18.616174+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
     "earthquake_count": 24,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63054.0,
-    "btc_change_24h": 0.08,
+    "btc_price": 63231.0,
+    "btc_change_24h": 0.33,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
     "total_signals": 54
@@ -263,7 +263,7 @@
       "earthquake_count": 24,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 63054.0,
+      "btc_price": 63231.0,
       "fear_greed_index": 34,
       "total_signals": 54
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,054，日涨跌 +0.08%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,231，日涨跌 +0.33%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
@@ -664,6 +664,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7j"
     },
     {
+      "mag": 5.2,
+      "place": "67 km WSW of Puerto Madero, Mexico",
+      "time": "2026-08-16T15:52:53.557000+00:00",
+      "depth_km": 35,
+      "lat": 14.4177,
+      "lon": -92.969,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e8n"
+    },
+    {
       "mag": 5.1,
       "place": "112 km ESE of Madang, Papua New Guinea",
       "time": "2026-08-16T10:59:10.367000+00:00",
@@ -728,17 +739,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7q"
-    },
-    {
-      "mag": 4.9,
-      "place": "76 km NNW of Ende, Indonesia",
-      "time": "2026-08-15T15:52:32.416000+00:00",
-      "depth_km": 10,
-      "lat": -8.2101,
-      "lon": 121.3861,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1p"
     },
     {
       "mag": 4.7,
