@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T18:25:07.797288+00:00",
+  "generated_at": "2026-08-16T19:19:30.469751+00:00",
   "overview": {
     "snapshot_date": "2026-08-16",
-    "earthquake_count": 20,
+    "earthquake_count": 19,
     "max_earthquake_mag": 6.1,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63112.0,
-    "btc_change_24h": 0.18,
+    "btc_price": 63129.0,
+    "btc_change_24h": 0.16,
     "fear_greed_index": 34,
     "fear_greed_label": "Fear",
-    "total_signals": 50
+    "total_signals": 49
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-16",
-      "earthquake_count": 20,
+      "earthquake_count": 19,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 63112.0,
+      "btc_price": 63129.0,
       "fear_greed_index": 34,
-      "total_signals": 50
+      "total_signals": 49
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-16",
-    "total_signals": 50,
+    "total_signals": 49,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.1，中度活跃。"
+        "text": "全球记录 19 次地震，最大 M6.1，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,13 +554,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,112，日涨跌 +0.18%。恐惧与贪婪指数 34（Fear）。"
+        "text": "BTC 报 $63,129，日涨跌 +0.16%。恐惧与贪婪指数 34（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -805,17 +805,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl3k"
-    },
-    {
-      "mag": 4.5,
-      "place": "47 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-15T18:40:21.369000+00:00",
-      "depth_km": 10,
-      "lat": -8.2203,
-      "lon": 120.6399,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl31"
     }
   ],
   "disasters": [
@@ -842,17 +831,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "alert_level": "Orange",
-      "date": "2025-12-11T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Madagascar",
       "country": "Madagascar",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "alert_level": "Orange",
+      "date": "2025-12-11T00:00:00"
     },
     {
       "type": "FL",
