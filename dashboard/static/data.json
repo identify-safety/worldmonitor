@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T01:07:47.794908+00:00",
+  "generated_at": "2026-08-17T02:57:31.906365+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
-    "earthquake_count": 19,
+    "earthquake_count": 21,
     "max_earthquake_mag": 6.1,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63044.0,
-    "btc_change_24h": 0.04,
+    "btc_price": 63379.0,
+    "btc_change_24h": 0.5,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 49
+    "total_signals": 51
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-17",
-      "earthquake_count": 19,
+      "earthquake_count": 21,
       "max_earthquake_mag": 6.1,
       "disaster_count": 10,
-      "btc_price": 63044.0,
+      "btc_price": 63379.0,
       "fear_greed_index": 31,
-      "total_signals": 49
+      "total_signals": 51
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-17",
-    "total_signals": 49,
+    "total_signals": 51,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 19 次地震，最大 M6.1，中度活跃。"
+        "text": "全球记录 21 次地震，最大 M6.1，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,044，日涨跌 +0.04%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,379，日涨跌 +0.50%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -610,11 +610,11 @@
     },
     {
       "mag": 5.7,
-      "place": "42 km NNW of Ende, Indonesia",
-      "time": "2026-08-17T00:46:45.054000+00:00",
-      "depth_km": 35.6,
-      "lat": -8.5128,
-      "lon": 121.4731,
+      "place": "65 km NNW of Ende, Indonesia",
+      "time": "2026-08-17T00:46:45.640000+00:00",
+      "depth_km": 48.9,
+      "lat": -8.2665,
+      "lon": 121.5148,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eay"
@@ -761,6 +761,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e6s"
+    },
+    {
+      "mag": 4.5,
+      "place": "35 km E of Poso, Indonesia",
+      "time": "2026-08-17T01:01:29.183000+00:00",
+      "depth_km": 10,
+      "lat": -1.3664,
+      "lon": 121.0709,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eb0"
+    },
+    {
+      "mag": 4.5,
+      "place": "71 km NNE of Labuan Bajo, Indonesia",
+      "time": "2026-08-17T00:27:36.214000+00:00",
+      "depth_km": 35,
+      "lat": -7.9505,
+      "lon": 120.2426,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eav"
     },
     {
       "mag": 4.5,
