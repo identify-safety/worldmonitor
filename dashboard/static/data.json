@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:38:15.622921+00:00",
+  "generated_at": "2026-08-17T10:29:29.270952+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
     "earthquake_count": 24,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63285.0,
-    "btc_change_24h": 0.45,
+    "btc_price": 63287.0,
+    "btc_change_24h": 0.53,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 54
@@ -263,7 +263,7 @@
       "earthquake_count": 24,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 63285.0,
+      "btc_price": 63287.0,
       "fear_greed_index": 31,
       "total_signals": 54
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,285，日涨跌 +0.45%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,287，日涨跌 +0.53%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -611,17 +611,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebi"
-    },
-    {
-      "mag": 5.3,
-      "place": "75 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-16T10:14:36.343000+00:00",
-      "depth_km": 10,
-      "lat": -7.9399,
-      "lon": 120.5995,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7j"
     },
     {
       "mag": 5.2,
@@ -754,6 +743,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed1"
+    },
+    {
+      "mag": 4.8,
+      "place": "159 km ESE of Saipan, Northern Mariana Islands",
+      "time": "2026-08-17T06:55:11.062000+00:00",
+      "depth_km": 10,
+      "lat": 14.5955,
+      "lon": 147.0932,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ecf"
     },
     {
       "mag": 4.8,
