@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:25:14.060311+00:00",
+  "generated_at": "2026-08-17T18:35:41.781902+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
     "earthquake_count": 23,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64329.0,
-    "btc_change_24h": 1.84,
+    "btc_price": 64369.0,
+    "btc_change_24h": 2.01,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 53
@@ -263,7 +263,7 @@
       "earthquake_count": 23,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64329.0,
+      "btc_price": 64369.0,
       "fear_greed_index": 31,
       "total_signals": 53
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,329，日涨跌 +1.84%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $64,369，日涨跌 +2.01%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -734,17 +734,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebh"
     },
     {
-      "mag": 4.9,
-      "place": "77 km N of Ruteng, Indonesia",
-      "time": "2026-08-16T17:26:15.105000+00:00",
-      "depth_km": 9.3,
-      "lat": -7.9109,
-      "lon": 120.4602,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e9a"
-    },
-    {
       "mag": 4.8,
       "place": "52 km NNW of Ende, Indonesia",
       "time": "2026-08-17T09:16:05.268000+00:00",
@@ -776,6 +765,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebc"
+    },
+    {
+      "mag": 4.6,
+      "place": "155 km N of Pototano, Indonesia",
+      "time": "2026-08-17T18:10:05.545000+00:00",
+      "depth_km": 496.6,
+      "lat": -7.0242,
+      "lon": 117.2457,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ef3"
     },
     {
       "mag": 4.6,
