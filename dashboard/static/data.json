@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:51:33.507880+00:00",
+  "generated_at": "2026-08-17T08:40:15.122750+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
     "earthquake_count": 22,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63494.0,
-    "btc_change_24h": 0.77,
+    "btc_price": 63352.0,
+    "btc_change_24h": 0.53,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 52
@@ -263,7 +263,7 @@
       "earthquake_count": 22,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 63494.0,
+      "btc_price": 63352.0,
       "fear_greed_index": 31,
       "total_signals": 52
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,494，日涨跌 +0.77%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,352，日涨跌 +0.53%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -691,6 +691,17 @@
     },
     {
       "mag": 4.9,
+      "place": "61 km NW of Ende, Indonesia",
+      "time": "2026-08-17T07:20:32.272000+00:00",
+      "depth_km": 28.3,
+      "lat": -8.5254,
+      "lon": 121.2007,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ech"
+    },
+    {
+      "mag": 4.9,
       "place": "90 km NE of Ruteng, Indonesia",
       "time": "2026-08-17T03:33:53.507000+00:00",
       "depth_km": 10,
@@ -754,17 +765,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7s"
-    },
-    {
-      "mag": 4.6,
-      "place": "68 km ESE of Madang, Papua New Guinea",
-      "time": "2026-08-16T08:06:50.468000+00:00",
-      "depth_km": 130.1,
-      "lat": -5.5296,
-      "lon": 146.3275,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e6s"
     },
     {
       "mag": 4.5,
