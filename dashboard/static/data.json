@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T08:40:15.122750+00:00",
+  "generated_at": "2026-08-17T09:38:15.622921+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
-    "earthquake_count": 22,
+    "earthquake_count": 24,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63352.0,
-    "btc_change_24h": 0.53,
+    "btc_price": 63285.0,
+    "btc_change_24h": 0.45,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 52
+    "total_signals": 54
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-17",
-      "earthquake_count": 22,
+      "earthquake_count": 24,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 63352.0,
+      "btc_price": 63285.0,
       "fear_greed_index": 31,
-      "total_signals": 52
+      "total_signals": 54
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-17",
-    "total_signals": 52,
+    "total_signals": 54,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 24 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,352，日涨跌 +0.53%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,285，日涨跌 +0.45%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -746,6 +746,17 @@
     },
     {
       "mag": 4.8,
+      "place": "52 km NNW of Ende, Indonesia",
+      "time": "2026-08-17T09:16:05.268000+00:00",
+      "depth_km": 10,
+      "lat": -8.3911,
+      "lon": 121.5192,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed1"
+    },
+    {
+      "mag": 4.8,
       "place": "84 km NNE of Labuan Bajo, Indonesia",
       "time": "2026-08-17T02:39:20.044000+00:00",
       "depth_km": 29.5,
@@ -765,6 +776,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7s"
+    },
+    {
+      "mag": 4.6,
+      "place": "43 km WNW of Turangi, New Zealand",
+      "time": "2026-08-17T05:18:41.824000+00:00",
+      "depth_km": 177.4,
+      "lat": -38.907,
+      "lon": 175.3138,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebp"
     },
     {
       "mag": 4.5,
@@ -835,13 +857,6 @@
   ],
   "disasters": [
     {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-07-31T01:00:00"
-    },
-    {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -850,8 +865,15 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Ethiopia, Kenya, Somalia",
-      "country": "Ethiopia, Kenya, Somalia",
+      "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "alert_level": "Orange",
+      "date": "2026-05-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+      "country": "Eritrea, Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
       "date": "2026-04-21T00:00:00"
     },
@@ -864,10 +886,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
     },
     {
       "type": "EQ",
@@ -1036,13 +1065,6 @@
       "country": "Northern Mariana Islands, Guam",
       "alert_level": "Red",
       "date": "2026-04-09T00:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in Afghanistan",
-      "country": "Afghanistan",
-      "alert_level": "Orange",
-      "date": "2026-03-25T01:00:00"
     }
   ]
 }
