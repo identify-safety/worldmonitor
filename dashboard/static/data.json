@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T20:23:51.286602+00:00",
+  "generated_at": "2026-08-17T21:23:33.157865+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
     "earthquake_count": 25,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64269.0,
-    "btc_change_24h": 1.9,
+    "btc_price": 64325.0,
+    "btc_change_24h": 2.1,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 55
@@ -263,7 +263,7 @@
       "earthquake_count": 25,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64269.0,
+      "btc_price": 64325.0,
       "fear_greed_index": 31,
       "total_signals": 55
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,269，日涨跌 +1.90%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $64,325，日涨跌 +2.10%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -812,6 +812,17 @@
     },
     {
       "mag": 4.5,
+      "place": "41 km SW of Karluk, Alaska",
+      "time": "2026-08-17T20:35:10.038000+00:00",
+      "depth_km": 57.9,
+      "lat": 57.279,
+      "lon": -154.894,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qgsene"
+    },
+    {
+      "mag": 4.5,
       "place": "35 km E of Poso, Indonesia",
       "time": "2026-08-17T01:01:29.183000+00:00",
       "depth_km": 10,
@@ -853,17 +864,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ea9"
-    },
-    {
-      "mag": 4.5,
-      "place": "100 km W of San Antonio de los Cobres, Argentina",
-      "time": "2026-08-16T21:06:07.491000+00:00",
-      "depth_km": 173.8,
-      "lat": -24.3041,
-      "lon": -67.3083,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ea6"
     }
   ],
   "disasters": [
