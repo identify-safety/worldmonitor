@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-17T12:38:56.758209+00:00",
+  "generated_at": "2026-08-17T13:37:21.498932+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
-    "earthquake_count": 22,
-    "max_earthquake_mag": 5.7,
+    "earthquake_count": 25,
+    "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63544.0,
-    "btc_change_24h": 0.94,
+    "btc_price": 63643.0,
+    "btc_change_24h": 1.0,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 52
+    "total_signals": 55
   },
   "cii": [
     {
@@ -91,10 +91,10 @@
     },
     {
       "country_code": "RU",
-      "score": 35,
+      "score": 36,
       "level": "normal",
       "prev_score": 35,
-      "change_24h": 0,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,14 +146,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "PL",
       "score": 10,
       "level": "low",
@@ -163,6 +155,14 @@
     },
     {
       "country_code": "FR",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "AE",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-17",
-      "earthquake_count": 22,
-      "max_earthquake_mag": 5.7,
+      "earthquake_count": 25,
+      "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 63544.0,
+      "btc_price": 63643.0,
       "fear_greed_index": 31,
-      "total_signals": 52
+      "total_signals": 55
     }
   ],
   "anomalies": [
@@ -415,7 +415,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.27777777777778,
+      "avg_score": 35.333333333333336,
       "max_score": 36,
       "min_score": 35,
       "data_points": 18,
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-17",
-    "total_signals": 52,
+    "total_signals": 55,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 25 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,544，日涨跌 +0.94%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,643，日涨跌 +1.00%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -590,6 +590,17 @@
     "count": 1
   },
   "earthquakes": [
+    {
+      "mag": 5.8,
+      "place": "72 km E of Petropavlovsk-Kamchatsky, Russia",
+      "time": "2026-08-17T12:38:03.466000+00:00",
+      "depth_km": 54.7,
+      "lat": 53.024,
+      "lon": 159.7106,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edq"
+    },
     {
       "mag": 5.7,
       "place": "65 km NNW of Ende, Indonesia",
@@ -688,6 +699,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e86"
+    },
+    {
+      "mag": 4.9,
+      "place": "44 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-17T12:51:05.572000+00:00",
+      "depth_km": 30.0,
+      "lat": -8.2712,
+      "lon": 120.6721,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edt"
+    },
+    {
+      "mag": 4.9,
+      "place": "68 km N of Ruteng, Indonesia",
+      "time": "2026-08-17T12:39:35.566000+00:00",
+      "depth_km": 10,
+      "lat": -8.0024,
+      "lon": 120.3701,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eds"
     },
     {
       "mag": 4.9,
