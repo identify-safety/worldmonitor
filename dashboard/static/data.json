@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T04:39:19.184337+00:00",
+  "generated_at": "2026-08-17T05:33:21.862561+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
-    "earthquake_count": 22,
+    "earthquake_count": 23,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63444.0,
-    "btc_change_24h": 0.59,
+    "btc_price": 63450.0,
+    "btc_change_24h": 0.68,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 52
+    "total_signals": 53
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-17",
-      "earthquake_count": 22,
+      "earthquake_count": 23,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 63444.0,
+      "btc_price": 63450.0,
       "fear_greed_index": 31,
-      "total_signals": 52
+      "total_signals": 53
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-17",
-    "total_signals": 52,
+    "total_signals": 53,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 23 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,444，日涨跌 +0.59%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,450，日涨跌 +0.68%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -745,6 +745,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7q"
     },
     {
+      "mag": 4.8,
+      "place": "84 km NNE of Labuan Bajo, Indonesia",
+      "time": "2026-08-17T02:39:20.044000+00:00",
+      "depth_km": 29.5,
+      "lat": -7.8295,
+      "lon": 120.2556,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebc"
+    },
+    {
       "mag": 4.7,
       "place": "83 km NNE of Labuan Bajo, Indonesia",
       "time": "2026-08-16T11:21:11.806000+00:00",
@@ -835,13 +846,6 @@
   ],
   "disasters": [
     {
-      "type": "EQ",
-      "name": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "alert_level": "Red",
-      "date": "2026-08-14T21:58:21"
-    },
-    {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -868,6 +872,13 @@
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Italy, Liechtenstein, Luxembourg, Monaco, Montenegro, The Republic of North Macedonia, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "alert_level": "Red",
+      "date": "2026-08-14T21:58:21"
     },
     {
       "type": "FL",
