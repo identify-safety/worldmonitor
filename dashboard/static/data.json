@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:33:21.862561+00:00",
+  "generated_at": "2026-08-17T06:50:51.091461+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
     "earthquake_count": 23,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 63450.0,
-    "btc_change_24h": 0.68,
+    "btc_price": 63614.0,
+    "btc_change_24h": 0.93,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
     "total_signals": 53
@@ -263,7 +263,7 @@
       "earthquake_count": 23,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 63450.0,
+      "btc_price": 63614.0,
       "fear_greed_index": 31,
       "total_signals": 53
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $63,450，日涨跌 +0.68%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $63,614，日涨跌 +0.93%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
@@ -846,6 +846,13 @@
   ],
   "disasters": [
     {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
+    },
+    {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -879,13 +886,6 @@
       "country": "Indonesia",
       "alert_level": "Red",
       "date": "2026-08-14T21:58:21"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-07-31T01:00:00"
     },
     {
       "type": "EQ",
