@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T19:26:22.947502+00:00",
+  "generated_at": "2026-08-17T20:23:51.286602+00:00",
   "overview": {
     "snapshot_date": "2026-08-17",
-    "earthquake_count": 24,
+    "earthquake_count": 25,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64299.0,
-    "btc_change_24h": 1.85,
+    "btc_price": 64269.0,
+    "btc_change_24h": 1.9,
     "fear_greed_index": 31,
     "fear_greed_label": "Fear",
-    "total_signals": 34
+    "total_signals": 55
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-17",
-      "earthquake_count": 24,
+      "earthquake_count": 25,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64299.0,
+      "btc_price": 64269.0,
       "fear_greed_index": 31,
-      "total_signals": 34
+      "total_signals": 55
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-17",
-    "total_signals": 34,
+    "total_signals": 55,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 24 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 25 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,13 +554,19 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,299，日涨跌 +1.85%。恐惧与贪婪指数 31（Fear）。"
+        "text": "BTC 报 $64,269，日涨跌 +1.90%。恐惧与贪婪指数 31（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
         "text": "国家不稳定指数前三：Yemen(50)、Ukraine(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+      },
+      {
+        "icon": "🌡️",
+        "title": "气候与空间",
+        "level": "normal",
+        "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
       },
       {
         "icon": "🚨",
@@ -737,6 +743,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebh"
+    },
+    {
+      "mag": 4.8,
+      "place": "219 km WSW of Longyearbyen, Svalbard and Jan Mayen",
+      "time": "2026-08-17T19:51:23.274000+00:00",
+      "depth_km": 10,
+      "lat": 77.5754,
+      "lon": 6.791,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015efp"
     },
     {
       "mag": 4.8,
