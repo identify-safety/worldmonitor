@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T11:23:17.684593+00:00",
+  "generated_at": "2026-08-18T12:40:19.791222+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 18,
-    "max_earthquake_mag": 5.8,
+    "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64278.0,
-    "btc_change_24h": 1.03,
+    "btc_price": 64218.0,
+    "btc_change_24h": 1.09,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 48
@@ -90,19 +90,19 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
-      "score": 36,
-      "level": "normal",
-      "prev_score": 36,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
       "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "RU",
+      "score": 35,
+      "level": "normal",
+      "prev_score": 36,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-18",
       "earthquake_count": 18,
-      "max_earthquake_mag": 5.8,
+      "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 64278.0,
+      "btc_price": 64218.0,
       "fear_greed_index": 41,
       "total_signals": 48
     }
@@ -414,7 +414,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.36842105263158,
+      "avg_score": 35.31578947368421,
       "max_score": 36,
       "min_score": 35,
       "data_points": 19,
@@ -541,7 +541,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 18 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 18 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -553,13 +553,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,278，日涨跌 +1.03%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,218，日涨跌 +1.09%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -589,17 +589,6 @@
     "count": 1
   },
   "earthquakes": [
-    {
-      "mag": 5.8,
-      "place": "72 km E of Petropavlovsk-Kamchatsky, Russia",
-      "time": "2026-08-17T12:38:03.466000+00:00",
-      "depth_km": 54.7,
-      "lat": 53.024,
-      "lon": 159.7106,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edq"
-    },
     {
       "mag": 5.7,
       "place": "95 km SW of Puerto Madero, Mexico",
@@ -689,17 +678,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edt"
     },
     {
-      "mag": 4.9,
-      "place": "68 km N of Ruteng, Indonesia",
-      "time": "2026-08-17T12:39:35.566000+00:00",
-      "depth_km": 10,
-      "lat": -8.0024,
-      "lon": 120.3701,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eds"
-    },
-    {
       "mag": 4.8,
       "place": "74 km N of Ruteng, Indonesia",
       "time": "2026-08-18T09:01:39.508000+00:00",
@@ -742,6 +720,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015efp"
+    },
+    {
+      "mag": 4.7,
+      "place": "80 km N of Ruteng, Indonesia",
+      "time": "2026-08-18T11:06:50.913000+00:00",
+      "depth_km": 10.3,
+      "lat": -7.8898,
+      "lon": 120.3661,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmt"
+    },
+    {
+      "mag": 4.7,
+      "place": "1 km WSW of Alhendín, Spain",
+      "time": "2026-08-18T10:39:43.915000+00:00",
+      "depth_km": 10,
+      "lat": 37.1061,
+      "lon": -3.6598,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmq"
     },
     {
       "mag": 4.6,
