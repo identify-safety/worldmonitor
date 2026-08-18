@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:20:48.810452+00:00",
+  "generated_at": "2026-08-18T21:21:48.627939+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 17,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64598.0,
-    "btc_change_24h": 0.54,
+    "btc_price": 64570.0,
+    "btc_change_24h": 0.38,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 47
@@ -263,7 +263,7 @@
       "earthquake_count": 17,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 64598.0,
+      "btc_price": 64570.0,
       "fear_greed_index": 41,
       "total_signals": 47
     }
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,598，日涨跌 +0.54%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,570，日涨跌 +0.38%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -679,6 +679,17 @@
     },
     {
       "mag": 4.8,
+      "place": "72 km NW of Ende, Indonesia",
+      "time": "2026-08-18T20:15:46.995000+00:00",
+      "depth_km": 56.4,
+      "lat": -8.306,
+      "lon": 121.2814,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqv"
+    },
+    {
+      "mag": 4.8,
       "place": "74 km N of Ruteng, Indonesia",
       "time": "2026-08-18T09:01:39.508000+00:00",
       "depth_km": 33.1,
@@ -764,17 +775,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm6"
-    },
-    {
-      "mag": 4.5,
-      "place": "41 km SW of Karluk, Alaska",
-      "time": "2026-08-17T20:35:10.038000+00:00",
-      "depth_km": 57.9,
-      "lat": 57.279,
-      "lon": -154.894,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qgsene"
     }
   ],
   "disasters": [
