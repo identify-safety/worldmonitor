@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T10:25:34.690759+00:00",
+  "generated_at": "2026-08-18T11:23:17.684593+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
-    "earthquake_count": 21,
+    "earthquake_count": 18,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64073.0,
-    "btc_change_24h": 1.27,
+    "btc_price": 64278.0,
+    "btc_change_24h": 1.03,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
-    "total_signals": 51
+    "total_signals": 48
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-18",
-      "earthquake_count": 21,
+      "earthquake_count": 18,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64073.0,
+      "btc_price": 64278.0,
       "fear_greed_index": 41,
-      "total_signals": 51
+      "total_signals": 48
     }
   ],
   "anomalies": [
@@ -531,7 +531,7 @@
   ],
   "briefing": {
     "date": "2026-08-18",
-    "total_signals": 51,
+    "total_signals": 48,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -541,7 +541,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 21 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 18 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,073，日涨跌 +1.27%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,278，日涨跌 +1.03%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -623,17 +623,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkt"
     },
     {
-      "mag": 5.4,
-      "place": "75 km N of Ruteng, Indonesia",
-      "time": "2026-08-17T10:44:49.886000+00:00",
-      "depth_km": 10,
-      "lat": -7.9289,
-      "lon": 120.4324,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed8"
-    },
-    {
       "mag": 5.3,
       "place": "24 km ENE of Colonia, Micronesia",
       "time": "2026-08-17T22:53:11.292000+00:00",
@@ -645,17 +634,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlgm"
     },
     {
-      "mag": 5.2,
-      "place": "81 km N of Ruteng, Indonesia",
-      "time": "2026-08-17T10:42:41.971000+00:00",
-      "depth_km": 10,
-      "lat": -7.8762,
-      "lon": 120.5019,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ed7"
-    },
-    {
       "mag": 5.1,
       "place": "Kuril Islands",
       "time": "2026-08-17T21:36:36.105000+00:00",
@@ -665,17 +643,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlbz"
-    },
-    {
-      "mag": 5.1,
-      "place": "28 km SW of Kandrian, Papua New Guinea",
-      "time": "2026-08-17T11:00:23.022000+00:00",
-      "depth_km": 35,
-      "lat": -6.3769,
-      "lon": 149.3577,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edb"
     },
     {
       "mag": 5,
