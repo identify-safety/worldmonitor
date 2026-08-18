@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:36:22.576200+00:00",
+  "generated_at": "2026-08-18T08:33:59.234173+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 19,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64199.0,
-    "btc_change_24h": 1.07,
+    "btc_price": 64165.0,
+    "btc_change_24h": 1.24,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 49
@@ -263,7 +263,7 @@
       "earthquake_count": 19,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64199.0,
+      "btc_price": 64165.0,
       "fear_greed_index": 41,
       "total_signals": 49
     }
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,199，日涨跌 +1.07%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,165，日涨跌 +1.24%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -777,17 +777,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ef3"
     },
     {
-      "mag": 4.6,
-      "place": "3 km NNE of Takatsuki, Japan",
-      "time": "2026-08-17T07:36:19.104000+00:00",
-      "depth_km": 370.5,
-      "lat": 34.8761,
-      "lon": 135.6311,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ecj"
-    },
-    {
       "mag": 4.5,
       "place": "41 km SW of Karluk, Alaska",
       "time": "2026-08-17T20:35:10.038000+00:00",
@@ -797,6 +786,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qgsene"
+    },
+    {
+      "mag": 4.5,
+      "place": "82 km ENE of Ruteng, Indonesia",
+      "time": "2026-08-17T08:52:00.116000+00:00",
+      "depth_km": 23.7,
+      "lat": -8.3011,
+      "lon": 121.1463,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ecv"
     }
   ],
   "disasters": [
