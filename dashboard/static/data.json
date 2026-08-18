@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:33:08.530268+00:00",
+  "generated_at": "2026-08-18T05:26:47.846648+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 19,
@@ -10,13 +10,21 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64102.0,
-    "btc_change_24h": 1.07,
+    "btc_price": 64157.0,
+    "btc_change_24h": 1.01,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 49
   },
   "cii": [
+    {
+      "country_code": "YE",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
     {
       "country_code": "UA",
       "score": 50,
@@ -27,14 +35,6 @@
     },
     {
       "country_code": "SY",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -170,6 +170,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "GB",
+      "score": 5,
+      "level": "low",
+      "prev_score": 6,
+      "change_24h": -1,
+      "trend": "stable"
+    },
+    {
       "country_code": "US",
       "score": 5,
       "level": "low",
@@ -183,14 +191,6 @@
       "level": "low",
       "prev_score": 5,
       "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "GB",
-      "score": 5,
-      "level": "low",
-      "prev_score": 6,
-      "change_24h": -1,
       "trend": "stable"
     }
   ],
@@ -263,7 +263,7 @@
       "earthquake_count": 19,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64102.0,
+      "btc_price": 64157.0,
       "fear_greed_index": 41,
       "total_signals": 49
     }
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,102，日涨跌 +1.07%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,157，日涨跌 +1.01%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -599,6 +599,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015edq"
+    },
+    {
+      "mag": 5.7,
+      "place": "95 km SW of Puerto Madero, Mexico",
+      "time": "2026-08-18T05:02:32.244000+00:00",
+      "depth_km": 10,
+      "lat": 14.2298,
+      "lon": -93.1475,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkl"
     },
     {
       "mag": 5.4,
@@ -777,17 +788,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ef3"
     },
     {
-      "mag": 4.6,
-      "place": "43 km WNW of Turangi, New Zealand",
-      "time": "2026-08-17T05:18:41.824000+00:00",
-      "depth_km": 177.4,
-      "lat": -38.907,
-      "lon": 175.3138,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebp"
-    },
-    {
       "mag": 4.5,
       "place": "41 km SW of Karluk, Alaska",
       "time": "2026-08-17T20:35:10.038000+00:00",
@@ -800,6 +800,13 @@
     }
   ],
   "disasters": [
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
+    },
     {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -823,24 +830,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Madagascar",
-      "country": "Madagascar",
-      "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
     },
     {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
       "alert_level": "Orange",
-      "date": "2026-07-31T01:00:00"
+      "date": "2025-11-21T00:00:00"
     },
     {
       "type": "EQ",
