@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:05:30.070837+00:00",
+  "generated_at": "2026-08-18T02:53:26.984491+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 21,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64302.0,
-    "btc_change_24h": 1.99,
+    "btc_price": 64076.0,
+    "btc_change_24h": 1.21,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 51
@@ -263,7 +263,7 @@
       "earthquake_count": 21,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 64302.0,
+      "btc_price": 64076.0,
       "fear_greed_index": 41,
       "total_signals": 51
     }
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,302，日涨跌 +1.99%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,076，日涨跌 +1.21%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -745,6 +745,17 @@
     },
     {
       "mag": 4.8,
+      "place": "south of the Fiji Islands",
+      "time": "2026-08-18T01:10:03.872000+00:00",
+      "depth_km": 576.4,
+      "lat": -22.0411,
+      "lon": -179.0793,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tljs"
+    },
+    {
+      "mag": 4.8,
       "place": "219 km WSW of Longyearbyen, Svalbard and Jan Mayen",
       "time": "2026-08-17T19:51:23.274000+00:00",
       "depth_km": 10,
@@ -775,17 +786,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ecf"
-    },
-    {
-      "mag": 4.8,
-      "place": "84 km NNE of Labuan Bajo, Indonesia",
-      "time": "2026-08-17T02:39:20.044000+00:00",
-      "depth_km": 29.5,
-      "lat": -7.8295,
-      "lon": 120.2556,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebc"
     },
     {
       "mag": 4.6,
