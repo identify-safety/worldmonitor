@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T21:21:48.627939+00:00",
+  "generated_at": "2026-08-18T22:21:05.810240+00:00",
   "overview": {
     "snapshot_date": "2026-08-18",
     "earthquake_count": 17,
-    "max_earthquake_mag": 5.7,
+    "max_earthquake_mag": 5.9,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64570.0,
-    "btc_change_24h": 0.38,
+    "btc_price": 64542.0,
+    "btc_change_24h": 0.47,
     "fear_greed_index": 41,
     "fear_greed_label": "Fear",
     "total_signals": 47
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-18",
       "earthquake_count": 17,
-      "max_earthquake_mag": 5.7,
+      "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 64570.0,
+      "btc_price": 64542.0,
       "fear_greed_index": 41,
       "total_signals": 47
     }
@@ -541,7 +541,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 17 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 17 次地震，最大 M5.9，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,570，日涨跌 +0.38%。恐惧与贪婪指数 41（Fear）。"
+        "text": "BTC 报 $64,542，日涨跌 +0.47%。恐惧与贪婪指数 41（Fear）。"
       },
       {
         "icon": "🏴",
@@ -589,6 +589,17 @@
     "count": 1
   },
   "earthquakes": [
+    {
+      "mag": 5.9,
+      "place": "269 km SSE of Dunhuang, China",
+      "time": "2026-08-18T21:36:29.215000+00:00",
+      "depth_km": 10,
+      "lat": 37.8349,
+      "lon": 95.538,
+      "alert": "yellow",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrj"
+    },
     {
       "mag": 5.7,
       "place": "95 km SW of Puerto Madero, Mexico",
@@ -632,17 +643,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlgm"
-    },
-    {
-      "mag": 5.1,
-      "place": "Kuril Islands",
-      "time": "2026-08-17T21:36:36.105000+00:00",
-      "depth_km": 93.5,
-      "lat": 46.4392,
-      "lon": 151.4468,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlbz"
     },
     {
       "mag": 4.9,
