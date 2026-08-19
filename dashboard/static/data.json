@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T20:24:10.060615+00:00",
+  "generated_at": "2026-08-19T21:23:04.929984+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
-    "earthquake_count": 18,
+    "earthquake_count": 17,
     "max_earthquake_mag": 5.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 68654.0,
-    "btc_change_24h": 6.3,
+    "btc_price": 69433.0,
+    "btc_change_24h": 7.53,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
-    "total_signals": 48
+    "total_signals": 47
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-19",
-      "earthquake_count": 18,
+      "earthquake_count": 17,
       "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 68654.0,
+      "btc_price": 69433.0,
       "fear_greed_index": 46,
-      "total_signals": 48
+      "total_signals": 47
     }
   ],
   "anomalies": [
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-19",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 6.3% in 24h"
+        "BTC surged 7.5% in 24h"
       ],
       "convergence_zones": []
     },
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-19",
-    "total_signals": 48,
+    "total_signals": 47,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 18 次地震，最大 M5.9，地震活动处于正常水平。"
+        "text": "全球记录 17 次地震，最大 M5.9，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $68,654，日涨跌 +6.30%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $69,433，日涨跌 +7.53%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 6.3% in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.5% in 24h"
       }
     ]
   },
@@ -590,7 +590,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +6.3%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.5%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -739,17 +739,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltq"
-    },
-    {
-      "mag": 4.7,
-      "place": "77 km NNW of Ende, Indonesia",
-      "time": "2026-08-18T21:11:40.773000+00:00",
-      "depth_km": 35,
-      "lat": -8.1867,
-      "lon": 121.4255,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlre"
     },
     {
       "mag": 4.6,
