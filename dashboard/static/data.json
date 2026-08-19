@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-19T21:23:04.929984+00:00",
+  "generated_at": "2026-08-19T22:21:48.152399+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
     "earthquake_count": 17,
-    "max_earthquake_mag": 5.9,
+    "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 69433.0,
-    "btc_change_24h": 7.53,
+    "btc_price": 69323.0,
+    "btc_change_24h": 7.41,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
     "total_signals": 47
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-19",
       "earthquake_count": 17,
-      "max_earthquake_mag": 5.9,
+      "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 69433.0,
+      "btc_price": 69323.0,
       "fear_greed_index": 46,
       "total_signals": 47
     }
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-19",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.5% in 24h"
+        "BTC surged 7.4% in 24h"
       ],
       "convergence_zones": []
     },
@@ -542,7 +542,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 17 次地震，最大 M5.9，地震活动处于正常水平。"
+        "text": "全球记录 17 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $69,433，日涨跌 +7.53%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $69,323，日涨跌 +7.41%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.5% in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.4% in 24h"
       }
     ]
   },
@@ -590,24 +590,13 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.5%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.4%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
     "count": 2
   },
   "earthquakes": [
-    {
-      "mag": 5.9,
-      "place": "270 km WSW of Yanglong, China",
-      "time": "2026-08-18T21:36:28.032000+00:00",
-      "depth_km": 6,
-      "lat": 37.8208,
-      "lon": 95.6095,
-      "alert": "yellow",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrj"
-    },
     {
       "mag": 5.5,
       "place": "52 km NNE of Ruteng, Indonesia",
@@ -742,6 +731,28 @@
     },
     {
       "mag": 4.6,
+      "place": "28 km NE of Niños Héroes, Mexico",
+      "time": "2026-08-19T20:06:29.427000+00:00",
+      "depth_km": 178.3,
+      "lat": 17.6051,
+      "lon": -94.3016,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlzp"
+    },
+    {
+      "mag": 4.6,
+      "place": "74 km NE of Ruteng, Indonesia",
+      "time": "2026-08-19T01:44:50.319000+00:00",
+      "depth_km": 10,
+      "lat": -8.2229,
+      "lon": 121.0211,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlss"
+    },
+    {
+      "mag": 4.6,
       "place": "71 km NW of Ende, Indonesia",
       "time": "2026-08-18T23:59:16.815000+00:00",
       "depth_km": 35,
@@ -772,17 +783,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlt1"
-    },
-    {
-      "mag": 4.5,
-      "place": "274 km SSE of Dunhuang, China",
-      "time": "2026-08-18T21:59:55.525000+00:00",
-      "depth_km": 10,
-      "lat": 37.758,
-      "lon": 95.4104,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrq"
     }
   ],
   "disasters": [
