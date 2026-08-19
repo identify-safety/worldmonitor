@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:32:00.642837+00:00",
+  "generated_at": "2026-08-19T19:22:52.900101+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
     "earthquake_count": 19,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 68245.0,
-    "btc_change_24h": 5.38,
+    "btc_price": 68312.0,
+    "btc_change_24h": 5.61,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
     "total_signals": 49
@@ -171,10 +171,10 @@
     },
     {
       "country_code": "GB",
-      "score": 5,
+      "score": 6,
       "level": "low",
       "prev_score": 6,
-      "change_24h": -1,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -263,7 +263,7 @@
       "earthquake_count": 19,
       "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 68245.0,
+      "btc_price": 68312.0,
       "fear_greed_index": 46,
       "total_signals": 49
     }
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-19",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 5.4% in 24h"
+        "BTC surged 5.6% in 24h"
       ],
       "convergence_zones": []
     },
@@ -505,7 +505,7 @@
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.15,
+      "avg_score": 5.2,
       "max_score": 6,
       "min_score": 5,
       "data_points": 20,
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $68,245，日涨跌 +5.38%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $68,312，日涨跌 +5.61%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
@@ -572,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 5.4% in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 5.6% in 24h"
       }
     ]
   },
@@ -590,7 +590,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +5.4%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +5.6%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -621,12 +621,23 @@
     },
     {
       "mag": 5.4,
+      "place": "215 km E of Levuka, Fiji",
+      "time": "2026-08-19T18:45:29.754000+00:00",
+      "depth_km": 556.8,
+      "lat": -17.8049,
+      "lon": -178.6638,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz8"
+    },
+    {
+      "mag": 5.4,
       "place": "134 km S of Severo-Kuril’sk, Russia",
       "time": "2026-08-19T18:07:17.251000+00:00",
       "depth_km": 41.2,
       "lat": 49.4799,
       "lon": 155.8633,
-      "alert": null,
+      "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyv"
     },
@@ -662,17 +673,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvn"
-    },
-    {
-      "mag": 4.9,
-      "place": "76 km NW of Ende, Indonesia",
-      "time": "2026-08-18T19:03:07.854000+00:00",
-      "depth_km": 10,
-      "lat": -8.2942,
-      "lon": 121.2432,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlqk"
     },
     {
       "mag": 4.8,
