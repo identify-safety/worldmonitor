@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:28:34.749719+00:00",
+  "generated_at": "2026-08-19T16:28:42.692692+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
     "earthquake_count": 17,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 67070.0,
-    "btc_change_24h": 3.57,
+    "btc_price": 68757.0,
+    "btc_change_24h": 6.32,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
     "total_signals": 47
@@ -263,7 +263,7 @@
       "earthquake_count": 17,
       "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 67070.0,
+      "btc_price": 68757.0,
       "fear_greed_index": 46,
       "total_signals": 47
     }
@@ -272,7 +272,8 @@
     {
       "snapshot_date": "2026-08-19",
       "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 6.3% in 24h"
       ],
       "convergence_zones": []
     },
@@ -552,8 +553,8 @@
       {
         "icon": "🪙",
         "title": "加密市场",
-        "level": "normal",
-        "text": "BTC 报 $67,070，日涨跌 +3.57%。恐惧与贪婪指数 46（Fear）。"
+        "level": "critical",
+        "text": "BTC 报 $68,757，日涨跌 +6.32%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
@@ -571,7 +572,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 6.3% in 24h"
       }
     ]
   },
@@ -583,10 +584,17 @@
         "title": "灾害密集",
         "level": "critical",
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
+        "id": "btc_volatile",
+        "icon": "📉",
+        "title": "BTC剧烈波动",
+        "level": "critical",
+        "message": "BTC 24小时波动 +6.3%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
