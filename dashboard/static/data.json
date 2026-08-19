@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T01:06:04.067135+00:00",
+  "generated_at": "2026-08-19T02:55:02.301538+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
-    "earthquake_count": 17,
+    "earthquake_count": 16,
     "max_earthquake_mag": 5.9,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,21 +10,13 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64408.0,
-    "btc_change_24h": 0.21,
+    "btc_price": 64317.0,
+    "btc_change_24h": 0.39,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
-    "total_signals": 47
+    "total_signals": 46
   },
   "cii": [
-    {
-      "country_code": "UA",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
     {
       "country_code": "SY",
       "score": 50,
@@ -42,10 +34,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "IL",
-      "score": 45,
+      "country_code": "UA",
+      "score": 50,
       "level": "elevated",
-      "prev_score": 45,
+      "prev_score": 50,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -66,18 +58,18 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 43,
+      "country_code": "IL",
+      "score": 45,
       "level": "elevated",
-      "prev_score": 43,
+      "prev_score": 45,
       "change_24h": 0,
       "trend": "stable"
     },
     {
-      "country_code": "IR",
-      "score": 40,
+      "country_code": "CN",
+      "score": 43,
       "level": "elevated",
-      "prev_score": 40,
+      "prev_score": 43,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -90,7 +82,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "IR",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -98,7 +98,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -142,14 +142,6 @@
       "score": 15,
       "level": "low",
       "prev_score": 15,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -170,6 +162,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "GB",
       "score": 6,
       "level": "low",
@@ -178,7 +178,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "US",
+      "country_code": "DE",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +186,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-19",
-      "earthquake_count": 17,
+      "earthquake_count": 16,
       "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 64408.0,
+      "btc_price": 64317.0,
       "fear_greed_index": 46,
-      "total_signals": 47
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -531,7 +531,7 @@
   ],
   "briefing": {
     "date": "2026-08-19",
-    "total_signals": 47,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -541,7 +541,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 17 次地震，最大 M5.9，地震活动处于正常水平。"
+        "text": "全球记录 16 次地震，最大 M5.9，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -553,13 +553,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,408，日涨跌 +0.21%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $64,317，日涨跌 +0.39%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -689,28 +689,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlm3"
     },
     {
-      "mag": 4.8,
-      "place": "46 km NNW of Ruteng, Indonesia",
-      "time": "2026-08-18T02:42:38.032000+00:00",
-      "depth_km": 34.1,
-      "lat": -8.2434,
-      "lon": 120.2573,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlk5"
-    },
-    {
-      "mag": 4.8,
-      "place": "south of the Fiji Islands",
-      "time": "2026-08-18T01:10:03.872000+00:00",
-      "depth_km": 576.4,
-      "lat": -22.0411,
-      "lon": -179.0793,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tljs"
-    },
-    {
       "mag": 4.7,
       "place": "72 km NNE of Ruteng, Indonesia",
       "time": "2026-08-18T12:00:13.955000+00:00",
@@ -753,6 +731,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc"
+    },
+    {
+      "mag": 4.5,
+      "place": "134 km WNW of Hihifo, Tonga",
+      "time": "2026-08-19T02:20:00.069000+00:00",
+      "depth_km": 236.6,
+      "lat": -15.3235,
+      "lon": -174.8659,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlt1"
     },
     {
       "mag": 4.5,
