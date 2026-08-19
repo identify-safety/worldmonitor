@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:31:43.533830+00:00",
+  "generated_at": "2026-08-19T10:25:50.141912+00:00",
   "overview": {
     "snapshot_date": "2026-08-19",
     "earthquake_count": 18,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 64335.0,
-    "btc_change_24h": 0.37,
+    "btc_price": 64343.0,
+    "btc_change_24h": 0.39,
     "fear_greed_index": 46,
     "fear_greed_label": "Fear",
     "total_signals": 48
@@ -263,7 +263,7 @@
       "earthquake_count": 18,
       "max_earthquake_mag": 5.9,
       "disaster_count": 10,
-      "btc_price": 64335.0,
+      "btc_price": 64343.0,
       "fear_greed_index": 46,
       "total_signals": 48
     }
@@ -553,7 +553,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $64,335，日涨跌 +0.37%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $64,343，日涨跌 +0.39%。恐惧与贪婪指数 46（Fear）。"
       },
       {
         "icon": "🏴",
@@ -679,6 +679,17 @@
     },
     {
       "mag": 4.7,
+      "place": "114 km E of Hihifo, Tonga",
+      "time": "2026-08-19T09:07:19.758000+00:00",
+      "depth_km": 10,
+      "lat": -15.9165,
+      "lon": -172.7309,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluh"
+    },
+    {
+      "mag": 4.7,
       "place": "265 km SSE of Dunhuang, China",
       "time": "2026-08-19T05:22:24.762000+00:00",
       "depth_km": 10,
@@ -753,17 +764,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlrt"
-    },
-    {
-      "mag": 4.6,
-      "place": "5 km ENE of Escúzar, Spain",
-      "time": "2026-08-18T09:34:37.659000+00:00",
-      "depth_km": 10,
-      "lat": 37.0875,
-      "lon": -3.7084,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc"
     },
     {
       "mag": 4.5,
