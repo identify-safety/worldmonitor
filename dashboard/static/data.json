@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T09:32:25.235512+00:00",
+  "generated_at": "2026-08-20T10:27:14.761304+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
-    "earthquake_count": 21,
+    "earthquake_count": 23,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 71805.0,
-    "btc_change_24h": 11.61,
+    "btc_price": 72252.0,
+    "btc_change_24h": 12.32,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 51
+    "total_signals": 53
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-20",
-      "earthquake_count": 21,
+      "earthquake_count": 23,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 71805.0,
+      "btc_price": 72252.0,
       "fear_greed_index": 62,
-      "total_signals": 51
+      "total_signals": 53
     }
   ],
   "anomalies": [
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 11.6% in 24h",
+        "BTC surged 12.3% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -534,7 +534,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 51,
+    "total_signals": 53,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -544,7 +544,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 21 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 23 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -556,7 +556,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $71,805，日涨跌 +11.61%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $72,252，日涨跌 +12.32%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -574,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 11.6% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 12.3% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -592,7 +592,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +11.6%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +12.3%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -653,6 +653,28 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyv"
+    },
+    {
+      "mag": 5.3,
+      "place": "48 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-20T09:30:52.720000+00:00",
+      "depth_km": 10,
+      "lat": -8.2215,
+      "lon": 120.6701,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2v"
+    },
+    {
+      "mag": 5.2,
+      "place": "270 km SSE of Dunhuang, China",
+      "time": "2026-08-20T09:49:47.975000+00:00",
+      "depth_km": 10,
+      "lat": 37.8058,
+      "lon": 95.4454,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2y"
     },
     {
       "mag": 5.2,
