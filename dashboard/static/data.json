@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T01:05:45.161863+00:00",
+  "generated_at": "2026-08-20T02:58:01.691010+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
-    "earthquake_count": 19,
+    "earthquake_count": 17,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 69449.0,
-    "btc_change_24h": 7.83,
+    "btc_price": 69268.0,
+    "btc_change_24h": 7.7,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 49
+    "total_signals": 47
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-20",
-      "earthquake_count": 19,
+      "earthquake_count": 17,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 69449.0,
+      "btc_price": 69268.0,
       "fear_greed_index": 62,
-      "total_signals": 49
+      "total_signals": 47
     }
   ],
   "anomalies": [
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.8% in 24h",
+        "BTC surged 7.7% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -534,7 +534,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 49,
+    "total_signals": 47,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -544,7 +544,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 19 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 17 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -556,7 +556,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $69,449，日涨跌 +7.83%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $69,268，日涨跌 +7.70%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -574,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.8% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.7% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -592,7 +592,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.8%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.7%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -776,17 +776,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltg"
     },
     {
-      "mag": 4.6,
-      "place": "74 km NE of Ruteng, Indonesia",
-      "time": "2026-08-19T01:44:50.319000+00:00",
-      "depth_km": 10,
-      "lat": -8.2229,
-      "lon": 121.0211,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlss"
-    },
-    {
       "mag": 4.5,
       "place": "46 km NE of Ruteng, Indonesia",
       "time": "2026-08-19T23:20:14.116000+00:00",
@@ -796,17 +785,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm10"
-    },
-    {
-      "mag": 4.5,
-      "place": "134 km WNW of Hihifo, Tonga",
-      "time": "2026-08-19T02:20:00.069000+00:00",
-      "depth_km": 236.6,
-      "lat": -15.3235,
-      "lon": -174.8659,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlt1"
     }
   ],
   "disasters": [
