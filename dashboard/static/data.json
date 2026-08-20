@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-20T17:26:22.555289+00:00",
+  "generated_at": "2026-08-20T18:35:45.218568+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
-    "earthquake_count": 22,
-    "max_earthquake_mag": 5.8,
+    "earthquake_count": 23,
+    "max_earthquake_mag": 6.7,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72690.0,
-    "btc_change_24h": 7.0,
+    "btc_price": 72576.0,
+    "btc_change_24h": 6.34,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 52
+    "total_signals": 53
   },
   "cii": [
     {
@@ -26,7 +26,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "YE",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -74,14 +74,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
-      "score": 40,
-      "level": "elevated",
-      "prev_score": 40,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -90,11 +82,19 @@
       "trend": "stable"
     },
     {
+      "country_code": "VE",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "RU",
-      "score": 36,
+      "score": 35,
       "level": "normal",
       "prev_score": 36,
-      "change_24h": 0,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -142,6 +142,14 @@
       "score": 15,
       "level": "low",
       "prev_score": 15,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -162,14 +170,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "GB",
       "score": 6,
       "level": "low",
@@ -178,7 +178,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +186,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "US",
+      "country_code": "DE",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -260,20 +260,21 @@
     },
     {
       "snapshot_date": "2026-08-20",
-      "earthquake_count": 22,
-      "max_earthquake_mag": 5.8,
+      "earthquake_count": 23,
+      "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 72690.0,
+      "btc_price": 72576.0,
       "fear_greed_index": 62,
-      "total_signals": 52
+      "total_signals": 53
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
+        "Major earthquake M6.7 — 38 km NW of Upahuacho, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.0% in 24h",
+        "BTC surged 6.3% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -417,7 +418,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.38095238095238,
+      "avg_score": 35.333333333333336,
       "max_score": 36,
       "min_score": 35,
       "data_points": 21,
@@ -534,7 +535,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 52,
+    "total_signals": 53,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,8 +544,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "normal",
-        "text": "全球记录 22 次地震，最大 M5.8，地震活动处于正常水平。"
+        "level": "warning",
+        "text": "全球记录 23 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -556,13 +557,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $72,690，日涨跌 +7.00%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $72,576，日涨跌 +6.34%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -574,12 +575,19 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.0% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "Major earthquake M6.7 — 38 km NW of Upahuacho, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 6.3% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
   "alerts": {
     "alerts": [
+      {
+        "id": "eq_warning",
+        "icon": "🌋",
+        "title": "中型地震",
+        "level": "warning",
+        "message": "检测到 M6.7 地震（阈值 ≥ M6.0）"
+      },
       {
         "id": "disaster_surge",
         "icon": "🛰️",
@@ -592,13 +600,24 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.0%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +6.3%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
+    {
+      "mag": 6.7,
+      "place": "38 km NW of Upahuacho, Peru",
+      "time": "2026-08-20T18:00:15.163000+00:00",
+      "depth_km": 66.7,
+      "lat": -14.6262,
+      "lon": -73.616,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81"
+    },
     {
       "mag": 5.8,
       "place": "25 km NNE of Ruteng, Indonesia",
@@ -622,6 +641,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j"
     },
     {
+      "mag": 5.6,
+      "place": "67 km NNW of Ende, Indonesia",
+      "time": "2026-08-20T18:12:51.721000+00:00",
+      "depth_km": 10,
+      "lat": -8.2877,
+      "lon": 121.3981,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm8h"
+    },
+    {
       "mag": 5.4,
       "place": "216 km E of Levuka, Fiji",
       "time": "2026-08-19T18:45:29.787000+00:00",
@@ -631,17 +661,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz8"
-    },
-    {
-      "mag": 5.4,
-      "place": "134 km S of Severo-Kuril’sk, Russia",
-      "time": "2026-08-19T18:07:17.251000+00:00",
-      "depth_km": 41.2,
-      "lat": 49.4799,
-      "lon": 155.8633,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyv"
     },
     {
       "mag": 5.3,
