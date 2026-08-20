@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:25:34.206355+00:00",
+  "generated_at": "2026-08-20T22:25:03.095867+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
     "earthquake_count": 24,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72722.0,
-    "btc_change_24h": 4.46,
+    "btc_price": 72710.0,
+    "btc_change_24h": 5.0,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
     "total_signals": 54
@@ -263,7 +263,7 @@
       "earthquake_count": 24,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 72722.0,
+      "btc_price": 72710.0,
       "fear_greed_index": 62,
       "total_signals": 54
     }
@@ -555,8 +555,8 @@
       {
         "icon": "🪙",
         "title": "加密市场",
-        "level": "normal",
-        "text": "BTC 报 $72,722，日涨跌 +4.46%。恐惧与贪婪指数 62（Greed）。"
+        "level": "critical",
+        "text": "BTC 报 $72,710，日涨跌 +5.00%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -593,10 +593,17 @@
         "title": "灾害密集",
         "level": "critical",
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
+        "id": "btc_volatile",
+        "icon": "📉",
+        "title": "BTC剧烈波动",
+        "level": "critical",
+        "message": "BTC 24小时波动 +5.0%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
     {
