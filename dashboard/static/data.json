@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:43:38.357159+00:00",
+  "generated_at": "2026-08-20T14:34:00.271697+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
     "earthquake_count": 23,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 71295.0,
-    "btc_change_24h": 10.04,
+    "btc_price": 71435.0,
+    "btc_change_24h": 9.34,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
     "total_signals": 53
@@ -263,7 +263,7 @@
       "earthquake_count": 23,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 71295.0,
+      "btc_price": 71435.0,
       "fear_greed_index": 62,
       "total_signals": 53
     }
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 10.0% in 24h",
+        "BTC surged 9.3% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -556,7 +556,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $71,295，日涨跌 +10.04%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $71,435，日涨跌 +9.34%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -574,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 10.0% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 9.3% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -592,7 +592,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +10.0%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +9.3%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -722,14 +722,14 @@
     },
     {
       "mag": 4.9,
-      "place": "Banda Sea",
-      "time": "2026-08-19T14:32:22.495000+00:00",
-      "depth_km": 538.1,
-      "lat": -5.1696,
-      "lon": 125.5363,
+      "place": "170 km NE of Lorengau, Papua New Guinea",
+      "time": "2026-08-20T13:55:00.053000+00:00",
+      "depth_km": 10,
+      "lat": -1.1659,
+      "lon": 148.5355,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvn"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm42"
     },
     {
       "mag": 4.8,
