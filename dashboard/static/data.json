@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T04:34:38.105772+00:00",
+  "generated_at": "2026-08-20T05:27:43.376624+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
-    "earthquake_count": 18,
+    "earthquake_count": 19,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 69251.0,
-    "btc_change_24h": 7.72,
+    "btc_price": 69596.0,
+    "btc_change_24h": 8.24,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 48
+    "total_signals": 49
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-20",
-      "earthquake_count": 18,
+      "earthquake_count": 19,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 69251.0,
+      "btc_price": 69596.0,
       "fear_greed_index": 62,
-      "total_signals": 48
+      "total_signals": 49
     }
   ],
   "anomalies": [
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.7% in 24h",
+        "BTC surged 8.2% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -534,7 +534,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 48,
+    "total_signals": 49,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -544,7 +544,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 18 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 19 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -556,7 +556,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $69,251，日涨跌 +7.72%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $69,596，日涨跌 +8.24%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -574,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.7% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 8.2% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -592,7 +592,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.7%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +8.2%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -711,6 +711,17 @@
     },
     {
       "mag": 4.7,
+      "place": "85 km S of Antofagasta, Chile",
+      "time": "2026-08-20T04:52:51.796000+00:00",
+      "depth_km": 35.3,
+      "lat": -24.4187,
+      "lon": -70.4642,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm25"
+    },
+    {
+      "mag": 4.7,
       "place": "81 km W of San Antonio de los Cobres, Argentina",
       "time": "2026-08-20T03:09:06.998000+00:00",
       "depth_km": 166.7,
@@ -754,15 +765,26 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluh"
     },
     {
-      "mag": 4.7,
-      "place": "265 km SSE of Dunhuang, China",
-      "time": "2026-08-19T05:22:24.762000+00:00",
+      "mag": 4.6,
+      "place": "71 km N of Ruteng, Indonesia",
+      "time": "2026-08-20T04:33:23.405000+00:00",
       "depth_km": 10,
-      "lat": 37.8621,
-      "lon": 95.5097,
+      "lat": -7.9704,
+      "lon": 120.3917,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltq"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm22"
+    },
+    {
+      "mag": 4.6,
+      "place": "26 km NNW of Ruteng, Indonesia",
+      "time": "2026-08-20T04:23:57.331000+00:00",
+      "depth_km": 10,
+      "lat": -8.386,
+      "lon": 120.3951,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1y"
     },
     {
       "mag": 4.6,
@@ -774,17 +796,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlzp"
-    },
-    {
-      "mag": 4.6,
-      "place": "36 km WNW of Ollagüe, Chile",
-      "time": "2026-08-19T04:51:47.326000+00:00",
-      "depth_km": 124.8,
-      "lat": -21.0451,
-      "lon": -68.5483,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tltg"
     },
     {
       "mag": 4.5,
