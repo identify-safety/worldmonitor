@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-20T15:31:28.896567+00:00",
+  "generated_at": "2026-08-20T16:32:27.421859+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
     "earthquake_count": 23,
     "max_earthquake_mag": 5.8,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72239.0,
-    "btc_change_24h": 5.77,
+    "btc_price": 72307.0,
+    "btc_change_24h": 5.11,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 43
+    "total_signals": 53
   },
   "cii": [
     {
@@ -42,14 +42,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -62,6 +54,22 @@
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "CN",
+      "score": 43,
+      "level": "elevated",
+      "prev_score": 43,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -106,26 +114,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 26,
-      "level": "normal",
-      "prev_score": 43,
-      "change_24h": -17,
-      "trend": "falling"
-    },
-    {
       "country_code": "TR",
       "score": 25,
       "level": "normal",
       "prev_score": 25,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "SA",
-      "score": 20,
-      "level": "normal",
-      "prev_score": 20,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -138,18 +130,18 @@
       "trend": "stable"
     },
     {
-      "country_code": "BR",
-      "score": 15,
-      "level": "low",
-      "prev_score": 15,
+      "country_code": "SA",
+      "score": 20,
+      "level": "normal",
+      "prev_score": 20,
       "change_24h": 0,
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
+      "country_code": "BR",
+      "score": 15,
       "level": "low",
-      "prev_score": 10,
+      "prev_score": 15,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -170,6 +162,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "GB",
       "score": 6,
       "level": "low",
@@ -178,7 +178,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "US",
+      "country_code": "DE",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +186,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -262,17 +262,18 @@
       "snapshot_date": "2026-08-20",
       "earthquake_count": 23,
       "max_earthquake_mag": 5.8,
-      "disaster_count": 0,
-      "btc_price": 72239.0,
+      "disaster_count": 10,
+      "btc_price": 72307.0,
       "fear_greed_index": 62,
-      "total_signals": 43
+      "total_signals": 53
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
-        "BTC surged 5.8% in 24h",
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 5.1% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -389,7 +390,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.333333333333336,
+      "avg_score": 42.142857142857146,
       "max_score": 43,
       "min_score": 25,
       "data_points": 21,
@@ -533,7 +534,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 43,
+    "total_signals": 53,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -548,20 +549,20 @@
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $72,239，日涨跌 +5.77%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $72,307，日涨跌 +5.11%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -573,22 +574,29 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "BTC surged 5.8% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 5.1% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
   "alerts": {
     "alerts": [
       {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
         "id": "btc_volatile",
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +5.8%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +5.1%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
@@ -612,17 +620,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j"
-    },
-    {
-      "mag": 5.5,
-      "place": "52 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-19T16:17:38.400000+00:00",
-      "depth_km": 10,
-      "lat": -8.1769,
-      "lon": 120.6643,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlxq"
     },
     {
       "mag": 5.4,
@@ -832,6 +829,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlzp"
+    },
+    {
+      "mag": 4.5,
+      "place": "85 km SSW of Singaparna, Indonesia",
+      "time": "2026-08-20T14:31:33.917000+00:00",
+      "depth_km": 60.9,
+      "lat": -8.0612,
+      "lon": 107.8108,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm44"
     },
     {
       "mag": 4.5,
