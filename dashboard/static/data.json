@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:29:02.661687+00:00",
+  "generated_at": "2026-08-20T20:25:23.672769+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
     "earthquake_count": 23,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72589.0,
-    "btc_change_24h": 6.36,
+    "btc_price": 72691.0,
+    "btc_change_24h": 5.75,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
     "total_signals": 53
@@ -263,7 +263,7 @@
       "earthquake_count": 23,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 72589.0,
+      "btc_price": 72691.0,
       "fear_greed_index": 62,
       "total_signals": 53
     }
@@ -274,7 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 6.4% in 24h",
+        "BTC surged 5.8% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $72,589，日涨跌 +6.36%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $72,691，日涨跌 +5.75%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -575,7 +575,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 6.4% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 5.8% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -600,7 +600,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +6.4%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +5.8%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -694,6 +694,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm8j"
+    },
+    {
+      "mag": 5,
+      "place": "63 km NW of Ende, Indonesia",
+      "time": "2026-08-20T19:24:03.495000+00:00",
+      "depth_km": 10,
+      "lat": -8.423,
+      "lon": 121.2709,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm93"
     },
     {
       "mag": 5,
@@ -826,17 +837,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1y"
-    },
-    {
-      "mag": 4.6,
-      "place": "28 km NE of Niños Héroes, Mexico",
-      "time": "2026-08-19T20:06:29.427000+00:00",
-      "depth_km": 178.3,
-      "lat": 17.6051,
-      "lon": -94.3016,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlzp"
     },
     {
       "mag": 4.5,
