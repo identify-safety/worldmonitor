@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T22:25:03.095867+00:00",
+  "generated_at": "2026-08-20T23:23:49.601512+00:00",
   "overview": {
     "snapshot_date": "2026-08-20",
-    "earthquake_count": 24,
+    "earthquake_count": 21,
     "max_earthquake_mag": 6.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72710.0,
-    "btc_change_24h": 5.0,
+    "btc_price": 72917.0,
+    "btc_change_24h": 5.22,
     "fear_greed_index": 62,
     "fear_greed_label": "Greed",
-    "total_signals": 54
+    "total_signals": 51
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-20",
-      "earthquake_count": 24,
+      "earthquake_count": 21,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 72710.0,
+      "btc_price": 72917.0,
       "fear_greed_index": 62,
-      "total_signals": 54
+      "total_signals": 51
     }
   ],
   "anomalies": [
@@ -274,6 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 5.2% in 24h",
         "Fear & Greed shifted 16 points in 24h"
       ],
       "convergence_zones": []
@@ -534,7 +535,7 @@
   ],
   "briefing": {
     "date": "2026-08-20",
-    "total_signals": 54,
+    "total_signals": 51,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -544,7 +545,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 24 次地震，最大 M6.7，中度活跃。"
+        "text": "全球记录 21 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -556,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $72,710，日涨跌 +5.00%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $72,917，日涨跌 +5.22%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
@@ -574,7 +575,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；Fear & Greed shifted 16 points in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 5.2% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -599,7 +600,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +5.0%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +5.2%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -616,17 +617,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81"
-    },
-    {
-      "mag": 5.8,
-      "place": "25 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-19T22:45:17.395000+00:00",
-      "depth_km": 10,
-      "lat": -8.3922,
-      "lon": 120.5278,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u"
     },
     {
       "mag": 5.7,
@@ -671,17 +661,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2y"
-    },
-    {
-      "mag": 5.2,
-      "place": "33 km N of Ruteng, Indonesia",
-      "time": "2026-08-19T22:28:08.388000+00:00",
-      "depth_km": 10,
-      "lat": -8.3101,
-      "lon": 120.4718,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0s"
     },
     {
       "mag": 5.1,
@@ -858,17 +837,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm44"
-    },
-    {
-      "mag": 4.5,
-      "place": "46 km NE of Ruteng, Indonesia",
-      "time": "2026-08-19T23:20:14.116000+00:00",
-      "depth_km": 10,
-      "lat": -8.2733,
-      "lon": 120.7214,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm10"
     }
   ],
   "disasters": [
