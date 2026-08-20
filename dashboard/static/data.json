@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T23:20:27.591968+00:00",
+  "generated_at": "2026-08-20T01:05:45.161863+00:00",
   "overview": {
-    "snapshot_date": "2026-08-19",
+    "snapshot_date": "2026-08-20",
     "earthquake_count": 19,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
@@ -10,13 +10,21 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 69386.0,
-    "btc_change_24h": 7.3,
-    "fear_greed_index": 46,
-    "fear_greed_label": "Fear",
+    "btc_price": 69449.0,
+    "btc_change_24h": 7.83,
+    "fear_greed_index": 62,
+    "fear_greed_label": "Greed",
     "total_signals": 49
   },
   "cii": [
+    {
+      "country_code": "UA",
+      "score": 50,
+      "level": "elevated",
+      "prev_score": 50,
+      "change_24h": 0,
+      "trend": "stable"
+    },
     {
       "country_code": "SY",
       "score": 50,
@@ -34,15 +42,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "UA",
-      "score": 50,
-      "level": "elevated",
-      "prev_score": 50,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "KP",
+      "country_code": "IL",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -50,7 +50,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IL",
+      "country_code": "KP",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -93,8 +93,8 @@
       "country_code": "RU",
       "score": 36,
       "level": "normal",
-      "prev_score": 35,
-      "change_24h": 1,
+      "prev_score": 36,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -142,6 +142,14 @@
       "score": 15,
       "level": "low",
       "prev_score": 15,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -162,26 +170,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "GB",
       "score": 6,
       "level": "low",
       "prev_score": 6,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "DE",
-      "score": 5,
-      "level": "low",
-      "prev_score": 5,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -192,18 +184,17 @@
       "prev_score": 5,
       "change_24h": 0,
       "trend": "stable"
+    },
+    {
+      "country_code": "DE",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
     }
   ],
   "history": [
-    {
-      "snapshot_date": "2026-08-12",
-      "earthquake_count": 10,
-      "max_earthquake_mag": 6.0,
-      "disaster_count": 10,
-      "btc_price": 63402.0,
-      "fear_greed_index": 27,
-      "total_signals": 40
-    },
     {
       "snapshot_date": "2026-08-13",
       "earthquake_count": 10,
@@ -266,9 +257,27 @@
       "btc_price": 69386.0,
       "fear_greed_index": 46,
       "total_signals": 49
+    },
+    {
+      "snapshot_date": "2026-08-20",
+      "earthquake_count": 19,
+      "max_earthquake_mag": 5.8,
+      "disaster_count": 10,
+      "btc_price": 69449.0,
+      "fear_greed_index": 62,
+      "total_signals": 49
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-20",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 7.8% in 24h",
+        "Fear & Greed shifted 16 points in 24h"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-19",
       "anomaly_flags": [
@@ -321,13 +330,6 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-12",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
@@ -337,7 +339,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -346,7 +348,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -355,7 +357,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -364,7 +366,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -373,7 +375,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -382,16 +384,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.1,
+      "avg_score": 42.142857142857146,
       "max_score": 43,
       "min_score": 25,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -400,7 +402,7 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -409,25 +411,25 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.35,
+      "avg_score": 35.38095238095238,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
       "country_code": "PK",
       "country_name": "Pakistan",
-      "avg_score": 35.05,
+      "avg_score": 35.04761904761905,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -436,7 +438,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -445,16 +447,16 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.05,
+      "avg_score": 20.047619047619047,
       "max_score": 21,
       "min_score": 20,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -463,7 +465,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -472,7 +474,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -481,7 +483,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -490,7 +492,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -499,16 +501,16 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.2,
+      "avg_score": 5.238095238095238,
       "max_score": 6,
       "min_score": 5,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -517,7 +519,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     },
     {
@@ -526,12 +528,12 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 20,
+      "data_points": 21,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-19",
+    "date": "2026-08-20",
     "total_signals": 49,
     "overall": {
       "level": "critical",
@@ -554,13 +556,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $69,386，日涨跌 +7.30%。恐惧与贪婪指数 46（Fear）。"
+        "text": "BTC 报 $69,449，日涨跌 +7.83%。恐惧与贪婪指数 62（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Syria(50)、Yemen(50)、Ukraine(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -572,7 +574,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.3% in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 7.8% in 24h；Fear & Greed shifted 16 points in 24h"
       }
     ]
   },
@@ -590,7 +592,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.3%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.8%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
@@ -600,10 +602,10 @@
     {
       "mag": 5.8,
       "place": "25 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-19T22:45:17.831000+00:00",
+      "time": "2026-08-19T22:45:17.395000+00:00",
       "depth_km": 10,
-      "lat": -8.3926,
-      "lon": 120.529,
+      "lat": -8.3922,
+      "lon": 120.5278,
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u"
@@ -643,11 +645,11 @@
     },
     {
       "mag": 5.2,
-      "place": "31 km N of Ruteng, Indonesia",
-      "time": "2026-08-19T22:28:08.710000+00:00",
+      "place": "33 km N of Ruteng, Indonesia",
+      "time": "2026-08-19T22:28:08.388000+00:00",
       "depth_km": 10,
-      "lat": -8.3255,
-      "lon": 120.4559,
+      "lat": -8.3101,
+      "lon": 120.4718,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0s"
@@ -662,6 +664,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlt9"
+    },
+    {
+      "mag": 5,
+      "place": "87 km S of Isangel, Vanuatu",
+      "time": "2026-08-20T00:20:24.938000+00:00",
+      "depth_km": 72.9,
+      "lat": -20.324,
+      "lon": 169.1514,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm16"
     },
     {
       "mag": 4.9,
@@ -706,17 +719,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlta"
-    },
-    {
-      "mag": 4.8,
-      "place": "69 km NNW of Ende, Indonesia",
-      "time": "2026-08-19T00:11:39.549000+00:00",
-      "depth_km": 35,
-      "lat": -8.264,
-      "lon": 121.4067,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tls7"
     },
     {
       "mag": 4.7,
@@ -785,15 +787,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlss"
     },
     {
-      "mag": 4.6,
-      "place": "71 km NW of Ende, Indonesia",
-      "time": "2026-08-18T23:59:16.815000+00:00",
-      "depth_km": 35,
-      "lat": -8.3232,
-      "lon": 121.279,
+      "mag": 4.5,
+      "place": "46 km NE of Ruteng, Indonesia",
+      "time": "2026-08-19T23:20:14.116000+00:00",
+      "depth_km": 10,
+      "lat": -8.2733,
+      "lon": 120.7214,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tls5"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm10"
     },
     {
       "mag": 4.5,
