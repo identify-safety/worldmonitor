@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T15:31:33.131904+00:00",
+  "generated_at": "2026-08-21T16:31:55.218636+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
-    "earthquake_count": 26,
+    "earthquake_count": 27,
     "max_earthquake_mag": 6.7,
     "disaster_count": 0,
     "red_alert_count": 0,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77707.0,
-    "btc_change_24h": 7.4,
+    "btc_price": 77262.0,
+    "btc_change_24h": 6.8,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
-    "total_signals": 46
+    "total_signals": 47
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-21",
-      "earthquake_count": 26,
+      "earthquake_count": 27,
       "max_earthquake_mag": 6.7,
       "disaster_count": 0,
-      "btc_price": 77707.0,
+      "btc_price": 77262.0,
       "fear_greed_index": 72,
-      "total_signals": 46
+      "total_signals": 47
     }
   ],
   "anomalies": [
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-21",
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
-        "BTC surged 7.4% in 24h"
+        "BTC surged 6.8% in 24h"
       ],
       "convergence_zones": []
     },
@@ -536,7 +536,7 @@
   ],
   "briefing": {
     "date": "2026-08-21",
-    "total_signals": 46,
+    "total_signals": 47,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -546,7 +546,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 26 次地震，最大 M6.7，中度活跃。"
+        "text": "全球记录 27 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -558,7 +558,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $77,707，日涨跌 +7.40%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $77,262，日涨跌 +6.80%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -576,7 +576,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；BTC surged 7.4% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；BTC surged 6.8% in 24h"
       }
     ]
   },
@@ -594,7 +594,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.4%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +6.8%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
@@ -842,6 +842,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcj"
+    },
+    {
+      "mag": 4.5,
+      "place": "Bonin Islands, Japan region",
+      "time": "2026-08-21T15:08:30.808000+00:00",
+      "depth_km": 10,
+      "lat": 28.4731,
+      "lon": 142.636,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmiz"
     },
     {
       "mag": 4.5,
