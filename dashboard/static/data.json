@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:42:00.291448+00:00",
+  "generated_at": "2026-08-21T07:40:40.624706+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
     "earthquake_count": 21,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 75553.0,
-    "btc_change_24h": 8.43,
+    "btc_price": 76302.0,
+    "btc_change_24h": 9.76,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
     "total_signals": 51
@@ -263,7 +263,7 @@
       "earthquake_count": 21,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 75553.0,
+      "btc_price": 76302.0,
       "fear_greed_index": 72,
       "total_signals": 51
     }
@@ -274,7 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 8.4% in 24h"
+        "BTC surged 9.8% in 24h"
       ],
       "convergence_zones": []
     },
@@ -559,7 +559,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $75,553，日涨跌 +8.43%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $76,302，日涨跌 +9.76%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -577,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 8.4% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 9.8% in 24h"
       }
     ]
   },
@@ -602,7 +602,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +8.4%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +9.8%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
