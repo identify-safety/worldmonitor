@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:42:52.112967+00:00",
+  "generated_at": "2026-08-21T14:32:38.190529+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
     "earthquake_count": 27,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 76966.0,
-    "btc_change_24h": 7.76,
+    "btc_price": 77050.0,
+    "btc_change_24h": 7.88,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
     "total_signals": 57
@@ -263,7 +263,7 @@
       "earthquake_count": 27,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 76966.0,
+      "btc_price": 77050.0,
       "fear_greed_index": 72,
       "total_signals": 57
     }
@@ -274,7 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.8% in 24h"
+        "BTC surged 7.9% in 24h"
       ],
       "convergence_zones": []
     },
@@ -559,7 +559,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $76,966，日涨跌 +7.76%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $77,050，日涨跌 +7.88%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -577,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 7.8% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 7.9% in 24h"
       }
     ]
   },
@@ -602,7 +602,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.8%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.9%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -764,17 +764,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmej"
     },
     {
-      "mag": 4.9,
-      "place": "170 km NE of Lorengau, Papua New Guinea",
-      "time": "2026-08-20T13:55:00.053000+00:00",
-      "depth_km": 10,
-      "lat": -1.1659,
-      "lon": 148.5355,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm42"
-    },
-    {
       "mag": 4.7,
       "place": "6 km W of Onna, Japan",
       "time": "2026-08-21T00:01:20.430000+00:00",
@@ -795,6 +784,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfc"
+    },
+    {
+      "mag": 4.6,
+      "place": "62 km ENE of Ruteng, Indonesia",
+      "time": "2026-08-21T11:54:49.678000+00:00",
+      "depth_km": 10,
+      "lat": -8.3093,
+      "lon": 120.9404,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfd"
     },
     {
       "mag": 4.6,
@@ -894,20 +894,16 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmb4"
-    },
-    {
-      "mag": 4.5,
-      "place": "85 km SSW of Singaparna, Indonesia",
-      "time": "2026-08-20T14:31:33.917000+00:00",
-      "depth_km": 60.9,
-      "lat": -8.0612,
-      "lon": 107.8108,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm44"
     }
   ],
   "disasters": [
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "alert_level": "Orange",
+      "date": "2026-08-18T12:00:00"
+    },
     {
       "type": "FL",
       "name": "Flood in China",
@@ -1110,13 +1106,6 @@
       "country": "Argentina, Uruguay",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
-    },
-    {
-      "type": "TC",
-      "name": "Tropical Cyclone SINLAKU-26",
-      "country": "Northern Mariana Islands, Guam",
-      "alert_level": "Red",
-      "date": "2026-04-09T00:00:00"
     }
   ]
 }
