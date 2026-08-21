@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-21T09:34:45.968535+00:00",
+  "generated_at": "2026-08-21T10:27:35.963192+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
-    "earthquake_count": 20,
+    "earthquake_count": 19,
     "max_earthquake_mag": 6.7,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77656.0,
-    "btc_change_24h": 8.03,
+    "btc_price": 77968.0,
+    "btc_change_24h": 8.08,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
-    "total_signals": 40
+    "total_signals": 49
   },
   "cii": [
     {
@@ -66,10 +66,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
-      "score": 40,
+      "country_code": "CN",
+      "score": 43,
       "level": "elevated",
-      "prev_score": 40,
+      "prev_score": 43,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -82,7 +82,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "IR",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -90,7 +98,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -104,14 +112,6 @@
       "prev_score": 30,
       "change_24h": 0,
       "trend": "stable"
-    },
-    {
-      "country_code": "CN",
-      "score": 26,
-      "level": "normal",
-      "prev_score": 43,
-      "change_24h": -17,
-      "trend": "falling"
     },
     {
       "country_code": "TR",
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-21",
-      "earthquake_count": 20,
+      "earthquake_count": 19,
       "max_earthquake_mag": 6.7,
-      "disaster_count": 0,
-      "btc_price": 77656.0,
+      "disaster_count": 10,
+      "btc_price": 77968.0,
       "fear_greed_index": 72,
-      "total_signals": 40
+      "total_signals": 49
     }
   ],
   "anomalies": [
@@ -273,7 +273,8 @@
       "snapshot_date": "2026-08-21",
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
-        "BTC surged 8.0% in 24h"
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 8.1% in 24h"
       ],
       "convergence_zones": []
     },
@@ -392,7 +393,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.40909090909091,
+      "avg_score": 42.18181818181818,
       "max_score": 43,
       "min_score": 25,
       "data_points": 22,
@@ -536,7 +537,7 @@
   ],
   "briefing": {
     "date": "2026-08-21",
-    "total_signals": 40,
+    "total_signals": 49,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -546,25 +547,25 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.7，中度活跃。"
+        "text": "全球记录 19 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $77,656，日涨跌 +8.03%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $77,968，日涨跌 +8.08%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -576,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；BTC surged 8.0% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 8.1% in 24h"
       }
     ]
   },
@@ -590,15 +591,22 @@
         "message": "检测到 M6.7 地震（阈值 ≥ M6.0）"
       },
       {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
         "id": "btc_volatile",
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +8.0%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +8.1%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
     {
@@ -635,15 +643,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmer"
     },
     {
-      "mag": 5.2,
-      "place": "270 km SSE of Dunhuang, China",
-      "time": "2026-08-20T09:49:47.975000+00:00",
+      "mag": 5.1,
+      "place": "1 km N of Alegria, Philippines",
+      "time": "2026-08-21T09:22:36.390000+00:00",
       "depth_km": 10,
-      "lat": 37.8058,
-      "lon": 95.4454,
+      "lat": 9.4833,
+      "lon": 125.5784,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2y"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmes"
     },
     {
       "mag": 5.1,
@@ -789,17 +797,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcj"
     },
     {
-      "mag": 4.6,
-      "place": "86 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-20T10:08:26.207000+00:00",
-      "depth_km": 10,
-      "lat": -7.9402,
-      "lon": 120.8686,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm31"
-    },
-    {
       "mag": 4.5,
       "place": "85 km N of Saipan, Northern Mariana Islands",
       "time": "2026-08-20T21:57:40.312000+00:00",
@@ -822,5 +819,216 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm44"
     }
   ],
-  "disasters": []
+  "disasters": [
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "alert_level": "Orange",
+      "date": "2026-05-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "alert_level": "Orange",
+      "date": "2026-05-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+      "country": "Eritrea, Ethiopia, Kenya, Somalia",
+      "alert_level": "Orange",
+      "date": "2026-04-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "alert_level": "Orange",
+      "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "alert_level": "Red",
+      "date": "2026-08-14T21:58:21"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Colombia",
+      "country": "Colombia",
+      "alert_level": "Red",
+      "date": "2026-08-10T12:34:28"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone DOLPHIN-26",
+      "country": "Marshall Islands, Japan, China",
+      "alert_level": "Orange",
+      "date": "2026-07-27T00:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Philippines",
+      "country": "Philippines",
+      "alert_level": "Orange",
+      "date": "2026-08-05T04:14:06"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Red",
+      "date": "2026-07-25T01:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Japan",
+      "country": "Japan",
+      "alert_level": "Orange",
+      "date": "2026-07-28T07:27:15"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-28T03:16:08"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone NOUL-26",
+      "country": "China, Philippines",
+      "alert_level": "Orange",
+      "date": "2026-07-23T06:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Peru",
+      "country": "Peru",
+      "alert_level": "Orange",
+      "date": "2026-07-19T02:24:35"
+    },
+    {
+      "type": "VO",
+      "name": "Eruption  Mayon",
+      "country": "Philippines",
+      "alert_level": "Orange",
+      "date": "2026-07-16T01:59:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-06-06T01:00:00"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone BAVI-26",
+      "country": "Guam, Northern Mariana Islands, Japan, Taiwan, China",
+      "alert_level": "Red",
+      "date": "2026-07-01T00:00:00"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone MAYSAK-26",
+      "country": "Viet Nam, China, Laos",
+      "alert_level": "Orange",
+      "date": "2026-07-01T18:00:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Philippines",
+      "country": "Philippines",
+      "alert_level": "Orange",
+      "date": "2026-06-26T11:34:41"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Venezuela",
+      "country": "Venezuela",
+      "alert_level": "Red",
+      "date": "2026-06-24T22:05:12"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Venezuela",
+      "country": "Venezuela",
+      "alert_level": "Red",
+      "date": "2026-06-24T22:04:32"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-06-16T09:06:55"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "alert_level": "Orange",
+      "date": "2026-06-16T03:27:44"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Philippines",
+      "country": "Philippines",
+      "alert_level": "Orange",
+      "date": "2026-06-07T23:37:40"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-05-18T13:44:26"
+    },
+    {
+      "type": "VO",
+      "name": "Eruption  Dukono",
+      "country": "Indonesia",
+      "alert_level": "Orange",
+      "date": "2026-05-08T09:10:00"
+    },
+    {
+      "type": "EQ",
+      "name": "Earthquake in Japan",
+      "country": "Japan",
+      "alert_level": "Orange",
+      "date": "2026-04-20T07:53:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Argentina, Uruguay",
+      "country": "Argentina, Uruguay",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone SINLAKU-26",
+      "country": "Northern Mariana Islands, Guam",
+      "alert_level": "Red",
+      "date": "2026-04-09T00:00:00"
+    }
+  ]
 }
