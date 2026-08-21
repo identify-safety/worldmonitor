@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:23:11.558019+00:00",
+  "generated_at": "2026-08-21T21:21:57.084136+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
     "earthquake_count": 27,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77408.0,
-    "btc_change_24h": 6.52,
+    "btc_price": 77618.0,
+    "btc_change_24h": 6.74,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
     "total_signals": 57
@@ -263,7 +263,7 @@
       "earthquake_count": 27,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 77408.0,
+      "btc_price": 77618.0,
       "fear_greed_index": 72,
       "total_signals": 57
     }
@@ -273,7 +273,7 @@
       "snapshot_date": "2026-08-21",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 6.5% in 24h"
+        "BTC surged 6.7% in 24h"
       ],
       "convergence_zones": []
     },
@@ -558,7 +558,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $77,408，日涨跌 +6.52%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $77,618，日涨跌 +6.74%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -576,7 +576,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 6.5% in 24h"
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 6.7% in 24h"
       }
     ]
   },
@@ -594,7 +594,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +6.5%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +6.7%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、0 条警告。建议立即查看。",
