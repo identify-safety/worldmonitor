@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T01:09:06.452169+00:00",
+  "generated_at": "2026-08-21T03:00:14.684788+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
-    "earthquake_count": 21,
+    "earthquake_count": 24,
     "max_earthquake_mag": 6.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 73848.0,
-    "btc_change_24h": 6.53,
+    "btc_price": 74405.0,
+    "btc_change_24h": 7.41,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
-    "total_signals": 51
+    "total_signals": 54
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-21",
-      "earthquake_count": 21,
+      "earthquake_count": 24,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 73848.0,
+      "btc_price": 74405.0,
       "fear_greed_index": 72,
-      "total_signals": 51
+      "total_signals": 54
     }
   ],
   "anomalies": [
@@ -274,7 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 6.5% in 24h"
+        "BTC surged 7.4% in 24h"
       ],
       "convergence_zones": []
     },
@@ -537,7 +537,7 @@
   ],
   "briefing": {
     "date": "2026-08-21",
-    "total_signals": 51,
+    "total_signals": 54,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -547,7 +547,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 21 次地震，最大 M6.7，中度活跃。"
+        "text": "全球记录 24 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -559,7 +559,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $73,848，日涨跌 +6.53%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $74,405，日涨跌 +7.41%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -577,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 6.5% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 7.4% in 24h"
       }
     ]
   },
@@ -602,7 +602,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +6.5%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +7.4%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -619,17 +619,6 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81"
-    },
-    {
-      "mag": 5.7,
-      "place": "32 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-20T02:46:59.072000+00:00",
-      "depth_km": 10,
-      "lat": -8.3582,
-      "lon": 120.6104,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j"
     },
     {
       "mag": 5.6,
@@ -765,6 +754,17 @@
     },
     {
       "mag": 4.7,
+      "place": "6 km W of Onna, Japan",
+      "time": "2026-08-21T00:01:20.430000+00:00",
+      "depth_km": 44.1,
+      "lat": 26.4848,
+      "lon": 127.7859,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmc4"
+    },
+    {
+      "mag": 4.7,
       "place": "85 km S of Antofagasta, Chile",
       "time": "2026-08-20T04:52:51.796000+00:00",
       "depth_km": 35.3,
@@ -798,6 +798,28 @@
     },
     {
       "mag": 4.6,
+      "place": "75 km NW of Ende, Indonesia",
+      "time": "2026-08-21T01:38:42.430000+00:00",
+      "depth_km": 10,
+      "lat": -8.2838,
+      "lon": 121.2731,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcn"
+    },
+    {
+      "mag": 4.6,
+      "place": "45 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-21T01:18:05.726000+00:00",
+      "depth_km": 10,
+      "lat": -8.2183,
+      "lon": 120.5956,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcj"
+    },
+    {
+      "mag": 4.6,
       "place": "86 km NNE of Ruteng, Indonesia",
       "time": "2026-08-20T10:08:26.207000+00:00",
       "depth_km": 10,
@@ -828,6 +850,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1y"
+    },
+    {
+      "mag": 4.5,
+      "place": "85 km N of Saipan, Northern Mariana Islands",
+      "time": "2026-08-20T21:57:40.312000+00:00",
+      "depth_km": 213.5,
+      "lat": 15.9742,
+      "lon": 145.6176,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmb4"
     },
     {
       "mag": 4.5,
