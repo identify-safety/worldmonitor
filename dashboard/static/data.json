@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T03:00:14.684788+00:00",
+  "generated_at": "2026-08-21T03:56:11.847293+00:00",
   "overview": {
     "snapshot_date": "2026-08-21",
-    "earthquake_count": 24,
+    "earthquake_count": 23,
     "max_earthquake_mag": 6.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 74405.0,
-    "btc_change_24h": 7.41,
+    "btc_price": 74742.0,
+    "btc_change_24h": 8.09,
     "fear_greed_index": 72,
     "fear_greed_label": "Greed",
-    "total_signals": 54
+    "total_signals": 53
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-21",
-      "earthquake_count": 24,
+      "earthquake_count": 23,
       "max_earthquake_mag": 6.7,
       "disaster_count": 10,
-      "btc_price": 74405.0,
+      "btc_price": 74742.0,
       "fear_greed_index": 72,
-      "total_signals": 54
+      "total_signals": 53
     }
   ],
   "anomalies": [
@@ -274,7 +274,7 @@
       "anomaly_flags": [
         "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
         "10 simultaneous GDACS Red Alerts active",
-        "BTC surged 7.4% in 24h"
+        "BTC surged 8.1% in 24h"
       ],
       "convergence_zones": []
     },
@@ -537,7 +537,7 @@
   ],
   "briefing": {
     "date": "2026-08-21",
-    "total_signals": 54,
+    "total_signals": 53,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -547,7 +547,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 24 次地震，最大 M6.7，中度活跃。"
+        "text": "全球记录 23 次地震，最大 M6.7，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -559,7 +559,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $74,405，日涨跌 +7.41%。恐惧与贪婪指数 72（Greed）。"
+        "text": "BTC 报 $74,742，日涨跌 +8.09%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -577,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 7.4% in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 8.1% in 24h"
       }
     ]
   },
@@ -602,7 +602,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +7.4%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +8.1%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -775,26 +775,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm25"
     },
     {
-      "mag": 4.7,
-      "place": "81 km W of San Antonio de los Cobres, Argentina",
-      "time": "2026-08-20T03:09:06.998000+00:00",
-      "depth_km": 166.7,
-      "lat": -24.3365,
-      "lon": -67.1154,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1m"
-    },
-    {
-      "mag": 4.7,
-      "place": "45 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-20T03:00:57.597000+00:00",
+      "mag": 4.6,
+      "place": "26 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-21T02:33:07.261000+00:00",
       "depth_km": 10,
-      "lat": -8.2547,
-      "lon": 120.662,
+      "lat": -8.3786,
+      "lon": 120.5112,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1l"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmd2"
     },
     {
       "mag": 4.6,
