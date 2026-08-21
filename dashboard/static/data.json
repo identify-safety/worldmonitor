@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T23:23:49.601512+00:00",
+  "generated_at": "2026-08-21T01:09:06.452169+00:00",
   "overview": {
-    "snapshot_date": "2026-08-20",
+    "snapshot_date": "2026-08-21",
     "earthquake_count": 21,
     "max_earthquake_mag": 6.7,
     "disaster_count": 10,
@@ -10,9 +10,9 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 72917.0,
-    "btc_change_24h": 5.22,
-    "fear_greed_index": 62,
+    "btc_price": 73848.0,
+    "btc_change_24h": 6.53,
+    "fear_greed_index": 72,
     "fear_greed_label": "Greed",
     "total_signals": 51
   },
@@ -42,14 +42,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -59,6 +51,14 @@
     },
     {
       "country_code": "KP",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -90,7 +90,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -98,11 +98,11 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
-      "prev_score": 36,
-      "change_24h": -1,
+      "prev_score": 35,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -142,14 +142,6 @@
       "score": 15,
       "level": "low",
       "prev_score": 15,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "AE",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -170,10 +162,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "DE",
-      "score": 5,
+      "country_code": "AE",
+      "score": 10,
       "level": "low",
-      "prev_score": 5,
+      "prev_score": 10,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -186,24 +178,23 @@
       "trend": "stable"
     },
     {
+      "country_code": "DE",
+      "score": 5,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "GB",
       "score": 5,
       "level": "low",
-      "prev_score": 6,
-      "change_24h": -1,
+      "prev_score": 5,
+      "change_24h": 0,
       "trend": "stable"
     }
   ],
   "history": [
-    {
-      "snapshot_date": "2026-08-13",
-      "earthquake_count": 10,
-      "max_earthquake_mag": 5.6,
-      "disaster_count": 10,
-      "btc_price": 63424.0,
-      "fear_greed_index": 29,
-      "total_signals": 40
-    },
     {
       "snapshot_date": "2026-08-14",
       "earthquake_count": 13,
@@ -266,9 +257,27 @@
       "btc_price": 72917.0,
       "fear_greed_index": 62,
       "total_signals": 51
+    },
+    {
+      "snapshot_date": "2026-08-21",
+      "earthquake_count": 21,
+      "max_earthquake_mag": 6.7,
+      "disaster_count": 10,
+      "btc_price": 73848.0,
+      "fear_greed_index": 72,
+      "total_signals": 51
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-21",
+      "anomaly_flags": [
+        "Major earthquake M6.7 — 31 km NW of Aniso, Peru",
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 6.5% in 24h"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-20",
       "anomaly_flags": [
@@ -324,13 +333,6 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-13",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
@@ -340,7 +342,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -349,7 +351,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -358,7 +360,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -367,7 +369,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -376,7 +378,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -385,16 +387,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.142857142857146,
+      "avg_score": 42.18181818181818,
       "max_score": 43,
       "min_score": 25,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -403,7 +405,7 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -412,25 +414,25 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.333333333333336,
+      "avg_score": 35.31818181818182,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
       "country_code": "PK",
       "country_name": "Pakistan",
-      "avg_score": 35.04761904761905,
+      "avg_score": 35.04545454545455,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -439,7 +441,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -448,16 +450,16 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.047619047619047,
+      "avg_score": 20.045454545454547,
       "max_score": 21,
       "min_score": 20,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -466,7 +468,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -475,7 +477,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -484,7 +486,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -493,7 +495,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -502,16 +504,16 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.190476190476191,
+      "avg_score": 5.181818181818182,
       "max_score": 6,
       "min_score": 5,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -520,7 +522,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     },
     {
@@ -529,12 +531,12 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 21,
+      "data_points": 22,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "total_signals": 51,
     "overall": {
       "level": "critical",
@@ -557,7 +559,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "critical",
-        "text": "BTC 报 $72,917，日涨跌 +5.22%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $73,848，日涨跌 +6.53%。恐惧与贪婪指数 72（Greed）。"
       },
       {
         "icon": "🏴",
@@ -575,7 +577,7 @@
         "icon": "🚨",
         "title": "异常信号",
         "level": "critical",
-        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 5.2% in 24h；Fear & Greed shifted 16 points in 24h"
+        "text": "Major earthquake M6.7 — 31 km NW of Aniso, Peru；10 simultaneous GDACS Red Alerts active；BTC surged 6.5% in 24h"
       }
     ]
   },
@@ -600,7 +602,7 @@
         "icon": "📉",
         "title": "BTC剧烈波动",
         "level": "critical",
-        "message": "BTC 24小时波动 +5.2%（阈值 ≥ ±5%）"
+        "message": "BTC 24小时波动 +6.5%（阈值 ≥ ±5%）"
       }
     ],
     "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
@@ -675,6 +677,17 @@
     },
     {
       "mag": 5,
+      "place": "Pacific-Antarctic Ridge",
+      "time": "2026-08-20T23:36:41.054000+00:00",
+      "depth_km": 10,
+      "lat": -56.5921,
+      "lon": -141.4541,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmbw"
+    },
+    {
+      "mag": 5,
       "place": "78 km NNW of Ende, Indonesia",
       "time": "2026-08-20T19:53:51.824000+00:00",
       "depth_km": 10,
@@ -716,17 +729,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2j"
-    },
-    {
-      "mag": 5,
-      "place": "87 km S of Isangel, Vanuatu",
-      "time": "2026-08-20T00:20:24.938000+00:00",
-      "depth_km": 72.9,
-      "lat": -20.324,
-      "lon": 169.1514,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm16"
     },
     {
       "mag": 4.9,
