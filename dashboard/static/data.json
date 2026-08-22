@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T14:18:49.228711+00:00",
+  "generated_at": "2026-08-22T15:18:31.161318+00:00",
   "overview": {
     "snapshot_date": "2026-08-22",
-    "earthquake_count": 19,
+    "earthquake_count": 18,
     "max_earthquake_mag": 6.2,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77044.0,
-    "btc_change_24h": 0.35,
+    "btc_price": 76943.0,
+    "btc_change_24h": -0.9,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
-    "total_signals": 49
+    "total_signals": 48
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-22",
-      "earthquake_count": 19,
+      "earthquake_count": 18,
       "max_earthquake_mag": 6.2,
       "disaster_count": 10,
-      "btc_price": 77044.0,
+      "btc_price": 76943.0,
       "fear_greed_index": 71,
-      "total_signals": 49
+      "total_signals": 48
     }
   ],
   "anomalies": [
@@ -535,7 +535,7 @@
   ],
   "briefing": {
     "date": "2026-08-22",
-    "total_signals": 49,
+    "total_signals": 48,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -545,7 +545,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 19 次地震，最大 M6.2，中度活跃。"
+        "text": "全球记录 18 次地震，最大 M6.2，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,044，日涨跌 +0.35%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $76,943，日涨跌 -0.90%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -797,17 +797,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmkv"
-    },
-    {
-      "mag": 4.5,
-      "place": "Bonin Islands, Japan region",
-      "time": "2026-08-21T15:08:30.808000+00:00",
-      "depth_km": 10,
-      "lat": 28.4731,
-      "lon": 142.636,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmiz"
     }
   ],
   "disasters": [
