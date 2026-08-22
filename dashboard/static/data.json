@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T07:30:03.151308+00:00",
+  "generated_at": "2026-08-22T08:27:00.089203+00:00",
   "overview": {
     "snapshot_date": "2026-08-22",
-    "earthquake_count": 29,
+    "earthquake_count": 30,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77410.0,
-    "btc_change_24h": 1.54,
+    "btc_price": 77283.0,
+    "btc_change_24h": 0.29,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
-    "total_signals": 59
+    "total_signals": 60
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-22",
-      "earthquake_count": 29,
+      "earthquake_count": 30,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 77410.0,
+      "btc_price": 77283.0,
       "fear_greed_index": 71,
-      "total_signals": 59
+      "total_signals": 60
     }
   ],
   "anomalies": [
@@ -535,7 +535,7 @@
   ],
   "briefing": {
     "date": "2026-08-22",
-    "total_signals": 59,
+    "total_signals": 60,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -545,7 +545,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 29 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 30 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,410，日涨跌 +1.54%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $77,283，日涨跌 +0.29%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -593,6 +593,17 @@
     "count": 1
   },
   "earthquakes": [
+    {
+      "mag": 5.7,
+      "place": "Scotia Sea",
+      "time": "2026-08-22T07:40:12.697000+00:00",
+      "depth_km": 10,
+      "lat": -60.2649,
+      "lon": -47.2591,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrn"
+    },
     {
       "mag": 5.7,
       "place": "194 km SW of Labuan, Indonesia",
@@ -671,17 +682,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmes"
     },
     {
-      "mag": 5.1,
-      "place": "south of Tonga",
-      "time": "2026-08-21T08:12:34.179000+00:00",
-      "depth_km": 10,
-      "lat": -24.7124,
-      "lon": -175.3072,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmei"
-    },
-    {
       "mag": 5,
       "place": "45 km SE of Lukatan, Philippines",
       "time": "2026-08-22T06:43:39.032000+00:00",
@@ -702,6 +702,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr2"
+    },
+    {
+      "mag": 4.9,
+      "place": "northern Mid-Atlantic Ridge",
+      "time": "2026-08-22T07:21:25.611000+00:00",
+      "depth_km": 10,
+      "lat": 12.5208,
+      "lon": -44.6327,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmri"
     },
     {
       "mag": 4.9,
@@ -748,17 +759,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmfi"
     },
     {
-      "mag": 4.9,
-      "place": "88 km N of Ruteng, Indonesia",
-      "time": "2026-08-21T08:14:00.844000+00:00",
-      "depth_km": 36.6,
-      "lat": -7.8156,
-      "lon": 120.5155,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmej"
-    },
-    {
       "mag": 4.7,
       "place": "71 km NNW of Ende, Indonesia",
       "time": "2026-08-22T05:45:11.914000+00:00",
@@ -790,6 +790,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmm3"
+    },
+    {
+      "mag": 4.6,
+      "place": "76 km SSW of San Jose Village, Northern Mariana Islands",
+      "time": "2026-08-22T07:43:51.050000+00:00",
+      "depth_km": 115.9,
+      "lat": 14.337,
+      "lon": 145.3295,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrq"
     },
     {
       "mag": 4.6,
