@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T06:35:52.238148+00:00",
+  "generated_at": "2026-08-22T07:30:03.151308+00:00",
   "overview": {
     "snapshot_date": "2026-08-22",
-    "earthquake_count": 28,
+    "earthquake_count": 29,
     "max_earthquake_mag": 5.7,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77113.0,
-    "btc_change_24h": 2.09,
+    "btc_price": 77410.0,
+    "btc_change_24h": 1.54,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
-    "total_signals": 58
+    "total_signals": 59
   },
   "cii": [
     {
@@ -170,6 +170,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "GB",
+      "score": 6,
+      "level": "low",
+      "prev_score": 5,
+      "change_24h": 1,
+      "trend": "stable"
+    },
+    {
       "country_code": "US",
       "score": 5,
       "level": "low",
@@ -179,14 +187,6 @@
     },
     {
       "country_code": "DE",
-      "score": 5,
-      "level": "low",
-      "prev_score": 5,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "GB",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-22",
-      "earthquake_count": 28,
+      "earthquake_count": 29,
       "max_earthquake_mag": 5.7,
       "disaster_count": 10,
-      "btc_price": 77113.0,
+      "btc_price": 77410.0,
       "fear_greed_index": 71,
-      "total_signals": 58
+      "total_signals": 59
     }
   ],
   "anomalies": [
@@ -508,7 +508,7 @@
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.173913043478261,
+      "avg_score": 5.217391304347826,
       "max_score": 6,
       "min_score": 5,
       "data_points": 23,
@@ -535,7 +535,7 @@
   ],
   "briefing": {
     "date": "2026-08-22",
-    "total_signals": 58,
+    "total_signals": 59,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -545,7 +545,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 28 次地震，最大 M5.7，地震活动处于正常水平。"
+        "text": "全球记录 29 次地震，最大 M5.7，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,113，日涨跌 +2.09%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $77,410，日涨跌 +1.54%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -680,6 +680,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmei"
+    },
+    {
+      "mag": 5,
+      "place": "45 km SE of Lukatan, Philippines",
+      "time": "2026-08-22T06:43:39.032000+00:00",
+      "depth_km": 107.8,
+      "lat": 6.7397,
+      "lon": 126.7362,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrf"
     },
     {
       "mag": 5,
