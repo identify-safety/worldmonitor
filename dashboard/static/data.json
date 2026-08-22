@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:19:08.271865+00:00",
+  "generated_at": "2026-08-22T23:18:24.071797+00:00",
   "overview": {
     "snapshot_date": "2026-08-22",
     "earthquake_count": 20,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77076.0,
-    "btc_change_24h": -1.88,
+    "btc_price": 76967.0,
+    "btc_change_24h": -2.09,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
     "total_signals": 50
@@ -263,7 +263,7 @@
       "earthquake_count": 20,
       "max_earthquake_mag": 6.2,
       "disaster_count": 10,
-      "btc_price": 77076.0,
+      "btc_price": 76967.0,
       "fear_greed_index": 71,
       "total_signals": 50
     }
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,076，日涨跌 -1.88%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $76,967，日涨跌 -2.09%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -744,17 +744,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr7"
     },
     {
-      "mag": 4.7,
-      "place": "147 km NE of Diego de Almagro, Chile",
-      "time": "2026-08-21T22:26:03.081000+00:00",
-      "depth_km": 102.4,
-      "lat": -25.5675,
-      "lon": -68.8817,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmnz"
-    },
-    {
       "mag": 4.6,
       "place": "32 km NNE of Calama, Chile",
       "time": "2026-08-22T18:46:27.765000+00:00",
@@ -797,6 +786,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmq8"
+    },
+    {
+      "mag": 4.5,
+      "place": "62 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-22T22:01:02.600000+00:00",
+      "depth_km": 10,
+      "lat": -8.1213,
+      "lon": 120.741,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmut"
     },
     {
       "mag": 4.5,
