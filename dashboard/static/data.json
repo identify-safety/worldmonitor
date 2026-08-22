@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:19:46.601541+00:00",
+  "generated_at": "2026-08-22T21:19:04.249157+00:00",
   "overview": {
     "snapshot_date": "2026-08-22",
     "earthquake_count": 19,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77381.0,
-    "btc_change_24h": -0.04,
+    "btc_price": 77119.0,
+    "btc_change_24h": -0.68,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
     "total_signals": 49
@@ -263,7 +263,7 @@
       "earthquake_count": 19,
       "max_earthquake_mag": 6.2,
       "disaster_count": 10,
-      "btc_price": 77381.0,
+      "btc_price": 77119.0,
       "fear_greed_index": 71,
       "total_signals": 49
     }
@@ -557,7 +557,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,381，日涨跌 -0.04%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $77,119，日涨跌 -0.68%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -679,6 +679,17 @@
     },
     {
       "mag": 4.9,
+      "place": "78 km S of Gorontalo, Indonesia",
+      "time": "2026-08-22T19:54:07.957000+00:00",
+      "depth_km": 116.3,
+      "lat": -0.1709,
+      "lon": 123.0095,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtu"
+    },
+    {
+      "mag": 4.9,
       "place": "northern Mid-Atlantic Ridge",
       "time": "2026-08-22T07:21:25.611000+00:00",
       "depth_km": 10,
@@ -698,17 +709,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmra"
-    },
-    {
-      "mag": 4.9,
-      "place": "83 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-21T20:21:53.693000+00:00",
-      "depth_km": 10,
-      "lat": -7.8778,
-      "lon": 120.6371,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmn5"
     },
     {
       "mag": 4.8,
