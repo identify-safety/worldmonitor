@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-23T18:25:35.586221+00:00",
+  "generated_at": "2026-08-23T19:21:11.994797+00:00",
   "overview": {
     "snapshot_date": "2026-08-23",
     "earthquake_count": 12,
     "max_earthquake_mag": 6.0,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77286.0,
-    "btc_change_24h": -0.01,
+    "btc_price": 77347.0,
+    "btc_change_24h": 0.04,
     "fear_greed_index": 66,
     "fear_greed_label": "Greed",
-    "total_signals": 42
+    "total_signals": 32
   },
   "cii": [
     {
@@ -66,14 +66,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 43,
-      "level": "elevated",
-      "prev_score": 43,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -90,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -98,7 +90,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -112,6 +104,14 @@
       "prev_score": 30,
       "change_24h": 0,
       "trend": "stable"
+    },
+    {
+      "country_code": "CN",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 43,
+      "change_24h": -18,
+      "trend": "falling"
     },
     {
       "country_code": "TR",
@@ -262,18 +262,16 @@
       "snapshot_date": "2026-08-23",
       "earthquake_count": 12,
       "max_earthquake_mag": 6.0,
-      "disaster_count": 10,
-      "btc_price": 77286.0,
+      "disaster_count": 0,
+      "btc_price": 77347.0,
       "fear_greed_index": 66,
-      "total_signals": 42
+      "total_signals": 32
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-23",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
+      "anomaly_flags": [],
       "convergence_zones": []
     },
     {
@@ -389,7 +387,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.25,
+      "avg_score": 41.5,
       "max_score": 43,
       "min_score": 25,
       "data_points": 24,
@@ -533,10 +531,10 @@
   ],
   "briefing": {
     "date": "2026-08-23",
-    "total_signals": 42,
+    "total_signals": 32,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
@@ -548,32 +546,26 @@
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,286，日涨跌 -0.01%。恐惧与贪婪指数 66（Greed）。"
+        "text": "BTC 报 $77,347，日涨跌 +0.04%。恐惧与贪婪指数 66（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -585,17 +577,10 @@
         "title": "中型地震",
         "level": "warning",
         "message": "检测到 M6.0 地震（阈值 ≥ M6.0）"
-      },
-      {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🟡 1 条警告。部分指标值得关注。",
+    "count": 1
   },
   "earthquakes": [
     {
@@ -654,6 +639,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtu"
     },
     {
+      "mag": 4.7,
+      "place": "61 km ESE of Mangili, Philippines",
+      "time": "2026-08-23T18:57:38.731000+00:00",
+      "depth_km": 10.0,
+      "lat": 5.7891,
+      "lon": 126.1936,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0a"
+    },
+    {
       "mag": 4.6,
       "place": "52 km NNW of Barishal, Pakistan",
       "time": "2026-08-23T10:04:42.433000+00:00",
@@ -685,17 +681,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwk"
-    },
-    {
-      "mag": 4.6,
-      "place": "32 km NNE of Calama, Chile",
-      "time": "2026-08-22T18:46:27.765000+00:00",
-      "depth_km": 105.5,
-      "lat": -22.1927,
-      "lon": -68.793,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtm"
     },
     {
       "mag": 4.5,
