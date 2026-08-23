@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T23:18:24.071797+00:00",
+  "generated_at": "2026-08-23T01:10:45.679290+00:00",
   "overview": {
-    "snapshot_date": "2026-08-22",
+    "snapshot_date": "2026-08-23",
     "earthquake_count": 20,
     "max_earthquake_mag": 6.2,
     "disaster_count": 10,
@@ -10,9 +10,9 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 76967.0,
-    "btc_change_24h": -2.09,
-    "fear_greed_index": 71,
+    "btc_price": 77194.0,
+    "btc_change_24h": -1.14,
+    "fear_greed_index": 66,
     "fear_greed_label": "Greed",
     "total_signals": 50
   },
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +82,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,7 +146,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "FR",
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -154,7 +154,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
+      "country_code": "FR",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -173,8 +173,8 @@
       "country_code": "GB",
       "score": 6,
       "level": "low",
-      "prev_score": 5,
-      "change_24h": 1,
+      "prev_score": 6,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -195,15 +195,6 @@
     }
   ],
   "history": [
-    {
-      "snapshot_date": "2026-08-15",
-      "earthquake_count": 40,
-      "max_earthquake_mag": 6.9,
-      "disaster_count": 10,
-      "btc_price": 63071.0,
-      "fear_greed_index": 34,
-      "total_signals": 70
-    },
     {
       "snapshot_date": "2026-08-16",
       "earthquake_count": 16,
@@ -266,9 +257,25 @@
       "btc_price": 76967.0,
       "fear_greed_index": 71,
       "total_signals": 50
+    },
+    {
+      "snapshot_date": "2026-08-23",
+      "earthquake_count": 20,
+      "max_earthquake_mag": 6.2,
+      "disaster_count": 10,
+      "btc_price": 77194.0,
+      "fear_greed_index": 66,
+      "total_signals": 50
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-08-23",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-22",
       "anomaly_flags": [
@@ -322,15 +329,6 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-15",
-      "anomaly_flags": [
-        "Earthquake count 2.3x above weekly average (40 vs avg 17)",
-        "Major earthquake M6.9 — 15 km NNW of Pematangsiantar, Indonesia",
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
@@ -340,7 +338,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -349,7 +347,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -358,7 +356,7 @@
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -367,7 +365,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -376,7 +374,7 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -385,16 +383,16 @@
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.21739130434783,
+      "avg_score": 42.25,
       "max_score": 43,
       "min_score": 25,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -403,7 +401,7 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -412,25 +410,25 @@
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.30434782608695,
+      "avg_score": 35.291666666666664,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
       "country_code": "PK",
       "country_name": "Pakistan",
-      "avg_score": 35.04347826086956,
+      "avg_score": 35.041666666666664,
       "max_score": 36,
       "min_score": 35,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -439,7 +437,7 @@
       "avg_score": 30.0,
       "max_score": 30,
       "min_score": 30,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -448,16 +446,16 @@
       "avg_score": 25.0,
       "max_score": 25,
       "min_score": 25,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.043478260869566,
+      "avg_score": 20.041666666666668,
       "max_score": 21,
       "min_score": 20,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -466,7 +464,7 @@
       "avg_score": 20.0,
       "max_score": 20,
       "min_score": 20,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -475,7 +473,7 @@
       "avg_score": 15.0,
       "max_score": 15,
       "min_score": 15,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -484,7 +482,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -493,7 +491,7 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -502,16 +500,16 @@
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
       "country_code": "GB",
       "country_name": "United Kingdom",
-      "avg_score": 5.217391304347826,
+      "avg_score": 5.25,
       "max_score": 6,
       "min_score": 5,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -520,7 +518,7 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     },
     {
@@ -529,12 +527,12 @@
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
-      "data_points": 23,
+      "data_points": 24,
       "high_risk_days": 0
     }
   ],
   "briefing": {
-    "date": "2026-08-22",
+    "date": "2026-08-23",
     "total_signals": 50,
     "overall": {
       "level": "critical",
@@ -557,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $76,967，日涨跌 -2.09%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $77,194，日涨跌 -1.14%。恐惧与贪婪指数 66（Greed）。"
       },
       {
         "icon": "🏴",
@@ -824,24 +822,10 @@
   "disasters": [
     {
       "type": "DR",
-      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
-      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "alert_level": "Orange",
-      "date": "2025-12-11T00:00:00"
-    },
-    {
-      "type": "DR",
-      "name": "Drought in Madagascar",
-      "country": "Madagascar",
-      "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
-    },
-    {
-      "type": "DR",
-      "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
-      "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
-      "alert_level": "Orange",
-      "date": "2026-05-11T00:00:00"
+      "date": "2026-05-21T00:00:00"
     },
     {
       "type": "DR",
@@ -852,10 +836,24 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
-      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "alert_level": "Orange",
-      "date": "2026-05-21T00:00:00"
+      "date": "2026-05-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
+      "alert_level": "Orange",
+      "date": "2025-12-11T00:00:00"
     },
     {
       "type": "FL",
