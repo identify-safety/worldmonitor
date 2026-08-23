@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:26:36.002472+00:00",
+  "generated_at": "2026-08-23T09:25:05.696906+00:00",
   "overview": {
     "snapshot_date": "2026-08-23",
     "earthquake_count": 11,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 76218.0,
-    "btc_change_24h": -1.38,
+    "btc_price": 76501.0,
+    "btc_change_24h": -1.0,
     "fear_greed_index": 66,
     "fear_greed_label": "Greed",
     "total_signals": 41
@@ -263,7 +263,7 @@
       "earthquake_count": 11,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 76218.0,
+      "btc_price": 76501.0,
       "fear_greed_index": 66,
       "total_signals": 41
     }
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $76,218，日涨跌 -1.38%。恐惧与贪婪指数 66（Greed）。"
+        "text": "BTC 报 $76,501，日涨跌 -1.00%。恐惧与贪婪指数 66（Greed）。"
       },
       {
         "icon": "🏴",
@@ -603,6 +603,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmta"
     },
     {
+      "mag": 5.2,
+      "place": "124 km ESE of Kirakira, Solomon Islands",
+      "time": "2026-08-23T08:12:38.133000+00:00",
+      "depth_km": 120.3,
+      "lat": -10.9015,
+      "lon": 162.9618,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmxn"
+    },
+    {
       "mag": 4.9,
       "place": "78 km S of Gorontalo, Indonesia",
       "time": "2026-08-22T19:54:07.957000+00:00",
@@ -612,17 +623,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtu"
-    },
-    {
-      "mag": 4.8,
-      "place": "83 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-22T08:29:00.857000+00:00",
-      "depth_km": 10,
-      "lat": -7.8939,
-      "lon": 120.6999,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrx"
     },
     {
       "mag": 4.7,
@@ -714,13 +714,6 @@
     }
   ],
   "disasters": [
-    {
-      "type": "TC",
-      "name": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "alert_level": "Orange",
-      "date": "2026-08-18T12:00:00"
-    },
     {
       "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
@@ -923,6 +916,13 @@
       "country": "Argentina, Uruguay",
       "alert_level": "Orange",
       "date": "2025-11-21T00:00:00"
+    },
+    {
+      "type": "TC",
+      "name": "Tropical Cyclone SINLAKU-26",
+      "country": "Northern Mariana Islands, Guam",
+      "alert_level": "Red",
+      "date": "2026-04-09T00:00:00"
     }
   ]
 }
