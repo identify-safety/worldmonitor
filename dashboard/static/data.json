@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-24T01:09:00.284624+00:00",
+  "generated_at": "2026-08-24T03:00:57.068206+00:00",
   "overview": {
     "snapshot_date": "2026-08-24",
-    "earthquake_count": 14,
+    "earthquake_count": 16,
     "max_earthquake_mag": 6.0,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77576.0,
+    "btc_price": 77424.0,
     "btc_change_24h": 0.47,
     "fear_greed_index": 73,
     "fear_greed_label": "Greed",
-    "total_signals": 34
+    "total_signals": 46
   },
   "cii": [
     {
@@ -66,10 +66,10 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
-      "score": 40,
+      "country_code": "CN",
+      "score": 43,
       "level": "elevated",
-      "prev_score": 40,
+      "prev_score": 43,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -82,7 +82,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "IR",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -90,7 +98,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -106,14 +114,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 25,
-      "level": "normal",
-      "prev_score": 43,
-      "change_24h": -18,
-      "trend": "falling"
-    },
-    {
       "country_code": "TR",
       "score": 25,
       "level": "normal",
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,14 +146,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "FR",
       "score": 10,
       "level": "low",
@@ -163,6 +155,14 @@
     },
     {
       "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -260,18 +260,20 @@
     },
     {
       "snapshot_date": "2026-08-24",
-      "earthquake_count": 14,
+      "earthquake_count": 16,
       "max_earthquake_mag": 6.0,
-      "disaster_count": 0,
-      "btc_price": 77576.0,
+      "disaster_count": 10,
+      "btc_price": 77424.0,
       "fear_greed_index": 73,
-      "total_signals": 34
+      "total_signals": 46
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-08-24",
-      "anomaly_flags": [],
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
       "convergence_zones": []
     },
     {
@@ -387,7 +389,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.56,
+      "avg_score": 42.28,
       "max_score": 43,
       "min_score": 25,
       "data_points": 25,
@@ -531,41 +533,47 @@
   ],
   "briefing": {
     "date": "2026-08-24",
-    "total_signals": 34,
+    "total_signals": 46,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 14 次地震，最大 M6.0，中度活跃。"
+        "text": "全球记录 16 次地震，最大 M6.0，中度活跃。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,576，日涨跌 +0.47%。恐惧与贪婪指数 73（Greed）。"
+        "text": "BTC 报 $77,424，日涨跌 +0.47%。恐惧与贪婪指数 73（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -577,10 +585,17 @@
         "title": "中型地震",
         "level": "warning",
         "message": "检测到 M6.0 地震（阈值 ≥ M6.0）"
+      },
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🟡 1 条警告。部分指标值得关注。",
-    "count": 1
+    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
@@ -596,11 +611,11 @@
     },
     {
       "mag": 5.3,
-      "place": "127 km W of Lata, Solomon Islands",
-      "time": "2026-08-23T21:32:21.749000+00:00",
+      "place": "120 km W of Lata, Solomon Islands",
+      "time": "2026-08-23T21:32:20.775000+00:00",
       "depth_km": 10,
-      "lat": -10.7354,
-      "lon": 164.633,
+      "lat": -10.6943,
+      "lon": 164.6977,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0t"
@@ -618,11 +633,11 @@
     },
     {
       "mag": 5.2,
-      "place": "48 km NE of Ruteng, Indonesia",
-      "time": "2026-08-23T21:20:16.733000+00:00",
+      "place": "61 km NE of Ruteng, Indonesia",
+      "time": "2026-08-23T21:20:15.767000+00:00",
       "depth_km": 10,
-      "lat": -8.2734,
-      "lon": 120.7421,
+      "lat": -8.1992,
+      "lon": 120.8354,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0s"
@@ -673,6 +688,17 @@
     },
     {
       "mag": 4.7,
+      "place": "67 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-23T22:57:34.074000+00:00",
+      "depth_km": 35,
+      "lat": -8.0432,
+      "lon": 120.6944,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn14"
+    },
+    {
+      "mag": 4.7,
       "place": "61 km ESE of Mangili, Philippines",
       "time": "2026-08-23T18:57:38.731000+00:00",
       "depth_km": 10.0,
@@ -681,6 +707,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0a"
+    },
+    {
+      "mag": 4.6,
+      "place": "43 km N of Ruteng, Indonesia",
+      "time": "2026-08-24T01:12:59.871000+00:00",
+      "depth_km": 10,
+      "lat": -8.2203,
+      "lon": 120.4857,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1k"
     },
     {
       "mag": 4.6,
