@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-24T12:44:10.837958+00:00",
+  "generated_at": "2026-08-24T13:49:37.861581+00:00",
   "overview": {
     "snapshot_date": "2026-08-24",
     "earthquake_count": 19,
-    "max_earthquake_mag": 6.0,
+    "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78655.0,
-    "btc_change_24h": 1.87,
+    "btc_price": 78147.0,
+    "btc_change_24h": 0.8,
     "fear_greed_index": 73,
     "fear_greed_label": "Greed",
     "total_signals": 49
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-24",
       "earthquake_count": 19,
-      "max_earthquake_mag": 6.0,
+      "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 78655.0,
+      "btc_price": 78147.0,
       "fear_greed_index": 73,
       "total_signals": 49
     }
@@ -542,8 +542,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "warning",
-        "text": "全球记录 19 次地震，最大 M6.0，中度活跃。"
+        "level": "normal",
+        "text": "全球记录 19 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,655，日涨跌 +1.87%。恐惧与贪婪指数 73（Greed）。"
+        "text": "BTC 报 $78,147，日涨跌 +0.80%。恐惧与贪婪指数 73（Greed）。"
       },
       {
         "icon": "🏴",
@@ -580,13 +580,6 @@
   "alerts": {
     "alerts": [
       {
-        "id": "eq_warning",
-        "icon": "🌋",
-        "title": "中型地震",
-        "level": "warning",
-        "message": "检测到 M6.0 地震（阈值 ≥ M6.0）"
-      },
-      {
         "id": "disaster_surge",
         "icon": "🛰️",
         "title": "灾害密集",
@@ -594,21 +587,10 @@
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 1
   },
   "earthquakes": [
-    {
-      "mag": 6,
-      "place": "33 km SSW of Honchō, Japan",
-      "time": "2026-08-23T13:44:53.514000+00:00",
-      "depth_km": 42.9,
-      "lat": 41.8344,
-      "lon": 142.8255,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmz6"
-    },
     {
       "mag": 5.5,
       "place": "207 km SSE of Amahai, Indonesia",
@@ -641,6 +623,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0s"
+    },
+    {
+      "mag": 5,
+      "place": "southern Mid-Atlantic Ridge",
+      "time": "2026-08-24T12:29:31.627000+00:00",
+      "depth_km": 10,
+      "lat": -17.7036,
+      "lon": -13.8368,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn3t"
     },
     {
       "mag": 5,
