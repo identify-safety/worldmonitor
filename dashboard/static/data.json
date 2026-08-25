@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:29:46.993188+00:00",
+  "generated_at": "2026-08-25T18:36:40.076665+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
     "earthquake_count": 15,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78802.0,
-    "btc_change_24h": 0.09,
+    "btc_price": 79174.0,
+    "btc_change_24h": 0.26,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
     "total_signals": 45
@@ -263,7 +263,7 @@
       "earthquake_count": 15,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 78802.0,
+      "btc_price": 79174.0,
       "fear_greed_index": 74,
       "total_signals": 45
     }
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,802，日涨跌 +0.09%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $79,174，日涨跌 +0.26%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
