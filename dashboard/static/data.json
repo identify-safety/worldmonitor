@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:07:29.587540+00:00",
+  "generated_at": "2026-08-25T02:56:04.570392+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
     "earthquake_count": 16,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79847.0,
-    "btc_change_24h": 2.91,
+    "btc_price": 80663.0,
+    "btc_change_24h": 4.25,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
     "total_signals": 46
@@ -263,7 +263,7 @@
       "earthquake_count": 16,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 79847.0,
+      "btc_price": 80663.0,
       "fear_greed_index": 74,
       "total_signals": 46
     }
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,847，日涨跌 +2.91%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $80,663，日涨跌 +4.25%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -644,6 +644,17 @@
     },
     {
       "mag": 4.9,
+      "place": "4 km NNE of Jalālābād, Afghanistan",
+      "time": "2026-08-25T01:18:46.243000+00:00",
+      "depth_km": 10,
+      "lat": 34.462,
+      "lon": 70.463,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tna9"
+    },
+    {
+      "mag": 4.9,
       "place": "34 km NW of Ruteng, Indonesia",
       "time": "2026-08-25T00:05:24.229000+00:00",
       "depth_km": 10,
@@ -687,17 +698,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn2j"
     },
     {
-      "mag": 4.9,
-      "place": "southern Mid-Atlantic Ridge",
-      "time": "2026-08-24T02:45:08.660000+00:00",
-      "depth_km": 10,
-      "lat": -12.6363,
-      "lon": -14.921,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1z"
-    },
-    {
       "mag": 4.8,
       "place": "91 km N of Ruteng, Indonesia",
       "time": "2026-08-24T15:12:14.584000+00:00",
@@ -721,6 +721,17 @@
     },
     {
       "mag": 4.7,
+      "place": "61 km ENE of Aras-asan, Philippines",
+      "time": "2026-08-25T01:59:04.254000+00:00",
+      "depth_km": 13.5,
+      "lat": 9.0329,
+      "lon": 126.8546,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnai"
+    },
+    {
+      "mag": 4.7,
       "place": "Pagan region, Northern Mariana Islands",
       "time": "2026-08-24T16:25:24.020000+00:00",
       "depth_km": 205.7,
@@ -731,26 +742,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn6z"
     },
     {
-      "mag": 4.7,
-      "place": "71 km N of Ruteng, Indonesia",
-      "time": "2026-08-24T02:19:39.063000+00:00",
-      "depth_km": 10,
-      "lat": -7.9644,
-      "lon": 120.4679,
+      "mag": 4.5,
+      "place": "74 km SSE of Panguna, Papua New Guinea",
+      "time": "2026-08-25T01:22:25.241000+00:00",
+      "depth_km": 109.3,
+      "lat": -6.9731,
+      "lon": 155.6413,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1v"
-    },
-    {
-      "mag": 4.6,
-      "place": "43 km N of Ruteng, Indonesia",
-      "time": "2026-08-24T01:12:59.871000+00:00",
-      "depth_km": 10,
-      "lat": -8.2203,
-      "lon": 120.4857,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1k"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnaa"
     },
     {
       "mag": 4.5,
@@ -777,18 +777,18 @@
   ],
   "disasters": [
     {
+      "type": "EQ",
+      "name": "Earthquake in Afghanistan",
+      "country": "Afghanistan",
+      "alert_level": "Orange",
+      "date": "2026-08-25T01:18:46"
+    },
+    {
       "type": "FL",
       "name": "Flood in China",
       "country": "China",
       "alert_level": "Orange",
       "date": "2026-07-31T01:00:00"
-    },
-    {
-      "type": "TC",
-      "name": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, Northern Mariana Islands, China",
-      "alert_level": "Orange",
-      "date": "2026-08-18T12:00:00"
     },
     {
       "type": "DR",
