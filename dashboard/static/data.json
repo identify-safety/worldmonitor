@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T06:42:00.715458+00:00",
+  "generated_at": "2026-08-25T07:41:44.799684+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
-    "earthquake_count": 15,
+    "earthquake_count": 16,
     "max_earthquake_mag": 6.0,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 80530.0,
-    "btc_change_24h": 4.26,
+    "btc_price": 80484.0,
+    "btc_change_24h": 3.93,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
-    "total_signals": 45
+    "total_signals": 46
   },
   "cii": [
     {
@@ -107,10 +107,10 @@
     },
     {
       "country_code": "TW",
-      "score": 30,
+      "score": 31,
       "level": "normal",
       "prev_score": 30,
-      "change_24h": 0,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,14 +146,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "FR",
       "score": 10,
       "level": "low",
@@ -163,6 +155,14 @@
     },
     {
       "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-25",
-      "earthquake_count": 15,
+      "earthquake_count": 16,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 80530.0,
+      "btc_price": 80484.0,
       "fear_greed_index": 74,
-      "total_signals": 45
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -434,8 +434,8 @@
     {
       "country_code": "TW",
       "country_name": "Taiwan",
-      "avg_score": 30.0,
-      "max_score": 30,
+      "avg_score": 30.03846153846154,
+      "max_score": 31,
       "min_score": 30,
       "data_points": 26,
       "high_risk_days": 0
@@ -533,7 +533,7 @@
   ],
   "briefing": {
     "date": "2026-08-25",
-    "total_signals": 45,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,7 +543,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 15 次地震，最大 M6.0，中度活跃。"
+        "text": "全球记录 16 次地震，最大 M6.0，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $80,530，日涨跌 +4.26%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $80,484，日涨跌 +3.93%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -608,6 +608,17 @@
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn41"
+    },
+    {
+      "mag": 5.5,
+      "place": "108 km NE of Hengchun, Taiwan",
+      "time": "2026-08-25T07:00:10.853000+00:00",
+      "depth_km": 14.6,
+      "lat": 22.6053,
+      "lon": 121.5709,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbm"
     },
     {
       "mag": 5.5,
@@ -687,17 +698,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn37"
     },
     {
-      "mag": 4.9,
-      "place": "10 km NNW of Cot, Costa Rica",
-      "time": "2026-08-24T07:37:17.435000+00:00",
-      "depth_km": 10,
-      "lat": 9.9853,
-      "lon": -83.9132,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn2j"
-    },
-    {
       "mag": 4.8,
       "place": "91 km N of Ruteng, Indonesia",
       "time": "2026-08-24T15:12:14.584000+00:00",
@@ -740,6 +740,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn6z"
+    },
+    {
+      "mag": 4.6,
+      "place": "218 km NNW of Manado, Indonesia",
+      "time": "2026-08-25T06:48:20.910000+00:00",
+      "depth_km": 322.9,
+      "lat": 3.4176,
+      "lon": 124.4529,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbk"
     },
     {
       "mag": 4.6,
@@ -788,13 +799,6 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
-      "country": "Eritrea, Ethiopia, Kenya, Somalia",
-      "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "alert_level": "Orange",
@@ -802,10 +806,10 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Madagascar",
-      "country": "Madagascar",
+      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+      "country": "Eritrea, Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
+      "date": "2026-04-21T00:00:00"
     },
     {
       "type": "DR",
@@ -813,6 +817,13 @@
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
     },
     {
       "type": "EQ",
