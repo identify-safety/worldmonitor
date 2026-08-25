@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:48:54.380069+00:00",
+  "generated_at": "2026-08-25T04:36:22.341820+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
     "earthquake_count": 17,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 80585.0,
-    "btc_change_24h": 4.66,
+    "btc_price": 80300.0,
+    "btc_change_24h": 4.07,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
     "total_signals": 47
@@ -263,7 +263,7 @@
       "earthquake_count": 17,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 80585.0,
+      "btc_price": 80300.0,
       "fear_greed_index": 74,
       "total_signals": 47
     }
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $80,585，日涨跌 +4.66%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $80,300，日涨跌 +4.07%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -709,17 +709,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn4m"
     },
     {
-      "mag": 4.8,
-      "place": "27 km WSW of Sarangani, Philippines",
-      "time": "2026-08-24T03:59:33.162000+00:00",
-      "depth_km": 68.3,
-      "lat": 5.3312,
-      "lon": 125.2291,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn25"
-    },
-    {
       "mag": 4.7,
       "place": "219 km NNE of Lospalos, Timor Leste",
       "time": "2026-08-25T03:06:19.912000+00:00",
@@ -751,6 +740,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn6z"
+    },
+    {
+      "mag": 4.6,
+      "place": "236 km ESE of Kimbe, Papua New Guinea",
+      "time": "2026-08-24T21:02:14.533000+00:00",
+      "depth_km": 10,
+      "lat": -6.4947,
+      "lon": 152.0529,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn8w"
     },
     {
       "mag": 4.5,
