@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:24:41.694311+00:00",
+  "generated_at": "2026-08-25T12:42:22.312285+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
     "earthquake_count": 15,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79262.0,
-    "btc_change_24h": 1.89,
+    "btc_price": 78936.0,
+    "btc_change_24h": 0.4,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
     "total_signals": 45
@@ -66,14 +66,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 43,
-      "level": "elevated",
-      "prev_score": 43,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -88,6 +80,14 @@
       "prev_score": 40,
       "change_24h": 0,
       "trend": "stable"
+    },
+    {
+      "country_code": "CN",
+      "score": 39,
+      "level": "normal",
+      "prev_score": 43,
+      "change_24h": -4,
+      "trend": "falling"
     },
     {
       "country_code": "RU",
@@ -263,7 +263,7 @@
       "earthquake_count": 15,
       "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 79262.0,
+      "btc_price": 78936.0,
       "fear_greed_index": 74,
       "total_signals": 45
     }
@@ -389,7 +389,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.30769230769231,
+      "avg_score": 42.15384615384615,
       "max_score": 43,
       "min_score": 25,
       "data_points": 26,
@@ -555,13 +555,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,262，日涨跌 +1.89%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $78,936，日涨跌 +0.40%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -611,6 +611,17 @@
     },
     {
       "mag": 5.5,
+      "place": "south of the Fiji Islands",
+      "time": "2026-08-25T12:12:03.252000+00:00",
+      "depth_km": 528.3,
+      "lat": -23.3497,
+      "lon": 179.8207,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnci"
+    },
+    {
+      "mag": 5.5,
       "place": "108 km NE of Hengchun, Taiwan",
       "time": "2026-08-25T07:00:10.853000+00:00",
       "depth_km": 14.6,
@@ -641,17 +652,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn80"
-    },
-    {
-      "mag": 5,
-      "place": "southern Mid-Atlantic Ridge",
-      "time": "2026-08-24T12:29:31.627000+00:00",
-      "depth_km": 10,
-      "lat": -17.7036,
-      "lon": -13.8368,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn3t"
     },
     {
       "mag": 4.9,
