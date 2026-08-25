@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T18:36:40.076665+00:00",
+  "generated_at": "2026-08-25T19:29:53.282219+00:00",
   "overview": {
     "snapshot_date": "2026-08-25",
-    "earthquake_count": 15,
+    "earthquake_count": 14,
     "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79174.0,
-    "btc_change_24h": 0.26,
+    "btc_price": 78996.0,
+    "btc_change_24h": 0.18,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
-    "total_signals": 45
+    "total_signals": 44
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-25",
-      "earthquake_count": 15,
+      "earthquake_count": 14,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 79174.0,
+      "btc_price": 78996.0,
       "fear_greed_index": 74,
-      "total_signals": 45
+      "total_signals": 44
     }
   ],
   "anomalies": [
@@ -533,7 +533,7 @@
   ],
   "briefing": {
     "date": "2026-08-25",
-    "total_signals": 45,
+    "total_signals": 44,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,7 +543,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 15 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,174，日涨跌 +0.26%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $78,996，日涨跌 +0.18%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -645,17 +645,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbv"
-    },
-    {
-      "mag": 5,
-      "place": "209 km NNE of Lospalos, Timor Leste",
-      "time": "2026-08-24T19:00:03.416000+00:00",
-      "depth_km": 9.9,
-      "lat": -6.6912,
-      "lon": 127.5019,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn80"
     },
     {
       "mag": 4.9,
