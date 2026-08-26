@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-26T18:59:20.713367+00:00",
+  "generated_at": "2026-08-26T21:44:45.696506+00:00",
   "overview": {
     "snapshot_date": "2026-08-26",
     "earthquake_count": 16,
-    "max_earthquake_mag": 5.2,
+    "max_earthquake_mag": 5.6,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78436.0,
-    "btc_change_24h": -0.81,
+    "btc_price": 78738.0,
+    "btc_change_24h": 0.19,
     "fear_greed_index": 65,
     "fear_greed_label": "Greed",
     "total_signals": 46
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-26",
       "earthquake_count": 16,
-      "max_earthquake_mag": 5.2,
+      "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 78436.0,
+      "btc_price": 78738.0,
       "fear_greed_index": 65,
       "total_signals": 46
     }
@@ -543,7 +543,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 16 次地震，最大 M5.2，地震活动处于正常水平。"
+        "text": "全球记录 16 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,436，日涨跌 -0.81%。恐惧与贪婪指数 65（Greed）。"
+        "text": "BTC 报 $78,738，日涨跌 +0.19%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
@@ -591,6 +591,17 @@
     "count": 1
   },
   "earthquakes": [
+    {
+      "mag": 5.6,
+      "place": "212 km E of Onagawa Chō, Japan",
+      "time": "2026-08-26T19:21:41.921000+00:00",
+      "depth_km": 10,
+      "lat": 38.1292,
+      "lon": 143.8477,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc18"
+    },
     {
       "mag": 5.2,
       "place": "55 km NW of Kodāri̇̄, Nepal",
@@ -647,17 +658,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyz"
     },
     {
-      "mag": 4.9,
-      "place": "47 km NE of Ruteng, Indonesia",
-      "time": "2026-08-25T21:23:59.352000+00:00",
-      "depth_km": 9.4,
-      "lat": -8.2554,
-      "lon": 120.7135,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbup"
-    },
-    {
       "mag": 4.8,
       "place": "147 km E of Miyako, Japan",
       "time": "2026-08-26T06:54:52.876000+00:00",
@@ -692,6 +692,17 @@
     },
     {
       "mag": 4.7,
+      "place": "34 km NNE of Ruteng, Indonesia",
+      "time": "2026-08-26T18:34:58.482000+00:00",
+      "depth_km": 10,
+      "lat": -8.3333,
+      "lon": 120.6143,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0p"
+    },
+    {
+      "mag": 4.7,
       "place": "82 km NE of Otrada, Russia",
       "time": "2026-08-26T07:32:17.399000+00:00",
       "depth_km": 159.5,
@@ -700,17 +711,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbxl"
-    },
-    {
-      "mag": 4.7,
-      "place": "77 km E of Tomioka, Japan",
-      "time": "2026-08-25T20:23:36.308000+00:00",
-      "depth_km": 35,
-      "lat": 37.2686,
-      "lon": 141.8893,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3"
     },
     {
       "mag": 4.6,
