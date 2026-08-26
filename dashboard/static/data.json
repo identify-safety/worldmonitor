@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:09:37.044800+00:00",
+  "generated_at": "2026-08-26T03:02:25.571669+00:00",
   "overview": {
     "snapshot_date": "2026-08-26",
     "earthquake_count": 13,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78866.0,
-    "btc_change_24h": -1.12,
+    "btc_price": 79105.0,
+    "btc_change_24h": -1.94,
     "fear_greed_index": 65,
     "fear_greed_label": "Greed",
     "total_signals": 43
@@ -263,7 +263,7 @@
       "earthquake_count": 13,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 78866.0,
+      "btc_price": 79105.0,
       "fear_greed_index": 65,
       "total_signals": 43
     }
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,866，日涨跌 -1.12%。恐惧与贪婪指数 65（Greed）。"
+        "text": "BTC 报 $79,105，日涨跌 -1.94%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
@@ -658,15 +658,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tncc"
     },
     {
-      "mag": 4.9,
-      "place": "4 km NNE of Jalālābād, Afghanistan",
-      "time": "2026-08-25T01:18:46.243000+00:00",
-      "depth_km": 10,
-      "lat": 34.462,
-      "lon": 70.463,
-      "alert": "yellow",
+      "mag": 4.8,
+      "place": "215 km NNE of Lospalos, Timor Leste",
+      "time": "2026-08-26T01:48:11.757000+00:00",
+      "depth_km": 11.6,
+      "lat": -6.6411,
+      "lon": 127.493,
+      "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tna9"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw3"
     },
     {
       "mag": 4.7,
@@ -691,15 +691,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnal"
     },
     {
-      "mag": 4.7,
-      "place": "61 km ENE of Aras-asan, Philippines",
-      "time": "2026-08-25T01:59:04.254000+00:00",
-      "depth_km": 13.5,
-      "lat": 9.0329,
-      "lon": 126.8546,
+      "mag": 4.6,
+      "place": "87 km NNE of Labuan Bajo, Indonesia",
+      "time": "2026-08-26T01:31:55.012000+00:00",
+      "depth_km": 10,
+      "lat": -7.813,
+      "lon": 120.2856,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnai"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw1"
     },
     {
       "mag": 4.6,
@@ -714,6 +714,17 @@
     },
     {
       "mag": 4.5,
+      "place": "218 km NNE of Lospalos, Timor Leste",
+      "time": "2026-08-26T02:05:46.773000+00:00",
+      "depth_km": 10,
+      "lat": -6.6192,
+      "lon": 127.5468,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw5"
+    },
+    {
+      "mag": 4.5,
       "place": "Vanuatu region",
       "time": "2026-08-25T16:23:33.830000+00:00",
       "depth_km": 629.0,
@@ -722,17 +733,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbsj"
-    },
-    {
-      "mag": 4.5,
-      "place": "74 km SSE of Panguna, Papua New Guinea",
-      "time": "2026-08-25T01:22:25.241000+00:00",
-      "depth_km": 109.3,
-      "lat": -6.9731,
-      "lon": 155.6413,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnaa"
     }
   ],
   "disasters": [
