@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T03:02:25.571669+00:00",
+  "generated_at": "2026-08-26T04:37:10.635561+00:00",
   "overview": {
     "snapshot_date": "2026-08-26",
-    "earthquake_count": 13,
+    "earthquake_count": 14,
     "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79105.0,
-    "btc_change_24h": -1.94,
+    "btc_price": 78910.0,
+    "btc_change_24h": -1.78,
     "fear_greed_index": 65,
     "fear_greed_label": "Greed",
-    "total_signals": 43
+    "total_signals": 44
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-26",
-      "earthquake_count": 13,
+      "earthquake_count": 14,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 79105.0,
+      "btc_price": 78910.0,
       "fear_greed_index": 65,
-      "total_signals": 43
+      "total_signals": 44
     }
   ],
   "anomalies": [
@@ -333,6 +333,15 @@
   ],
   "trends": [
     {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "avg_score": 50.0,
+      "max_score": 50,
+      "min_score": 50,
+      "data_points": 27,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "YE",
       "country_name": "Yemen",
       "avg_score": 50.0,
@@ -351,17 +360,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "UA",
-      "country_name": "Ukraine",
-      "avg_score": 50.0,
-      "max_score": 50,
-      "min_score": 50,
-      "data_points": 27,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "MM",
-      "country_name": "Myanmar",
+      "country_code": "IL",
+      "country_name": "Israel",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -369,8 +369,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "IL",
-      "country_name": "Israel",
+      "country_code": "MM",
+      "country_name": "Myanmar",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -396,8 +396,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "VE",
-      "country_name": "Venezuela",
+      "country_code": "IR",
+      "country_name": "Iran",
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
@@ -405,8 +405,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "IR",
-      "country_name": "Iran",
+      "country_code": "VE",
+      "country_name": "Venezuela",
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
@@ -477,8 +477,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "AE",
-      "country_name": "UAE",
+      "country_code": "FR",
+      "country_name": "France",
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
@@ -495,8 +495,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "FR",
-      "country_name": "France",
+      "country_code": "AE",
+      "country_name": "UAE",
       "avg_score": 10.0,
       "max_score": 10,
       "min_score": 10,
@@ -533,7 +533,7 @@
   ],
   "briefing": {
     "date": "2026-08-26",
-    "total_signals": 43,
+    "total_signals": 44,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -543,7 +543,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 13 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -555,7 +555,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,105，日涨跌 -1.94%。恐惧与贪婪指数 65（Greed）。"
+        "text": "BTC 报 $78,910，日涨跌 -1.78%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
@@ -648,6 +648,17 @@
     },
     {
       "mag": 4.9,
+      "place": "47 km NE of Ruteng, Indonesia",
+      "time": "2026-08-25T21:23:59.352000+00:00",
+      "depth_km": 9.4,
+      "lat": -8.2554,
+      "lon": 120.7135,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbup"
+    },
+    {
+      "mag": 4.9,
       "place": "94 km W of Ambon, Indonesia",
       "time": "2026-08-25T11:29:44.762000+00:00",
       "depth_km": 10,
@@ -680,17 +691,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbu3"
     },
     {
-      "mag": 4.7,
-      "place": "219 km NNE of Lospalos, Timor Leste",
-      "time": "2026-08-25T03:06:19.912000+00:00",
-      "depth_km": 10.2,
-      "lat": -6.6149,
-      "lon": 127.5589,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnal"
-    },
-    {
       "mag": 4.6,
       "place": "87 km NNE of Labuan Bajo, Indonesia",
       "time": "2026-08-26T01:31:55.012000+00:00",
@@ -711,6 +711,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnbk"
+    },
+    {
+      "mag": 4.5,
+      "place": "26 km SW of Ashkāsham, Afghanistan",
+      "time": "2026-08-26T02:24:09.415000+00:00",
+      "depth_km": 93.7,
+      "lat": 36.4889,
+      "lon": 71.3629,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw6"
     },
     {
       "mag": 4.5,
