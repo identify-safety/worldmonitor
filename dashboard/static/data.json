@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T02:54:15.626058+00:00",
+  "generated_at": "2026-08-27T13:46:10.787579+00:00",
   "overview": {
     "snapshot_date": "2026-08-27",
     "earthquake_count": 13,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78750.0,
-    "btc_change_24h": -0.45,
+    "btc_price": 79246.0,
+    "btc_change_24h": 0.99,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
     "total_signals": 43
@@ -263,7 +263,7 @@
       "earthquake_count": 13,
       "max_earthquake_mag": 5.6,
       "disaster_count": 10,
-      "btc_price": 78750.0,
+      "btc_price": 79246.0,
       "fear_greed_index": 71,
       "total_signals": 43
     }
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,750，日涨跌 -0.45%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $79,246，日涨跌 +0.99%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -602,6 +602,39 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc18"
     },
     {
+      "mag": 5.3,
+      "place": "54 km NNE of Labuan Bajo, Indonesia",
+      "time": "2026-08-27T10:33:24.325000+00:00",
+      "depth_km": 10,
+      "lat": -8.0324,
+      "lon": 120.0539,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8j"
+    },
+    {
+      "mag": 5.3,
+      "place": "Volcano Islands, Japan region",
+      "time": "2026-08-27T05:44:26.043000+00:00",
+      "depth_km": 10,
+      "lat": 24.2906,
+      "lon": 142.7624,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc7l"
+    },
+    {
+      "mag": 5.1,
+      "place": "South Atlantic Ocean",
+      "time": "2026-08-27T04:19:08.168000+00:00",
+      "depth_km": 10,
+      "lat": -22.5672,
+      "lon": -20.2977,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc56"
+    },
+    {
       "mag": 5,
       "place": "54 km NNW of Ende, Indonesia",
       "time": "2026-08-26T14:15:31.234000+00:00",
@@ -611,6 +644,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyu"
+    },
+    {
+      "mag": 4.9,
+      "place": "Indian Ocean Triple Junction",
+      "time": "2026-08-27T11:47:16.381000+00:00",
+      "depth_km": 10,
+      "lat": -26.0744,
+      "lon": 70.7736,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc95"
     },
     {
       "mag": 4.9,
@@ -646,28 +690,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyz"
     },
     {
-      "mag": 4.8,
-      "place": "147 km E of Miyako, Japan",
-      "time": "2026-08-26T06:54:52.876000+00:00",
-      "depth_km": 10,
-      "lat": 39.7276,
-      "lon": 143.6596,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbxf"
-    },
-    {
-      "mag": 4.8,
-      "place": "southwest of Africa",
-      "time": "2026-08-26T05:45:05.013000+00:00",
-      "depth_km": 10,
-      "lat": -52.7725,
-      "lon": 11.6756,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbx8"
-    },
-    {
       "mag": 4.7,
       "place": "34 km NNE of Ruteng, Indonesia",
       "time": "2026-08-26T18:34:58.482000+00:00",
@@ -679,48 +701,26 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0p"
     },
     {
-      "mag": 4.7,
-      "place": "82 km NE of Otrada, Russia",
-      "time": "2026-08-26T07:32:17.399000+00:00",
-      "depth_km": 159.5,
-      "lat": 44.6862,
-      "lon": 146.4404,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbxl"
-    },
-    {
       "mag": 4.6,
-      "place": "126 km NNE of Basco, Philippines",
-      "time": "2026-08-26T09:51:22.122000+00:00",
-      "depth_km": 10,
-      "lat": 21.5368,
-      "lon": 122.3274,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tby1"
-    },
-    {
-      "mag": 4.6,
-      "place": "67 km NNW of Ende, Indonesia",
-      "time": "2026-08-26T09:47:34.473000+00:00",
-      "depth_km": 10,
-      "lat": -8.3296,
-      "lon": 121.337,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbxz"
-    },
-    {
-      "mag": 4.5,
-      "place": "118 km ESE of Yujing, Taiwan",
-      "time": "2026-08-26T21:47:17.523000+00:00",
-      "depth_km": 10,
-      "lat": 22.8442,
-      "lon": 121.5726,
+      "place": "106 km ESE of Yujing, Taiwan",
+      "time": "2026-08-26T21:47:20.969000+00:00",
+      "depth_km": 42.1,
+      "lat": 22.8296,
+      "lon": 121.4502,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc37"
+    },
+    {
+      "mag": 4.5,
+      "place": "205 km SE of Vilyuchinsk, Russia",
+      "time": "2026-08-27T09:33:59.785000+00:00",
+      "depth_km": 10,
+      "lat": 51.4769,
+      "lon": 160.2665,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8e"
     },
     {
       "mag": 4.5,
@@ -744,6 +744,20 @@
     },
     {
       "type": "FL",
+      "name": "Flood in India",
+      "country": "India",
+      "alert_level": "Orange",
+      "date": "2026-08-09T01:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-08-22T01:00:00"
+    },
+    {
+      "type": "FL",
       "name": "Flood in China",
       "country": "China",
       "alert_level": "Orange",
@@ -758,13 +772,6 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
-      "country": "Eritrea, Ethiopia, Kenya, Somalia",
-      "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "country": "Belize, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "alert_level": "Orange",
@@ -772,10 +779,10 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Madagascar",
-      "country": "Madagascar",
+      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+      "country": "Eritrea, Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
+      "date": "2026-04-21T00:00:00"
     },
     {
       "type": "DR",
@@ -783,6 +790,13 @@
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Madagascar",
+      "country": "Madagascar",
+      "alert_level": "Orange",
+      "date": "2025-11-21T00:00:00"
     },
     {
       "type": "EQ",
@@ -930,20 +944,6 @@
       "country": "Indonesia",
       "alert_level": "Orange",
       "date": "2026-05-08T09:10:00"
-    },
-    {
-      "type": "EQ",
-      "name": "Earthquake in Japan",
-      "country": "Japan",
-      "alert_level": "Orange",
-      "date": "2026-04-20T07:53:00"
-    },
-    {
-      "type": "DR",
-      "name": "Drought in Argentina, Uruguay",
-      "country": "Argentina, Uruguay",
-      "alert_level": "Orange",
-      "date": "2025-11-21T00:00:00"
     }
   ]
 }
