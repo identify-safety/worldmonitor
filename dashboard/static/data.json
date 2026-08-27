@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-27T13:46:10.787579+00:00",
+  "generated_at": "2026-08-27T23:39:06.003914+00:00",
   "overview": {
     "snapshot_date": "2026-08-27",
-    "earthquake_count": 13,
-    "max_earthquake_mag": 5.6,
+    "earthquake_count": 12,
+    "max_earthquake_mag": 6.0,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79246.0,
-    "btc_change_24h": 0.99,
+    "btc_price": 80293.0,
+    "btc_change_24h": 1.79,
     "fear_greed_index": 71,
     "fear_greed_label": "Greed",
-    "total_signals": 43
+    "total_signals": 42
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-27",
-      "earthquake_count": 13,
-      "max_earthquake_mag": 5.6,
+      "earthquake_count": 12,
+      "max_earthquake_mag": 6.0,
       "disaster_count": 10,
-      "btc_price": 79246.0,
+      "btc_price": 80293.0,
       "fear_greed_index": 71,
-      "total_signals": 43
+      "total_signals": 42
     }
   ],
   "anomalies": [
@@ -532,7 +532,7 @@
   ],
   "briefing": {
     "date": "2026-08-27",
-    "total_signals": 43,
+    "total_signals": 42,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -541,8 +541,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "normal",
-        "text": "全球记录 13 次地震，最大 M5.6，地震活动处于正常水平。"
+        "level": "warning",
+        "text": "全球记录 12 次地震，最大 M6.0，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -554,7 +554,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,246，日涨跌 +0.99%。恐惧与贪婪指数 71（Greed）。"
+        "text": "BTC 报 $80,293，日涨跌 +1.79%。恐惧与贪婪指数 71（Greed）。"
       },
       {
         "icon": "🏴",
@@ -579,6 +579,13 @@
   "alerts": {
     "alerts": [
       {
+        "id": "eq_warning",
+        "icon": "🌋",
+        "title": "中型地震",
+        "level": "warning",
+        "message": "检测到 M6.0 地震（阈值 ≥ M6.0）"
+      },
+      {
         "id": "disaster_surge",
         "icon": "🛰️",
         "title": "灾害密集",
@@ -586,20 +593,20 @@
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
     {
-      "mag": 5.6,
-      "place": "212 km E of Onagawa Chō, Japan",
-      "time": "2026-08-26T19:21:41.921000+00:00",
+      "mag": 6,
+      "place": "145 km N of Caluula, Somalia",
+      "time": "2026-08-27T21:07:38.352000+00:00",
       "depth_km": 10,
-      "lat": 38.1292,
-      "lon": 143.8477,
+      "lat": 13.2654,
+      "lon": 50.5425,
       "alert": "green",
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc18"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcf3"
     },
     {
       "mag": 5.3,
@@ -636,14 +643,36 @@
     },
     {
       "mag": 5,
-      "place": "54 km NNW of Ende, Indonesia",
-      "time": "2026-08-26T14:15:31.234000+00:00",
+      "place": "western Xizang",
+      "time": "2026-08-27T14:45:48.054000+00:00",
       "depth_km": 10,
-      "lat": -8.3715,
-      "lon": 121.5083,
+      "lat": 33.2423,
+      "lon": 86.9395,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyu"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc9m"
+    },
+    {
+      "mag": 4.9,
+      "place": "264 km WNW of Houma, Tonga",
+      "time": "2026-08-27T23:02:58.920000+00:00",
+      "depth_km": 520.3,
+      "lat": -20.3798,
+      "lon": -177.6957,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcgb"
+    },
+    {
+      "mag": 4.9,
+      "place": "3 km WNW of Mangili, Philippines",
+      "time": "2026-08-27T18:43:40.284000+00:00",
+      "depth_km": 10,
+      "lat": 6.0157,
+      "lon": 125.6536,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcdu"
     },
     {
       "mag": 4.9,
@@ -657,59 +686,37 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc95"
     },
     {
-      "mag": 4.9,
-      "place": "42 km NE of Ruteng, Indonesia",
-      "time": "2026-08-26T18:23:13.728000+00:00",
+      "mag": 4.8,
+      "place": "63 km NE of Kuji, Japan",
+      "time": "2026-08-27T19:54:41.264000+00:00",
+      "depth_km": 63.8,
+      "lat": 40.6244,
+      "lon": 142.2551,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcef"
+    },
+    {
+      "mag": 4.8,
+      "place": "195 km SE of Akutan, Alaska",
+      "time": "2026-08-27T14:30:20.017000+00:00",
       "depth_km": 10,
-      "lat": -8.3107,
-      "lon": 120.6979,
+      "lat": 53.0654,
+      "lon": -163.4304,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0k"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc9g"
     },
     {
-      "mag": 4.9,
-      "place": "4 km E of Jordán, Colombia",
-      "time": "2026-08-26T16:45:14.599000+00:00",
-      "depth_km": 159.9,
-      "lat": 6.737,
-      "lon": -73.0596,
+      "mag": 4.5,
+      "place": "42 km E of Estique, Peru",
+      "time": "2026-08-27T17:40:41.549000+00:00",
+      "depth_km": 142.0,
+      "lat": -17.5572,
+      "lon": -69.6195,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbzn"
-    },
-    {
-      "mag": 4.9,
-      "place": "35 km S of Lata, Solomon Islands",
-      "time": "2026-08-26T14:25:41.270000+00:00",
-      "depth_km": 71.2,
-      "lat": -11.0416,
-      "lon": 165.7947,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyz"
-    },
-    {
-      "mag": 4.7,
-      "place": "34 km NNE of Ruteng, Indonesia",
-      "time": "2026-08-26T18:34:58.482000+00:00",
-      "depth_km": 10,
-      "lat": -8.3333,
-      "lon": 120.6143,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0p"
-    },
-    {
-      "mag": 4.6,
-      "place": "106 km ESE of Yujing, Taiwan",
-      "time": "2026-08-26T21:47:20.969000+00:00",
-      "depth_km": 42.1,
-      "lat": 22.8296,
-      "lon": 121.4502,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc37"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcc3"
     },
     {
       "mag": 4.5,
@@ -721,17 +728,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc8e"
-    },
-    {
-      "mag": 4.5,
-      "place": "147 km E of Sola, Vanuatu",
-      "time": "2026-08-26T19:50:08.291000+00:00",
-      "depth_km": 10,
-      "lat": -13.9457,
-      "lon": 168.9143,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc21"
     }
   ],
   "disasters": [
