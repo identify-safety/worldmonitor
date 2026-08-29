@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-29T03:29:32.089233+00:00",
+  "generated_at": "2026-08-29T10:46:40.450397+00:00",
   "overview": {
     "snapshot_date": "2026-08-29",
     "earthquake_count": 14,
-    "max_earthquake_mag": 5.2,
+    "max_earthquake_mag": 5.1,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77680.0,
-    "btc_change_24h": -2.87,
+    "btc_price": 77684.0,
+    "btc_change_24h": -2.08,
     "fear_greed_index": 68,
     "fear_greed_label": "Greed",
     "total_signals": 44
@@ -26,7 +26,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "YE",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -66,14 +66,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 41,
-      "level": "elevated",
-      "prev_score": 41,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -90,11 +82,19 @@
       "trend": "stable"
     },
     {
+      "country_code": "CN",
+      "score": 39,
+      "level": "normal",
+      "prev_score": 41,
+      "change_24h": -2,
+      "trend": "stable"
+    },
+    {
       "country_code": "RU",
-      "score": 36,
+      "score": 35,
       "level": "normal",
       "prev_score": 36,
-      "change_24h": 0,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -146,6 +146,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "PL",
       "score": 10,
       "level": "low",
@@ -162,15 +170,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "US",
+      "country_code": "GB",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -186,7 +186,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "GB",
+      "country_code": "US",
       "score": 5,
       "level": "low",
       "prev_score": 5,
@@ -261,9 +261,9 @@
     {
       "snapshot_date": "2026-08-29",
       "earthquake_count": 14,
-      "max_earthquake_mag": 5.2,
+      "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 77680.0,
+      "btc_price": 77684.0,
       "fear_greed_index": 68,
       "total_signals": 44
     }
@@ -384,7 +384,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.86666666666667,
+      "avg_score": 41.8,
       "max_score": 43,
       "min_score": 25,
       "data_points": 30,
@@ -411,7 +411,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.3,
+      "avg_score": 35.266666666666666,
       "max_score": 36,
       "min_score": 35,
       "data_points": 30,
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.2，地震活动处于正常水平。"
+        "text": "全球记录 14 次地震，最大 M5.1，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,13 +550,13 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,680，日涨跌 -2.87%。恐惧与贪婪指数 68（Greed）。"
+        "text": "BTC 报 $77,684，日涨跌 -2.08%。恐惧与贪婪指数 68（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Yemen(50)、Syria(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
@@ -587,15 +587,26 @@
   },
   "earthquakes": [
     {
-      "mag": 5.2,
-      "place": "southeast Indian Ridge",
-      "time": "2026-08-28T04:59:06.623000+00:00",
+      "mag": 5.1,
+      "place": "Southwest Indian Ridge",
+      "time": "2026-08-29T05:40:06.207000+00:00",
       "depth_km": 10,
-      "lat": -50.116,
-      "lon": 111.5852,
+      "lat": -31.8483,
+      "lon": 56.9522,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tchl"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcs7"
+    },
+    {
+      "mag": 5,
+      "place": "64 km W of Labuha, Indonesia",
+      "time": "2026-08-29T08:08:45.662000+00:00",
+      "depth_km": 41.9,
+      "lat": -0.7032,
+      "lon": 126.9069,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsu"
     },
     {
       "mag": 5,
@@ -609,37 +620,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcp5"
     },
     {
-      "mag": 5,
-      "place": "172 km SE of Petropavlovsk-Kamchatsky, Russia",
-      "time": "2026-08-28T09:12:17.255000+00:00",
-      "depth_km": 10,
-      "lat": 52.1245,
-      "lon": 160.6615,
+      "mag": 4.9,
+      "place": "South Sandwich Islands region",
+      "time": "2026-08-29T07:10:54.010000+00:00",
+      "depth_km": 89.9,
+      "lat": -57.4587,
+      "lon": -25.7887,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcii"
-    },
-    {
-      "mag": 5,
-      "place": "109 km WNW of Isangel, Vanuatu",
-      "time": "2026-08-28T08:32:35.971000+00:00",
-      "depth_km": 10,
-      "lat": -19.2675,
-      "lon": 168.2841,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcig"
-    },
-    {
-      "mag": 5,
-      "place": "19 km NW of Fuji, China",
-      "time": "2026-08-28T05:13:35.070000+00:00",
-      "depth_km": 10,
-      "lat": 29.2752,
-      "lon": 105.229,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcht"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsm"
     },
     {
       "mag": 4.9,
@@ -665,14 +654,25 @@
     },
     {
       "mag": 4.84,
-      "place": "95 km W of Petrolia, CA",
-      "time": "2026-08-29T02:41:09.610000+00:00",
-      "depth_km": 2.3,
-      "lat": 40.4249992370605,
-      "lon": -125.403335571289,
+      "place": "85 km W of Petrolia, CA",
+      "time": "2026-08-29T02:41:11.610000+00:00",
+      "depth_km": 10,
+      "lat": 40.45,
+      "lon": -125.272333333333,
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426637"
+    },
+    {
+      "mag": 4.8,
+      "place": "29 km ENE of Pilar, Philippines",
+      "time": "2026-08-29T06:32:54.139000+00:00",
+      "depth_km": 60.9,
+      "lat": 9.976,
+      "lon": 126.3482,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsc"
     },
     {
       "mag": 4.8,
@@ -686,6 +686,28 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcqg"
     },
     {
+      "mag": 4.7,
+      "place": "25 km ESE of Lospalos, Timor Leste",
+      "time": "2026-08-29T09:15:46.801000+00:00",
+      "depth_km": 10,
+      "lat": -8.588,
+      "lon": 127.2223,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tct6"
+    },
+    {
+      "mag": 4.6,
+      "place": "170 km ESE of Kuril’sk, Russia",
+      "time": "2026-08-29T04:48:42.059000+00:00",
+      "depth_km": 44.0,
+      "lat": 44.8019,
+      "lon": 149.9582,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcrx"
+    },
+    {
       "mag": 4.6,
       "place": "26 km W of Ollagüe, Chile",
       "time": "2026-08-28T14:11:54.373000+00:00",
@@ -695,17 +717,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjv"
-    },
-    {
-      "mag": 4.6,
-      "place": "176 km NNE of Lospalos, Timor Leste",
-      "time": "2026-08-28T10:23:05.552000+00:00",
-      "depth_km": 10,
-      "lat": -6.9733,
-      "lon": 127.3738,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcj1"
     },
     {
       "mag": 4.5,
@@ -728,17 +739,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjf"
-    },
-    {
-      "mag": 4.5,
-      "place": "114 km N of Hirara, Japan",
-      "time": "2026-08-28T10:11:33.232000+00:00",
-      "depth_km": 131.7,
-      "lat": 25.8399,
-      "lon": 125.2609,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcit"
     }
   ],
   "disasters": [
@@ -762,27 +762,6 @@
       "country": "Japan, China, Northern Mariana Islands",
       "alert_level": "Orange",
       "date": "2026-08-18T12:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-08-22T01:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in China",
-      "country": "China",
-      "alert_level": "Orange",
-      "date": "2026-07-31T01:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in India",
-      "country": "India",
-      "alert_level": "Orange",
-      "date": "2026-08-09T01:00:00"
     },
     {
       "type": "DR",
@@ -818,6 +797,27 @@
       "country": "Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Montenegro, The Republic of North Macedonia, Netherlands, Poland, Romania, Serbia, Slovenia, Slovakia, Ukraine, ",
       "alert_level": "Orange",
       "date": "2025-12-11T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-08-22T01:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in China",
+      "country": "China",
+      "alert_level": "Orange",
+      "date": "2026-07-31T01:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in India",
+      "country": "India",
+      "alert_level": "Orange",
+      "date": "2026-08-09T01:00:00"
     },
     {
       "type": "EQ",
