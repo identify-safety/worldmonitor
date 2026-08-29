@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T10:46:40.450397+00:00",
+  "generated_at": "2026-08-29T15:28:32.645925+00:00",
   "overview": {
     "snapshot_date": "2026-08-29",
-    "earthquake_count": 14,
+    "earthquake_count": 15,
     "max_earthquake_mag": 5.1,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77684.0,
-    "btc_change_24h": -2.08,
+    "btc_price": 77932.0,
+    "btc_change_24h": -1.87,
     "fear_greed_index": 68,
     "fear_greed_label": "Greed",
-    "total_signals": 44
+    "total_signals": 45
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-29",
-      "earthquake_count": 14,
+      "earthquake_count": 15,
       "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 77684.0,
+      "btc_price": 77932.0,
       "fear_greed_index": 68,
-      "total_signals": 44
+      "total_signals": 45
     }
   ],
   "anomalies": [
@@ -528,7 +528,7 @@
   ],
   "briefing": {
     "date": "2026-08-29",
-    "total_signals": 44,
+    "total_signals": 45,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.1，地震活动处于正常水平。"
+        "text": "全球记录 15 次地震，最大 M5.1，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,684，日涨跌 -2.08%。恐惧与贪婪指数 68（Greed）。"
+        "text": "BTC 报 $77,932，日涨跌 -1.87%。恐惧与贪婪指数 68（Greed）。"
       },
       {
         "icon": "🏴",
@@ -665,6 +665,17 @@
     },
     {
       "mag": 4.8,
+      "place": "188 km SE of Perryville, Alaska",
+      "time": "2026-08-29T15:16:54.869000+00:00",
+      "depth_km": 5.7,
+      "lat": 54.788,
+      "lon": -156.924,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcluqc"
+    },
+    {
+      "mag": 4.8,
       "place": "29 km ENE of Pilar, Philippines",
       "time": "2026-08-29T06:32:54.139000+00:00",
       "depth_km": 60.9,
@@ -708,15 +719,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcrx"
     },
     {
-      "mag": 4.6,
-      "place": "26 km W of Ollagüe, Chile",
-      "time": "2026-08-28T14:11:54.373000+00:00",
-      "depth_km": 131.4,
-      "lat": -21.2109,
-      "lon": -68.5089,
+      "mag": 4.5,
+      "place": "24 km WSW of Sipí, Colombia",
+      "time": "2026-08-29T10:50:24.152000+00:00",
+      "depth_km": 58.1,
+      "lat": 4.5688,
+      "lon": -76.8503,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjv"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcth"
     },
     {
       "mag": 4.5,
@@ -731,14 +742,14 @@
     },
     {
       "mag": 4.5,
-      "place": "109 km S of Vanimo, Papua New Guinea",
-      "time": "2026-08-28T12:21:36.915000+00:00",
-      "depth_km": 10,
-      "lat": -3.6651,
-      "lon": 141.2038,
+      "place": "38 km NNE of Cuya, Chile",
+      "time": "2026-08-28T20:44:36.759000+00:00",
+      "depth_km": 88.0,
+      "lat": -18.8677,
+      "lon": -69.9747,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjf"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcpf"
     }
   ],
   "disasters": [
