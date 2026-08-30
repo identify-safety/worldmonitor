@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T20:33:45.478202+00:00",
+  "generated_at": "2026-08-30T23:10:22.419582+00:00",
   "overview": {
     "snapshot_date": "2026-08-30",
-    "earthquake_count": 14,
+    "earthquake_count": 13,
     "max_earthquake_mag": 5.8,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78826.0,
-    "btc_change_24h": 0.89,
+    "btc_price": 78348.0,
+    "btc_change_24h": 0.18,
     "fear_greed_index": 69,
     "fear_greed_label": "Greed",
-    "total_signals": 44
+    "total_signals": 43
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-08-30",
-      "earthquake_count": 14,
+      "earthquake_count": 13,
       "max_earthquake_mag": 5.8,
       "disaster_count": 10,
-      "btc_price": 78826.0,
+      "btc_price": 78348.0,
       "fear_greed_index": 69,
-      "total_signals": 44
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -528,7 +528,7 @@
   ],
   "briefing": {
     "date": "2026-08-30",
-    "total_signals": 44,
+    "total_signals": 43,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 14 次地震，最大 M5.8，地震活动处于正常水平。"
+        "text": "全球记录 13 次地震，最大 M5.8，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,826，日涨跌 +0.89%。恐惧与贪婪指数 69（Greed）。"
+        "text": "BTC 报 $78,348，日涨跌 +0.18%。恐惧与贪婪指数 69（Greed）。"
       },
       {
         "icon": "🏴",
@@ -620,28 +620,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxc"
     },
     {
-      "mag": 4.8,
-      "place": "13 km ENE of Himarë, Albania",
-      "time": "2026-08-29T22:35:22.010000+00:00",
-      "depth_km": 10,
-      "lat": 40.1538,
-      "lon": 19.8822,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvf"
-    },
-    {
-      "mag": 4.8,
-      "place": "58 km ESE of Koshima, Japan",
-      "time": "2026-08-29T21:00:19.499000+00:00",
-      "depth_km": 35,
-      "lat": 29.9927,
-      "lon": 131.0784,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcv5"
-    },
-    {
       "mag": 4.7,
       "place": "62 km SSE of Palca, Peru",
       "time": "2026-08-30T16:04:07.774000+00:00",
@@ -662,6 +640,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp"
+    },
+    {
+      "mag": 4.7,
+      "place": "130 km WNW of Ternate, Indonesia",
+      "time": "2026-08-30T04:29:14.480000+00:00",
+      "depth_km": 35.1,
+      "lat": 1.3834,
+      "lon": 126.3683,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwg"
     },
     {
       "mag": 4.6,
