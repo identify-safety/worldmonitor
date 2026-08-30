@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T01:03:09.526251+00:00",
+  "generated_at": "2026-08-30T07:52:25.533158+00:00",
   "overview": {
     "snapshot_date": "2026-08-30",
     "earthquake_count": 12,
@@ -10,8 +10,8 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78177.0,
-    "btc_change_24h": 0.62,
+    "btc_price": 78148.0,
+    "btc_change_24h": 0.66,
     "fear_greed_index": 69,
     "fear_greed_label": "Greed",
     "total_signals": 42
@@ -42,6 +42,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "MM",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -58,15 +66,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -74,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -123,10 +123,10 @@
     },
     {
       "country_code": "IN",
-      "score": 21,
+      "score": 20,
       "level": "normal",
       "prev_score": 21,
-      "change_24h": 0,
+      "change_24h": -1,
       "trend": "stable"
     },
     {
@@ -263,7 +263,7 @@
       "earthquake_count": 12,
       "max_earthquake_mag": 5.1,
       "disaster_count": 10,
-      "btc_price": 78177.0,
+      "btc_price": 78148.0,
       "fear_greed_index": 69,
       "total_signals": 42
     }
@@ -447,7 +447,7 @@
     {
       "country_code": "IN",
       "country_name": "India",
-      "avg_score": 20.129032258064516,
+      "avg_score": 20.096774193548388,
       "max_score": 21,
       "min_score": 20,
       "data_points": 31,
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,177，日涨跌 +0.62%。恐惧与贪婪指数 69（Greed）。"
+        "text": "BTC 报 $78,148，日涨跌 +0.66%。恐惧与贪婪指数 69（Greed）。"
       },
       {
         "icon": "🏴",
@@ -588,14 +588,14 @@
   "earthquakes": [
     {
       "mag": 5.1,
-      "place": "Southwest Indian Ridge",
-      "time": "2026-08-29T05:40:06.207000+00:00",
-      "depth_km": 10,
-      "lat": -31.8483,
-      "lon": 56.9522,
+      "place": "South Sandwich Islands region",
+      "time": "2026-08-30T03:55:28.753000+00:00",
+      "depth_km": 135.7,
+      "lat": -56.4575,
+      "lon": -27.0033,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcs7"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwd"
     },
     {
       "mag": 5,
@@ -607,28 +607,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsu"
-    },
-    {
-      "mag": 4.9,
-      "place": "South Sandwich Islands region",
-      "time": "2026-08-29T07:10:54.010000+00:00",
-      "depth_km": 89.9,
-      "lat": -57.4587,
-      "lon": -25.7887,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsm"
-    },
-    {
-      "mag": 4.84,
-      "place": "85 km W of Petrolia, CA",
-      "time": "2026-08-29T02:41:11.610000+00:00",
-      "depth_km": 10,
-      "lat": 40.45,
-      "lon": -125.272333333333,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426637"
     },
     {
       "mag": 4.8,
@@ -664,15 +642,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcluqc"
     },
     {
-      "mag": 4.8,
-      "place": "29 km ENE of Pilar, Philippines",
-      "time": "2026-08-29T06:32:54.139000+00:00",
-      "depth_km": 60.9,
-      "lat": 9.976,
-      "lon": 126.3482,
+      "mag": 4.7,
+      "place": "26 km WSW of Tocopilla, Chile",
+      "time": "2026-08-30T05:19:51.149000+00:00",
+      "depth_km": 52.1,
+      "lat": -22.1794,
+      "lon": -70.4392,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcsc"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp"
     },
     {
       "mag": 4.7,
@@ -697,15 +675,37 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tct6"
     },
     {
-      "mag": 4.6,
-      "place": "170 km ESE of Kuril’sk, Russia",
-      "time": "2026-08-29T04:48:42.059000+00:00",
-      "depth_km": 44.0,
-      "lat": 44.8019,
-      "lon": 149.9582,
+      "mag": 4.5,
+      "place": "18 km SW of Urakawa, Japan",
+      "time": "2026-08-30T00:14:19.915000+00:00",
+      "depth_km": 63.6,
+      "lat": 42.0423,
+      "lon": 142.6167,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcrx"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvt"
+    },
+    {
+      "mag": 4.5,
+      "place": "70 km ENE of San Pedro de Atacama, Chile",
+      "time": "2026-08-29T23:26:17.542000+00:00",
+      "depth_km": 158.9,
+      "lat": -22.6579,
+      "lon": -67.5745,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvp"
+    },
+    {
+      "mag": 4.5,
+      "place": "25 km W of Émponas, Greece",
+      "time": "2026-08-29T12:32:52.747000+00:00",
+      "depth_km": 14.3,
+      "lat": 36.2182,
+      "lon": 27.5734,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctp"
     },
     {
       "mag": 4.5,
