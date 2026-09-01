@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T22:27:09.921140+00:00",
+  "generated_at": "2026-09-01T01:38:00.027006+00:00",
   "overview": {
-    "snapshot_date": "2026-08-31",
-    "earthquake_count": 8,
+    "snapshot_date": "2026-09-01",
+    "earthquake_count": 7,
     "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78778.0,
-    "btc_change_24h": 0.51,
-    "fear_greed_index": 62,
+    "btc_price": 78459.0,
+    "btc_change_24h": 0.93,
+    "fear_greed_index": 69,
     "fear_greed_label": "Greed",
-    "total_signals": 38
+    "total_signals": 37
   },
   "cii": [
     {
@@ -42,14 +42,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -59,6 +51,14 @@
     },
     {
       "country_code": "KP",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -196,15 +196,6 @@
   ],
   "history": [
     {
-      "snapshot_date": "2026-08-24",
-      "earthquake_count": 17,
-      "max_earthquake_mag": 6.0,
-      "disaster_count": 10,
-      "btc_price": 78765.0,
-      "fear_greed_index": 73,
-      "total_signals": 47
-    },
-    {
       "snapshot_date": "2026-08-25",
       "earthquake_count": 14,
       "max_earthquake_mag": 5.5,
@@ -266,9 +257,25 @@
       "btc_price": 78778.0,
       "fear_greed_index": 62,
       "total_signals": 38
+    },
+    {
+      "snapshot_date": "2026-09-01",
+      "earthquake_count": 7,
+      "max_earthquake_mag": 5.5,
+      "disaster_count": 10,
+      "btc_price": 78459.0,
+      "fear_greed_index": 69,
+      "total_signals": 37
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-09-01",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-08-31",
       "anomaly_flags": [
@@ -313,13 +320,6 @@
     },
     {
       "snapshot_date": "2026-08-25",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-24",
       "anomaly_flags": [
         "10 simultaneous GDACS Red Alerts active"
       ],
@@ -384,9 +384,9 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.58064516129032,
+      "avg_score": 42.03225806451613,
       "max_score": 43,
-      "min_score": 25,
+      "min_score": 39,
       "data_points": 31,
       "high_risk_days": 0
     },
@@ -411,7 +411,7 @@
     {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.225806451612904,
+      "avg_score": 35.193548387096776,
       "max_score": 36,
       "min_score": 35,
       "data_points": 31,
@@ -527,8 +527,8 @@
     }
   ],
   "briefing": {
-    "date": "2026-08-31",
-    "total_signals": 38,
+    "date": "2026-09-01",
+    "total_signals": 37,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -538,7 +538,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 8 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 7 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -550,7 +550,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,778，日涨跌 +0.51%。恐惧与贪婪指数 62（Greed）。"
+        "text": "BTC 报 $78,459，日涨跌 +0.93%。恐惧与贪婪指数 69（Greed）。"
       },
       {
         "icon": "🏴",
@@ -662,17 +662,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2f"
-    },
-    {
-      "mag": 4.5,
-      "place": "71 km WSW of Puerto Casma, Peru",
-      "time": "2026-08-31T01:08:05.874000+00:00",
-      "depth_km": 59.4,
-      "lat": -9.6152,
-      "lon": -79.0145,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td1g"
     }
   ],
   "disasters": [
