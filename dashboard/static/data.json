@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-01T01:38:00.027006+00:00",
+  "generated_at": "2026-09-01T07:15:57.428742+00:00",
   "overview": {
     "snapshot_date": "2026-09-01",
-    "earthquake_count": 7,
+    "earthquake_count": 9,
     "max_earthquake_mag": 5.5,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 78459.0,
-    "btc_change_24h": 0.93,
+    "btc_price": 78706.0,
+    "btc_change_24h": 0.77,
     "fear_greed_index": 69,
     "fear_greed_label": "Greed",
-    "total_signals": 37
+    "total_signals": 9
   },
   "cii": [
     {
@@ -82,14 +82,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 39,
-      "level": "normal",
-      "prev_score": 39,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "RU",
       "score": 35,
       "level": "normal",
@@ -122,7 +114,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "CN",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 39,
+      "change_24h": -14,
+      "trend": "falling"
+    },
+    {
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -260,20 +260,18 @@
     },
     {
       "snapshot_date": "2026-09-01",
-      "earthquake_count": 7,
+      "earthquake_count": 9,
       "max_earthquake_mag": 5.5,
-      "disaster_count": 10,
-      "btc_price": 78459.0,
+      "disaster_count": 0,
+      "btc_price": 78706.0,
       "fear_greed_index": 69,
-      "total_signals": 37
+      "total_signals": 9
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-01",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
+      "anomaly_flags": [],
       "convergence_zones": []
     },
     {
@@ -384,9 +382,9 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 42.03225806451613,
+      "avg_score": 41.58064516129032,
       "max_score": 43,
-      "min_score": 39,
+      "min_score": 25,
       "data_points": 31,
       "high_risk_days": 0
     },
@@ -528,62 +526,42 @@
   ],
   "briefing": {
     "date": "2026-09-01",
-    "total_signals": 37,
+    "total_signals": 9,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 7 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 9 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $78,459，日涨跌 +0.93%。恐惧与贪婪指数 69（Greed）。"
+        "text": "BTC 报 $78,706，日涨跌 +0.77%。恐惧与贪婪指数 69（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
         "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
-      },
-      {
-        "icon": "🌡️",
-        "title": "气候与空间",
-        "level": "normal",
-        "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
-    "alerts": [
-      {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
-      }
-    ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "alerts": [],
+    "summary": "✅ 各项指标正常，无告警触发。",
+    "count": 0
   },
   "earthquakes": [
     {
@@ -598,15 +576,26 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2z"
     },
     {
-      "mag": 4.9,
-      "place": "13 km SSE of Union, Philippines",
-      "time": "2026-08-31T04:04:34.127000+00:00",
-      "depth_km": 83.9,
-      "lat": 9.6408,
-      "lon": 126.1362,
+      "mag": 5.2,
+      "place": "84 km SSW of Nikolski, Alaska",
+      "time": "2026-09-01T06:44:39.430000+00:00",
+      "depth_km": 47.1,
+      "lat": 52.2569,
+      "lon": -169.4258,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2c"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdab"
+    },
+    {
+      "mag": 4.8,
+      "place": "292 km WNW of Houma, Tonga",
+      "time": "2026-09-01T01:29:10.774000+00:00",
+      "depth_km": 533.0,
+      "lat": -20.4066,
+      "lon": -177.994,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td8u"
     },
     {
       "mag": 4.8,
@@ -632,6 +621,17 @@
     },
     {
       "mag": 4.6,
+      "place": "201 km SW of Fakfak, Indonesia",
+      "time": "2026-09-01T05:06:33.349000+00:00",
+      "depth_km": 35,
+      "lat": -4.2388,
+      "lon": 131.0442,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td9v"
+    },
+    {
+      "mag": 4.6,
       "place": "112 km SSW of Chirilagua, El Salvador",
       "time": "2026-08-31T18:56:28.892000+00:00",
       "depth_km": 35,
@@ -654,14 +654,14 @@
     },
     {
       "mag": 4.5,
-      "place": "south of the Fiji Islands",
-      "time": "2026-08-31T04:38:22.200000+00:00",
-      "depth_km": 508.3,
-      "lat": -25.2065,
-      "lon": 179.8021,
+      "place": "13 km NNW of Yasuj, Iran",
+      "time": "2026-09-01T06:15:13.772000+00:00",
+      "depth_km": 10,
+      "lat": 30.778,
+      "lon": 51.5353,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td2f"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tda7"
     }
   ],
   "disasters": [
@@ -673,11 +673,18 @@
       "date": "2026-07-31T01:00:00"
     },
     {
-      "type": "DR",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "type": "FL",
+      "name": "Flood in India",
+      "country": "India",
       "alert_level": "Orange",
-      "date": "2025-12-21T00:00:00"
+      "date": "2026-08-09T01:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "country": "The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "alert_level": "Orange",
+      "date": "2026-04-21T00:00:00"
     },
     {
       "type": "DR",
@@ -688,17 +695,10 @@
     },
     {
       "type": "DR",
-      "name": "Drought in The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
-      "country": "The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
       "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
-    {
-      "type": "FL",
-      "name": "Flood in India",
-      "country": "India",
-      "alert_level": "Orange",
-      "date": "2026-08-09T01:00:00"
+      "date": "2025-12-21T00:00:00"
     },
     {
       "type": "EQ",
