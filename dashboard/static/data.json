@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-02T02:52:53.154524+00:00",
+  "generated_at": "2026-09-02T07:38:11.041822+00:00",
   "overview": {
     "snapshot_date": "2026-09-02",
-    "earthquake_count": 17,
+    "earthquake_count": 19,
     "max_earthquake_mag": 5.6,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77207.0,
-    "btc_change_24h": -1.53,
+    "btc_price": 77557.0,
+    "btc_change_24h": -1.44,
     "fear_greed_index": 63,
     "fear_greed_label": "Greed",
-    "total_signals": 47
+    "total_signals": 39
   },
   "cii": [
     {
-      "country_code": "UA",
+      "country_code": "SY",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -26,7 +26,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SY",
+      "country_code": "UA",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -82,14 +82,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 39,
-      "level": "normal",
-      "prev_score": 25,
-      "change_24h": 14,
-      "trend": "rising"
-    },
-    {
       "country_code": "RU",
       "score": 35,
       "level": "normal",
@@ -114,6 +106,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "CN",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 25,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "TR",
       "score": 25,
       "level": "normal",
@@ -122,7 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -146,14 +146,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "PL",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "FR",
       "score": 10,
       "level": "low",
@@ -163,6 +155,14 @@
     },
     {
       "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "PL",
       "score": 10,
       "level": "low",
       "prev_score": 10,
@@ -260,20 +260,18 @@
     },
     {
       "snapshot_date": "2026-09-02",
-      "earthquake_count": 17,
+      "earthquake_count": 19,
       "max_earthquake_mag": 5.6,
-      "disaster_count": 10,
-      "btc_price": 77207.0,
+      "disaster_count": 0,
+      "btc_price": 77557.0,
       "fear_greed_index": 63,
-      "total_signals": 47
+      "total_signals": 39
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-02",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
+      "anomaly_flags": [],
       "convergence_zones": []
     },
     {
@@ -382,7 +380,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.45161290322581,
+      "avg_score": 41.0,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
@@ -526,62 +524,48 @@
   ],
   "briefing": {
     "date": "2026-09-02",
-    "total_signals": 47,
+    "total_signals": 39,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 17 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 19 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,207，日涨跌 -1.53%。恐惧与贪婪指数 63（Greed）。"
+        "text": "BTC 报 $77,557，日涨跌 -1.44%。恐惧与贪婪指数 63（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Syria(50)、Ukraine(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
-    "alerts": [
-      {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
-      }
-    ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "alerts": [],
+    "summary": "✅ 各项指标正常，无告警触发。",
+    "count": 0
   },
   "earthquakes": [
     {
@@ -608,14 +592,36 @@
     },
     {
       "mag": 5.3,
-      "place": "89 km SSW of Nikolski, Alaska",
-      "time": "2026-09-01T06:44:36.948000+00:00",
-      "depth_km": 26.0,
-      "lat": 52.2132,
-      "lon": -169.4456,
+      "place": "66 km NNW of Arthurs Point, New Zealand",
+      "time": "2026-09-02T06:13:33.779000+00:00",
+      "depth_km": 10,
+      "lat": -44.4431,
+      "lon": 168.3029,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj8"
+    },
+    {
+      "mag": 5.2,
+      "place": "70 km NNW of Arthurs Point, New Zealand",
+      "time": "2026-09-02T06:57:12.278000+00:00",
+      "depth_km": 10,
+      "lat": -44.4277,
+      "lon": 168.2503,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdjg"
+    },
+    {
+      "mag": 5.2,
+      "place": "95 km SSW of Nikolski, Alaska",
+      "time": "2026-09-02T05:14:00.312000+00:00",
+      "depth_km": 35,
+      "lat": 52.1186,
+      "lon": -169.295,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdab"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdin"
     },
     {
       "mag": 5.2,
@@ -638,6 +644,28 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdey"
+    },
+    {
+      "mag": 4.9,
+      "place": "85 km SSW of Nikolski, Alaska",
+      "time": "2026-09-02T05:16:05.872000+00:00",
+      "depth_km": 18.8,
+      "lat": 52.218,
+      "lon": -169.316,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rjbwrf"
+    },
+    {
+      "mag": 4.9,
+      "place": "98 km SSW of Nikolski, Alaska",
+      "time": "2026-09-02T05:10:27.023000+00:00",
+      "depth_km": 38.5,
+      "lat": 52.1067,
+      "lon": -169.369,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdim"
     },
     {
       "mag": 4.9,
@@ -671,6 +699,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh4"
+    },
+    {
+      "mag": 4.6,
+      "place": "101 km SSW of Nikolski, Alaska",
+      "time": "2026-09-02T05:40:52.146000+00:00",
+      "depth_km": 16.7,
+      "lat": 52.0603,
+      "lon": -169.2582,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj0"
     },
     {
       "mag": 4.6,
@@ -728,17 +767,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbi"
     },
     {
-      "mag": 4.6,
-      "place": "201 km SW of Fakfak, Indonesia",
-      "time": "2026-09-01T05:06:33.349000+00:00",
-      "depth_km": 35,
-      "lat": -4.2388,
-      "lon": 131.0442,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td9v"
-    },
-    {
       "mag": 4.5,
       "place": "90 km SSW of Nikolski, Alaska",
       "time": "2026-09-01T07:45:38.175000+00:00",
@@ -748,28 +776,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdal"
-    },
-    {
-      "mag": 4.5,
-      "place": "105 km SSW of Nikolski, Alaska",
-      "time": "2026-09-01T07:05:57.898000+00:00",
-      "depth_km": 42.2,
-      "lat": 52.0389,
-      "lon": -169.3391,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdag"
-    },
-    {
-      "mag": 4.5,
-      "place": "13 km NNW of Yasuj, Iran",
-      "time": "2026-09-01T06:15:13.772000+00:00",
-      "depth_km": 10,
-      "lat": 30.778,
-      "lon": 51.5353,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tda7"
     }
   ],
   "disasters": [
@@ -795,13 +801,6 @@
       "date": "2026-07-31T01:00:00"
     },
     {
-      "type": "FL",
-      "name": "Flood in India",
-      "country": "India",
-      "alert_level": "Orange",
-      "date": "2026-08-09T01:00:00"
-    },
-    {
       "type": "DR",
       "name": "Drought in The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
       "country": "The Bahamas, Belize, Cuba, Guatemala, Honduras, Mexico, Nicaragua, El Salvador",
@@ -821,6 +820,13 @@
       "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
       "alert_level": "Orange",
       "date": "2025-12-21T00:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in India",
+      "country": "India",
+      "alert_level": "Orange",
+      "date": "2026-08-09T01:00:00"
     },
     {
       "type": "EQ",
