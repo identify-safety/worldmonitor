@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-01T23:01:04.187583+00:00",
+  "generated_at": "2026-09-02T02:52:53.154524+00:00",
   "overview": {
-    "snapshot_date": "2026-09-01",
-    "earthquake_count": 15,
+    "snapshot_date": "2026-09-02",
+    "earthquake_count": 17,
     "max_earthquake_mag": 5.6,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77260.0,
-    "btc_change_24h": -1.67,
-    "fear_greed_index": 69,
+    "btc_price": 77207.0,
+    "btc_change_24h": -1.53,
+    "fear_greed_index": 63,
     "fear_greed_label": "Greed",
-    "total_signals": 35
+    "total_signals": 47
   },
   "cii": [
     {
@@ -82,6 +82,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "CN",
+      "score": 39,
+      "level": "normal",
+      "prev_score": 25,
+      "change_24h": 14,
+      "trend": "rising"
+    },
+    {
       "country_code": "RU",
       "score": 35,
       "level": "normal",
@@ -114,15 +122,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 25,
-      "level": "normal",
-      "prev_score": 39,
-      "change_24h": -14,
-      "trend": "falling"
-    },
-    {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -196,15 +196,6 @@
   ],
   "history": [
     {
-      "snapshot_date": "2026-08-25",
-      "earthquake_count": 14,
-      "max_earthquake_mag": 5.5,
-      "disaster_count": 10,
-      "btc_price": 78759.0,
-      "fear_greed_index": 74,
-      "total_signals": 44
-    },
-    {
       "snapshot_date": "2026-08-26",
       "earthquake_count": 16,
       "max_earthquake_mag": 5.6,
@@ -266,9 +257,25 @@
       "btc_price": 77260.0,
       "fear_greed_index": 69,
       "total_signals": 35
+    },
+    {
+      "snapshot_date": "2026-09-02",
+      "earthquake_count": 17,
+      "max_earthquake_mag": 5.6,
+      "disaster_count": 10,
+      "btc_price": 77207.0,
+      "fear_greed_index": 63,
+      "total_signals": 47
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-09-02",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-09-01",
       "anomaly_flags": [],
@@ -315,19 +322,12 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-25",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
     {
-      "country_code": "UA",
-      "country_name": "Ukraine",
+      "country_code": "YE",
+      "country_name": "Yemen",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -335,8 +335,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "YE",
-      "country_name": "Yemen",
+      "country_code": "UA",
+      "country_name": "Ukraine",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -353,8 +353,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "IL",
-      "country_name": "Israel",
+      "country_code": "MM",
+      "country_name": "Myanmar",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -362,8 +362,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "MM",
-      "country_name": "Myanmar",
+      "country_code": "IL",
+      "country_name": "Israel",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -382,18 +382,9 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.58064516129032,
+      "avg_score": 41.45161290322581,
       "max_score": 43,
       "min_score": 25,
-      "data_points": 31,
-      "high_risk_days": 0
-    },
-    {
-      "country_code": "IR",
-      "country_name": "Iran",
-      "avg_score": 40.0,
-      "max_score": 40,
-      "min_score": 40,
       "data_points": 31,
       "high_risk_days": 0
     },
@@ -407,9 +398,18 @@
       "high_risk_days": 0
     },
     {
+      "country_code": "IR",
+      "country_name": "Iran",
+      "avg_score": 40.0,
+      "max_score": 40,
+      "min_score": 40,
+      "data_points": 31,
+      "high_risk_days": 0
+    },
+    {
       "country_code": "RU",
       "country_name": "Russia",
-      "avg_score": 35.193548387096776,
+      "avg_score": 35.16129032258065,
       "max_score": 36,
       "min_score": 35,
       "data_points": 31,
@@ -525,30 +525,30 @@
     }
   ],
   "briefing": {
-    "date": "2026-09-01",
-    "total_signals": 35,
+    "date": "2026-09-02",
+    "total_signals": 47,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 15 次地震，最大 M5.6，地震活动处于正常水平。"
+        "text": "全球记录 17 次地震，最大 M5.6，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,260，日涨跌 -1.67%。恐惧与贪婪指数 69（Greed）。"
+        "text": "BTC 报 $77,207，日涨跌 -1.53%。恐惧与贪婪指数 63（Greed）。"
       },
       {
         "icon": "🏴",
@@ -561,15 +561,40 @@
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
-    "alerts": [],
-    "summary": "✅ 各项指标正常，无告警触发。",
-    "count": 0
+    "alerts": [
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      }
+    ],
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 1
   },
   "earthquakes": [
+    {
+      "mag": 5.6,
+      "place": "159 km WSW of Abepura, Indonesia",
+      "time": "2026-09-02T00:04:55.147000+00:00",
+      "depth_km": 69.1,
+      "lat": -3.2239,
+      "lon": 139.3456,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhl"
+    },
     {
       "mag": 5.6,
       "place": "82 km SE of Maba, Indonesia",
@@ -637,23 +662,34 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbc"
     },
     {
-      "mag": 4.8,
-      "place": "292 km WNW of Houma, Tonga",
-      "time": "2026-09-01T01:29:10.774000+00:00",
-      "depth_km": 533.0,
-      "lat": -20.4066,
-      "lon": -177.994,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000td8u"
-    },
-    {
       "mag": 4.7,
       "place": "Mid-Indian Ridge",
-      "time": "2026-09-01T22:37:43.913000+00:00",
+      "time": "2026-09-01T22:42:09.463000+00:00",
       "depth_km": 10,
-      "lat": -13.2582,
-      "lon": 66.5574,
+      "lat": -13.1136,
+      "lon": 66.5918,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh4"
+    },
+    {
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-09-01T23:45:23.937000+00:00",
+      "depth_km": 10,
+      "lat": -13.2147,
+      "lon": 66.6386,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhg"
+    },
+    {
+      "mag": 4.6,
+      "place": "Mid-Indian Ridge",
+      "time": "2026-09-01T22:37:43.732000+00:00",
+      "depth_km": 10,
+      "lat": -13.1948,
+      "lon": 66.5694,
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh3"
@@ -738,18 +774,18 @@
   ],
   "disasters": [
     {
-      "type": "FL",
-      "name": "Flood in Nepal",
-      "country": "Nepal",
-      "alert_level": "Red",
-      "date": "2026-08-26T01:00:00"
-    },
-    {
       "type": "TC",
       "name": "Tropical Cyclone SAUDEL-26",
       "country": "Japan, China, Northern Mariana Islands",
       "alert_level": "Orange",
       "date": "2026-08-18T12:00:00"
+    },
+    {
+      "type": "FL",
+      "name": "Flood in Nepal",
+      "country": "Nepal",
+      "alert_level": "Red",
+      "date": "2026-08-26T01:00:00"
     },
     {
       "type": "FL",
@@ -837,17 +873,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
-      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
-      "alert_level": "Orange",
-      "date": "2026-05-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
       "country": "Eritrea, Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
       "date": "2026-04-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "alert_level": "Orange",
+      "date": "2026-05-21T00:00:00"
     },
     {
       "type": "EQ",
