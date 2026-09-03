@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-03T00:56:25.580796+00:00",
+  "generated_at": "2026-09-03T05:31:16.848227+00:00",
   "overview": {
     "snapshot_date": "2026-09-03",
-    "earthquake_count": 16,
+    "earthquake_count": 13,
     "max_earthquake_mag": 6.2,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77053.0,
-    "btc_change_24h": -0.17,
+    "btc_price": 77107.0,
+    "btc_change_24h": -0.79,
     "fear_greed_index": 65,
     "fear_greed_label": "Greed",
-    "total_signals": 46
+    "total_signals": 33
   },
   "cii": [
     {
@@ -82,14 +82,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 39,
-      "level": "normal",
-      "prev_score": 39,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "RU",
       "score": 35,
       "level": "normal",
@@ -122,7 +114,15 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
+      "country_code": "CN",
+      "score": 25,
+      "level": "normal",
+      "prev_score": 39,
+      "change_24h": -14,
+      "trend": "falling"
+    },
+    {
+      "country_code": "IN",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -130,7 +130,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IN",
+      "country_code": "SA",
       "score": 20,
       "level": "normal",
       "prev_score": 20,
@@ -260,20 +260,18 @@
     },
     {
       "snapshot_date": "2026-09-03",
-      "earthquake_count": 16,
+      "earthquake_count": 13,
       "max_earthquake_mag": 6.2,
-      "disaster_count": 10,
-      "btc_price": 77053.0,
+      "disaster_count": 0,
+      "btc_price": 77107.0,
       "fear_greed_index": 65,
-      "total_signals": 46
+      "total_signals": 33
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-03",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
+      "anomaly_flags": [],
       "convergence_zones": []
     },
     {
@@ -382,7 +380,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.32258064516129,
+      "avg_score": 40.87096774193548,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
@@ -526,29 +524,29 @@
   ],
   "briefing": {
     "date": "2026-09-03",
-    "total_signals": 46,
+    "total_signals": 33,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 16 次地震，最大 M6.2，中度活跃。"
+        "text": "全球记录 13 次地震，最大 M6.2，中度活跃。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,053，日涨跌 -0.17%。恐惧与贪婪指数 65（Greed）。"
+        "text": "BTC 报 $77,107，日涨跌 -0.79%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
@@ -561,12 +559,6 @@
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
@@ -578,17 +570,10 @@
         "title": "中型地震",
         "level": "warning",
         "message": "检测到 M6.2 地震（阈值 ≥ M6.0）"
-      },
-      {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
-    "count": 2
+    "summary": "🟡 1 条警告。部分指标值得关注。",
+    "count": 1
   },
   "earthquakes": [
     {
@@ -691,17 +676,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdjg"
     },
     {
-      "mag": 5.2,
-      "place": "95 km SSW of Nikolski, Alaska",
-      "time": "2026-09-02T05:14:00.312000+00:00",
-      "depth_km": 35,
-      "lat": 52.1186,
-      "lon": -169.295,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdin"
-    },
-    {
       "mag": 4.9,
       "place": "Volcano Islands, Japan region",
       "time": "2026-09-02T13:53:02.378000+00:00",
@@ -711,28 +685,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdn6"
-    },
-    {
-      "mag": 4.9,
-      "place": "85 km SSW of Nikolski, Alaska",
-      "time": "2026-09-02T05:16:05.872000+00:00",
-      "depth_km": 18.8,
-      "lat": 52.218,
-      "lon": -169.316,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rjbwrf"
-    },
-    {
-      "mag": 4.9,
-      "place": "98 km SSW of Nikolski, Alaska",
-      "time": "2026-09-02T05:10:27.023000+00:00",
-      "depth_km": 38.5,
-      "lat": 52.1067,
-      "lon": -169.369,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdim"
     },
     {
       "mag": 4.7,
@@ -747,6 +699,17 @@
     },
     {
       "mag": 4.6,
+      "place": "285 km ENE of Levuka, Fiji",
+      "time": "2026-09-03T00:09:28.892000+00:00",
+      "depth_km": 581.4,
+      "lat": -17.4745,
+      "lon": -178.0581,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdt3"
+    },
+    {
+      "mag": 4.6,
       "place": "101 km SSW of Nikolski, Alaska",
       "time": "2026-09-02T05:40:52.146000+00:00",
       "depth_km": 16.7,
@@ -755,17 +718,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj0"
-    },
-    {
-      "mag": 4.5,
-      "place": "Kuril Islands",
-      "time": "2026-09-02T05:08:38.690000+00:00",
-      "depth_km": 144.1,
-      "lat": 48.1337,
-      "lon": 152.4883,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdk1"
     }
   ],
   "disasters": [
