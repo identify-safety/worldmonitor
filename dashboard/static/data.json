@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-03T18:20:52.751016+00:00",
+  "generated_at": "2026-09-03T21:33:47.001890+00:00",
   "overview": {
     "snapshot_date": "2026-09-03",
-    "earthquake_count": 20,
+    "earthquake_count": 22,
     "max_earthquake_mag": 6.3,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 81209.0,
-    "btc_change_24h": 4.95,
+    "btc_price": 81910.0,
+    "btc_change_24h": 6.06,
     "fear_greed_index": 65,
     "fear_greed_label": "Greed",
-    "total_signals": 40
+    "total_signals": 52
   },
   "cii": [
     {
@@ -66,6 +66,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "CN",
+      "score": 43,
+      "level": "elevated",
+      "prev_score": 39,
+      "change_24h": 4,
+      "trend": "rising"
+    },
+    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -82,7 +90,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "PK",
+      "country_code": "RU",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -90,7 +98,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "RU",
+      "country_code": "PK",
       "score": 35,
       "level": "normal",
       "prev_score": 35,
@@ -104,14 +112,6 @@
       "prev_score": 30,
       "change_24h": 0,
       "trend": "stable"
-    },
-    {
-      "country_code": "CN",
-      "score": 28,
-      "level": "normal",
-      "prev_score": 39,
-      "change_24h": -11,
-      "trend": "falling"
     },
     {
       "country_code": "TR",
@@ -260,18 +260,21 @@
     },
     {
       "snapshot_date": "2026-09-03",
-      "earthquake_count": 20,
+      "earthquake_count": 22,
       "max_earthquake_mag": 6.3,
-      "disaster_count": 0,
-      "btc_price": 81209.0,
+      "disaster_count": 10,
+      "btc_price": 81910.0,
       "fear_greed_index": 65,
-      "total_signals": 40
+      "total_signals": 52
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-03",
-      "anomaly_flags": [],
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active",
+        "BTC surged 6.1% in 24h"
+      ],
       "convergence_zones": []
     },
     {
@@ -380,7 +383,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 40.96774193548387,
+      "avg_score": 41.45161290322581,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
@@ -524,41 +527,47 @@
   ],
   "briefing": {
     "date": "2026-09-03",
-    "total_signals": 40,
+    "total_signals": 52,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "warning",
-        "text": "全球记录 20 次地震，最大 M6.3，中度活跃。"
+        "text": "全球记录 22 次地震，最大 M6.3，中度活跃。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
-        "level": "normal",
-        "text": "BTC 报 $81,209，日涨跌 +4.95%。恐惧与贪婪指数 65（Greed）。"
+        "level": "critical",
+        "text": "BTC 报 $81,910，日涨跌 +6.06%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active；BTC surged 6.1% in 24h"
       }
     ]
   },
@@ -570,10 +579,24 @@
         "title": "中型地震",
         "level": "warning",
         "message": "检测到 M6.3 地震（阈值 ≥ M6.0）"
+      },
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      },
+      {
+        "id": "btc_volatile",
+        "icon": "📉",
+        "title": "BTC剧烈波动",
+        "level": "critical",
+        "message": "BTC 24小时波动 +6.1%（阈值 ≥ ±5%）"
       }
     ],
-    "summary": "🟡 1 条警告。部分指标值得关注。",
-    "count": 1
+    "summary": "🔴 2 条严重告警、1 条警告。建议立即查看。",
+    "count": 3
   },
   "earthquakes": [
     {
@@ -599,6 +622,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv"
     },
     {
+      "mag": 5.5,
+      "place": "100 km S of Nikolski, Alaska",
+      "time": "2026-09-03T20:21:15.216000+00:00",
+      "depth_km": 10,
+      "lat": 52.0506,
+      "lon": -169.1387,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te4b"
+    },
+    {
       "mag": 5.4,
       "place": "21 km WNW of Jiangyou, China",
       "time": "2026-09-03T11:39:41.981000+00:00",
@@ -610,26 +644,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6"
     },
     {
-      "mag": 5.4,
-      "place": "82 km S of Isangel, Vanuatu",
-      "time": "2026-09-02T21:22:08.653000+00:00",
-      "depth_km": 93.1,
-      "lat": -20.279,
-      "lon": 169.4012,
-      "alert": "green",
+      "mag": 5.3,
+      "place": "104 km SSW of Nikolski, Alaska",
+      "time": "2026-09-03T18:45:39.228000+00:00",
+      "depth_km": 10,
+      "lat": 52.0304,
+      "lon": -169.2217,
+      "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdr1"
-    },
-    {
-      "mag": 5.4,
-      "place": "52 km W of Bulolo, Papua New Guinea",
-      "time": "2026-09-02T20:04:33.819000+00:00",
-      "depth_km": 69.9,
-      "lat": -7.1178,
-      "lon": 146.174,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdqc"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2m"
     },
     {
       "mag": 5.2,
@@ -698,6 +721,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc"
     },
     {
+      "mag": 5,
+      "place": "Fiji region",
+      "time": "2026-09-03T18:31:04.918000+00:00",
+      "depth_km": 619.0,
+      "lat": -18.7662,
+      "lon": -177.4572,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2i"
+    },
+    {
       "mag": 4.9,
       "place": "90 km SSW of Nikolski, Alaska",
       "time": "2026-09-03T12:39:34.756000+00:00",
@@ -762,6 +796,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdt3"
+    },
+    {
+      "mag": 4.5,
+      "place": "11 km N of Jordán, Colombia",
+      "time": "2026-09-03T16:58:46.861000+00:00",
+      "depth_km": 144.7,
+      "lat": 6.8385,
+      "lon": -73.0977,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20"
     },
     {
       "mag": 4.5,
