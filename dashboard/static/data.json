@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-02T22:21:18.881333+00:00",
+  "generated_at": "2026-09-03T00:56:25.580796+00:00",
   "overview": {
-    "snapshot_date": "2026-09-02",
-    "earthquake_count": 19,
-    "max_earthquake_mag": 5.9,
+    "snapshot_date": "2026-09-03",
+    "earthquake_count": 16,
+    "max_earthquake_mag": 6.2,
     "disaster_count": 10,
     "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 77126.0,
-    "btc_change_24h": -0.1,
-    "fear_greed_index": 63,
+    "btc_price": 77053.0,
+    "btc_change_24h": -0.17,
+    "fear_greed_index": 65,
     "fear_greed_label": "Greed",
-    "total_signals": 49
+    "total_signals": 46
   },
   "cii": [
     {
@@ -42,14 +42,6 @@
       "trend": "stable"
     },
     {
-      "country_code": "MM",
-      "score": 45,
-      "level": "elevated",
-      "prev_score": 45,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "IL",
       "score": 45,
       "level": "elevated",
@@ -59,6 +51,14 @@
     },
     {
       "country_code": "KP",
+      "score": 45,
+      "level": "elevated",
+      "prev_score": 45,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
+      "country_code": "MM",
       "score": 45,
       "level": "elevated",
       "prev_score": 45,
@@ -85,9 +85,9 @@
       "country_code": "CN",
       "score": 39,
       "level": "normal",
-      "prev_score": 25,
-      "change_24h": 14,
-      "trend": "rising"
+      "prev_score": 39,
+      "change_24h": 0,
+      "trend": "stable"
     },
     {
       "country_code": "RU",
@@ -196,15 +196,6 @@
   ],
   "history": [
     {
-      "snapshot_date": "2026-08-26",
-      "earthquake_count": 16,
-      "max_earthquake_mag": 5.6,
-      "disaster_count": 10,
-      "btc_price": 78738.0,
-      "fear_greed_index": 65,
-      "total_signals": 46
-    },
-    {
       "snapshot_date": "2026-08-27",
       "earthquake_count": 12,
       "max_earthquake_mag": 6.0,
@@ -266,9 +257,25 @@
       "btc_price": 77126.0,
       "fear_greed_index": 63,
       "total_signals": 49
+    },
+    {
+      "snapshot_date": "2026-09-03",
+      "earthquake_count": 16,
+      "max_earthquake_mag": 6.2,
+      "disaster_count": 10,
+      "btc_price": 77053.0,
+      "fear_greed_index": 65,
+      "total_signals": 46
     }
   ],
   "anomalies": [
+    {
+      "snapshot_date": "2026-09-03",
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
+      "convergence_zones": []
+    },
     {
       "snapshot_date": "2026-09-02",
       "anomaly_flags": [
@@ -315,19 +322,12 @@
         "10 simultaneous GDACS Red Alerts active"
       ],
       "convergence_zones": []
-    },
-    {
-      "snapshot_date": "2026-08-26",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
-      "convergence_zones": []
     }
   ],
   "trends": [
     {
-      "country_code": "YE",
-      "country_name": "Yemen",
+      "country_code": "UA",
+      "country_name": "Ukraine",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -335,8 +335,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "UA",
-      "country_name": "Ukraine",
+      "country_code": "YE",
+      "country_name": "Yemen",
       "avg_score": 50.0,
       "max_score": 50,
       "min_score": 50,
@@ -353,8 +353,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "MM",
-      "country_name": "Myanmar",
+      "country_code": "IL",
+      "country_name": "Israel",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -362,8 +362,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "IL",
-      "country_name": "Israel",
+      "country_code": "MM",
+      "country_name": "Myanmar",
       "avg_score": 45.0,
       "max_score": 45,
       "min_score": 45,
@@ -382,15 +382,15 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.45161290322581,
+      "avg_score": 41.32258064516129,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
       "high_risk_days": 0
     },
     {
-      "country_code": "VE",
-      "country_name": "Venezuela",
+      "country_code": "IR",
+      "country_name": "Iran",
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
@@ -398,8 +398,8 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "IR",
-      "country_name": "Iran",
+      "country_code": "VE",
+      "country_name": "Venezuela",
       "avg_score": 40.0,
       "max_score": 40,
       "min_score": 40,
@@ -525,8 +525,8 @@
     }
   ],
   "briefing": {
-    "date": "2026-09-02",
-    "total_signals": 49,
+    "date": "2026-09-03",
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -535,8 +535,8 @@
       {
         "icon": "🌋",
         "title": "地震活动",
-        "level": "normal",
-        "text": "全球记录 19 次地震，最大 M5.9，地震活动处于正常水平。"
+        "level": "warning",
+        "text": "全球记录 16 次地震，最大 M6.2，中度活跃。"
       },
       {
         "icon": "🛰️",
@@ -548,7 +548,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $77,126，日涨跌 -0.10%。恐惧与贪婪指数 63（Greed）。"
+        "text": "BTC 报 $77,053，日涨跌 -0.17%。恐惧与贪婪指数 65（Greed）。"
       },
       {
         "icon": "🏴",
@@ -573,6 +573,13 @@
   "alerts": {
     "alerts": [
       {
+        "id": "eq_warning",
+        "icon": "🌋",
+        "title": "中型地震",
+        "level": "warning",
+        "message": "检测到 M6.2 地震（阈值 ≥ M6.0）"
+      },
+      {
         "id": "disaster_surge",
         "icon": "🛰️",
         "title": "灾害密集",
@@ -580,10 +587,21 @@
         "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
       }
     ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "summary": "🔴 1 条严重告警、1 条警告。建议立即查看。",
+    "count": 2
   },
   "earthquakes": [
+    {
+      "mag": 6.2,
+      "place": "South Sandwich Islands region",
+      "time": "2026-09-02T23:46:57.617000+00:00",
+      "depth_km": 125.9,
+      "lat": -56.2062,
+      "lon": -27.9085,
+      "alert": "green",
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv"
+    },
     {
       "mag": 5.9,
       "place": "southern East Pacific Rise",
@@ -607,23 +625,12 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdmp"
     },
     {
-      "mag": 5.6,
-      "place": "159 km WSW of Abepura, Indonesia",
-      "time": "2026-09-02T00:04:55.147000+00:00",
-      "depth_km": 69.1,
-      "lat": -3.2239,
-      "lon": 139.3456,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhl"
-    },
-    {
       "mag": 5.4,
-      "place": "83 km S of Isangel, Vanuatu",
-      "time": "2026-09-02T21:22:09.559000+00:00",
-      "depth_km": 98.1,
-      "lat": -20.2919,
-      "lon": 169.319,
+      "place": "82 km S of Isangel, Vanuatu",
+      "time": "2026-09-02T21:22:08.653000+00:00",
+      "depth_km": 93.1,
+      "lat": -20.279,
+      "lon": 169.4012,
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdr1"
@@ -739,17 +746,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj7"
     },
     {
-      "mag": 4.7,
-      "place": "Mid-Indian Ridge",
-      "time": "2026-09-01T22:42:09.463000+00:00",
-      "depth_km": 10,
-      "lat": -13.1136,
-      "lon": 66.5918,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh4"
-    },
-    {
       "mag": 4.6,
       "place": "101 km SSW of Nikolski, Alaska",
       "time": "2026-09-02T05:40:52.146000+00:00",
@@ -759,28 +755,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj0"
-    },
-    {
-      "mag": 4.6,
-      "place": "Mid-Indian Ridge",
-      "time": "2026-09-01T23:45:23.937000+00:00",
-      "depth_km": 10,
-      "lat": -13.2147,
-      "lon": 66.6386,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdhg"
-    },
-    {
-      "mag": 4.6,
-      "place": "Mid-Indian Ridge",
-      "time": "2026-09-01T22:37:43.732000+00:00",
-      "depth_km": 10,
-      "lat": -13.1948,
-      "lon": 66.5694,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh3"
     },
     {
       "mag": 4.5,
@@ -895,17 +869,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
-      "country": "Eritrea, Ethiopia, Kenya, Somalia",
-      "alert_level": "Orange",
-      "date": "2026-04-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
       "alert_level": "Orange",
       "date": "2026-05-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
+      "country": "Eritrea, Ethiopia, Kenya, Somalia",
+      "alert_level": "Orange",
+      "date": "2026-04-21T00:00:00"
     },
     {
       "type": "EQ",
