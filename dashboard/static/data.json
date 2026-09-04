@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T12:29:56.845519+00:00",
+  "generated_at": "2026-09-04T16:43:31.284600+00:00",
   "overview": {
     "snapshot_date": "2026-09-04",
-    "earthquake_count": 18,
+    "earthquake_count": 16,
     "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 81257.0,
-    "btc_change_24h": 4.26,
+    "btc_price": 79745.0,
+    "btc_change_24h": -1.32,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
-    "total_signals": 48
+    "total_signals": 46
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-09-04",
-      "earthquake_count": 18,
+      "earthquake_count": 16,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 81257.0,
+      "btc_price": 79745.0,
       "fear_greed_index": 74,
-      "total_signals": 48
+      "total_signals": 46
     }
   ],
   "anomalies": [
@@ -527,7 +527,7 @@
   ],
   "briefing": {
     "date": "2026-09-04",
-    "total_signals": 48,
+    "total_signals": 46,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -537,7 +537,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 18 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 16 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -549,7 +549,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $81,257，日涨跌 +4.26%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $79,745，日涨跌 -1.32%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -641,26 +641,15 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te21"
     },
     {
-      "mag": 5.2,
-      "place": "100 km SSW of Nikolski, Alaska",
-      "time": "2026-09-03T13:03:18.659000+00:00",
-      "depth_km": 10,
-      "lat": 52.0562,
-      "lon": -169.1988,
-      "alert": null,
-      "tsunami": true,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdys"
-    },
-    {
       "mag": 5.1,
-      "place": "Owen Fracture Zone region",
-      "time": "2026-09-03T14:11:31.916000+00:00",
-      "depth_km": 10,
-      "lat": 14.4605,
-      "lon": 56.4505,
+      "place": "25 km W of Padangsidempuan, Indonesia",
+      "time": "2026-09-04T16:24:41.107000+00:00",
+      "depth_km": 121.7,
+      "lat": 1.3758,
+      "lon": 99.0453,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdzk"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck"
     },
     {
       "mag": 5,
@@ -697,6 +686,17 @@
     },
     {
       "mag": 4.9,
+      "place": "south of the Fiji Islands",
+      "time": "2026-09-04T13:47:52.492000+00:00",
+      "depth_km": 76.7,
+      "lat": -25.8505,
+      "lon": -177.0721,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tea7"
+    },
+    {
+      "mag": 4.9,
       "place": "98 km W of Gorontalo, Indonesia",
       "time": "2026-09-03T21:05:15.371000+00:00",
       "depth_km": 111.2,
@@ -705,17 +705,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te55"
-    },
-    {
-      "mag": 4.9,
-      "place": "90 km SSW of Nikolski, Alaska",
-      "time": "2026-09-03T12:39:34.756000+00:00",
-      "depth_km": 44.4,
-      "lat": 52.253,
-      "lon": -169.579,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdyi"
     },
     {
       "mag": 4.8,
@@ -740,26 +729,26 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51"
     },
     {
-      "mag": 4.8,
-      "place": "81 km SSW of Nikolski, Alaska",
-      "time": "2026-09-03T16:11:25.672000+00:00",
-      "depth_km": 35,
-      "lat": 52.2887,
-      "lon": -169.4187,
+      "mag": 4.7,
+      "place": "2 km NNW of Cabangan, Philippines",
+      "time": "2026-09-04T08:48:03.904000+00:00",
+      "depth_km": 61.3,
+      "lat": 15.1784,
+      "lon": 120.0504,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te09"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95"
     },
     {
-      "mag": 4.8,
-      "place": "65 km S of Isangel, Vanuatu",
-      "time": "2026-09-03T13:47:10.246000+00:00",
-      "depth_km": 112.7,
-      "lat": -20.1366,
-      "lon": 169.3059,
+      "mag": 4.5,
+      "place": "36 km WSW of Ollagüe, Chile",
+      "time": "2026-09-04T06:48:06.994000+00:00",
+      "depth_km": 130.7,
+      "lat": -21.3768,
+      "lon": -68.5636,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdz8"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p"
     },
     {
       "mag": 4.5,
@@ -771,17 +760,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20"
-    },
-    {
-      "mag": 4.5,
-      "place": "78 km SSW of Nikolski, Alaska",
-      "time": "2026-09-03T15:42:01.226000+00:00",
-      "depth_km": 35,
-      "lat": 52.2839,
-      "lon": -169.2869,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te02"
     }
   ],
   "disasters": [
