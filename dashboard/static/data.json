@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-04T19:17:48.558139+00:00",
+  "generated_at": "2026-09-04T22:06:26.106019+00:00",
   "overview": {
     "snapshot_date": "2026-09-04",
-    "earthquake_count": 13,
-    "max_earthquake_mag": 5.5,
+    "earthquake_count": 9,
+    "max_earthquake_mag": 5.4,
     "disaster_count": 0,
     "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79700.0,
-    "btc_change_24h": -1.84,
+    "btc_price": 79683.0,
+    "btc_change_24h": -2.28,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
-    "total_signals": 33
+    "total_signals": 29
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-09-04",
-      "earthquake_count": 13,
-      "max_earthquake_mag": 5.5,
+      "earthquake_count": 9,
+      "max_earthquake_mag": 5.4,
       "disaster_count": 0,
-      "btc_price": 79700.0,
+      "btc_price": 79683.0,
       "fear_greed_index": 74,
-      "total_signals": 33
+      "total_signals": 29
     }
   ],
   "anomalies": [
@@ -525,7 +525,7 @@
   ],
   "briefing": {
     "date": "2026-09-04",
-    "total_signals": 33,
+    "total_signals": 29,
     "overall": {
       "level": "normal",
       "text": "全球态势总体平稳，无重大异常信号。"
@@ -535,7 +535,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 13 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 9 次地震，最大 M5.4，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -547,7 +547,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,700，日涨跌 -1.84%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $79,683，日涨跌 -2.28%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
@@ -569,17 +569,6 @@
     "count": 0
   },
   "earthquakes": [
-    {
-      "mag": 5.5,
-      "place": "100 km S of Nikolski, Alaska",
-      "time": "2026-09-03T20:21:15.216000+00:00",
-      "depth_km": 10,
-      "lat": 52.0506,
-      "lon": -169.1387,
-      "alert": "green",
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te4b"
-    },
     {
       "mag": 5.4,
       "place": "Kermadec Islands region",
@@ -645,39 +634,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tea7"
-    },
-    {
-      "mag": 4.9,
-      "place": "98 km W of Gorontalo, Indonesia",
-      "time": "2026-09-03T21:05:15.371000+00:00",
-      "depth_km": 111.2,
-      "lat": 0.5261,
-      "lon": 122.1776,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te55"
-    },
-    {
-      "mag": 4.8,
-      "place": "29 km WSW of Salamanca, Chile",
-      "time": "2026-09-03T21:18:21.492000+00:00",
-      "depth_km": 81.9,
-      "lat": -31.8967,
-      "lon": -71.2399,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te5e"
-    },
-    {
-      "mag": 4.8,
-      "place": "57 km N of Ende, Indonesia",
-      "time": "2026-09-03T21:00:10.101000+00:00",
-      "depth_km": 10,
-      "lat": -8.3207,
-      "lon": 121.6664,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51"
     },
     {
       "mag": 4.7,
@@ -814,17 +770,17 @@
     },
     {
       "type": "DR",
-      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
-      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
-      "alert_level": "Orange",
-      "date": "2026-05-21T00:00:00"
-    },
-    {
-      "type": "DR",
       "name": "Drought in Eritrea, Ethiopia, Kenya, Somalia",
       "country": "Eritrea, Ethiopia, Kenya, Somalia",
       "alert_level": "Orange",
       "date": "2026-04-21T00:00:00"
+    },
+    {
+      "type": "DR",
+      "name": "Drought in Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "country": "Democratic Republic of Congo, Kenya, Tanzania, Uganda",
+      "alert_level": "Orange",
+      "date": "2026-05-21T00:00:00"
     },
     {
       "type": "EQ",
