@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-04T16:43:31.284600+00:00",
+  "generated_at": "2026-09-04T19:17:48.558139+00:00",
   "overview": {
     "snapshot_date": "2026-09-04",
-    "earthquake_count": 16,
+    "earthquake_count": 13,
     "max_earthquake_mag": 5.5,
-    "disaster_count": 10,
-    "red_alert_count": 10,
+    "disaster_count": 0,
+    "red_alert_count": 0,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79745.0,
-    "btc_change_24h": -1.32,
+    "btc_price": 79700.0,
+    "btc_change_24h": -1.84,
     "fear_greed_index": 74,
     "fear_greed_label": "Greed",
-    "total_signals": 46
+    "total_signals": 33
   },
   "cii": [
     {
@@ -66,15 +66,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "CN",
-      "score": 41,
-      "level": "elevated",
-      "prev_score": 43,
-      "change_24h": -2,
-      "trend": "stable"
-    },
-    {
-      "country_code": "VE",
+      "country_code": "IR",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -82,7 +74,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "IR",
+      "country_code": "VE",
       "score": 40,
       "level": "elevated",
       "prev_score": 40,
@@ -122,12 +114,12 @@
       "trend": "stable"
     },
     {
-      "country_code": "SA",
-      "score": 20,
+      "country_code": "CN",
+      "score": 25,
       "level": "normal",
-      "prev_score": 20,
-      "change_24h": 0,
-      "trend": "stable"
+      "prev_score": 43,
+      "change_24h": -18,
+      "trend": "falling"
     },
     {
       "country_code": "IN",
@@ -135,6 +127,14 @@
       "level": "normal",
       "prev_score": 21,
       "change_24h": -1,
+      "trend": "stable"
+    },
+    {
+      "country_code": "SA",
+      "score": 20,
+      "level": "normal",
+      "prev_score": 20,
+      "change_24h": 0,
       "trend": "stable"
     },
     {
@@ -260,20 +260,18 @@
     },
     {
       "snapshot_date": "2026-09-04",
-      "earthquake_count": 16,
+      "earthquake_count": 13,
       "max_earthquake_mag": 5.5,
-      "disaster_count": 10,
-      "btc_price": 79745.0,
+      "disaster_count": 0,
+      "btc_price": 79700.0,
       "fear_greed_index": 74,
-      "total_signals": 46
+      "total_signals": 33
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-04",
-      "anomaly_flags": [
-        "10 simultaneous GDACS Red Alerts active"
-      ],
+      "anomaly_flags": [],
       "convergence_zones": []
     },
     {
@@ -383,7 +381,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 41.38709677419355,
+      "avg_score": 40.87096774193548,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
@@ -527,62 +525,48 @@
   ],
   "briefing": {
     "date": "2026-09-04",
-    "total_signals": 46,
+    "total_signals": 33,
     "overall": {
-      "level": "critical",
-      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
+      "level": "normal",
+      "text": "全球态势总体平稳，无重大异常信号。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 16 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 13 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "critical",
-        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
+        "level": "normal",
+        "text": "无重大灾害警报。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,745，日涨跌 -1.32%。恐惧与贪婪指数 74（Greed）。"
+        "text": "BTC 报 $79,700，日涨跌 -1.84%。恐惧与贪婪指数 74（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 9 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
-      },
-      {
-        "icon": "🚨",
-        "title": "异常信号",
-        "level": "critical",
-        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
-    "alerts": [
-      {
-        "id": "disaster_surge",
-        "icon": "🛰️",
-        "title": "灾害密集",
-        "level": "critical",
-        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
-      }
-    ],
-    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
-    "count": 1
+    "alerts": [],
+    "summary": "✅ 各项指标正常，无告警触发。",
+    "count": 0
   },
   "earthquakes": [
     {
@@ -608,17 +592,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te9t"
     },
     {
-      "mag": 5.3,
-      "place": "104 km SSW of Nikolski, Alaska",
-      "time": "2026-09-03T18:45:39.228000+00:00",
-      "depth_km": 10,
-      "lat": 52.0304,
-      "lon": -169.2217,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2m"
-    },
-    {
       "mag": 5.2,
       "place": "28 km S of Cilacap, Indonesia",
       "time": "2026-09-04T05:04:54.278000+00:00",
@@ -628,17 +601,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
-    },
-    {
-      "mag": 5.2,
-      "place": "271 km SSE of Dunhuang, China",
-      "time": "2026-09-03T17:04:40.769000+00:00",
-      "depth_km": 10,
-      "lat": 37.7963,
-      "lon": 95.4671,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te21"
     },
     {
       "mag": 5.1,
@@ -672,17 +634,6 @@
       "alert": null,
       "tsunami": true,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te7l"
-    },
-    {
-      "mag": 5,
-      "place": "Fiji region",
-      "time": "2026-09-03T18:31:04.918000+00:00",
-      "depth_km": 619.0,
-      "lat": -18.7662,
-      "lon": -177.4572,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2i"
     },
     {
       "mag": 4.9,
@@ -740,6 +691,17 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95"
     },
     {
+      "mag": 4.6,
+      "place": "32 km NW of Raumati Beach, New Zealand",
+      "time": "2026-09-04T18:34:01.487000+00:00",
+      "depth_km": 50.6,
+      "lat": -40.7112,
+      "lon": 174.7119,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tede"
+    },
+    {
       "mag": 4.5,
       "place": "36 km WSW of Ollagüe, Chile",
       "time": "2026-09-04T06:48:06.994000+00:00",
@@ -749,17 +711,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p"
-    },
-    {
-      "mag": 4.5,
-      "place": "11 km N of Jordán, Colombia",
-      "time": "2026-09-03T16:58:46.861000+00:00",
-      "depth_km": 144.7,
-      "lat": 6.8385,
-      "lon": -73.0977,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20"
     }
   ],
   "disasters": [
