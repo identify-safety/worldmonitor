@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-05T05:15:56.318861+00:00",
+  "generated_at": "2026-09-05T09:57:46.210624+00:00",
   "overview": {
     "snapshot_date": "2026-09-05",
-    "earthquake_count": 12,
+    "earthquake_count": 11,
     "max_earthquake_mag": 5.5,
-    "disaster_count": 0,
-    "red_alert_count": 0,
+    "disaster_count": 10,
+    "red_alert_count": 10,
     "cii_top_country": "UA",
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79536.0,
-    "btc_change_24h": -1.79,
+    "btc_price": 79647.0,
+    "btc_change_24h": -1.84,
     "fear_greed_index": 73,
     "fear_greed_label": "Greed",
-    "total_signals": 32
+    "total_signals": 41
   },
   "cii": [
     {
-      "country_code": "UA",
+      "country_code": "YE",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -34,7 +34,7 @@
       "trend": "stable"
     },
     {
-      "country_code": "YE",
+      "country_code": "UA",
       "score": 50,
       "level": "elevated",
       "prev_score": 50,
@@ -66,6 +66,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "VE",
+      "score": 40,
+      "level": "elevated",
+      "prev_score": 40,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "IR",
       "score": 40,
       "level": "elevated",
@@ -74,12 +82,12 @@
       "trend": "stable"
     },
     {
-      "country_code": "VE",
-      "score": 40,
-      "level": "elevated",
-      "prev_score": 40,
-      "change_24h": 0,
-      "trend": "stable"
+      "country_code": "CN",
+      "score": 39,
+      "level": "normal",
+      "prev_score": 25,
+      "change_24h": 14,
+      "trend": "rising"
     },
     {
       "country_code": "RU",
@@ -102,14 +110,6 @@
       "score": 30,
       "level": "normal",
       "prev_score": 30,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
-      "country_code": "CN",
-      "score": 25,
-      "level": "normal",
-      "prev_score": 25,
       "change_24h": 0,
       "trend": "stable"
     },
@@ -146,6 +146,14 @@
       "trend": "stable"
     },
     {
+      "country_code": "AE",
+      "score": 10,
+      "level": "low",
+      "prev_score": 10,
+      "change_24h": 0,
+      "trend": "stable"
+    },
+    {
       "country_code": "PL",
       "score": 10,
       "level": "low",
@@ -162,19 +170,11 @@
       "trend": "stable"
     },
     {
-      "country_code": "AE",
-      "score": 10,
-      "level": "low",
-      "prev_score": 10,
-      "change_24h": 0,
-      "trend": "stable"
-    },
-    {
       "country_code": "US",
-      "score": 5,
+      "score": 6,
       "level": "low",
       "prev_score": 5,
-      "change_24h": 0,
+      "change_24h": 1,
       "trend": "stable"
     },
     {
@@ -260,18 +260,20 @@
     },
     {
       "snapshot_date": "2026-09-05",
-      "earthquake_count": 12,
+      "earthquake_count": 11,
       "max_earthquake_mag": 5.5,
-      "disaster_count": 0,
-      "btc_price": 79536.0,
+      "disaster_count": 10,
+      "btc_price": 79647.0,
       "fear_greed_index": 73,
-      "total_signals": 32
+      "total_signals": 41
     }
   ],
   "anomalies": [
     {
       "snapshot_date": "2026-09-05",
-      "anomaly_flags": [],
+      "anomaly_flags": [
+        "10 simultaneous GDACS Red Alerts active"
+      ],
       "convergence_zones": []
     },
     {
@@ -379,7 +381,7 @@
     {
       "country_code": "CN",
       "country_name": "China",
-      "avg_score": 40.29032258064516,
+      "avg_score": 40.74193548387097,
       "max_score": 43,
       "min_score": 25,
       "data_points": 31,
@@ -503,17 +505,17 @@
       "high_risk_days": 0
     },
     {
-      "country_code": "DE",
-      "country_name": "Germany",
-      "avg_score": 5.0,
-      "max_score": 5,
+      "country_code": "US",
+      "country_name": "United States",
+      "avg_score": 5.032258064516129,
+      "max_score": 6,
       "min_score": 5,
       "data_points": 31,
       "high_risk_days": 0
     },
     {
-      "country_code": "US",
-      "country_name": "United States",
+      "country_code": "DE",
+      "country_name": "Germany",
       "avg_score": 5.0,
       "max_score": 5,
       "min_score": 5,
@@ -523,48 +525,62 @@
   ],
   "briefing": {
     "date": "2026-09-05",
-    "total_signals": 32,
+    "total_signals": 41,
     "overall": {
-      "level": "normal",
-      "text": "全球态势总体平稳，无重大异常信号。"
+      "level": "critical",
+      "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
     },
     "sections": [
       {
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 12 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 11 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
         "title": "灾害监测",
-        "level": "normal",
-        "text": "无重大灾害警报。"
+        "level": "critical",
+        "text": "当前 10 起活跃灾害中，有 10 起处于红色警报状态，包括台风、洪水或野火。灾害密度显著高于常态，建议关注东亚台风和北美野火发展。"
       },
       {
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,536，日涨跌 -1.79%。恐惧与贪婪指数 73（Greed）。"
+        "text": "BTC 报 $79,647，日涨跌 -1.84%。恐惧与贪婪指数 73（Greed）。"
       },
       {
         "icon": "🏴",
         "title": "地缘风险",
         "level": "normal",
-        "text": "国家不稳定指数前三：Ukraine(50)、Syria(50)、Yemen(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
+        "text": "国家不稳定指数前三：Yemen(50)、Syria(50)、Ukraine(50)。 目前 8 个国家的风险等级处于 elevated 或以上，全球地缘政治紧张度偏高。"
       },
       {
         "icon": "🌡️",
         "title": "气候与空间",
         "level": "normal",
         "text": "NASA EONET 记录 20 起自然灾害和空间事件，涵盖野火、台风、火山活动等。"
+      },
+      {
+        "icon": "🚨",
+        "title": "异常信号",
+        "level": "critical",
+        "text": "10 simultaneous GDACS Red Alerts active"
       }
     ]
   },
   "alerts": {
-    "alerts": [],
-    "summary": "✅ 各项指标正常，无告警触发。",
-    "count": 0
+    "alerts": [
+      {
+        "id": "disaster_surge",
+        "icon": "🛰️",
+        "title": "灾害密集",
+        "level": "critical",
+        "message": "10 起红色警报同时活跃（阈值 ≥ 5）"
+      }
+    ],
+    "summary": "🔴 1 条严重告警、0 条警告。建议立即查看。",
+    "count": 1
   },
   "earthquakes": [
     {
@@ -613,14 +629,14 @@
     },
     {
       "mag": 5,
-      "place": "South Sandwich Islands region",
-      "time": "2026-09-04T06:45:54.522000+00:00",
+      "place": "off the coast of Central America",
+      "time": "2026-09-05T05:00:06.778000+00:00",
       "depth_km": 10,
-      "lat": -56.1536,
-      "lon": -26.1632,
+      "lat": 3.5071,
+      "lon": -83.151,
       "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8r"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehe"
     },
     {
       "mag": 4.9,
@@ -645,17 +661,6 @@
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tegg"
     },
     {
-      "mag": 4.7,
-      "place": "2 km NNW of Cabangan, Philippines",
-      "time": "2026-09-04T08:48:03.904000+00:00",
-      "depth_km": 61.3,
-      "lat": 15.1784,
-      "lon": 120.0504,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te95"
-    },
-    {
       "mag": 4.6,
       "place": "32 km NW of Raumati Beach, New Zealand",
       "time": "2026-09-04T18:34:01.487000+00:00",
@@ -665,6 +670,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tede"
+    },
+    {
+      "mag": 4.5,
+      "place": "76 km S of Gorontalo, Indonesia",
+      "time": "2026-09-05T06:34:55.998000+00:00",
+      "depth_km": 202.3,
+      "lat": -0.1498,
+      "lon": 123.1527,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tehs"
     },
     {
       "mag": 4.5,
@@ -687,17 +703,6 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefr"
-    },
-    {
-      "mag": 4.5,
-      "place": "36 km WSW of Ollagüe, Chile",
-      "time": "2026-09-04T06:48:06.994000+00:00",
-      "depth_km": 130.7,
-      "lat": -21.3768,
-      "lon": -68.5636,
-      "alert": null,
-      "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p"
     }
   ],
   "disasters": [
