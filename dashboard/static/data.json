@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T09:57:46.210624+00:00",
+  "generated_at": "2026-09-05T13:18:58.426141+00:00",
   "overview": {
     "snapshot_date": "2026-09-05",
-    "earthquake_count": 11,
+    "earthquake_count": 13,
     "max_earthquake_mag": 5.5,
     "disaster_count": 10,
     "red_alert_count": 10,
@@ -10,11 +10,11 @@
     "cii_top_score": 50,
     "cii_critical_count": 0,
     "cii_high_count": 0,
-    "btc_price": 79647.0,
-    "btc_change_24h": -1.84,
+    "btc_price": 79711.0,
+    "btc_change_24h": 0.42,
     "fear_greed_index": 73,
     "fear_greed_label": "Greed",
-    "total_signals": 41
+    "total_signals": 43
   },
   "cii": [
     {
@@ -260,12 +260,12 @@
     },
     {
       "snapshot_date": "2026-09-05",
-      "earthquake_count": 11,
+      "earthquake_count": 13,
       "max_earthquake_mag": 5.5,
       "disaster_count": 10,
-      "btc_price": 79647.0,
+      "btc_price": 79711.0,
       "fear_greed_index": 73,
-      "total_signals": 41
+      "total_signals": 43
     }
   ],
   "anomalies": [
@@ -525,7 +525,7 @@
   ],
   "briefing": {
     "date": "2026-09-05",
-    "total_signals": 41,
+    "total_signals": 43,
     "overall": {
       "level": "critical",
       "text": "全球态势高度紧张：多重危机信号同时出现，建议密切关注后续发展。"
@@ -535,7 +535,7 @@
         "icon": "🌋",
         "title": "地震活动",
         "level": "normal",
-        "text": "全球记录 11 次地震，最大 M5.5，地震活动处于正常水平。"
+        "text": "全球记录 13 次地震，最大 M5.5，地震活动处于正常水平。"
       },
       {
         "icon": "🛰️",
@@ -547,7 +547,7 @@
         "icon": "🪙",
         "title": "加密市场",
         "level": "normal",
-        "text": "BTC 报 $79,647，日涨跌 -1.84%。恐惧与贪婪指数 73（Greed）。"
+        "text": "BTC 报 $79,711，日涨跌 +0.42%。恐惧与贪婪指数 73（Greed）。"
       },
       {
         "icon": "🏴",
@@ -585,25 +585,25 @@
   "earthquakes": [
     {
       "mag": 5.5,
-      "place": "156 km E of Kuril’sk, Russia",
-      "time": "2026-09-04T23:52:30.886000+00:00",
-      "depth_km": 36.4,
-      "lat": 44.9792,
-      "lon": 149.8346,
+      "place": "168 km ESE of Kuril’sk, Russia",
+      "time": "2026-09-04T23:52:29.825000+00:00",
+      "depth_km": 32,
+      "lat": 44.9418,
+      "lon": 149.9838,
       "alert": "green",
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx"
     },
     {
-      "mag": 5.4,
-      "place": "Kermadec Islands region",
-      "time": "2026-09-04T11:59:58.323000+00:00",
+      "mag": 5.1,
+      "place": "69 km E of Antofagasta de la Sierra, Argentina",
+      "time": "2026-09-05T11:37:12.553000+00:00",
       "depth_km": 10,
-      "lat": -28.5616,
-      "lon": -176.6452,
-      "alert": "green",
+      "lat": -26.1078,
+      "lon": -66.7176,
+      "alert": null,
       "tsunami": false,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te9t"
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tej2"
     },
     {
       "mag": 5.1,
@@ -626,6 +626,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck"
+    },
+    {
+      "mag": 5,
+      "place": "70 km SW of Pagar Alam, Indonesia",
+      "time": "2026-09-05T10:59:15.678000+00:00",
+      "depth_km": 68.9,
+      "lat": -4.4202,
+      "lon": 102.7513,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teiy"
     },
     {
       "mag": 5,
@@ -670,6 +681,17 @@
       "alert": null,
       "tsunami": false,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tede"
+    },
+    {
+      "mag": 4.5,
+      "place": "87 km NNW of Sinabang, Indonesia",
+      "time": "2026-09-05T09:14:15.563000+00:00",
+      "depth_km": 10,
+      "lat": 3.2202,
+      "lon": 96.1107,
+      "alert": null,
+      "tsunami": false,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teim"
     },
     {
       "mag": 4.5,
